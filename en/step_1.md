@@ -1,22 +1,26 @@
 ## Introduction
 
-Add project description here. What will learners be making?
+Make a unicorn dance to your own LED rainbow.
 
 ### What you will make
 
-Add something here to showcase here, for example:
+In this resource, you will create your own rainbow which will be powered by the raspberry pi. You will use Scratch to connect the rainbow to a unicorn sprite, and then use programming to make the unicorn dance to the rhythm of the rainbow.
+
+Here are two animations which show what your dancing unicorn and rainbow might look like:
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
+Once you have trained your unicorn to dance to your rainbow, you can learn how to use the rainbow to make the unicorn do tricks or play a game.
 
 ### What you will learn
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level){:target="_blank"}
++ [Use basic digital, analogue, and electromechanical components](https://www.raspberrypi.org/curriculum/physical-computing/creator){:target="_blank"}
+
++ [Use basic programming constructs to create simple programs](https://www.raspberrypi.org/curriculum/programming/creator){:target="_blank"}
 
 ### Additional information for educators
 
