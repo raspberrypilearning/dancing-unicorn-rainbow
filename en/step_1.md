@@ -18,9 +18,9 @@ Once you have trained your unicorn to dance to your rainbow, you can learn how t
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Use basic digital, analogue, and electromechanical components](https://www.raspberrypi.org/curriculum/physical-computing/creator){:target="_blank"}
++ [Fill in](https://www.raspberrypi.org/curriculum/physical-computing/developer){:target="_blank"}
 
-+ [Use basic programming constructs to create simple programs](https://www.raspberrypi.org/curriculum/programming/creator){:target="_blank"}
++ [Fill in](https://www.raspberrypi.org/curriculum/programming/developer){:target="_blank"}
 
 ### Additional information for educators
 
