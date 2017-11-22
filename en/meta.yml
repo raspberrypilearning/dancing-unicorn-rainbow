@@ -7,11 +7,11 @@ listed: false
 ingredient: false
 copyedit: false
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
-interests: "animals, jokes/pranks, space, photography, nature/outside/weather, music/sound, physical computing, games, robots, geography"
-technologies: "electronics, sense-hat, physical computing, html/css, scratch, python"
+interests: "fantasy, jokes, nature/outside/weather, physical computing, games"
+technologies: "electronics, physical computing, html/css, scratch"
 site_areas:
 steps:
   - title: Introduction
   - title: What you will need
-  - title: Step title
-  - title: Step title
+  - title: GPIO Pins: Your Rainbow's Atmosphere
+  - title: Light an LED: Rainbow's First Colour
