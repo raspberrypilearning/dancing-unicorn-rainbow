@@ -12,6 +12,7 @@ technologies: "electronics, physical computing, html/css, scratch"
 site_areas:
 steps:
   - title: Introduction
-  - title: What you will need
+  - title: What You Will Need
   - title: GPIO Pins
   - title: Light an LED
+  - title: Build Your Rainbow
