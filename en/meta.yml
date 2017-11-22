@@ -13,5 +13,5 @@ site_areas:
 steps:
   - title: Introduction
   - title: What you will need
-  - title: GPIO Pins: Your Rainbow's Atmosphere
-  - title: Light an LED: Rainbow's First Colour
+  - title: GPIO Pins
+  - title: Light an LED
