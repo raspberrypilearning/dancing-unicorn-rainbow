@@ -18,9 +18,9 @@ Once you have trained your unicorn to dance to your rainbow, you can learn how t
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Combine inputs and/or outputs to create projects or solve a problem](https://www.raspberrypi.org/curriculum/physical-computing/developer){:target="_blank"}
++ [Process input data to monitor or react to the environment](https://www.raspberrypi.org/curriculum/physical-computing/developer){:target="_blank"}
 
-+ [Apply basic programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/developer){:target="_blank"}
++ [Apply abstraction and decomposition to solve more complex problems](https://www.raspberrypi.org/curriculum/programming/developer){:target="_blank"}
 
 ### Additional information for educators
 
