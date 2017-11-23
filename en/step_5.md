@@ -8,5 +8,8 @@ You will now connect your circuit and base rainbow colour to Scratch so you can 
 
 [[[rpi-scratch-control-led]]]
 
-+ To practice controlling your LED, try the following:
-1) 
++ To practice controlling your LED, complete the following challenges:
+1) On an event, make your LED go on for 2 seconds and then off
+2) On an event, make your LED go on for 2 seconds and then off for 2 seconds
+3) On an event, make your LED blink on and off repeatedly
+4) Make your LED blink faster
