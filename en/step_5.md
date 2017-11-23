@@ -13,6 +13,7 @@ You will now connect your circuit and base rainbow colour to Scratch so you can 
 --- challenge ---
 
 1) On an event, make your LED go on for 2 seconds and then off
+
 --- hints ---
 --- hint ---
 Look at the Control Scripts
