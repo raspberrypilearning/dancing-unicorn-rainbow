@@ -4,18 +4,67 @@ You are now ready to create an awesome rainbow! In this step, you will assemble 
 
 + Find all the LEDs you are going to use and make sure you also have the same amount of jumper wires and resistors
 
-+ Rearrange the circuit you already have to make room for other colours of the rainbow. Leave space on the breadboard for a button.
++ Rearrange the circuit you already have to make room for other colours of the rainbow.
 
 (Diagram)
 
-Because we will have 3 or more LEDs on our breadboard, if you have ground wires for 
+To make sure your rainbow is bright and not covered by too many jumper wires, each LED must share the same ground.
 
-(diagram of breadboard - rearrange for button)
+The breadboard looks like this inside:
+![Breadboard Cross-Section](images/breadboardxsection.png)
 
-+ (turning all LEDs on)
+So if we connect the ground to one of the rails and then make sure all the transistors connect to the same rail, we will be able to ground the whole rainbow with one wire.
 
-(screenshot of Scratch? - but they should be able to do it without)
+(diagram)
 
-+ (waving through the LEDs)
++ Now add all of your LEDs, LED jumper wires, and transistors to the breadboard in a colour arrangement of your choice.
+Make sure to leave room for a button at the end.
+It will help to use the same colour jumper wire as your LED if you are using many different colours.
+
+Your rainbow should look similar to this one:
+
+(diagram)
+
++ Test your rainbow in Scratch by lighting the whole rainbow at once
+
+--- hints ---
+--- hint ---
+
+These are the blocks for the rainbow in the last diagram:
+`when greenflag clicked`{:class="blockevents"}
+`set gpio 17 to output high`{:class="blockmoreblocks"}
+`set gpio 18 to output high`{:class="blockmoreblocks"}
+`set gpio 22 to output high`{:class="blockmoreblocks"}
+`set gpio 23 to output high`{:class="blockmoreblocks"}
+`set gpio 9 to output high`{:class="blockmoreblocks"}
+`set gpio 25 to output high`{:class="blockmoreblocks"}
+`set gpio 11 to output high`{:class="blockmoreblocks"}
+
+--- /hint ---
+--- hint ---
+
+If your LEDs are not lighting:
+
+1) Make sure you look at which GPIO your LEDs are connected to and have set them in Scratch to `output high`{:class="blockmoreblocks"}
+2) Check that the LED is working (you can plug the LED's jumper wire into GPIO 3V3 to test)
+3) Make sure the circuit on the breadboard is complete.
+
+--- /hint ---
+--- /hints ---
+
++ Make the rainbow blink in a rainbow pattern
 
 (screenshot, pic, video?)
+
+--- challenge ---
+
++ Make the rainbow blink in a pattern of your choice.
+
+Ideas:
+  Make the rainbow go very fast and very slow
+  Make all LEDs in the rainbow blink together
+  Make pairs of LEDs light in alternate patters
+  Make the rainbow blink something in Morse Code
+  Make the rainbow do different things on different events
+
+--- /challenge ---
