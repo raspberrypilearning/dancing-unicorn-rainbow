@@ -1,4 +1,4 @@
-## Light an LED: Rainbow's First Colour
+## Light an LED: Your Rainbow's Base Colour
 
 You will now light up the rainbow's first colour. Choose any colour you wish, but here we've gone with the Red in the rainbow spectrum
 (Red, Orange, Yellow, Green, Blue, Indigo, Violet)
