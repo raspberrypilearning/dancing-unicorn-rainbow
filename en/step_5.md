@@ -33,7 +33,11 @@ Use `wait 2 secs`{:class="blockcontrol"}
 
 --- hints ---
 --- hint ---
-(image)
+`when greenflag clicked`{:class="blockevents"}
+`set gpio 17 to output high`{:class="blockmoreblocks"}
+`wait 2 secs`{:class="blockcontrol"}
+`set gpio 17 to output low`{:class="blockmoreblocks"}
+`wait 2 secs`{:class="blockcontrol"}
 --- /hint ---
 --- /hints ---
 
@@ -41,7 +45,7 @@ Use `wait 2 secs`{:class="blockcontrol"}
 
 --- hints ---
 --- hint ---
-(image)
+Use `forever`{:class="control"}
 --- /hint ---
 --- /hints ---
 
@@ -49,7 +53,7 @@ Use `wait 2 secs`{:class="blockcontrol"}
 
 --- hints ---
 --- hint ---
-(image)
+Use `wait x secs`{:class="blockcontrol"} for less seconds
 --- /hint ---
 --- /hints ---
 
