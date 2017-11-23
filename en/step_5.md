@@ -19,10 +19,13 @@ You will now connect your circuit and base rainbow colour to Scratch so you can 
 Look at the Control Scripts
 --- /hint ---
 --- hint ---
-Use `wait 2 secs`{:class="blockevents"}
+Use `wait 2 secs`{:class="blockcontrol"}
 --- /hint ---
 --- hint ---
-(image)
+`when greenflag clicked`{:class="blockevents"}
+`set gpio 17 to output high`{:class="blockmoreblocks"}
+`wait 2 secs`{:class="blockcontrol"}
+`set gpio 17 to output low`{:class="blockmoreblocks"}
 --- /hint ---
 --- /hints ---
 
