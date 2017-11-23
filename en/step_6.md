@@ -1,10 +1,10 @@
 ## Build Your Rainbow
 
-You are now ready to create an awesome rainbow!
+You are now ready to create an awesome rainbow! In this step, you will assemble your rainbow and program the LEDs to blink in a rainbow pattern.
 
 + Find all the LEDs you are going to use and make sure you also have the same amount of jumper wires and resistors
 
-+ (explain why you have to change ground.. and manouver the RED LED .. )
++ Rearrange the circuit you already have to make room for other colours of the rainbow
 
 (diagram of breadboard - rearrange for button)
 

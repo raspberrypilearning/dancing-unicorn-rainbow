@@ -19,7 +19,7 @@ You will now connect your circuit and base rainbow colour to Scratch so you can 
 Look at the Control Scripts
 --- /hint ---
 --- hint ---
-Use ''''wait 2 secs' {.blockevents}'''
+Use 'wait 2 secs'{:class="blockevents"}
 --- /hint ---
 --- hint ---
 (image)
