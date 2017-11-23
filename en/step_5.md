@@ -2,7 +2,7 @@
 
 You will now connect your circuit and base rainbow colour to Scratch so you can use Scratch programming to control the LED.
 
-+ In the last step, you connected your LED to <b>GPIO 3V3</b>. This is the pin to connect to if you are testing your LED. You now need to connect your LED to a pin you can control with Scratch (GPIO 17, for example).
++ In the last step, you connected your LED to <b>GPIO 3V3</b>. This is the pin to connect to if you are testing your LED. You now need to connect your LED to a pin you can control with Scratch (for example, <b>GPIO 17</b>).
 
 + Follow the instructions below to control your LED with Scratch.
 
