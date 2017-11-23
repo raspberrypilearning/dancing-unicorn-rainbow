@@ -2,7 +2,9 @@
 
 You are now ready to create an awesome rainbow! In this step, you will assemble your rainbow and program the LEDs to blink in a rainbow pattern.
 
+
 + Find all the LEDs you are going to use and make sure you also have the same amount of jumper wires and resistors
+
 
 + Rearrange the circuit you already have to make room for other colours of the rainbow.
 
@@ -13,11 +15,12 @@ To make sure your rainbow is bright and not covered by too many jumper wires, ea
 The breadboard looks like this inside:
 ![Breadboard Cross-Section](images/breadboardxsection.png)
 
-So if we connect the ground to one of the rails and then make sure all the transistors connect to the same rail, we will be able to ground the whole rainbow with one wire.
+To ground the whole rainbow with one wire, connect the ground to one of the rails and then make sure all the transistors connect to the same rail:
 
 (diagram)
 
 + Now add all of your LEDs, LED jumper wires, and transistors to the breadboard in a colour arrangement of your choice.
+
 Make sure to leave room for a button at the end.
 It will help to use the same colour jumper wire as your LED if you are using many different colours.
 
@@ -61,10 +64,10 @@ If your LEDs are not lighting:
 + Make the rainbow blink in a pattern of your choice.
 
 Ideas:
-  Make the rainbow go very fast and very slow
-  Make all LEDs in the rainbow blink together
-  Make pairs of LEDs light in alternate patters
-  Make the rainbow blink something in Morse Code
-  Make the rainbow do different things on different events
+  1) Make the rainbow go very fast and very slow
+  2) Make all LEDs in the rainbow blink together
+  3) Make pairs of LEDs light in alternate patters
+  4) Make the rainbow blink something in Morse Code
+  5) Make the rainbow do different things on different events
 
 --- /challenge ---
