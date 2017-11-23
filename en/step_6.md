@@ -10,7 +10,7 @@ You are now ready to create an awesome rainbow!
 
 + (turning all LEDs on)
 
-(screenshot of Scratch?)
+(screenshot of Scratch? - but they should be able to do it without)
 
 + (waving through the LEDs)
 
