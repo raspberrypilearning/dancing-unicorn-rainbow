@@ -15,4 +15,5 @@ steps:
   - title: What You Will Need
   - title: GPIO Pins
   - title: Light an LED
+  - title: Test Circuit in Scratch
   - title: Build Your Rainbow
