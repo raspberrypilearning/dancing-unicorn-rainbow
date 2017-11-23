@@ -10,8 +10,6 @@ You will now connect your circuit and base rainbow colour to Scratch so you can 
 
 + To practice controlling your LED, complete the following challenges
 
-Use 'wait 2 secs'{:class="blockevents"}
-
 --- challenge ---
 
 1) On an event, make your LED go on for 2 seconds and then off
@@ -21,7 +19,7 @@ Use 'wait 2 secs'{:class="blockevents"}
 Look at the Control Scripts
 --- /hint ---
 --- hint ---
-Use 'wait 2 secs'{:class="blockevents"}
+Use `wait 2 secs`{:class="blockevents"}
 --- /hint ---
 --- hint ---
 (image)
