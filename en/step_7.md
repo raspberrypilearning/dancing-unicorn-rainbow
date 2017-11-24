@@ -6,3 +6,15 @@ You will use a button to program your rainbow and dancing unicorn.
 +
 
 ![Dancing Unicorn Gif](images/udancefinalcopy.gif)
+
+![Dancing Unicorn Gif](images/udancefinalcopy.gif)
+
+![Dancing Unicorn Gif](images/udancefinalcopy.gif)
+
+![Dancing Unicorn Gif](images/udancefinalcopy.gif)
+
+![Dancing Unicorn Gif](images/udancefinalcopy.gif)
+
+![Dancing Unicorn Gif](images/udancefinalcopy.gif)
+
+![Dancing Unicorn Gif](images/udancefinalcopy.gif)
