@@ -5,4 +5,4 @@ You will use a button to program your rainbow and dancing unicorn.
 
 +
 
-![Dancing Unicorn Gif](images/udancefinal.gif)
+![Dancing Unicorn Gif](images/udancefinalcopy.gif)
