@@ -11,7 +11,7 @@ You will use a button to program your rainbow and dancing unicorn.
 | :------------------------------------------: | :------------------------------------------: | :------------------------------------------: |
 | ![Scratch Unicorn](images/scratchunicorn.png)| ![Advanced Search](images/advancedsearch.png)![Web Unicorn](images/webunicorn.png)| ![Draw Unicorn](images/drawunicorn.png)|
 
-
+---
 Click for a reminder on how to draw sprites in Scratch:
 [[[generic-scratch-draw-sprite]]]
 
@@ -20,10 +20,23 @@ Click for a reminder on how to draw sprites in Scratch:
 
 + Decide how many costumes you want your unicorn sprite to have for it to dance, and edit your costumes accordingly.
 
-It is up to you how many costumes you want to add for your dancing unicorn. For the dancing green unicorn, we have used 5 costumes:
+It is up to you how many costumes you want to add for your dancing unicorn. For this dancing green unicorn, we have used 5 costumes:
 
 |   ![Dancing Unicorn Gif](images/dancingunicorn.gif)   |    ![Five Costumes](images/fivecostumes.png)   |
 
-
+---
 Click for a reminder on how to change costumes in Scratch:
 [[[generic-scratch-add-costume]]]
+
+---
+
++ Use Scratch to program your unicorn's dance
+
+Create a `forever loop`{:class="blockcontrol"} and have your unicorn switch costumes with `next costume`{:class="blocklooks"}
+
+Unicorns are generally good dancers, so make sure you time your unicorn's dance to match the speed of your rainbow.
+You can do this using the `wait`{:class="blockcontrol"} block
+
+
+Challenge?
+Add whole code in a hint?
