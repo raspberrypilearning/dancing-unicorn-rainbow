@@ -1,4 +1,4 @@
-## Control Your Dancing Unicorn Rainbow with a Button
+## Control Your Rainbow Dancing Unicorn with a Button
 
 You will now make your unicorn dance when the rainbow is flashing, by pressing a button!
 
