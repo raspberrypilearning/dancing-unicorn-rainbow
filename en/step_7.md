@@ -32,7 +32,7 @@ Click for a reminder on how to change costumes in Scratch:
 
 + Use Scratch to program your unicorn's dance
 
-Create a `forever loop`{:class="blockcontrol"} and have your unicorn switch costumes with `next costume`{:class="blocklooks"}
+Create a `forever`{:class="blockcontrol"} loop and have your unicorn switch costumes with `next costume`{:class="blocklooks"}
 
 Unicorns are generally good dancers, so make sure you time your unicorn's dance to match the speed of your rainbow.
 You can do this using the `wait`{:class="blockcontrol"} block
