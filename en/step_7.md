@@ -10,13 +10,16 @@ You will use a button to program your rainbow and dancing unicorn.
 | ![Scratch Unicorn](images/scratchunicorn.png)| ![Advanced Search](images/advancedsearch.png)![Web Unicorn](images/webunicorn.png)| ![Draw Unicorn](images/drawunicorn.png)|
 
 
+
 + Decide how many costumes you want your unicorn sprite to have for it to dance, and edit your costumes accordingly.
 
 Diagram of gifs 3 side by side (1) Scratch sprite with 2 frames with text this one has two costumes (2) Scratch sprite with more frames with text this one has x costumes (3) dancing unicorn gif with 5 frames test this one has five costumes
+
+It is up to you how many costumes you want to add for your dancing unicorn. For the dancing green unicorn, we have used 5 costumes:
+
+|   ![Dancing Unicorn Gif](images/dancingunicorn.gif)   |    ![Five Costumes](images/fivecostumes.png)   |
 
 Click for reminders on how to change costumes in Scratch and how to draw sprites in Scratch:
 
 [[[generic-scratch-add-costume]]]
 [[[generic-scratch-draw-sprite]]]
-
-![Dancing Unicorn Gif](images/dancingunicorn.gif)
