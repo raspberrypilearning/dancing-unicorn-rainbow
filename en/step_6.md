@@ -14,7 +14,7 @@ You are now ready to create an awesome rainbow! In this step, you will assemble 
 
 + Use one <b>ground</b> for all of your LEDs
 
-To make sure your rainbow is bright and not covered by too many jumper wires, each LED must share one ground.
+To make sure your rainbow shines brightly and is not covered by too many jumper wires, each LED must share one ground.
 
 The breadboard looks like this inside:
 ![Breadboard Cross-Section](images/breadboardxsection.png)
