@@ -2,7 +2,7 @@
 
 You will now make your unicorn dance when the rainbow is flashing, by pressing a button!
 
-+ Connect your button to the breadboard
++ Connect your button to the breadboard and GPIO 
 
 New Ingredient!!
 
