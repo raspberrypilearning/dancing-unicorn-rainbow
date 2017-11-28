@@ -7,7 +7,7 @@ You will use a button to program your rainbow and dancing unicorn.
 
 | (1) Scratch Sprite:                          | (2) Upload your own:                         | (3) Draw your own:                           |
 | :------------------------------------------: | :------------------------------------------: | :------------------------------------------: |
-| ![Scratch Unicorn](images/scratchunicorn.png)| ![Advanced Search](images/advancedsearch.png)![Web Unicorn](images/webunicorn.png)| ![Scratch Unicorn](images/scratchunicorn.png)|
+| ![Scratch Unicorn](images/scratchunicorn.png)| ![Advanced Search](images/advancedsearch.png)![Web Unicorn](images/webunicorn.png)| ![Draw Unicorn](images/drawunicorn.png)|
 
 
 + Decide how many costumes you want your unicorn sprite to have for it to dance, and edit your costumes accordingly.
