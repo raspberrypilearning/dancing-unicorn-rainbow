@@ -11,7 +11,7 @@ Diagram of 3 images side by side (1)(2)(3)
 
 Diagram of gifs 3 side by side (1) Scratch sprite with 2 frames with text this one has two costumes (2) Scratch sprite with more frames with text this one has x costumes (3) dancing unicorn gif with 5 frames test this one has five costumes
 
-Click for reminders on how to change costumes in Scratch and how to draw sprite in Scratch:
+Click for reminders on how to change costumes in Scratch and how to draw sprites in Scratch:
 
 [[[generic-scratch-add-costume]]]
 [[[generic-scratch-draw-sprite]]]
