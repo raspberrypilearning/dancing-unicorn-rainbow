@@ -58,7 +58,10 @@ If your LEDs are not lighting:
 --- /hints ---
 
 + Make the rainbow blink in a rainbow pattern
-(screenshot, pic, video?)
+
+(screenshot, pic, video? GIF?)
+
+ADD HINT WITH COMPLETE CODE?
 
 --- challenge ---
 

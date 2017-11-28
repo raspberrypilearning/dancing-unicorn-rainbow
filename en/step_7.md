@@ -34,9 +34,13 @@ Click for a reminder on how to change costumes in Scratch:
 
 Create a `forever`{:class="blockcontrol"} loop and have your unicorn switch costumes with `next costume`{:class="blocklooks"}
 
-Unicorns are generally good dancers, so make sure you time your unicorn's dance to match the speed of your rainbow.
-You can do this using the `wait`{:class="blockcontrol"} block
+Unicorns are generally good dancers, so make sure you time your unicorn's dance to match the speed of your rainbow. You can use the `wait`{:class="blockcontrol"} block. Make sure the wait time matches your LED rainbow wait time.
 
-
-Challenge?
-Add whole code in a hint?
+--- hints ---
+--- hint ---
+`when greenflag clicked`{:class="blockevents"}
+`forever`{:class="blockcontrol"}
+`next costume`{:class="blocklooks"}
+`wait 0.5 secs`{:class="blockcontrol"}
+--- /hint ---
+--- /hints ---
