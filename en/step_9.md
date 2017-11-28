@@ -1,1 +1,1 @@
-## Buzzer Game Challenges
+## Buzzer Game Challenge
