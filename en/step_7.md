@@ -18,7 +18,7 @@ Click for a reminder on how to draw sprites in Scratch:
 
 ---
 
-+ Decide how many costumes you want your unicorn sprite to have for it to dance, and edit your costumes accordingly.
++ Decide how many costumes you want your unicorn sprite to have for the dance, and edit your costumes accordingly.
 
 It is up to you how many costumes you want to add for your dancing unicorn. For this dancing green unicorn, we have used 5 costumes:
 
