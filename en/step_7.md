@@ -3,6 +3,7 @@
 In this step, you will program a unicorn to dance in Scratch to the rhythm of your rainbow.
 You will use a button to program your rainbow and dancing unicorn.
 
+
 ### Unicorn Sprite
 
 + Either (1) change to the scratch unicorn sprite; (2) upload a unicorn sprite from somewhere else, or; (3) draw your own unicorn sprite in Scratch or another program (like the lovely green unicorn on the right):
@@ -16,6 +17,7 @@ Click for a reminder on how to draw sprites in Scratch:
 [[[generic-scratch-draw-sprite]]]
 
 
+
 ### Unicorn Costumes
 
 + Decide how many costumes you want your unicorn sprite to have for the dance, and edit your costumes accordingly.
@@ -27,6 +29,8 @@ It is up to you how many costumes you want to add for your dancing unicorn. For 
 ---
 Click for a reminder on how to change costumes in Scratch:
 [[[generic-scratch-add-costume]]]
+
+
 
 ### Unicorn Dance
 
