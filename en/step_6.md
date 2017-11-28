@@ -9,7 +9,7 @@ You are now ready to create an awesome rainbow! In this step, you will assemble 
 
 (Diagram)
 
-# Ground the Rainbow
+### Ground the Rainbow
 
 + Use one <b>ground</b> for all of your LEDs
 
@@ -23,7 +23,7 @@ To ground the whole rainbow with one jumper wire:
 2) Make sure transistors connect the same <i>rail</i> as the ground jumper wire and to the same <i>bar</i> as the LED:
 (diagram)
 
-# Complete the Rainbow
+### Complete the Rainbow
 
 + Add the rest of your LEDs, LED jumper wires, and transistors to the breadboard in a colour arrangement of your choice.
 
@@ -33,7 +33,7 @@ It will help to use the same colour jumper wire as your LED if you are using man
 Your rainbow should look similar to this one:
 (diagram)
 
-# Light the Rainbow
+### Light the Rainbow
 
 + Test your rainbow in Scratch by lighting the whole rainbow at once
 (diagram)
