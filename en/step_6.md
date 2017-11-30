@@ -90,6 +90,9 @@ Try using this approach:
 `set gpio 22 to output high`{:class="blockmoreblocks"}
 ...
 
+--- /hint ---
+--- /hints ---
+
 --- challenge ---
 
 + Make the rainbow blink in a pattern of your choice.
