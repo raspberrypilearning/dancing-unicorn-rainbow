@@ -11,6 +11,9 @@
 + 1 additional male-female jumper wire (for button)
 + 1 male-male jumper wire (for button)
 
+For the challenge:
++ 1 buzzer
++ 2 male-female jumper wires
 
 ### Software
 
