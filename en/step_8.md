@@ -53,10 +53,10 @@ GIVE WHOLE CODE??
 + Have some fun with your dancing unicorn rainbow
 
 Ideas:
-1) Make your rainbow blink and unicorn dance faster
-2) Teach your unicorn a new dance (play around with costumes and speeds)
-3) Add more buttons to make the unicorn do different dances
-4) Add more `events`{:class="blockevents"} to make the unicorn do different dances
-5) Make a game with your rainbow and dancing unicorn
+1) Make your rainbow blink and unicorn dance faster.
+2) Teach your unicorn a new dance (play around with costumes and speeds).
+3) Add more buttons to make the unicorn do different dances.
+4) Add more `events`{:class="blockevents"} to make the unicorn do different dances.
+5) Make a game with your rainbow and dancing unicorn.
 
 --- /challenge ---
