@@ -69,7 +69,26 @@ If your LEDs are not lighting:
 
 (screenshot, pic, video? GIF?)
 
-ADD HINT WITH COMPLETE CODE?
+--- hints ---
+--- hint ---
+
+If you're stuck, make sure you are using the
+`set gpio to output low`{:class="blockmoreblocks"} block, and the
+`wait _ secs`{:class="blockcontrol"} block
+
+--- /hint ---
+--- hint ---
+
+Try using this approach:
+`when greenflag clicked`{:class="blockevents"}
+`set gpio 17 to output high`{:class="blockmoreblocks"}
+`wait _ secs`{:class="blockcontrol"} block
+`set gpio 17 to output low`{:class="blockmoreblocks"}
+`set gpio 18 to output high`{:class="blockmoreblocks"}
+`wait _ secs`{:class="blockcontrol"} block
+`set gpio 18 to output low`{:class="blockmoreblocks"}
+`set gpio 22 to output high`{:class="blockmoreblocks"}
+...
 
 --- challenge ---
 

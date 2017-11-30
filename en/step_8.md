@@ -36,7 +36,6 @@ Slot your GPIO blinking rainbow code into `else`{:class="blockcontrol"} of the o
 
 In the `if`{:class="blockcontrol"} slots of your code, add an action. I suggest `switch costume to first costume`{:class="blocklooks"} so your unicorn doesn't get its dance moves mixed up.
 
---- hints ---
 --- hint ---
 If pressing the button doesn't make your rainbow light, and unicorn dance, try:
 1) Making sure everything is connecting to the right GPIO
@@ -44,10 +43,7 @@ If pressing the button doesn't make your rainbow light, and unicorn dance, try:
 3) Making sure timings match for your two chunks of code
 4) Double checking your code
 --- /hint ---
---- hint ---
-GIVE WHOLE CODE??
---- /hint ---
---- /hints ---
+
 
 --- challenge ---
 
