@@ -11,7 +11,7 @@ You are now ready to create an awesome rainbow! In this step, you will assemble 
 
 ### Ground the Rainbow
 
-+ Use one <b>ground</b> for all of your LEDs
++ Use one **ground** for all of your LEDs
 
 To make sure your rainbow shines brightly and is not covered by too many jumper wires, each LED must share one ground.
 
@@ -19,8 +19,8 @@ The breadboard looks like this inside:
 ![Breadboard Cross-Section](images/breadboardxsection.png)
 
 To ground the whole rainbow with one jumper wire:
-1) Connect the jumper wire attached to <b>GND</b> to a breadboard <i>rail</i>.
-2) Make sure transistors connect the same <i>rail</i> as the ground jumper wire and to the same <i>bar</i> as the LED:
+1) Connect the jumper wire attached to **GND** to a breadboard *rail*.
+2) Make sure transistors connect the same *rail* as the ground jumper wire and to the same *bar* as the LED:
 ![Adding LEDs](images/twoleds.png)
 
 
@@ -59,7 +59,7 @@ These are the blocks for the rainbow in the last diagram:
 If your LEDs are not lighting:
 
 1) Make sure you look at which GPIO your LEDs are connected to and have set them in Scratch to `output high`{:class="blockmoreblocks"}
-2) Check that the LED is working (you can plug the LED's jumper wire into GPIO 3V3 to test)
+2) Check that the LED is working (you can plug the LED's jumper wire into **GPIO 3V3** to test)
 3) Make sure the circuit on the breadboard is complete.
 
 --- /hint ---
