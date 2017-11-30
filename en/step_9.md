@@ -1,4 +1,4 @@
-## Buzzer Game Challenge
+## Buzzer Challenge
 
 For this challenge, you will learn how to connect a buzzer to your raspberry pi and then your challenge is to replace one of the LEDs with a buzzer noise.
 
