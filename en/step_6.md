@@ -91,6 +91,11 @@ Try using this approach:
 ...
 
 --- /hint ---
+--- hint ---
+
+To make the blinking lights keep circling through the rainbow, use a `forever`{:class="blockcontrol"} loop block around your code
+
+--- /hint ---
 --- /hints ---
 
 --- challenge ---
