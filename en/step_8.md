@@ -33,7 +33,7 @@ Delete all of the `say ___`{:class="blocklooks"} blocks in your button configuri
 Slot your unicorn dancing code into `else`{:class="blockcontrol"} of the button configuring code.
 Slot your GPIO blinking rainbow code into `else`{:class="blockcontrol"} of the other button configuring code.
 
-In the `if`{:class="blockcontrol"} slots of your code, add an action. I suggest `switch costume to first costume`{:class="blockcontrol"} so your unicorn doesn't get its dance moves mixed up.
+In the `if`{:class="blockcontrol"} slots of your code, add an action. I suggest `switch costume to *first costume*`{:class="blockcontrol"} so your unicorn doesn't get its dance moves mixed up.
 
 --- hints ---
 --- hint ---
