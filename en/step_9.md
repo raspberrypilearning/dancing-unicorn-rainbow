@@ -12,6 +12,6 @@ Follow the instructions below to connect your buzzer. Because you already have L
 
 Code your buzzer to buzz instead of one of your LEDs lighting.
 
-Click here for how to code buzzers in Scratch:
+Follow the instructions below to code your buzzer. Adapt the instructions to match the **GPIO** you chose for your buzzer. Adapt the code to fit into the code you already have.
 
 [[[rpi-scratch-buzzer]]]
