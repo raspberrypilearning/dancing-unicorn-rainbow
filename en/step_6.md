@@ -6,8 +6,7 @@ You are now ready to create an awesome rainbow! In this step, you will assemble 
 + Find all the LEDs you are going to use and make sure you also have the same amount of jumper wires and resistors
 
 + Rearrange the circuit you already have to make room for other colours of the rainbow.
-
-(Diagram)
+![Circuit Rearranged](images/oneled.png)
 
 
 ### Ground the Rainbow
@@ -22,7 +21,7 @@ The breadboard looks like this inside:
 To ground the whole rainbow with one jumper wire:
 1) Connect the jumper wire attached to <b>GND</b> to a breadboard <i>rail</i>.
 2) Make sure transistors connect the same <i>rail</i> as the ground jumper wire and to the same <i>bar</i> as the LED:
-(diagram)
+![Adding LEDs](images/twoleds.png)
 
 
 ### Complete the Rainbow
@@ -33,7 +32,7 @@ Make sure to leave room for a button at the end.
 It will help to use the same colour jumper wire as your LED if you are using many different colours.
 
 Your rainbow should look similar to this one:
-(diagram)
+![Rainbow LEDs](images/rainbowleds.png)
 
 
 ### Light the Rainbow
