@@ -9,7 +9,6 @@
 + 3 or more male-female jumper wires (for LEDs)
 + 1 button
 + 1 additional male-female jumper wire (for button)
-+ 1 addition resistor (100 ohm or higher) (for button)
 + 1 male-male jumper wire (for button)
 
 
