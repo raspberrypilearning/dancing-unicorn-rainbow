@@ -38,7 +38,8 @@ Your rainbow should look similar to this one:
 ### Light the Rainbow
 
 + Test your rainbow in Scratch by lighting the whole rainbow at once
-(diagram)
+![Rainbow Lit](images/rainbowlit.png)
+
 
 --- hints ---
 --- hint ---
