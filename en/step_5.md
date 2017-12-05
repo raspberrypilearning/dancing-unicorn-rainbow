@@ -55,7 +55,7 @@ Use `wait 2 secs`{:class="blockcontrol"}
 
 --- hints ---
 --- hint ---
-Use `forever`{:class="control"}
+Use `forever`{:class="blockcontrol"}
 --- /hint ---
 --- /hints ---
 
