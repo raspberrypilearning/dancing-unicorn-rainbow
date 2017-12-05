@@ -2,6 +2,8 @@
 
 You will now connect your circuit and base rainbow colour to Scratch so you can use Scratch programming to control the LED.
 
++ Open up Scratch 2 on your Raspberry Pi. Reminder: this will not work with the online version or with Sratch 1.4.
+
 + In the last step, you connected your LED to **GPIO 3V3**. This is the pin to connect to if you are testing your LED. You now need to connect your LED to a pin you can control with Scratch (for example, **GPIO 17**).
 
 + Follow these instructions to control your LED with Scratch:
