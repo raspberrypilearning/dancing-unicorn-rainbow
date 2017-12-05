@@ -12,7 +12,7 @@ Here are instructions on how to connect a button to the Raspberry Pi:
 Instead of **GPIO 17** we've used **GPIO 5** for the button.
 
 Your rainbow should now look something like this:
-DIAGRAM
+![Rainbow with Button](images/rainbowbutton.png)
 
 ### Code the Button
 
