@@ -13,6 +13,10 @@ You will use a button to program your rainbow and dancing unicorn.
 | ![Scratch Unicorn](images/scratchunicorn.png)| ![Advanced Search](images/advancedsearch.png)![Web Unicorn](images/webunicorn.png)| ![Draw Unicorn](images/drawunicorn.png)|
 
 ---
+
+Click for a reminder on how to find images that you have permission to use:
+[[[]]]
+
 Click for a reminder on how to draw sprites in Scratch:
 [[[generic-scratch-draw-sprite]]]
 
