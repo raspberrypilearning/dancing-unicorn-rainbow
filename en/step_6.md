@@ -26,7 +26,7 @@ To ground the whole rainbow with one jumper wire:
 
 ### Complete the Rainbow
 
-+ Add the rest of your LEDs, LED jumper wires, and transistors to the breadboard in a colour arrangement of your choice.
++ Add the rest of your LEDs, LED jumper wires, and resistors to the breadboard in a colour arrangement of your choice.
 
 Make sure to leave room for a button at the end.
 It will help to use the same colour jumper wire as your LED if you are using many different colours.
