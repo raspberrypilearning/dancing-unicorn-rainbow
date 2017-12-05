@@ -15,7 +15,7 @@ You will use a button to program your rainbow and dancing unicorn.
 ---
 
 Click for a reminder on how to find images that you have permission to use:
-[[[]]]
+[[[images-permissions-to-use]]]
 
 Click for a reminder on how to draw sprites in Scratch:
 [[[generic-scratch-draw-sprite]]]
