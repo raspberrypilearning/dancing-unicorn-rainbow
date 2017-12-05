@@ -19,8 +19,8 @@ The breadboard looks like this inside:
 ![Breadboard Cross-Section](images/breadboardxsection.png)
 
 To ground the whole rainbow with one jumper wire:
-1) Connect the jumper wire attached to **GND** to a breadboard *rail*.
-2) Make sure transistors connect the same *rail* as the ground jumper wire and to the same *bar* as the LED:
++ Connect the jumper wire attached to **GND** to a breadboard *rail*.
++ Make sure transistors connect the same *rail* as the ground jumper wire and to the same *bar* as the LED:
 ![Adding LEDs](images/twoleds.png)
 
 
