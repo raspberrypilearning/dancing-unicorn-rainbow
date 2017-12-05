@@ -8,6 +8,8 @@ You will now connect your circuit and base rainbow colour to Scratch so you can 
 
 + Follow these instructions to control your LED with Scratch:
 
+[[[rpi-scratch-add-pi-gpio]]]
+
 [[[rpi-scratch-control-led]]]
 
 + To practice controlling your LED, complete these challenges:
