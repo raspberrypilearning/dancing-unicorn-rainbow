@@ -68,7 +68,10 @@ If your LEDs are not lighting:
 
 + Make the rainbow blink in a rainbow pattern
 
-(screenshot, pic, video? GIF?)
+<video width="560" height="315" controls>
+<source src="resources/Scratch-GPIO-Pathways-5.mp4" type="video/mp4">
+Your browser does not support the video tag, try FireFox or Chrome
+</video>
 
 --- hints ---
 --- hint ---
