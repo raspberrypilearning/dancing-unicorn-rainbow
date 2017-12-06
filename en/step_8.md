@@ -11,7 +11,7 @@ You will use a button to program your rainbow and dancing unicorn.
 Examples:
 
 | (1) Scratch Sprite:                          | (2) Upload your own:                         | (3) Draw your own:                           |
-| :------------------------------------------: | :------------------------------------------: | :------------------------------------------: |
+| :--------------------------------------------------: | :--------------------------------------------------: | :--------------------------------------------------: |
 | ![Scratch Unicorn](images/scratchunicorn.png)| ![Web Unicorn](images/webunicorn.png)        | ![Draw Unicorn](images/drawunicorn.png)      |
 
 ---
