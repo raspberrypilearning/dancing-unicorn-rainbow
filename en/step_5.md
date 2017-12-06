@@ -32,17 +32,12 @@ Look in the `Control`{:class="blockcontrol"} blocks
 Use `wait 2 secs`{:class="blockcontrol"}
 --- /hint ---
 --- hint ---
-`when greenflag clicked`{:class="blockevents"}
-`set gpio 17 to output high`{:class="blockmoreblocks"}
-`wait 2 secs`{:class="blockcontrol"}
-`set gpio 17 to output low`{:class="blockmoreblocks"}
 ```blocks  
-	when [p v] key clicked
-	set gpio (17) to [output high v]
+	when [p v] key pressed
+	set gpio (17) to [output high v] :: extension
 	wait (2) secs
-  set gpio (17) to [output low v]
+  set gpio (17) to [output low v] :: extension
 ```
-
 --- /hint ---
 --- /hints ---
 
@@ -50,16 +45,11 @@ Use `wait 2 secs`{:class="blockcontrol"}
 
 --- hints ---
 --- hint ---
-`when greenflag clicked`{:class="blockevents"}
-`set gpio 17 to output high`{:class="blockmoreblocks"}
-`wait 2 secs`{:class="blockcontrol"}
-`set gpio 17 to output low`{:class="blockmoreblocks"}
-`wait 2 secs`{:class="blockcontrol"}
 ```blocks  
 	when flag clicked
-	set gpio (17) to [output high v]
+	set gpio (17) to [output high v] :: extension
 	wait (2) secs
-  set gpio (17) to [output low v]
+  set gpio (17) to [output low v] :: extension
   wait (2) secs
 ```
 --- /hint ---
@@ -69,7 +59,7 @@ Use `wait 2 secs`{:class="blockcontrol"}
 
 --- hints ---
 --- hint ---
-Use `forever`{:class="blockcontrol"}
+Use ```blocks forever```
 --- /hint ---
 --- /hints ---
 
