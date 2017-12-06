@@ -79,15 +79,14 @@ Try using this approach:
 ...
 
 --- /hint ---
---- hint ---
+--- /hints ---
 
-To make the blinking lights keep circling through the rainbow, use a forever loop
++ Make the lights blink repeatedly through the rainbow in a loop
+
+To loop through the rainbow pattern forever, use:
 ```blocks
   forever
 ```
-
---- /hint ---
---- /hints ---
 
 --- challenge ---
 
