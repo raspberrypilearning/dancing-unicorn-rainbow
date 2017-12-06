@@ -1,6 +1,6 @@
 ## Light the Rainbow
 
-Test your rainbow in Scratch by lighting the whole rainbow at once
+Test your rainbow in Scratch by lighting the whole rainbow at once.
 
 + Add more code to control the other LEDs. Make sure you have the GPIO Pins selected
 
