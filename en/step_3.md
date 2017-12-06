@@ -7,7 +7,7 @@ Before making a rainbow, you must understand what powers and controls your rainb
 **GPIO Pins** allow you to send and receive on/off signals to and from electronic components such as LEDs, motors, buttons and buzzers.
 
 A Raspberry Pi has 26 GPIO pins. If you look at the Raspberry Pi with the USB ports facing towards you, this is the layout:
-![GPIO Layout](images/gpiolayout.png)
+![GPIO Layout](images/gpio-upright.png)
 
 + To read more about GPIO Pins click here:
 
