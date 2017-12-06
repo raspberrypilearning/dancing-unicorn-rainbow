@@ -2,11 +2,10 @@
 
 Test your rainbow in Scratch by lighting the whole rainbow at once.
 
-+ Add more code to control the other LEDs. Make sure you have the GPIO Pins selected
++ Add more code to control the other LEDs. Make sure you have the GPIO Pins selected.
 
 Your rainbow should light up like this:
 ![Rainbow Lit](images/rainbowlit.png)
-
 
 --- hints ---
 --- hint ---
