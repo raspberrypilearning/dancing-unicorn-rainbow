@@ -22,7 +22,7 @@ You will now connect your circuit and base rainbow colour to Scratch so you can 
 title: Important Challenges
 ---
 
-1) On an event, make your LED go on for 2 seconds and then off
+1) When you press the P key, make the LED turn on for 2 seconds then turn off
 
 --- hints ---
 --- hint ---
@@ -36,6 +36,13 @@ Use `wait 2 secs`{:class="blockcontrol"}
 `set gpio 17 to output high`{:class="blockmoreblocks"}
 `wait 2 secs`{:class="blockcontrol"}
 `set gpio 17 to output low`{:class="blockmoreblocks"}
+```blocks  
+	when P key clicked
+	set gpio (17) to [output high v]
+	wait (2) secs
+  set gpio (17) to [output low v]
+```
+
 --- /hint ---
 --- /hints ---
 
@@ -48,6 +55,13 @@ Use `wait 2 secs`{:class="blockcontrol"}
 `wait 2 secs`{:class="blockcontrol"}
 `set gpio 17 to output low`{:class="blockmoreblocks"}
 `wait 2 secs`{:class="blockcontrol"}
+```blocks  
+	when flag clicked
+	set gpio (17) to [output high v]
+	wait (2) secs
+  set gpio (17) to [output low v]
+  wait (2) secs
+```
 --- /hint ---
 --- /hints ---
 
