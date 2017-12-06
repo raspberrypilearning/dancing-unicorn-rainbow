@@ -1,22 +1,29 @@
 ## Light the Rainbow
 
-+ Test your rainbow in Scratch by lighting the whole rainbow at once
+Test your rainbow in Scratch by lighting the whole rainbow at once
+
++ Add more code to control the other LEDs. Make sure you have the GPIO Pins selected
+
+Your rainbow should light up like this:
 ![Rainbow Lit](images/rainbowlit.png)
 
 
 --- hints ---
 --- hint ---
-
-These are the blocks for the rainbow in the last diagram:
-`when greenflag clicked`{:class="blockevents"}
-`set gpio 17 to output high`{:class="blockmoreblocks"}
-`set gpio 18 to output high`{:class="blockmoreblocks"}
-`set gpio 22 to output high`{:class="blockmoreblocks"}
-`set gpio 23 to output high`{:class="blockmoreblocks"}
-`set gpio 9 to output high`{:class="blockmoreblocks"}
-`set gpio 25 to output high`{:class="blockmoreblocks"}
-`set gpio 11 to output high`{:class="blockmoreblocks"}
-
+Add more `set gpio () to output high`{:class="blockmoreblocks"} blocks at the end of this code:
+```blocks  
+	when flag clicked
+	set gpio (17) to [output high v] :: extension
+```
+--- /hint ---
+--- hint ---
+Keep adding blocks to the bottom until all your GPIO pins are set to ``output high``
+```blocks  
+	when flag clicked
+	set gpio (17) to [output high v] :: extension
+  set gpio (18) to [output high v] :: extension
+  set gpio (22) to [output high v] :: extension
+```
 --- /hint ---
 --- hint ---
 
