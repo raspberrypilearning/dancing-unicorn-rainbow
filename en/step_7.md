@@ -35,7 +35,7 @@ If your LEDs are not lighting:
 --- /hint ---
 --- /hints ---
 
-+ Make the rainbow blink in a rainbow pattern
++ Now, make the rainbow blink in a rainbow pattern like this:
 
 <video width="560" height="315" controls>
 <source src="resources/Scratch-GPIO-Pathways-5.mp4" type="video/mp4">
@@ -45,28 +45,36 @@ Your browser does not support the video tag, try FireFox or Chrome
 --- hints ---
 --- hint ---
 
-If you're stuck, make sure you are using the
-`set gpio to output low`{:class="blockmoreblocks"} block, and the
-`wait _ secs`{:class="blockcontrol"} block
+If you're stuck, make sure you are using these blocks
+```blocks
+	set gpio () to [output low v] :: extension
+
+  wait () secs
+```
 
 --- /hint ---
 --- hint ---
 
 Try using this approach:
-`when greenflag clicked`{:class="blockevents"}
-`set gpio 17 to output high`{:class="blockmoreblocks"}
-`wait _ secs`{:class="blockcontrol"} block
-`set gpio 17 to output low`{:class="blockmoreblocks"}
-`set gpio 18 to output high`{:class="blockmoreblocks"}
-`wait _ secs`{:class="blockcontrol"} block
-`set gpio 18 to output low`{:class="blockmoreblocks"}
-`set gpio 22 to output high`{:class="blockmoreblocks"}
+```blocks  
+	when flag clicked
+	set gpio (17) to [output high v] :: extension
+  wait (0.5) secs
+  set gpio (17) to [output low v] :: extension
+  set gpio (18) to [output high v] :: extension
+  wait (0.5) secs
+  set gpio (18) to [output low v] :: extension
+  set gpio (22) to [output high v] :: extension
+```
 ...
 
 --- /hint ---
 --- hint ---
 
-To make the blinking lights keep circling through the rainbow, use a `forever`{:class="blockcontrol"} loop block around your code
+To make the blinking lights keep circling through the rainbow, use a forever loop
+```blocks
+  forever
+```
 
 --- /hint ---
 --- /hints ---
