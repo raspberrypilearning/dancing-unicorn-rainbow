@@ -37,7 +37,7 @@ Use `wait 2 secs`{:class="blockcontrol"}
 `wait 2 secs`{:class="blockcontrol"}
 `set gpio 17 to output low`{:class="blockmoreblocks"}
 ```blocks  
-	when P key clicked
+	when [p v] key clicked
 	set gpio (17) to [output high v]
 	wait (2) secs
   set gpio (17) to [output low v]
