@@ -2,7 +2,7 @@
 
 Before making a rainbow, you must understand what powers and controls your rainbow. Because your rainbow is powered by the Raspberry Pi, you will be using the Pi's GPIO Pins to control your rainbow.
 
-GPIO is an acronym for **G**eneral **P**urpose **I**nput/**O**utput.
+**GPIO** is an acronym for **G**eneral **P**urpose **I**nput/**O**utput.
 
 **GPIO Pins** allow you to send and receive on/off signals to and from electronic components such as LEDs, motors, buttons and buzzers.
 
