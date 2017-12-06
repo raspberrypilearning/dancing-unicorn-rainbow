@@ -20,7 +20,7 @@ The breadboard looks like this inside:
 
 To ground the whole rainbow with one jumper wire:
 + Connect the jumper wire attached to **GND** to a breadboard *rail*.
-+ Make sure resistors connect the same *rail* as the ground jumper wire and to the same *bar* as the LED:
++ Make sure resistors connect to the same *rail* as the ground jumper wire and to the same *bar* as the LED:
 ![Adding LEDs](images/twoleds.png)
 
 
