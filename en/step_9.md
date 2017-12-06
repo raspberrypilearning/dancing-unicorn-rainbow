@@ -7,7 +7,7 @@ You will now make your unicorn dance when the rainbow is flashing, by pressing a
 + Connect your button to the breadboard and GPIO
 
 Here are instructions on how to connect a button to the Raspberry Pi:
-Instead of **GPIO 17** like below, we've used **GPIO 5** for the button because **GPIO 17** is taken by an LED.
+However, instead of **GPIO 17** like below, we've used **GPIO 5** for the button because **GPIO 17** is taken by an LED.
 [[[rpi-gpio-wiring-a-button]]]
 
 Your rainbow should now look something like this:
