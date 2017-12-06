@@ -9,26 +9,27 @@ Your rainbow should light up like this:
 
 --- hints ---
 --- hint ---
-Add more `set gpio () to output high`{:class="blockmoreblocks"} blocks at the end of this code:
+Add more ``set gpio () to output high`` blocks at the end of this code:
 ```blocks  
 	when flag clicked
 	set gpio (17) to [output high v] :: extension
 ```
 --- /hint ---
 --- hint ---
-Keep adding blocks to the bottom until all your GPIO pins are set to ``output high``
+Keep adding blocks to the bottom of your code until all your GPIO pins are set to ``output high``
 ```blocks  
 	when flag clicked
 	set gpio (17) to [output high v] :: extension
   set gpio (18) to [output high v] :: extension
   set gpio (22) to [output high v] :: extension
 ```
+...
 --- /hint ---
 --- hint ---
 
 If your LEDs are not lighting:
 
-1) Make sure you look at which GPIO your LEDs are connected to and have set them in Scratch to `output high`{:class="blockmoreblocks"}
+1) Make sure you look at which GPIO your LEDs are connected to and have set them in Scratch to `'output high``
 2) Check that the LED is working (you can plug the LED's jumper wire into **GPIO 3V3** to test)
 3) Make sure the circuit on the breadboard is complete.
 
@@ -48,7 +49,6 @@ Your browser does not support the video tag, try FireFox or Chrome
 If you're stuck, make sure you are using these blocks
 ```blocks
 	set gpio () to [output low v] :: extension
-
   wait () secs
 ```
 
