@@ -43,7 +43,17 @@ If your LEDs are not lighting:
 Your browser does not support the video tag, try FireFox or Chrome
 </video>
 
+To do this, you will need to make one LED turn on for a couple of seconds, and then turn off at the same time as the next LED turns on. You will have to add more code to do this.
+
 --- hints ---
+--- hint ---
+
+Make sure your `Events`{:class="blockevents"} block matches what you are doing to test the code.
+For example, to make our rainbow blink, we click the green flag:
+```blocks
+  when flag clicked
+```
+--- /hint ---
 --- hint ---
 
 If you're stuck, make sure you are using these blocks
