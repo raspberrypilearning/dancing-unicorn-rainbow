@@ -12,7 +12,7 @@ Examples:
 
 | (1) Scratch Sprite:                          | (2) Upload your own:                         | (3) Draw your own:                           |
 | :------------------------------------------: | :------------------------------------------: | :------------------------------------------: |
-| ![Scratch Unicorn](images/scratchunicorn.png)| ![Advanced Search](images/advancedsearch.png)![Web Unicorn](images/webunicorn.png)| ![Draw Unicorn](images/drawunicorn.png)|
+| ![Scratch Unicorn](images/scratchunicorn.png)| ![Web Unicorn](images/webunicorn.png)        | ![Draw Unicorn](images/drawunicorn.png)      |
 
 ---
 1) Instructions on choosing a Scratch sprite:
