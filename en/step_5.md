@@ -29,7 +29,10 @@ title: Important Challenges
 Look in the `Control`{:class="blockcontrol"} blocks
 --- /hint ---
 --- hint ---
-Use `wait 2 secs`{:class="blockcontrol"}
+Use
+```blocks
+  wait (2) secs
+```
 --- /hint ---
 --- hint ---
 ```blocks  
@@ -41,7 +44,7 @@ Use `wait 2 secs`{:class="blockcontrol"}
 --- /hint ---
 --- /hints ---
 
-2) On an event, make your LED go on for 2 seconds and then off for 2 seconds
+2) On any event, make your LED go on for 2 seconds and then off for 2 seconds
 
 --- hints ---
 --- hint ---
@@ -55,11 +58,14 @@ Use `wait 2 secs`{:class="blockcontrol"}
 --- /hint ---
 --- /hints ---
 
-3) On an event, make your LED blink on and off repeatedly
+3) On any event, make your LED blink on and off repeatedly
 
 --- hints ---
 --- hint ---
-Use ```blocks forever```
+Use
+```blocks
+  forever
+```
 --- /hint ---
 --- /hints ---
 
