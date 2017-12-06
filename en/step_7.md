@@ -86,7 +86,6 @@ Try using this approach:
 To loop through the rainbow pattern forever, use:
 ```blocks
   forever
-  
 ```
 
 --- challenge ---
