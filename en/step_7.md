@@ -9,7 +9,7 @@ Your rainbow should light up like this:
 
 --- hints ---
 --- hint ---
-Add more set gpio () to output high{:class="blockmoreblocks"} blocks at the end of this code:
+Add more `set gpio () to output high`{:class="blockmoreblocks"} blocks at the end of this code:
 ```blocks  
 	when flag clicked
 	set gpio (17) to [output high v] :: extension
