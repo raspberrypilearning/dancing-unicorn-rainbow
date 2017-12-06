@@ -16,8 +16,6 @@ You will now connect your circuit and base rainbow colour to Scratch so you can 
 
 --- challenge ---
 
---- collapse ---
-
 ---
 title: Important Challenges
 ---
@@ -77,6 +75,5 @@ Use `wait x secs`{:class="blockcontrol"} for less seconds
 --- /hint ---
 --- /hints ---
 
---- /collapse ---
 
 --- /challenge ---
