@@ -1,61 +1,54 @@
-## Control Your Rainbow Dancing Unicorn with a Button
+## Make a Unicorn Dance to your Rainbow
 
-You will now make your unicorn dance when the rainbow is flashing, by pressing a button!
+In this step, you will program a unicorn to dance in Scratch to the rhythm of your rainbow.
+You will use a button to program your rainbow and dancing unicorn.
 
-### Connect the Button
 
-+ Connect your button to the breadboard and GPIO
+### Unicorn Sprite
 
-Here are instructions on how to connect a button to the Raspberry Pi:
-[[[rpi-gpio-wiring-a-button]]]
++ Either (1) change to the scratch unicorn sprite; (2) upload a unicorn sprite from somewhere else, or; (3) draw your own unicorn sprite in Scratch or another program (like the lovely green unicorn on the right):
 
-Instead of **GPIO 17** we've used **GPIO 5** for the button.
+| (1) Scratch Sprite:                          | (2) Upload your own:                         | (3) Draw your own:                           |
+| :------------------------------------------: | :------------------------------------------: | :------------------------------------------: |
+| ![Scratch Unicorn](images/scratchunicorn.png)| ![Advanced Search](images/advancedsearch.png)![Web Unicorn](images/webunicorn.png)| ![Draw Unicorn](images/drawunicorn.png)|
 
-Your rainbow should now look something like this:
-![Rainbow with Button](images/rainbowbutton.png)
+---
 
-### Code the Button
+Click for a reminder on how to find images that you have permission to use:
+[[[images-permissions-to-use]]]
 
-+ Configure your button in Scratch
+Click for a reminder on how to draw sprites in Scratch:
+[[[generic-scratch-draw-sprite]]]
 
-[[[rpi-scratch-button]]]
 
-### Control Rainbow Unicorn Dance
 
-+ Control your rainbow and unicorn by pressing the button
+### Unicorn Costumes
 
-You should now have 3 different chunks of code in Scratch:
-1) Unicorn dancing code
-2) GPIO blinking rainbow code
-3) Button configuring code
++ Decide how many costumes you want your unicorn sprite to have for the dance, and edit your costumes accordingly.
 
-Delete all of the `say ___`{:class="blocklooks"} blocks in your button configuring code (from the last step), and then duplicate the code.
+It is up to you how many costumes you want to add for your dancing unicorn. For this dancing green unicorn, we have used 5 costumes:
 
-Slot your unicorn dancing code into `else`{:class="blockcontrol"} of the button configuring code.
-Slot your GPIO blinking rainbow code into `else`{:class="blockcontrol"} of the other button configuring code.
+|   ![Dancing Unicorn Gif](images/dancingunicorn.gif)   |    ![Five Costumes](images/fivecostumes.png)   |
 
-In the `if`{:class="blockcontrol"} slots of your code, add an action. I suggest `switch costume to first costume`{:class="blocklooks"} so your unicorn doesn't get its dance moves mixed up.
+---
+Click for a reminder on how to change costumes in Scratch:
+[[[generic-scratch-add-costume]]]
+
+
+
+### Unicorn Dance
+
++ Use Scratch to program your unicorn's dance
+
+Create a `forever`{:class="blockcontrol"} loop and have your unicorn switch costumes with `next costume`{:class="blocklooks"}
+
+Unicorns are generally good dancers, so make sure you time your unicorn's dance to match the speed of your rainbow. You can use the `wait`{:class="blockcontrol"} block, but make sure the wait time matches your rainbow wait time.
 
 --- hints ---
 --- hint ---
-If pressing the button doesn't make your rainbow light, and unicorn dance, try:
-1) Making sure everything is connecting to the right GPIO
-2) Making sure you've got inputs and outputs right
-3) Making sure timings match for your two chunks of code
-4) Double checking your code
+`when greenflag clicked`{:class="blockevents"}
+`forever`{:class="blockcontrol"}
+`next costume`{:class="blocklooks"}
+`wait 0.5 secs`{:class="blockcontrol"}
 --- /hint ---
 --- /hints ---
-
-
---- challenge ---
-
-+ Have some fun with your dancing unicorn rainbow
-
-Ideas:
-1) Make your rainbow blink and unicorn dance faster.
-2) Teach your unicorn a new dance (play around with costumes and speeds).
-3) Add more buttons to make the unicorn do different dances.
-4) Add more `events`{:class="blockevents"} to make the unicorn do different dances.
-5) Make a game with your rainbow and dancing unicorn.
-
---- /challenge ---

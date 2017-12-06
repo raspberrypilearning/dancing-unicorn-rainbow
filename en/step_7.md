@@ -1,54 +1,86 @@
-## Make a Unicorn Dance to your Rainbow
+## Light the Rainbow
 
-In this step, you will program a unicorn to dance in Scratch to the rhythm of your rainbow.
-You will use a button to program your rainbow and dancing unicorn.
++ Test your rainbow in Scratch by lighting the whole rainbow at once
+![Rainbow Lit](images/rainbowlit.png)
 
-
-### Unicorn Sprite
-
-+ Either (1) change to the scratch unicorn sprite; (2) upload a unicorn sprite from somewhere else, or; (3) draw your own unicorn sprite in Scratch or another program (like the lovely green unicorn on the right):
-
-| (1) Scratch Sprite:                          | (2) Upload your own:                         | (3) Draw your own:                           |
-| :------------------------------------------: | :------------------------------------------: | :------------------------------------------: |
-| ![Scratch Unicorn](images/scratchunicorn.png)| ![Advanced Search](images/advancedsearch.png)![Web Unicorn](images/webunicorn.png)| ![Draw Unicorn](images/drawunicorn.png)|
-
----
-
-Click for a reminder on how to find images that you have permission to use:
-[[[images-permissions-to-use]]]
-
-Click for a reminder on how to draw sprites in Scratch:
-[[[generic-scratch-draw-sprite]]]
-
-
-
-### Unicorn Costumes
-
-+ Decide how many costumes you want your unicorn sprite to have for the dance, and edit your costumes accordingly.
-
-It is up to you how many costumes you want to add for your dancing unicorn. For this dancing green unicorn, we have used 5 costumes:
-
-|   ![Dancing Unicorn Gif](images/dancingunicorn.gif)   |    ![Five Costumes](images/fivecostumes.png)   |
-
----
-Click for a reminder on how to change costumes in Scratch:
-[[[generic-scratch-add-costume]]]
-
-
-
-### Unicorn Dance
-
-+ Use Scratch to program your unicorn's dance
-
-Create a `forever`{:class="blockcontrol"} loop and have your unicorn switch costumes with `next costume`{:class="blocklooks"}
-
-Unicorns are generally good dancers, so make sure you time your unicorn's dance to match the speed of your rainbow. You can use the `wait`{:class="blockcontrol"} block, but make sure the wait time matches your rainbow wait time.
 
 --- hints ---
 --- hint ---
+
+These are the blocks for the rainbow in the last diagram:
 `when greenflag clicked`{:class="blockevents"}
-`forever`{:class="blockcontrol"}
-`next costume`{:class="blocklooks"}
-`wait 0.5 secs`{:class="blockcontrol"}
+`set gpio 17 to output high`{:class="blockmoreblocks"}
+`set gpio 18 to output high`{:class="blockmoreblocks"}
+`set gpio 22 to output high`{:class="blockmoreblocks"}
+`set gpio 23 to output high`{:class="blockmoreblocks"}
+`set gpio 9 to output high`{:class="blockmoreblocks"}
+`set gpio 25 to output high`{:class="blockmoreblocks"}
+`set gpio 11 to output high`{:class="blockmoreblocks"}
+
+--- /hint ---
+--- hint ---
+
+If your LEDs are not lighting:
+
+1) Make sure you look at which GPIO your LEDs are connected to and have set them in Scratch to `output high`{:class="blockmoreblocks"}
+2) Check that the LED is working (you can plug the LED's jumper wire into **GPIO 3V3** to test)
+3) Make sure the circuit on the breadboard is complete.
+
 --- /hint ---
 --- /hints ---
+
++ Make the rainbow blink in a rainbow pattern
+
+<video width="560" height="315" controls>
+<source src="resources/Scratch-GPIO-Pathways-5.mp4" type="video/mp4">
+Your browser does not support the video tag, try FireFox or Chrome
+</video>
+
+--- hints ---
+--- hint ---
+
+If you're stuck, make sure you are using the
+`set gpio to output low`{:class="blockmoreblocks"} block, and the
+`wait _ secs`{:class="blockcontrol"} block
+
+--- /hint ---
+--- hint ---
+
+Try using this approach:
+`when greenflag clicked`{:class="blockevents"}
+`set gpio 17 to output high`{:class="blockmoreblocks"}
+`wait _ secs`{:class="blockcontrol"} block
+`set gpio 17 to output low`{:class="blockmoreblocks"}
+`set gpio 18 to output high`{:class="blockmoreblocks"}
+`wait _ secs`{:class="blockcontrol"} block
+`set gpio 18 to output low`{:class="blockmoreblocks"}
+`set gpio 22 to output high`{:class="blockmoreblocks"}
+...
+
+--- /hint ---
+--- hint ---
+
+To make the blinking lights keep circling through the rainbow, use a `forever`{:class="blockcontrol"} loop block around your code
+
+--- /hint ---
+--- /hints ---
+
+--- challenge ---
+
++ Make the rainbow blink in a pattern of your choice.
+
+--- collapse ---
+
+---
+title: Rainbow Challenges
+---
+
+Ideas:
+  1) Make the rainbow go very fast and very slow
+  2) Make all LEDs in the rainbow blink together
+  3) Make pairs of LEDs light in alternate patters
+  4) Make the rainbow blink something in Morse Code
+  5) Make the rainbow do different things on different events
+
+--- /collapse ---
+--- /challenge ---

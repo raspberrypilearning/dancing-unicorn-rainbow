@@ -1,17 +1,61 @@
-## Buzzer Challenge
+## Control Your Rainbow Dancing Unicorn with a Button
 
-For this challenge, you will learn how to connect a buzzer to your raspberry pi and then your challenge is to replace one of the LEDs with a buzzer noise.
+You will now make your unicorn dance when the rainbow is flashing, by pressing a button!
 
-+ Connect the buzzer to your raspberry pi
+### Connect the Button
 
-Follow the instructions below to connect your buzzer. Because you already have LEDs and a button, you will place your buzzer wherever there is room, and use a **GPIO** that is free.
++ Connect your button to the breadboard and GPIO
 
-[[[rpi-connect-buzzer]]]
+Here are instructions on how to connect a button to the Raspberry Pi:
+[[[rpi-gpio-wiring-a-button]]]
 
-+ Code your buzzer
+Instead of **GPIO 17** we've used **GPIO 5** for the button.
 
-Code your buzzer to buzz instead of one of your LEDs.
+Your rainbow should now look something like this:
+![Rainbow with Button](images/rainbowbutton.png)
 
-Follow the instructions below to code your buzzer. Adapt the instructions to match the **GPIO** you chose for your buzzer. Adapt the code to fit into the code you already have.
+### Code the Button
 
-[[[rpi-scratch-buzzer]]]
++ Configure your button in Scratch
+
+[[[rpi-scratch-button]]]
+
+### Control Rainbow Unicorn Dance
+
++ Control your rainbow and unicorn by pressing the button
+
+You should now have 3 different chunks of code in Scratch:
+1) Unicorn dancing code
+2) GPIO blinking rainbow code
+3) Button configuring code
+
+Delete all of the `say ___`{:class="blocklooks"} blocks in your button configuring code (from the last step), and then duplicate the code.
+
+Slot your unicorn dancing code into `else`{:class="blockcontrol"} of the button configuring code.
+Slot your GPIO blinking rainbow code into `else`{:class="blockcontrol"} of the other button configuring code.
+
+In the `if`{:class="blockcontrol"} slots of your code, add an action. I suggest `switch costume to first costume`{:class="blocklooks"} so your unicorn doesn't get its dance moves mixed up.
+
+--- hints ---
+--- hint ---
+If pressing the button doesn't make your rainbow light, and unicorn dance, try:
+1) Making sure everything is connecting to the right GPIO
+2) Making sure you've got inputs and outputs right
+3) Making sure timings match for your two chunks of code
+4) Double checking your code
+--- /hint ---
+--- /hints ---
+
+
+--- challenge ---
+
++ Have some fun with your dancing unicorn rainbow
+
+Ideas:
+1) Make your rainbow blink and unicorn dance faster.
+2) Teach your unicorn a new dance (play around with costumes and speeds).
+3) Add more buttons to make the unicorn do different dances.
+4) Add more `events`{:class="blockevents"} to make the unicorn do different dances.
+5) Make a game with your rainbow and dancing unicorn.
+
+--- /challenge ---
