@@ -30,13 +30,11 @@ You should now have 3 different chunks of code in Scratch:
 
 + Delete all of the `say ___`{:class="blocklooks"} blocks in your button configuring code (from the last step), and then duplicate the code.
 
-+ Slot your unicorn dancing code into `else`{:class="blockcontrol"} of the button configuring code.
++ For your unicorn dancing code, delete `when flag clicked`{:class="blockevents"} block and slot the rest of the unicorn dancing code into `else`{:class="blockcontrol"} of the button configuring code.
 
-+ Slot your GPIO blinking rainbow code into `else`{:class="blockcontrol"} of the other button configuring code.
++ For your GPIO blinking rainbow code, delete the `when flag clicked`{:class="blockevents"} block and slot the rest of the GPIO blinking rainbow code into `else`{:class="blockcontrol"} of the other button configuring code.
 
-+ In the `if`{:class="blockcontrol"} slots of your code, add an action.
-
-I suggest `switch costume to first costume`{:class="blocklooks"} so your unicorn doesn't get its dance moves mixed up.
++ In the `if`{:class="blockcontrol"} slots of your code, add an action. I suggest `switch costume to first costume`{:class="blocklooks"} so your unicorn doesn't get its dance moves mixed up.
 
 --- hints ---
 --- hint ---
