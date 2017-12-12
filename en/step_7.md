@@ -104,7 +104,7 @@ title: Rainbow Challenges
 Ideas:
   1) Make the rainbow go very fast and very slow
   2) Make all LEDs in the rainbow blink together
-  3) Make pairs of LEDs light in alternate patters
+  3) Make pairs of LEDs light in alternate patterns
   4) Make the rainbow blink something in Morse Code
   5) Make the rainbow do different things on different events
 
