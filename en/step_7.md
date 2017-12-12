@@ -84,6 +84,7 @@ Try using this approach:
 + Make the lights blink repeatedly through the rainbow in a loop
 
 To loop through the rainbow pattern forever, use:
+
 ```blocks
 
 forever
