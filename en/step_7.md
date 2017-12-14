@@ -1,4 +1,4 @@
-## Light the Rainbow
+## Light Your Rainbow
 
 Test your rainbow in Scratch by lighting the whole rainbow at once.
 
