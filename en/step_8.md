@@ -1,6 +1,6 @@
 ## Light Your Rainbow
 
-Test your rainbow in Scratch by lighting the whole rainbow at once.
+To light your rainbow, you will first test your rainbow by lighting the whole rainbow at once. You will then write code to make the rainbow blink through all the colours, and then in a pattern of your choice.
 
 + Add more code to control the other LEDs. Make sure you have coded the right GPIO Pins.
 
