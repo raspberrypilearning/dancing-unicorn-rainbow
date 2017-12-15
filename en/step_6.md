@@ -1,35 +1,60 @@
-## Build Your Rainbow
+## Control Your Rainbow Circuit
 
-You are now ready to create an awesome rainbow! In this step, you will assemble your rainbow and program the LEDs to blink in a rainbow pattern.
+When your rainbow is set up, you will need to know how to control how it is lit. In this step, you will learn the basics of programming an LED circuit. 
 
++ To practice controlling your LED, complete the following:
 
-+ Find all the LEDs you are going to use and make sure you also have the same amount of jumper wires and resistors
+1) When you press the P key, make the LED turn on for 2 seconds then turn off
 
-+ Rearrange the circuit you already have to make room for other colours of the rainbow.
-![Circuit Rearranged](images/oneled.png)
+--- hints ---
+--- hint ---
+Look in the `Control`{:class="blockcontrol"} blocks
+--- /hint ---
+--- hint ---
+Use
+```blocks
+  wait (2) secs
+```
+--- /hint ---
+--- hint ---
+```blocks  
+	when [p v] key pressed
+	set gpio (17) to [output high v] :: extension
+	wait (2) secs
+  set gpio (17) to [output low v] :: extension
+```
+--- /hint ---
+--- /hints ---
 
+2) On any event, make your LED go on for 2 seconds and then off for 2 seconds
 
-### Ground the Rainbow
+--- hints ---
+--- hint ---
+```blocks  
+	when flag clicked
+	set gpio (17) to [output high v] :: extension
+	wait (2) secs
+  set gpio (17) to [output low v] :: extension
+  wait (2) secs
+```
+--- /hint ---
+--- /hints ---
 
-+ Use one **ground** for all of your LEDs
+3) On any event, make your LED blink on and off repeatedly
 
-To make sure your rainbow shines brightly and is not covered by too many jumper wires, each LED must share one ground.
+--- hints ---
+--- hint ---
+Use
+```blocks
+  forever
+```
+--- /hint ---
+--- /hints ---
 
-The breadboard looks like this inside:
-![Breadboard Cross-Section](images/breadboardxsection.png)
+4) Make your LED blink faster
 
-To ground the whole rainbow with one jumper wire:
-+ Connect the jumper wire attached to **GND** to a breadboard *rail*.
-+ Make sure resistors connect to the same *rail* as the ground jumper wire and to the same *bar* as the LED:
-![Adding LEDs](images/twoleds.png)
-
-
-### Complete the Rainbow
-
-+ Add the rest of your LEDs, LED jumper wires, and resistors to the breadboard in a colour arrangement of your choice.
-
-Make sure to leave room for a button at the end.
-It will help to use the same colour jumper wire as your LED if you are using many different colours.
-
-Your rainbow should look similar to this one:
-![Rainbow LEDs](images/rainbowleds.png)
+--- hints ---
+--- hint ---
+Use `wait x secs`{:class="blockcontrol"} for less seconds
+--- /hint ---
+--- /hints ---

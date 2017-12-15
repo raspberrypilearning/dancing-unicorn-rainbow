@@ -1,112 +1,35 @@
-## Light Your Rainbow
+## Build Your Rainbow
 
-Test your rainbow in Scratch by lighting the whole rainbow at once.
+You are now ready to create an awesome rainbow! In this step, you will assemble your rainbow and program the LEDs to blink in a rainbow pattern.
 
-+ Add more code to control the other LEDs. Make sure you have coded the right GPIO Pins.
 
-Your rainbow should light up like this:
-![Rainbow Lit](images/rainbowlit.png)
++ Find all the LEDs you are going to use and make sure you also have the same amount of jumper wires and resistors
 
---- hints ---
---- hint ---
-Add more `set gpio () to output high`{:class="blockmoreblocks"} blocks at the end of this code:
-```blocks  
-	when flag clicked
-	set gpio (17) to [output high v] :: extension
-```
---- /hint ---
---- hint ---
-Keep adding blocks to the bottom of your code until all your GPIO pins are set to `output high`{:class="blockmoreblocks"}
-```blocks  
-	when flag clicked
-	set gpio (17) to [output high v] :: extension
-  set gpio (18) to [output high v] :: extension
-  set gpio (22) to [output high v] :: extension
-```
-...
---- /hint ---
---- hint ---
++ Rearrange the circuit you already have to make room for other colours of the rainbow.
+![Circuit Rearranged](images/oneled.png)
 
-If your LEDs are not lighting:
 
-1) Make sure you look at which GPIO your LEDs are connected to and have set them in Scratch to `output high`{:class="blockmoreblocks"}
-2) Check that the LED is working (you can plug the LED's jumper wire into **GPIO 3V3** to test)
-3) Make sure the circuit on the breadboard is complete.
+### Ground the Rainbow
 
---- /hint ---
---- /hints ---
++ Use one **ground** for all of your LEDs
 
-+ Now, make the rainbow blink in a rainbow pattern like this:
+To make sure your rainbow shines brightly and is not covered by too many jumper wires, each LED must share one ground.
 
-<video width="560" height="315" controls>
-<source src="resources/Scratch-GPIO-Pathways-5.mp4" type="video/mp4">
-Your browser does not support the video tag, try FireFox or Chrome
-</video>
+The breadboard looks like this inside:
+![Breadboard Cross-Section](images/breadboardxsection.png)
 
-To do this, you will need to make one LED turn on for a couple of seconds, and then turn off at the same time as the next LED turns on. You will have to add more code to do this.
+To ground the whole rainbow with one jumper wire:
++ Connect the jumper wire attached to **GND** to a breadboard *rail*.
++ Make sure resistors connect to the same *rail* as the ground jumper wire and to the same *bar* as the LED:
+![Adding LEDs](images/twoleds.png)
 
---- hints ---
---- hint ---
 
-Make sure your `Events`{:class="blockevents"} block matches what you are doing to test the code.
-For example, to make our rainbow blink, we click the green flag:
-```blocks
-  when flag clicked
-```
---- /hint ---
---- hint ---
+### Complete the Rainbow
 
-If you're stuck, make sure you are using these blocks
-```blocks
-	set gpio () to [output low v] :: extension
-  wait () secs
-```
++ Add the rest of your LEDs, LED jumper wires, and resistors to the breadboard in a colour arrangement of your choice.
 
---- /hint ---
---- hint ---
+Make sure to leave room for a button at the end.
+It will help to use the same colour jumper wire as your LED if you are using many different colours.
 
-Try using this approach:
-```blocks  
-	when flag clicked
-	set gpio (17) to [output high v] :: extension
-  wait (0.5) secs
-  set gpio (17) to [output low v] :: extension
-  set gpio (18) to [output high v] :: extension
-  wait (0.5) secs
-  set gpio (18) to [output low v] :: extension
-  set gpio (22) to [output high v] :: extension
-```
-...
-
---- /hint ---
---- /hints ---
-
-+ Make the lights blink repeatedly through the rainbow in a loop
-
-To loop through the rainbow pattern forever, use:
-
-```blocks
-
-forever
-
-```
-
---- challenge ---
-
-+ Make the rainbow blink in a pattern of your choice.
-
---- collapse ---
-
----
-title: Rainbow Challenges
----
-
-Ideas:
-  1) Make the rainbow go very fast and very slow
-  2) Make all LEDs in the rainbow blink together
-  3) Make pairs of LEDs light in alternate patterns
-  4) Make the rainbow blink something in Morse Code
-  5) Make the rainbow do different things on different events
-
---- /collapse ---
---- /challenge ---
+Your rainbow should look similar to this one:
+![Rainbow LEDs](images/rainbowleds.png)
