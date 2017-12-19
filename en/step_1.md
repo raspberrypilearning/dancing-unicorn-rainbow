@@ -8,9 +8,10 @@ In this resource, you will create your own rainbow which will be powered by the 
 
 Here are two animations which show what your dancing unicorn and rainbow might look like:
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+<video width="560" height="315" controls>
+<source src="resources/Screencast.mp4" type="video/mp4">
+Your browser does not support the video tag, try FireFox or Chrome
+</video>
 
 Once you have trained your unicorn to dance to your rainbow, you can learn how to use the rainbow to make the unicorn do tricks or play a game.
 
