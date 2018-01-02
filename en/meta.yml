@@ -1,6 +1,6 @@
-title: Dancing Unicorns and Rainbows
+title: Dancing unicorns and rainbows
 hero_image: images/banner.png
-description: dancing-unicorn-rainbow description
+description: Create a unicorn that dances in time with an LED rainbow
 theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2 # possible values: 1, 2 or 3
 listed: false
@@ -12,13 +12,13 @@ technologies: "electronics, physical computing, html/css, scratch"
 site_areas:
 steps:
   - title: Introduction
-  - title: What You Will Need
-  - title: "Your Rainbow's Atmosphere"
-  - title: "Your Rainbow's First Colour"
-  - title: Test Your Circuit in Scratch
-  - title: Control Your Rainbow Circuit
-  - title: Build Your Rainbow
-  - title: Light Your Rainbow
-  - title: Rainbow Dancing Unicorn
-  - title: Add a Button
-  - title: Buzzer Challenge
+  - title: What you will need
+  - title: "Your rainbow's atmosphere"
+  - title: "Your rainbow's first colour"
+  - title: Test your Circuit in Scratch
+  - title: Control your rainbow circuit
+  - title: Build your rainbow
+  - title: Light your yainbow
+  - title: Rainbow dancing unicorn
+  - title: Add a button
+  - title: Buzzer challenge
