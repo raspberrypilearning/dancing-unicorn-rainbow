@@ -4,20 +4,30 @@
 
 + A Raspberry Pi
 + A breadboard
-+ 3 or more colourful LEDs
-+ 3 or more resistors (100 ohm or higher)(for LEDs)
-+ 1 button
-+ Male-female jumper wires, **1 per LED**
-+ 2 additional male-female jumper wires
-+ 1 male-male jumper wire
++ 3× or more colourful LEDs
++ 3× or more resistors (100 ohm or higher)(for LEDs)
++ 1× button
++ Male-to-female jumper wires, **1 per LED**
++ 2× additional male-to-female jumper wires
++ 1× male-to-male jumper wire
 
 For the optional final challenge:
-+ 1 buzzer
-+ 2 additional male-female jumper wires
++ 1× buzzer
++ 2× additional male-to-female jumper wires
 
 
 ### Software
 
-+ Scratch 2.0 (already installed on the Raspbian operating system of the Pi)
+You will need the latest version of Raspbian, which already includes the following software packages:
 
-Note: this project will **not** work with Scratch 1.4 or with Scratch online.
++ Scratch 2 with GPIO support
+
+If you are using an older version of Raspbian, open a terminal window and type the following commands to install Scratch 2:
+
+```bash
+sudo apt-get update
+sudo apt-get dist-upgrade
+sudo apt-get install scratch2
+```
+
+**Note:** Scratch 2 will **only** work on the Raspberry Pi 2 and 3; it will not work on earlier models or on the Raspberry Pi Zero.
