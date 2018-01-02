@@ -20,4 +20,4 @@ For the optional final challenge:
 
 + Scratch 2.0 (already installed on the Raspbian operating system of the Pi)
 
-Note: this project will **not** work with Scratch online or with Scratch 1.4.
+Note: this project will **not** work with Scratch 1.4 or with Scratch online.
