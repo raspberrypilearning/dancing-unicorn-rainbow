@@ -2,9 +2,9 @@
 
 Your challenge is to replace one of the LEDs with a buzzer noise!
 
-+ Connect the buzzer to your Raspberry Pi
++ Connect the buzzer to your Raspberry Pi.
 
-Follow the instructions below to connect your buzzer. The instructions tell you to use **GPIO 17**, but because you already have LEDs and a button, you can place your buzzer wherever there is room, and use **any free** GPIO pin.
+Follow the instructions below to connect the new component. The instructions tell you to use **GPIO 17**, but because you already have LEDs and a button, you can place your buzzer wherever there is room, and use **any free** GPIO pin.
 
 [[[rpi-connect-buzzer]]]
 
