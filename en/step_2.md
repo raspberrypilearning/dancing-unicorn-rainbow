@@ -2,19 +2,18 @@
 
 ### Hardware
 
-+ Raspberry Pi
-+ Breadboard
++ A Raspberry Pi
++ A breadboard
 + 3 or more colourful LEDs
 + 3 or more resistors (100 ohm or higher)(for LEDs)
 + 1 button
-+ 1 male-female jumper wire *per LED*
-+ 1 male-female jumper wire for ground
-+ 1 male-female jumper wire for button
-+ 1 male-male jumper wire for button
++ Male-female jumper wires, **1 per LED**
++ 2 additional male-female jumper wires
++ 1 male-male jumper wire
 
-For the Challenge:
+For the challenge:
 + 1 buzzer
-+ 2 male-female jumper wires
++ 2 additional male-female jumper wires
 
 
 ### Software
