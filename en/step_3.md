@@ -1,4 +1,4 @@
-## Your Rainbow's Atmosphere
+## Your rainbow's atmosphere
 
 Before making a rainbow, you need to learn how to control it. You will power and control your rainbow with the help of the Raspberry Pi's GPIO pins.
 
