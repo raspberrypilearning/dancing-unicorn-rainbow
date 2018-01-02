@@ -1,14 +1,14 @@
-## Control Your Rainbow Circuit
+## Control your rainbow circuit
 
-When your rainbow is set up, you will need to know how to control how it is lit. In this step, you will learn the basics of programming an LED circuit. 
+When your rainbow is set up, you can control how it is lit. In this step, you will learn how to do this using the basics of programming an LED circuit. 
 
 + To practice controlling your LED, complete the following:
 
-1) When you press the P key, make the LED turn on for 2 seconds then turn off
+1) When you press the <kbd>P</kbd> key, make the LED turn on for two seconds and then turn off.
 
 --- hints ---
 --- hint ---
-Look in the `Control`{:class="blockcontrol"} blocks
+Look in the `Control`{:class="blockcontrol"} blocks section.
 --- /hint ---
 --- hint ---
 Use
@@ -26,7 +26,7 @@ Use
 --- /hint ---
 --- /hints ---
 
-2) On any event, make your LED go on for 2 seconds and then off for 2 seconds
+2) When your Scratch program starts, make your LED light up for 2 seconds and then turn off for 2 seconds.
 
 --- hints ---
 --- hint ---
@@ -40,7 +40,7 @@ Use
 --- /hint ---
 --- /hints ---
 
-3) On any event, make your LED blink on and off repeatedly
+3) Make your LED turn on and off as long as your program runs.
 
 --- hints ---
 --- hint ---
@@ -51,10 +51,10 @@ Use
 --- /hint ---
 --- /hints ---
 
-4) Make your LED blink faster
+4) Make your LED blink faster.
 
 --- hints ---
 --- hint ---
-Use `wait x secs`{:class="blockcontrol"} for less seconds
+Use `wait x secs`{:class="blockcontrol"} for fewer seconds.
 --- /hint ---
 --- /hints ---
