@@ -11,7 +11,7 @@
 + 2 additional male-female jumper wires
 + 1 male-male jumper wire
 
-For the challenge:
+For the optional final challenge:
 + 1 buzzer
 + 2 additional male-female jumper wires
 
