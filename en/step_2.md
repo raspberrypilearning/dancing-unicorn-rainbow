@@ -18,4 +18,6 @@ For the challenge:
 
 ### Software
 
-+ Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/){:target="_blank"} or [offline](https://scratch.mit.edu/scratch2download/){:target="_blank"})
++ Scratch 2.0 (already installed on the Raspbian operating system of the Pi)
+
+Note: this project will **not** work with Scratch online or with Scratch 1.4.
