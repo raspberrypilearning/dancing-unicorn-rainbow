@@ -18,11 +18,11 @@ For the optional final challenge:
 
 ### Software
 
-You will need the latest version of Raspbian, which already includes the following software packages:
+You will need the latest version of Raspbian, which already includes the following software package:
 
 + Scratch 2 with GPIO support
 
-If you are using an older version of Raspbian, open a terminal window and type the following commands to install Scratch 2:
+If you are using an older version of Raspbian, open a terminal window and type the following commands to upgrade Raspbian and install Scratch 2:
 
 ```bash
 sudo apt-get update
