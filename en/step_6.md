@@ -57,4 +57,4 @@ Use `wait x secs`{:class="blockcontrol"} for fewer seconds.
 --- /hint ---
 --- /hints ---
 
-Well done — you are now ready to create an awesome rainbow!
+Well done — you are now ready to create and control an awesome rainbow!
