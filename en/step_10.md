@@ -22,8 +22,6 @@ Your rainbow should now look something like this:
 
 ### Control the unicorn dance
 
-You can control your rainbow and unicorn by pressing a button.
-
 At the moment, you should have three chunks of Scratch code:
 1. Dancing unicorn code
 1. Blinking rainbow code
