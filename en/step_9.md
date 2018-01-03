@@ -6,9 +6,9 @@ In this step, you will program a unicorn in Scratch that dances to the rhythm of
 
 Choose one of the following options to create a unicorn sprite:
 
-(1) Change to the Scratch unicorn sprite
-(2) Upload a unicorn image from somewhere else and use it as your sprite
-(3) Draw your own unicorn sprite in Scratch or another program (like the lovely green unicorn on the right).
+1. Use the Scratch unicorn sprite
+1. Upload a unicorn image from somewhere else and use it as your sprite
+1. Draw your own unicorn sprite in Scratch or another program (like the lovely green unicorn on the right).
 
 Examples:
 
@@ -24,12 +24,12 @@ Examples:
 
 [[[generic-scratch-add-sprite-from-file]]]
 
-+ If you want to draw your own unicorn in Scratch, click below for instructions:
++ If you're going with option 3, click below for instructions on how to draw your own unicorn in Scratch:
 [[[generic-scratch-draw-sprite]]]
 
 ### Unicorn costumes
 
-Your unicorn needs **costumes** to be able to dance. A costume is one of a set of appearances of a sprite, which means sprites can change their look by changing costumes. Therefore, costumes can be used to make a sprite look like it's moving and create an animation.
+Your unicorn needs **costumes** to be able to dance. A costume is one of a set of appearances of a sprite, which means sprites can change their look by changing costumes. Therefore, you can use costumes to make a sprite look like it's moving whenever you want to create an animation.
 
 Here, we will be creating a dancing unicorn animation, so each costume will represent a dance move of your unicorn.
 
@@ -56,7 +56,7 @@ To switch from the first to the second costume use:
   switch costume to [costume 2 v]
 ```
 
-Unicorns are generally good dancers, so make sure you time your unicorn's dance to the speed of your rainbow pattern. You can use the `wait`{:class="blockcontrol"} block — make sure the unicorn's wait time matches your rainbow wait time.
+Unicorns are generally good dancers, so make sure you time your unicorn's dance to the speed of your rainbow pattern. You can use the `wait`{:class="blockcontrol"} block to match the unicorn's wait time to your rainbow's wait time.
 ```blocks  
   wait (0.5) secs
   switch costume to [costume 2 v]
