@@ -4,8 +4,8 @@
 
 + A Raspberry Pi
 + A breadboard
-+ 3× or more colourful LEDs
-+ 3× or more resistors (100 ohm or higher)(for LEDs)
++ 3 or more colourful LEDs
++ Resistors (at least 100 ohms), **1 per LED**
 + 1× button
 + Male-to-female jumper wires, **1 per LED**
 + 2× additional male-to-female jumper wires
