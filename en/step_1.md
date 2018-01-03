@@ -1,12 +1,10 @@
 ## Introduction
 
-Create an LED rainbow and make a unicorn dance to it.
+Create an LED rainbow and make a unicorn dance to it, all powered by the Raspberry Pi.
 
 ### What you will make
 
-In this resource, you will create your own rainbow powered by the Raspberry Pi. You will use Scratch to connect the rainbow to a unicorn sprite, and then make the unicorn dance to the rhythm of the rainbow.
-
-Here is a video which show what your dancing unicorn and rainbow might look like:
+You will use Scratch to connect a rainbow of LEDs to a unicorn sprite, and then make the unicorn dance to the rhythm of the rainbow. Here is a video showing what your dancing unicorn and rainbow might look like:
 
 <video width="560" height="315" controls>
 <source src="resources/Screencast.mp4" type="video/mp4">
