@@ -19,8 +19,6 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 + [Combine inputs and/or outputs to create projects or solve a problem](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
 
-This project covers elements from the following strand of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
-
 + [Apply basic programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
 ### Additional information for educators
