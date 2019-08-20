@@ -1,33 +1,112 @@
-## Build your rainbow
+## Light your rainbow
 
-In this step, you will assemble your rainbow and program its LEDs to blink in a rainbow pattern.
+To make sure your rainbow is working, you will first test it by lighting the whole rainbow at once. You will then create code to make the rainbow blink through all its colours one after the other, and then in a pattern of your choice.
 
-+ Find all the LEDs you are going to use, and make sure you also have the right number of jumper wires and resistors (one each per LED).
++ Add more code to control the other LEDs. Make sure you include the right GPIO pins.
 
-+ Rearrange the circuit you already have to make room for the other colours of your rainbow.
+Your rainbow should light up like this:
 
-![Circuit Rearranged](images/oneled.png)
+![Rainbow Lit](images/rainbowlit.png)
 
-### Ground the rainbow
+--- hints ---
+--- hint ---
+Add more `set gpio () to output high`{:class="blockmoreblocks"} blocks in this chunk of code:
+```blocks  
+	when flag clicked
+	set gpio (17) to [output high v] :: extension
+```
+--- /hint ---
+--- hint ---
+Keep adding blocks at the bottom of your code until all your GPIO pins are set to `output high`{:class="blockmoreblocks"}.
+```blocks  
+	when flag clicked
+	set gpio (17) to [output high v] :: extension
+  set gpio (18) to [output high v] :: extension
+  set gpio (22) to [output high v] :: extension
+```
+...
+--- /hint ---
+--- hint ---
 
-So that your rainbow shines brightly and is not covered by too many jumper wires, all LEDs should share one **Ground (GND)** pin. You can do set them up like this by rearranging your components on the breadboard a little.
+If your LEDs are not lighting:
 
-The breadboard looks like this inside:
+1) Check which GPIO pins your LEDs are connected to, and make sure you have set them to `output high`{:class="blockmoreblocks"}
+2) Test whether the LEDs are working — you can plug an LED's jumper wire into **GPIO 3V3** to test it
+3) Make sure the circuit on the breadboard is complete
 
-![Breadboard Cross-Section](images/breadboardxsection.png)
+--- /hint ---
+--- /hints ---
 
-To ground the whole rainbow with one jumper wire:
-+ Connect the jumper wire attached to **GND** to a breadboard **rail**
-+ Make sure resistors connect to the same rail as the **GND** jumper wire and to the same **bar** as the LED they belong to:
++ Now, add more code to make the rainbow blink in a rainbow pattern like this:
 
-![Adding LEDs](images/twoleds.png)
+<video width="560" height="315" controls>
+<source src="resources/Scratch-GPIO-Pathways-5.mp4" type="video/mp4">
+Your browser does not support the video tag, so try FireFox or Chrome.
+</video>
 
-### Complete the rainbow
+To do this, you will need to make one LED turn on for a couple of seconds and then turn off at the same time as the next LED turns on.
 
-+ Add the rest of your LEDs, jumper wires, and resistors to the breadboard in a colour arrangement of your choice. Make sure to leave room for a button at the end.
+--- hints ---
+--- hint ---
 
-If you are using many different colours, it might help to match the colour of the jumper wires to your LEDs.
+Make sure your `Events`{:class="blockevents"} block matches what you are doing to test the code. In the example here, to make our rainbow blink, we have to click the green flag:
+```blocks
+  when flag clicked
+```
+--- /hint ---
+--- hint ---
 
-Your rainbow should look similar to this one:
+If you're stuck, make sure you are using these blocks:
+```blocks
+	set gpio () to [output low v] :: extension
+  wait () secs
+```
 
-![Rainbow LEDs](images/rainbowleds.png)
+--- /hint ---
+--- hint ---
+
+Try using this approach:
+```blocks  
+	when flag clicked
+	set gpio (17) to [output high v] :: extension
+  wait (0.5) secs
+  set gpio (17) to [output low v] :: extension
+  set gpio (18) to [output high v] :: extension
+  wait (0.5) secs
+  set gpio (18) to [output low v] :: extension
+  set gpio (22) to [output high v] :: extension
+```
+
+You will need to add blocks for all your LEDs and make sure that you're using the right GPIO pin numbers in your code.
+
+--- /hint ---
+--- /hints ---
+
++ Make the lights blink repeatedly through the rainbow in a loop.
+
+To loop through the rainbow pattern forever, use:
+
+```blocks
+forever
+```
+
+--- challenge ---
+
++ Make the rainbow blink in a pattern of your choice.
+
+--- collapse ---
+
+---
+title: Rainbow challenges
+---
+
+Try out the following ideas:
+
+  1) Make the LEDs blink very fast and very slow
+  2) Make the whole rainbow blink
+  3) Make pairs of LEDs light up in alternate patterns
+  4) Make the rainbow blink something in Morse code
+  5) Make the rainbow do different things in response to different events
+
+--- /collapse ---
+--- /challenge ---
