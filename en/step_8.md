@@ -33,7 +33,9 @@ Your unicorn needs **costumes** to be able to dance. A costume is one of a set o
 
 Here, we will be creating a dancing unicorn animation, so each costume will represent a dance move of your unicorn.
 
-+ Decide how many costumes you want your unicorn sprite to have for the dance, and edit your costumes accordingly.
+--- task ---
+Decide how many costumes you want your unicorn sprite to have for the dance, and edit your costumes accordingly.
+--- /task ---
 
 Click for a reminder on how to add costumes in Scratch:
 [[[generic-scratch-add-costume]]]
@@ -49,45 +51,49 @@ It is up to you how many costumes you want to add for your dancing unicorn. For 
 
 To create your dancing animation, you need to program the unicorn to switch costumes.
 
-+ Switch between the first two costumes to start the unicorn dance.
+--- task ---
+Switch between the first two costumes to start the unicorn dance.
 
 To switch from the first to the second costume use:
-```blocks  
-  switch costume to [costume 2 v]
+```blocks3
+switch costume to [costume 2 v]
 ```
 
 Unicorns are generally good dancers, so make sure you time your unicorn's dance to the speed of your rainbow pattern. You can use the `wait`{:class="blockcontrol"} block to match the unicorn's wait time to your rainbow's wait time.
-```blocks  
-  wait (0.5) secs
-  switch costume to [costume 2 v]
+```blocks3
+wait (0.5) secs
+switch costume to [costume 2 v]
 ```
+--- /task ---
 
-+ To create your dancing unicorn, switch between all costumes continuously. What kind of loop do you need to do this?
+--- task ---
+To create your dancing unicorn, switch between all costumes continuously. What kind of loop do you need to do this?
+--- /task ---
 
 --- hints ---
 --- hint ---
 
 Use a forever loop:
-```blocks
-  forever
+```blocks3
+forever
 ```
 
 --- /hint ---
 --- hint ---
 
 Use this block to switch to the next costume each time you go through the loop:
-```blocks
-  next costume
+```blocks3
+next costume
 ```
 
 --- /hint ---
 --- hint ---
 
 Your code should look like this:
-```blocks
-  forever
-  wait (0.5) secs
-  next costume
+```blocks3
+forever
+wait (0.5) secs
+next costume
 ```
 
 --- /hint ---

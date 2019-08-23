@@ -2,49 +2,55 @@
 
 When your whole rainbow is set up, you can control how it is lit. For a little practice of controlling one LED, use Scratch to do the following:
 
-+ When you press the <kbd>P</kbd> key, make the LED turn on for two seconds and then turn off.
+--- task ---
+When you press the <kbd>P</kbd> key, make the LED turn on for two seconds and then turn off.
+--- /task ---
 
 --- hints ---
 --- hint ---
-Look in the `Control`{:class="blockcontrol"} blocks section.
+Look in the `Control`{:class="block3control"} blocks section.
 --- /hint ---
 --- hint ---
 Use
-```blocks
+```blocks3
   wait (2) secs
 ```
 --- /hint ---
 --- hint ---
-```blocks  
-	when [p v] key pressed
-	set gpio (17) to [output high v] :: extension
-	wait (2) secs
-  set gpio (17) to [output low v] :: extension
+```blocks3
+when [p v] key pressed
+turn LED (17 v) [on v] ::extension
+wait (2) secs
+turn LED (17 v) [off v] ::extension
 ```
 --- /hint ---
 --- /hints ---
 
-+ When your Scratch program starts, make your LED light up for 2 seconds and then turn off for 2 seconds.
+--- task ---
+When your Scratch program starts, make your LED light up for 2 seconds and then turn off for 2 seconds.
+--- /task ---
 
 --- hints ---
 --- hint ---
-```blocks  
-	when flag clicked
-	set gpio (17) to [output high v] :: extension
-	wait (2) secs
-  set gpio (17) to [output low v] :: extension
-  wait (2) secs
+```blocks3
+when flag clicked
+turn LED (17 v) [on v] ::extension
+wait (2) secs
+turn LED (17 v) [off v] ::extension
+wait (2) secs
 ```
 --- /hint ---
 --- /hints ---
 
-+ Make your LED turn on and off as long as your program runs.
+--- task ---
+Make your LED turn on and off as long as your program runs.
+--- /task ---
 
 --- hints ---
 --- hint ---
 Use
-```blocks
-  forever
+```blocks3
+forever
 ```
 --- /hint ---
 --- /hints ---
@@ -53,7 +59,7 @@ Use
 
 --- hints ---
 --- hint ---
-Use `wait x secs`{:class="blockcontrol"} for fewer seconds.
+Use `wait x secs`{:class="block3control"} for fewer seconds.
 --- /hint ---
 --- /hints ---
 
