@@ -53,6 +53,15 @@ Use
 forever
 ```
 --- /hint ---
+--- hint ---
+```blocks3
+when flag clicked
+forever
+turn LED (17 v) [on v] ::extension
+wait (2) secs
+turn LED (17 v) [off v] ::extension
+wait (2) secs
+--- /hint ---
 --- /hints ---
 
 + Make your LED blink faster.
@@ -60,6 +69,15 @@ forever
 --- hints ---
 --- hint ---
 Use `wait x secs`{:class="block3control"} for fewer seconds.
+--- /hint ---
+--- hint ---
+```blocks3
+when flag clicked
+forever
+turn LED (17 v) [on v] ::extension
+wait (0.5) secs
+turn LED (17 v) [off v] ::extension
+wait (0.5) secs
 --- /hint ---
 --- /hints ---
 

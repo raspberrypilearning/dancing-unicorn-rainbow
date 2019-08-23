@@ -12,14 +12,14 @@ Your rainbow should light up like this:
 
 --- hints ---
 --- hint ---
-Add more `turn LED (0 v) [on v]`{:class="block3extension"} blocks in this chunk of code:
+Add more `turn LED (0 v) [on v]`{:class="block3extensions"} blocks in this chunk of code:
 ```blocks3
 when flag clicked
 turn LED (17 v) [on v] ::extension
 ```
 --- /hint ---
 --- hint ---
-Keep adding blocks at the bottom of your code until all your GPIO pins are set to `output high`{:class="blockmoreblocks"}.
+Keep adding blocks at the bottom of your code until all your LEDs are set to `on`{:class="block3extensions"}.
 ```blocks3
 when flag clicked
 turn LED (17 v) [on v] ::extension
@@ -31,7 +31,7 @@ turn LED (22 v) [on v] ::extension
 
 If your LEDs are not lighting:
 
-1) Check which GPIO pins your LEDs are connected to, and make sure you have set them to `on`{:class="block3extension"}
+1) Check which GPIO pins your LEDs are connected to, and make sure you have set them to `on`{:class="block3extensions"}
 2) Test whether the LEDs are working — you can plug an LED's jumper wire into **GPIO 3V3** to test it
 3) Make sure the circuit on the breadboard is complete
 

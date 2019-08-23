@@ -29,13 +29,13 @@ At the moment, you should have three chunks of Scratch code:
 
 You will now connect these chunks so that your unicorn dances in time to your rainbow, and so that you can control the rainbow and unicorn by pressing the button you've added.
 
-+ Delete all of the `say`{:class="blocklooks"} blocks in the code for the button, and then duplicate this chunk of code.
++ Delete all of the `say`{:class="block3looks"} blocks in the code for the button, and then duplicate this chunk of code.
 
-+ In your code for the unicorn dance, delete the `when flag clicked`{:class="blockevents"} block. Take the rest of the unicorn code, and slot it into the `else`{:class="blockcontrol"} block of your button code. Only slot it into **one copy** of the button code.
++ In your code for the unicorn dance, delete the `when flag clicked`{:class="block3events"} block. Take the rest of the unicorn code, and slot it into the `else`{:class="block3control"} block of your button code. Only slot it into **one copy** of the button code.
 
-+ In the rainbow code, delete the `when flag clicked`{:class="blockevents"} block and slot the rest of the rainbow code into the `else`{:class="blockcontrol"} block of the **other copy** of the button code.
++ In the rainbow code, delete the `when flag clicked`{:class="block3events"} block and slot the rest of the rainbow code into the `else`{:class="block3control"} block of the **other copy** of the button code.
 
-+ In the `if`{:class="blockcontrol"} slot of both copies of your button code, add an action. You could use `switch costume to first costume`{:class="blocklooks"}, so your unicorn doesn't get its dance moves mixed up.
++ In the `if`{:class="block3control"} slot of both copies of your button code, add an action. You could use `switch costume to first costume`{:class="block3looks"}, so your unicorn doesn't get its dance moves mixed up.
 
 --- hints ---
 --- hint ---
@@ -61,7 +61,7 @@ Ideas:
 1. Make the blinking of your rainbow and the dance of your unicorn faster
 1. Teach your unicorn a new dance (play around with costumes and speeds)
 1. Add more buttons and make the unicorn do a different dance for each
-1. Add more `events`{:class="blockevents"} to make the unicorn do different dances
+1. Add more `events`{:class="block3events"} to make the unicorn do different dances
 1. Make a game with your rainbow and dancing unicorn
 
 --- /collapse ---
