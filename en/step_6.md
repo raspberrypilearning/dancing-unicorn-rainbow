@@ -14,6 +14,7 @@ Rearrange the circuit you already have to make room for the other colours of you
 
 ### Ground the rainbow
 
+--- task ---
 So that your rainbow shines brightly and is not covered by too many jumper wires, all LEDs should share one **Ground (GND)** pin. You can do set them up like this by rearranging your components on the breadboard a little.
 
 The breadboard looks like this inside:
@@ -21,6 +22,8 @@ The breadboard looks like this inside:
 ![Breadboard Cross-Section](images/breadboardxsection.png)
 
 To ground the whole rainbow with one jumper wire:
+--- /task ---
+
 
 --- task ---
 Connect the jumper wire attached to **GND** to a breadboard **rail**

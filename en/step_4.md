@@ -16,7 +16,9 @@ Then add the Raspberry Pi Simple Electronics extension
 ![simple-electronics](images/simple-electronics.png)
 --- /task ---
 
-+ In the previous step, you connected your LED to pin **3V3**. This is the pin to connect to if you are testing your LED. You now need to connect your LED to a pin you can control with Scratch. Move the wire from pin **3V3** to a new pin, for example **GPIO 17**.
+--- task ---
+In the previous step, you connected your LED to pin **3V3**. This is the pin to connect to if you are testing your LED. You now need to connect your LED to a pin you can control with Scratch. Move the wire from pin **3V3** to a new pin, for example **GPIO 17**.
+--- /task ---
 
 ![Move Pin](images/movepin.png)
 

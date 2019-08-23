@@ -16,16 +16,22 @@ Examples:
 | :------------------------------------------: | :------------------------------------------: | :------------------------------------------: |
 | ![Scratch Unicorn](images/scratchunicorn.png)| ![Web Unicorn](images/webunicorn.png)        | ![Draw Unicorn](images/drawunicorn.png)      |
 
-+ If you picked option 1, click here:
+--- task ---
+If you picked option 1, click here:
 [[[generic-scratch3-sprite-from-library]]]
+--- /task ---
 
-+ If you picked option 2 because you want to upload a unicorn image you found somewhere else, click below first to learn about image permissions, and then use the instructions in the second box to upload your file:
+--- task ---
+If you picked option 2 because you want to upload a unicorn image you found somewhere else, click below first to learn about image permissions, and then use the instructions in the second box to upload your file:
 [[[images-permissions-to-use]]]
 
 [[[generic-scratch3-sprite-from-library]]]
+--- /task ---
 
-+ If you're going with option 3, click below for instructions on how to draw your own unicorn in Scratch:
+--- task ---
+If you're going with option 3, click below for instructions on how to draw your own unicorn in Scratch:
 [[[generic-scratch3-draw-sprite]]]
+--- /task ---
 
 ### Unicorn costumes
 
@@ -35,13 +41,13 @@ Here, we will be creating a dancing unicorn animation, so each costume will repr
 
 --- task ---
 Decide how many costumes you want your unicorn sprite to have for the dance, and edit your costumes accordingly.
---- /task ---
 
 Click for a reminder on how to add costumes in Scratch:
 [[[generic-scratch3-add-costume]]]
 
 Click for a reminder on how to duplicate costumes in Scratch:
 [[[generic-scratch3-duplicate-costumes]]]
+--- /task ---
 
 It is up to you how many costumes you want to add for your dancing unicorn. For this dancing green unicorn, we have used five costumes:
 
