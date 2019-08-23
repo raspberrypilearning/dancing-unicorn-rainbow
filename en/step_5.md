@@ -78,6 +78,7 @@ turn LED (17 v) [on v] ::extension
 wait (0.5) secs
 turn LED (17 v) [off v] ::extension
 wait (0.5) secs
+```
 --- /hint ---
 --- /hints ---
 
