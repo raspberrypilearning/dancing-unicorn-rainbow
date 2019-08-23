@@ -16,9 +16,13 @@ Your rainbow should now look something like this:
 
 ### Code the button
 
-+ Configure your button in Scratch.
+--- task ---
+Use the block shown below so that your button can make the unicorn dance.
 
-[[[rpi-scratch-button]]]
+```blocks3
+when button (5 v) is [pressed v] :: hat extension
+```
+--- /task ---
 
 ### Control the unicorn dance
 
@@ -46,24 +50,3 @@ If pressing the button doesn't make the rainbow light up and the unicorn dance i
 1. You've used all the right code blocks
 --- /hint ---
 --- /hints ---
-
---- challenge ---
-
-+ Have some fun with your dancing unicorn rainbow!
-
---- collapse ---
-
----
-title: Dancing unicorn rainbow challenges
----
-
-Ideas:
-1. Make the blinking of your rainbow and the dance of your unicorn faster
-1. Teach your unicorn a new dance (play around with costumes and speeds)
-1. Add more buttons and make the unicorn do a different dance for each
-1. Add more `events`{:class="block3events"} to make the unicorn do different dances
-1. Make a game with your rainbow and dancing unicorn
-
---- /collapse ---
-
---- /challenge ---

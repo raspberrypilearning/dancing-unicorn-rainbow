@@ -1,15 +1,10 @@
-## Buzzer challenge
+## Challenge: Fun with your dancing unicorn rainbow.
 
-Your challenge is to replace one of the LEDs with a buzzer noise!
+Ideas:
+1. Make the blinking of your rainbow and the dance of your unicorn faster
+1. Teach your unicorn a new dance (play around with costumes and speeds)
+1. Add more buttons and make the unicorn do a different dance for each
+1. Add more `events`{:class="block3events"} to make the unicorn do different dances
+1. Make a game with your rainbow and dancing unicorn
 
-+ Connect a buzzer to your Raspberry Pi.
 
-Follow the instructions below to connect this new component. The instructions tell you to use **GPIO 17**, but because you already have LEDs and a button, you can place your buzzer wherever there is room, and use any free GPIO pin.
-
-[[[rpi-connect-buzzer]]]
-
-+ Code your buzzer so that it buzzes instead of one of your LEDs lighting up.
-
-Follow the instructions below to create code for your buzzer. Adapt the instructions to use the buzzer's GPIO pin, and make sure your new code fits into the program you already have.
-
-[[[rpi-scratch-buzzer]]]

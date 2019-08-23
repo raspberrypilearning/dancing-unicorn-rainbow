@@ -24,4 +24,6 @@ steps:
 - title: Light your rainbow
 - title: Make a dancing unicorn
 - title: Add a button
-- title: Buzzer challenge
+- title: "Challenge: Fun with your dancing unicorn rainbow."
+  challenge: true
+- title: What next?
