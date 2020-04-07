@@ -1,97 +1,92 @@
-## Light your rainbow
+## Make a unicorn dance to your rainbow
 
-To make sure your rainbow is working, you will first test it by lighting the whole rainbow at once. You will then create code to make the rainbow blink through all its colours one after the other, and then in a pattern of your choice.
+In this step, you will program a unicorn in Scratch that dances to the rhythm of your rainbow. You will use a button to program your rainbow and dancing unicorn.
 
-+ Add more code to control the other LEDs. Make sure you include the right GPIO pins.
+### Unicorn sprite
 
-Your rainbow should light up like this:
+Choose one of the following options to create a unicorn sprite:
 
-![Rainbow Lit](images/rainbowlit.png)
+1. Use the Scratch unicorn sprite
+2. Upload a unicorn image from somewhere else and use it as your sprite
+3. Draw your own unicorn sprite in Scratch or another program (like the lovely green unicorn on the right).
 
-\--- hints \--- \--- hint \--- Add more `set gpio () to output high`{:class="blockmoreblocks"} blocks in this chunk of code:
+Examples:
 
-```blocks
-    when flag clicked
-    set gpio (17) to [output high v] :: extension
+|              (1) Scratch sprite:              |         (2) Upload your own:          |           (3) Draw your own:            |
+|:---------------------------------------------:|:-------------------------------------:|:---------------------------------------:|
+| ![Scratch Unicorn](images/scratchunicorn.png) | ![Web Unicorn](images/webunicorn.png) | ![Draw Unicorn](images/drawunicorn.png) |
+
+\--- task \--- If you picked option 1, click here: [[[generic-scratch3-sprite-from-library]]] \--- /task \---
+
+\--- task \--- If you picked option 2 because you want to upload a unicorn image you found somewhere else, click below first to learn about image permissions, and then use the instructions in the second box to upload your file: [[[images-permissions-to-use]]]
+
+[[[generic-scratch3-sprite-from-library]]] \--- /task \---
+
+\--- task \--- If you're going with option 3, click below for instructions on how to draw your own unicorn in Scratch: [[[generic-scratch3-draw-sprite]]] \--- /task \---
+
+### Unicorn costumes
+
+Your unicorn needs **costumes** to be able to dance. A costume is one of a set of appearances of a sprite, which means sprites can change their look by changing costumes. Therefore, you can use costumes to make a sprite look like it's moving whenever you want to create an animation.
+
+Here, we will be creating a dancing unicorn animation, so each costume will represent a dance move of your unicorn.
+
+\--- task \--- Decide how many costumes you want your unicorn sprite to have for the dance, and edit your costumes accordingly.
+
+Click for a reminder on how to add costumes in Scratch: [[[generic-scratch3-add-costume]]]
+
+Click for a reminder on how to duplicate costumes in Scratch: [[[generic-scratch3-duplicate-costumes]]] \--- /task \---
+
+It is up to you how many costumes you want to add for your dancing unicorn. For this dancing green unicorn, we have used five costumes:
+
+| ![Dancing Unicorn Gif](images/dancingunicorn.gif) | ![Five Costumes](images/fivecostumes.png) |
+
+### Unicorn dance
+
+To create your dancing animation, you need to program the unicorn to switch costumes.
+
+\--- task \--- Switch between the first two costumes to start the unicorn dance.
+
+To switch from the first to the second costume use:
+
+```blocks3
+switch costume to [costume 2 v]
 ```
 
-\--- /hint \--- \--- hint \--- Keep adding blocks at the bottom of your code until all your GPIO pins are set to `output high`{:class="blockmoreblocks"}.
+Unicorns are generally good dancers, so make sure you time your unicorn's dance to the speed of your rainbow pattern. You can use the `wait`{:class="blockcontrol"} block to match the unicorn's wait time to your rainbow's wait time.
 
-```blocks
-    when flag clicked
-    set gpio (17) to [output high v] :: extension
-  set gpio (18) to [output high v] :: extension
-  set gpio (22) to [output high v] :: extension
+```blocks3
+wait (0.5) secs
+switch costume to [costume 2 v]
 ```
 
-... \--- /hint \--- \--- hint \---
+\--- /task \---
 
-If your LEDs are not lighting:
-
-1) Check which GPIO pins your LEDs are connected to, and make sure you have set them to `output high`{:class="blockmoreblocks"} 2) Test whether the LEDs are working — you can plug an LED's jumper wire into **GPIO 3V3** to test it 3) Make sure the circuit on the breadboard is complete
-
-\--- /hint \--- \--- /hints \---
-
-+ Now, add more code to make the rainbow blink in a rainbow pattern like this:<video width="560" height="315" controls> <source src="resources/Scratch-GPIO-Pathways-5.mp4" type="video/mp4"> Your browser does not support the video tag, so try FireFox or Chrome. </video> 
-
-To do this, you will need to make one LED turn on for a couple of seconds and then turn off at the same time as the next LED turns on.
+\--- task \--- To create your dancing unicorn, switch between all costumes continuously. What kind of loop do you need to do this? \--- /task \---
 
 \--- hints \--- \--- hint \---
 
-Make sure your `Events`{:class="blockevents"} block matches what you are doing to test the code. In the example here, to make our rainbow blink, we have to click the green flag:
+Use a forever loop:
 
-```blocks
-  when flag clicked
-```
-
-\--- /hint \--- \--- hint \---
-
-If you're stuck, make sure you are using these blocks:
-
-```blocks
-    set gpio () to [output low v] :: extension
-  wait () secs
-```
-
-\--- /hint \--- \--- hint \---
-
-Try using this approach:
-
-```blocks
-    when flag clicked
-    set gpio (17) to [output high v] :: extension
-  wait (0.5) secs
-  set gpio (17) to [output low v] :: extension
-  set gpio (18) to [output high v] :: extension
-  wait (0.5) secs
-  set gpio (18) to [output low v] :: extension
-  set gpio (22) to [output high v] :: extension
-```
-
-You will need to add blocks for all your LEDs and make sure that you're using the right GPIO pin numbers in your code.
-
-\--- /hint \--- \--- /hints \---
-
-+ Make the lights blink repeatedly through the rainbow in a loop.
-
-To loop through the rainbow pattern forever, use:
-
-```blocks
+```blocks3
 forever
 ```
 
-\--- challenge \---
+\--- /hint \--- \--- hint \---
 
-+ Make the rainbow blink in a pattern of your choice.
+Use this block to switch to the next costume each time you go through the loop:
 
-\--- collapse \---
+```blocks3
+next costume
+```
 
-* * *
+\--- /hint \--- \--- hint \---
 
-## title: Rainbow challenges
+Your code should look like this:
 
-Try out the following ideas:
+```blocks3
+forever
+wait (0.5) secs
+next costume
+```
 
-1) Make the LEDs blink very fast and very slow 2) Make the whole rainbow blink 3) Make pairs of LEDs light up in alternate patterns 4) Make the rainbow blink something in Morse code 5) Make the rainbow do different things in response to different events
-
-\--- /collapse \--- \--- /challenge \---
+\--- /hint \--- \--- /hints \---
