@@ -1,9 +1,9 @@
-## Your rainbow's first colour
+## اللون الاول لقوس قزح الخاص بك
 
-You will now light up the rainbow's first colour with an LED. Choose any colour you wish, but here we've gone with the red colour of the rainbow spectrum (red, orange, yellow, green, blue, indigo, violet).
+سوف تضيء الآن اللون الأول لقوس قزح مع ضوء LED. اختر أي لون تريده، ولكننا ذهبنا مع اللون الأحمر لطيف قوس قزح (الأحمر، البرتقال، الأصفر، الأخضر، الأزرق، النيلي، البنفسجي).
 
-\--- task \--- Create a circuit to connect your LED to the Raspberry Pi. Your circuit will light up the rainbow's first colour. \--- /task \---
+\--- task \--- أنشئ دائرة لربط LED الخاص بك بـ Raspberry Pi. الدائرة الخاصة بك سوف تضيء اللون الأول لقوس قزح. \--- /task \---
 
-If you have never connected an LED before, click below for information about LED circuits, and for detailed instructions.
+إذا لم تقم أبدا بتوصيل LED من قبل، انقر أدناه للحصول على معلومات عن دوائر LED وللإرشادات التفصيلية.
 
 \[[[rpi-led-info]]\] \[[[rpi-connect-led\]]]
