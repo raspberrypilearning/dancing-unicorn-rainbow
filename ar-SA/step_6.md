@@ -1,35 +1,35 @@
-## Build your rainbow
+## بناء قوس قزحك
 
-In this step, you will assemble your rainbow and program its LEDs to blink in a rainbow pattern.
+في هذه الخطوة، ستقوم بتجميع قوس قزحك وبرمجة مصابيح LED لتضيء على شكل قوس قزح.
 
-\--- task \--- Find all the LEDs you are going to use, and make sure you also have the right number of jumper wires and resistors (one each per LED). \--- /task \---
+\--- task \--- ابحث عن جميع المصابيح التي ستستخدمها وتأكد من أن لديك أيضًا العدد الصحيح من أسلاك التوصيل والمقاومات (واحد لكل جهاز LED). \--- /task \---
 
-\--- task \--- Rearrange the circuit you already have to make room for the other colours of your rainbow. \--- /task \---
+\--- task \--- أعد ترتيب الدائرة التي لديك لتجعل مساحة للألوان الأخرى من قوس قزح. \--- /task \---
 
-![Circuit Rearranged](images/oneled.png)
+![إعادة ترتيب الدائرة](images/oneled.png)
 
-### Ground the rainbow
+### اربط قوس قزح بالارض
 
-\--- task \--- So that your rainbow shines brightly and is not covered by too many jumper wires, all LEDs should share one **Ground (GND)** pin. You can do set them up like this by rearranging your components on the breadboard a little.
+\--- task \--- بحيث أن قوس القزح الخاص بك يشرق ولا يغطيه الكثير من أسلاك التوصيل، جميع مصابيح LEDs يجب أن يتشارك بمنفذ واحد **أرضيةGround (GND)**. يمكنك إعدادهم هكذا عن طريق إعادة ترتيب مكوناتك قليلاً على اللوحة.
 
-The breadboard looks like this inside:
+هكذا تبدو اللوحة من الداخل:
 
-![Breadboard Cross-Section](images/breadboardxsection.png)
+![تقاطع اللوح](images/breadboardxsection.png)
 
-To ground the whole rainbow with one jumper wire: \--- /task \---
+لربط كل القوس قزح مع سلك توصيل واحد: \--- /task \---
 
-\--- task \--- Connect the jumper wire attached to **GND** to a breadboard **rail** \--- /task \---
+\--- task \--- قم بتوصيل السلك المرتبط بـ **GND** إلى **لوح** التوصيل \--- /task \---
 
-\--- task \--- Make sure resistors connect to the same rail as the **GND** jumper wire and to the same **bar** as the LED they belong to: \--- /task \---
+\--- task \--- تأكد من اتصال المقاومات بنفس الخط من اللوح المرتبط بالسلك **GND** وبنفس الشريط **** الذي ينتمون إليه: \--- /task \---
 
-![Adding LEDs](images/twoleds.png)
+![إضافة LEDs](images/twoleds.png)
 
-### Complete the rainbow
+### أكمال قوس القزح
 
-\--- task \--- Add the rest of your LEDs, jumper wires, and resistors to the breadboard in a colour arrangement of your choice. Make sure to leave room for a button at the end. \--- /task \---
+\--- task \--- أضف بقية مصابيح LED الخاصة بك، وأسلاك التوصيل، والمقاومات إلى اللوحة بترتيب الالزان الذي تختاره. تأكد من ترك المجال لزر في النهاية. \--- /task \---
 
-If you are using many different colours, it might help to match the colour of the jumper wires to your LEDs.
+إذا كنت تستخدم ألواناً مختلفة، فقد يساعدك أن تطابق لون أسلاك التوصيل مع مصابيح LED الخاصة بك.
 
-Your rainbow should look similar to this one:
+قوس القزح الخاص بك يجب أن يبدو مماثلاً لهذا القوس:
 
-![Rainbow LEDs](images/rainbowleds.png)
+![مصابيح قوس قزح](images/rainbowleds.png)
