@@ -1,13 +1,13 @@
-## Control your rainbow circuit
+## التحكم في دائرة قوس قزح
 
-When your whole rainbow is set up, you can control how it is lit. For a little practice of controlling one LED, use Scratch to do the following:
+عندما يتم إعداد قوس قزح بأكمله، يمكنك التحكم في كيفية إضاءته. استخدم Scratch للقيام بما يلي من أجل التمرس قليلا للتحكم في واحد من مصابيح LED:
 
-\--- task \--- When you press the <kbd>P</kbd> key, make the LED turn on for two seconds and then turn off. \--- /task \---
+\--- task \--- عندما تضغط على مفتاح <kbd>P</kbd> قم بتشغيل LED لمدة ثانيتين ثم قم بإيقاف تشغيله. \--- /task \---
 
-\--- hints \--- \--- hint \--- Look in the `Control`{:class="block3control"} blocks section. \--- /hint \--- \--- hint \--- Use
+\--- hints \--- \--- hint \--- انظر في قسم الكتل `التحكم`{:class="block3control"}. \--- /hint \--- \--- hint \--- استخدم
 
 ```blocks3
-  wait (2) secs
+  انتظر (2) ثانية
 ```
 
 \--- /hint \--- \--- hint \---
@@ -21,7 +21,7 @@ turn LED (17 v) [off v] ::extension
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- When your Scratch program starts, make your LED light up for 2 seconds and then turn off for 2 seconds. \--- /task \---
+\--- task \--- عندما يبدأ برنامج Scratch الخاص بك، اجعل المصباح LED يشتغل مدة 2 ثانية ثم يتوقف لمدة ثانية. \--- /task \---
 
 \--- hints \--- \--- hint \---
 
@@ -35,7 +35,7 @@ wait (2) secs
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- Make your LED turn on and off as long as your program runs. \--- /task \---
+\--- task \--- اجعل LED يعمل ويتوقف طالما أن برنامجك يعمل. \--- /task \---
 
 \--- hints \--- \--- hint \--- Use
 
