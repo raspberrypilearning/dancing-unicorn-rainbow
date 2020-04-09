@@ -1,62 +1,62 @@
-\--- no-print \--- This is the Scratch 3 version of this project. You can find the [Scratch 2 version here.](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow-scratch2) \--- /no-print \---
+\--- no-print \--- هذا هو إصدار Scratch 3 من المشروع. يمكنك العثور على النسخة [Scratch 2 هنا.](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow-scratch2) \--- /no-print \---
 
-## Introduction
+## المقدمة
 
-Create an LED rainbow and make a unicorn dance to it, all powered by the Raspberry Pi.
+إنشاء ضوء قوس قزح (LED) ووحيد القرن يرقص له، وكل ذلك مدعوم من قبل Raspberry Pi.
 
-### What you will make
+### ما الذي ستصنعه
 
-You will use Scratch to connect a rainbow of LEDs to a unicorn sprite, and then make the unicorn dance to the rhythm of the rainbow. Here is a video showing what your dancing unicorn and rainbow might look like:<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> Your browser does not support the video tag, try FireFox or Chrome </video> 
+سوف تستخدم Scratch لربط قوس قزح من مصابيح LED بكائن وحيد القرن، ومن ثم تجعل وحيد القرن يرقص إلى إيقاع قوس قزح. إليك فيديو يظهر ما قد يبدو عليه وحيد قرن راقص مع قوس القزح:<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> Your browser does not support the video tag, try FireFox or Chrome </video> 
 
-Once you have trained your unicorn to dance to your rainbow, you can learn how to use the rainbow to make the unicorn do tricks or play a game.
+بمجرد أن تقوم بتدريب وحيد القرن الخاص بك على الرقص على قوس القزح، بإمكانك أن تتعلم كيفية استخدام قوس قزح لجعل وحيد القرن يفعل الحيل أو لعب اللعبة.
 
 ## \--- collapse \---
 
 ## title: What you will need
 
-### Hardware
+### الأجهزة
 
-+ A Raspberry Pi
-+ A breadboard
-+ 3 or more colourful LEDs
-+ Resistors (at least 100 ohms), **1 per LED**
-+ 1× button
-+ Male-to-female jumper wires, **1 per LED**
-+ 2× additional male-to-female jumper wires
-+ 1× male-to-male jumper wire
++ Raspberry Pi
++ لوحة توصيل
++ 3 أو أكثر من مصابيح LED الملونة
++ مقاومات (100 اوم على الاقل)، **1 لكل مصباح LED**
++ 1× زر
++ أسلاك التوصيل من ذكر إلى أنثى، ** 1 لكل LED **
++ 2× أسلاك توصيل إضافية من ذكر إلى انثى
++ 1× سلك موصل من ذكر إلى ذكر
 
-For the optional final challenge:
+فيما يتعلق بالتحدي النهائي الاختياري:
 
-+ 1× buzzer
-+ 2× additional male-to-female jumper wires
++ 1× buzzer جرس
++ 2× أسلاك توصيل إضافية من ذكر إلى انثى
 
-### Software
+### البرامج
 
-You will need the latest version of Raspbian, which already includes the following software package:
+ستحتاج إلى أحدث إصدار من نظام التشغيل Raspbian، والذي يتضمن بالفعل حزمة البرامج التالية:
 
-+ Scratch 3
++ سكراتش Scratch3.0
 
 ```bash
 sudo apt-get update
 sudo apt-get install scratch3
 ```
 
-**Note:** Scratch 3 will **only** work on the Raspberry Pi 4. \--- /collapse \---
+**ملاحظة:** سيعمل برنامج Scratch 3** فقط ** على Raspberry Pi 4. \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: ما الذي ستتعلمه
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+يتناول هذا المشروع عناصر من [معايير المناهج الرقمية الخاصة بـ Raspberry Pi](http://rpf.io/curriculum) {:target="_blank"}:
 
-+ [Combine inputs and/or outputs to create projects or solve a problem](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
++ [دمج المدخلات و/أو المخرجات لإنشاء مشاريع أو حل مشكلة](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
 
-+ [Apply basic programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"} \--- /collapse \---
++ [استخدام تراكيب البرمجة الأساسية لإنشاء برامج بسيطة](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"} \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: معلومات إضافية للمعلمين
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}.
+إذا كنت بحاجة إلى طباعة هذا المشروع، فالرجاء استخدام [نسخة متوافقة مع الطابعة](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}.
 
-You can find the full solution for this project at [rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get) \--- /collapse \---
+يمكنك العثور على الحل الكامل لهذا المشروع في [rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get) \--- /collapse \---
