@@ -1,9 +1,9 @@
-## Challenge: Fun with your dancing unicorn rainbow.
+## التحدي: المرح مع وحيد القرن الراقص بالوان قوس قزح الخاص بك.
 
-Ideas:
+أفكار:
 
-1. Make the blinking of your rainbow and the dance of your unicorn faster
-2. Teach your unicorn a new dance (play around with costumes and speeds)
-3. Add more buttons and make the unicorn do a different dance for each
-4. Add more `events`{:class="block3events"} to make the unicorn do different dances
-5. Make a game with your rainbow and dancing unicorn
+1. اجعل وميض قوس قزحك ورقص وحيد القرن أسرع
+2. علّم وحيد القرن الخاص بك رقصة جديدة (العب مع المظاهر والسرع)
+3. أضف المزيد من الأزرار واجعل وحيد القرن يقوم برقصة مختلف لكل زر
+4. أضف المزيد من `الأحداث`{:class="block3events"} لجعل وحيد القرن يقوم برقصات مختلفة
+5. أنشئ لعبة مع قوس قزح ووحيد القرن الراقص
