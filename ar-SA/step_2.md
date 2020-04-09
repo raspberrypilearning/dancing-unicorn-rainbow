@@ -1,13 +1,13 @@
-## Your rainbow's atmosphere
+## الجو الخاص بقوس قزحك
 
-Before making a rainbow, you need to learn how to control it. You will power and control your rainbow with the help of the Raspberry Pi's **GPIO** pins. GPIO is an acronym for **G**eneral **P**urpose **I**nput/**O**utput.
+قبل إنشاء قوس قزح، تحتاج إلى تعلم كيفية التحكم فيه. ستقوم بتشغيل القوس القزح الخاص بك والتحكم به بمساعدة **منافذ GPIO** في Raspberry Pi. إن GPIO هو اسم مختصر ل**G**< **P**urpose **I**nput/**O**utput أي منافذ الادخال/الاخراج للاغراض العامة.
 
-The Pi's GPIO pins allow you to send and receive on/off signals to and from electronic components — for example LEDs, motors, buttons, and buzzers.
+تسمح لك منافذ GPIO بإرسال الإشارات إلى المكونات الإلكترونية واستقبالها منها، على سبيل المثال مصابيح LED، والمحركات، والأزرار، والاجراس.
 
-If you look at your Pi with the USB ports facing towards you, this is the pin layout: ![GPIO Layout](images/gpio-upright.png)
+إذا نظرت إلى Pi الخاص بك مع منافذ USB مواجهة نحوك، هذا هو تخطيط المنافذ الخاص بك: ![مخطط GPIO](images/gpio-upright.png)
 
-A Raspberry Pi has 26 GPIO pins. In the image above, these are the pins labelled with GP and a number.
+يحتوي Raspberry Pi على 26 مدخل GPIO. في الصورة أعلاه، هذه هي المنافذ الموصوفة بالعلامة GP ورقم.
 
-+ To read a little more about GPIO pins, click here:
++ لقراءة المزيد عن منافذ GPIO ، انقر هنا:
 
 [[[rpi-gpio-pins]]]
