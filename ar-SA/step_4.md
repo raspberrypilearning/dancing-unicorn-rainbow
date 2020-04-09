@@ -1,22 +1,22 @@
-## Test your circuit in Scratch
+## اختبار الدائرة الخاصة بك في برنامج Scratch
 
-You will now connect your circuit and first rainbow colour to Scratch, so that you can code a Scratch program to control the LED.
+ستقوم الآن بتوصيل الدائرة الخاصة بك وأول لون قوس قزح إلى Scratch، بحيث يمكنك برمجة برنامج Scratch للتحكم في مصباح LED.
 
-\--- task \--- Open up Scratch 3 on your Raspberry Pi.
+\--- task \--- افتح Scratch 3 على Raspberry Pi.
 
-![open-scratch](images/open-scratch.png) \--- /task \---
+![افتح scratch](images/open-scratch.png) \---/task--
 
-\--- task \--- Then add the Raspberry Pi Simple Electronics extension
+\--- task \--- ثم أضف ملحق Simple Electronics الى جهاز Raspberry Pi
 
-![add-extension](images/add-extension.png)
+![إضافة ملحق](images/add-extension.png)
 
-![simple-electronics](images/simple-electronics.png) \--- /task \---
+![إلكترونيات بسيطة](images/simple-electronics.png) \--- /task \---
 
-\--- task \--- In the previous step, you connected your LED to pin **3V3**. This is the pin to connect to if you are testing your LED. You now need to connect your LED to a pin you can control with Scratch. Move the wire from pin **3V3** to a new pin, for example **GPIO 17**. \--- /task \---
+\--- task \--- في الخطوة السابقة، قمت بتوصيل LED إلى منفذ **3V3**. هذا هو المنفذ المراد الاتصال به إذا كنت تختبر LED الخاص بك. تحتاج الآن إلى توصيل LED الخاص بك إلى منفذ يمكنك التحكم به باستخدام Scratch. انقل السلك من المنفذ **3V3** إلى منفذ جديد، على سبيل المثال **GPIO 17**. \--- /task \---
 
-![Move Pin](images/movepin.png)
+![نقل المنفذ](images/movepin.png)
 
-\--- task \--- Now test that the LED can be controlled using the following simple script
+\--- task \--- الآن اختبر أنه يمكن التحكم في LED باستخدام البرنامج النصي البسيط التالي
 
 ```blocks3
 when flag clicked
@@ -25,6 +25,6 @@ wait (1) secs
 turn LED (17 v) [off v] ::extension
 ```
 
-\--- /task \---
+\---/task\---
 
-\--- task \--- Click the green flag to run your script. The LED should turn on for 1 second. \--- /task \---
+\--- task \--- انقر على العلم الأخضر لتشغيل البرنامج. ينبغي أن يعمل المصباح LED لمدة ثانية واحدة. \--- /task \---
