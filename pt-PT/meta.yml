@@ -1,0 +1,41 @@
+---
+title: Unicórnios dançarinos e arco-íris
+hero_image: images/banner.png
+description: Cria um unicórnio que dança no tempo com um arco-íris de LED
+theme: violet #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 2, design-0, programming-2, phys-comp-2, manufacture-0, community-0
+interests: humour, games
+technologies: electronic-components, scratch
+site_areas: projects
+hardware: electronic-components
+software: scratch
+version: 4
+last_tested: 2018-02-01
+steps:
+  - 
+    title: Introdução
+  - 
+    title: "A atmosfera do teu arco-íris"
+  - 
+    title: "A primeira cor do teu arco-íris"
+  - 
+    title: Testa o teu circuito no Scratch
+  - 
+    title: Controla o teu circuito de arco-íris
+  - 
+    title: Constrói o teu arco-íris
+  - 
+    title: Ilumina o teu arco-íris
+  - 
+    title: Faça um unicórnio dançarino
+  - 
+    title: Adiciona um botão
+  - 
+    title: "Desafio: Diversão com o arco-íris do teu unicórnio dançarino."
+    challenge: true
+  - 
+    title: O que se segue?
