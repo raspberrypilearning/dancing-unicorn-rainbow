@@ -1,18 +1,18 @@
-## Make a unicorn dance to your rainbow
+## Fai danzare un unicorno col tuo arcobaleno
 
-In this step, you will program a unicorn in Scratch that dances to the rhythm of your rainbow. You will use a button to program your rainbow and dancing unicorn.
+In questo passaggio, programmerai un unicorno in Scratch che balla al ritmo del tuo arcobaleno. Utilizzerai un pulsante per programmare il tuo arcobaleno e l'unicorno danzante.
 
-### Unicorn sprite
+### Lo sprite unicorno
 
-Choose one of the following options to create a unicorn sprite:
+Scegli una delle seguenti opzioni per creare uno sprite unicorno:
 
-1. Use the Scratch unicorn sprite
-2. Upload a unicorn image from somewhere else and use it as your sprite
-3. Draw your own unicorn sprite in Scratch or another program (like the lovely green unicorn on the right).
+1. Usa lo sprite dell'unicorno di Scratch
+2. Carica un'immagine di unicorno e usala come sprite
+3. Disegna il tuo sprite unicorno in Scratch o in un altro programma (come l'adorabile unicorno verde sulla destra).
 
-Examples:
+Esempi:
 
-|              (1) Scratch sprite:              |         (2) Upload your own:          |           (3) Draw your own:            |
+|              (1) Sprite Scratch:              |          (2) Carica il tuo:           |           (3) Disegna il tuo:           |
 |:---------------------------------------------:|:-------------------------------------:|:---------------------------------------:|
 | ![Scratch Unicorn](images/scratchunicorn.png) | ![Web Unicorn](images/webunicorn.png) | ![Draw Unicorn](images/drawunicorn.png) |
 
@@ -24,29 +24,29 @@ Examples:
 
 \--- task \--- If you're going with option 3, click below for instructions on how to draw your own unicorn in Scratch: [[[generic-scratch3-draw-sprite]]] \--- /task \---
 
-### Unicorn costumes
+### Costumi per l'unicorno
 
-Your unicorn needs **costumes** to be able to dance. A costume is one of a set of appearances of a sprite, which means sprites can change their look by changing costumes. Therefore, you can use costumes to make a sprite look like it's moving whenever you want to create an animation.
+Il tuo unicorno ha bisogno di **costumi** per poter ballare. Un costume è una di una serie di immagini di uno sprite, il che significa che gli sprite possono cambiare il loro aspetto cambiando i costumi. Pertanto, puoi usare i costumi per far sembrare che uno sprite si stia muovendo ogni volta che vuoi creare un'animazione.
 
-Here, we will be creating a dancing unicorn animation, so each costume will represent a dance move of your unicorn.
+Qui creeremo un'animazione di un unicorno danzante, in cui ogni costume rappresenterà un movimento di danza del tuo unicorno.
 
-\--- task \--- Decide how many costumes you want your unicorn sprite to have for the dance, and edit your costumes accordingly.
+\--- task \--- Decidi quanti costumi vuoi che lo sprite dell'unicorno abbia per la danza e modifica i costumi di conseguenza.
 
-Click for a reminder on how to add costumes in Scratch: [[[generic-scratch3-add-costume]]]
+Clicca per un promemoria su come aggiungere i costumi in Scratch: [[[generic-scratch3-add-costume]]]
 
-Click for a reminder on how to duplicate costumes in Scratch: [[[generic-scratch3-duplicate-costumes]]] \--- /task \---
+Clicca per un promemoria su come duplicare i costumi in Scratch: [[[generic-scratch3-duplicate-costumes]]] \--- /task \---
 
-It is up to you how many costumes you want to add for your dancing unicorn. For this dancing green unicorn, we have used five costumes:
+It is up to you how many costumes you want to add for your dancing unicorn. Per questo unicorno verde danzante abbiamo usato cinque costumi:
 
 | ![Dancing Unicorn Gif](images/dancingunicorn.gif) | ![Five Costumes](images/fivecostumes.png) |
 
-### Unicorn dance
+### Danza unicorno
 
-To create your dancing animation, you need to program the unicorn to switch costumes.
+Per creare l'animazione del ballo, devi programmare l'unicorno per cambiare costume.
 
-\--- task \--- Switch between the first two costumes to start the unicorn dance.
+\--- task \--- Passa da un costume all'altro per iniziare a far ballare l'unicorno.
 
-To switch from the first to the second costume use:
+Per passare dal primo al secondo costume usa:
 
 ```blocks3
 switch costume to [costume 2 v]
