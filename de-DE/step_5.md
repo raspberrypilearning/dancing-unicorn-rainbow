@@ -1,74 +1,76 @@
-## Control your rainbow circuit
+## Steuere deine Regenbogen-Schaltung
 
-When your whole rainbow is set up, you can control how it is lit. For a little practice of controlling one LED, use Scratch to do the following:
+Wenn dein ganzer Regenbogen eingerichtet ist, kannst du kontrollieren wie er leuchtet. Um ein bisschen zu üben wie man eine LED kontrolliert, nutze Scratch um folgendes zu tun:
 
-\--- task \--- When you press the <kbd>P</kbd> key, make the LED turn on for two seconds and then turn off. \--- /task \---
+\--- task \--- Wenn du die Taste <kbd>P</kbd> drückst, schalte die LED für zwei Sekunden ein und dann aus. \--- /task \---
 
-\--- hints \--- \--- hint \--- Look in the `Control`{:class="block3control"} blocks section. \--- /hint \--- \--- hint \--- Use
+\--- hints \--- \--- hint \--- Schau in den `Steuerungs`{:class="block3control"}-Blöcke Abschnitt. \--- /hint \--- \--- hint \--- Verwende
 
 ```blocks3
-  wait (2) secs
+  warte (2) Sekunden
 ```
 
 \--- /hint \--- \--- hint \---
 
 ```blocks3
-when [p v] key pressed
-turn LED (17 v) [on v] ::extension
-wait (2) secs
-turn LED (17 v) [off v] ::extension
+Wenn Taste [p v] gedrückt wird
+turn LED (17 v) [on v] :: extension
+warte (2) Sekunden
+turn LED (17 v) [off v] :: extension
 ```
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- When your Scratch program starts, make your LED light up for 2 seconds and then turn off for 2 seconds. \--- /task \---
+\--- task \--- Wenn dein Scratch Programm startet, lass deine LED für 2 Sekunden aufleuchten und schalte sie dann für 2 Sekunden aus. \--- /task \---
 
 \--- hints \--- \--- hint \---
 
 ```blocks3
-when flag clicked
-turn LED (17 v) [on v] ::extension
-wait (2) secs
-turn LED (17 v) [off v] ::extension
-wait (2) secs
+Wenn die grüne Flagge angeklickt
+turn LED (17 v) [on v] :: extension
+warte (2) Sekunden
+turn LED (17 v) [off v] :: extension
+warte (2) Sekunden
 ```
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- Make your LED turn on and off as long as your program runs. \--- /task \---
+\--- task \--- Lass deine LED an und aus gehen solange dein Programm läuft. \--- /task \---
 
-\--- hints \--- \--- hint \--- Use
+\--- hint \--- \--- hint \--- Verwende
 
 ```blocks3
-forever
+wiederhole fortlaufend
 ```
 
 \--- /hint \--- \--- hint \---
 
 ```blocks3
-when flag clicked
-forever
-turn LED (17 v) [on v] ::extension
-wait (2) secs
-turn LED (17 v) [off v] ::extension
-wait (2) secs
+Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend 
+  turn LED (17 v) [on v] :: extension
+  warte (2) Sekunden
+  turn LED (17 v) [off v] :: extension
+  warte (2) Sekunden
+end
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Make your LED blink faster.
++ Lass deine LED schneller blinken.
 
-\--- hints \--- \--- hint \--- Use `wait x secs`{:class="block3control"} for fewer seconds. \--- /hint \--- \--- hint \---
+\--- hints \--- \--- hint \--- Verwende `warte x Sekunden`{:class="block3control"} mit weniger Sekunden. \--- /hint \--- \--- hint \---
 
 ```blocks3
-when flag clicked
-forever
-turn LED (17 v) [on v] ::extension
-wait (0.5) secs
-turn LED (17 v) [off v] ::extension
-wait (0.5) secs
+Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend 
+  turn LED (17 v) [on v] :: extension
+  warte (0.5) Sekunden
+  turn LED (17 v) [off v] :: extension
+  warte (0.5) Sekunden
+end
 ```
 
 \--- /hint \--- \--- /hints \---
 
-Well done — you are now ready to create and control an awesome rainbow!
+Gut gemacht – du bist jetzt bereit einen tollen Regenbogen zu bauen und zu kontrollieren!
