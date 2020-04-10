@@ -1,22 +1,22 @@
-## Test your circuit in Scratch
+## Teste seu circuito no Scratch
 
-You will now connect your circuit and first rainbow colour to Scratch, so that you can code a Scratch program to control the LED.
+Agora você conectará seu circuito e a primeira cor de arco-íris ao Scratch, para que você possa criar um programa Scratch para controlar o LED.
 
-\--- task \--- Open up Scratch 3 on your Raspberry Pi.
+\--- task \--- Abra o Scratch 3 no seu Raspberry Pi.
 
-![open-scratch](images/open-scratch.png) \--- /task \---
+![abrir-scratch](images/open-scratch.png) \--- /task \---
 
-\--- task \--- Then add the Raspberry Pi Simple Electronics extension
+\--- task \--- Em seguida, adicione a extensão Raspberry Pi Simple Electronics
 
-![add-extension](images/add-extension.png)
+![adicionar-extensão](images/add-extension.png)
 
 ![simple-electronics](images/simple-electronics.png) \--- /task \---
 
-\--- task \--- In the previous step, you connected your LED to pin **3V3**. This is the pin to connect to if you are testing your LED. You now need to connect your LED to a pin you can control with Scratch. Move the wire from pin **3V3** to a new pin, for example **GPIO 17**. \--- /task \---
+\--- task \--- Na etapa anterior, você conectou seu LED ao pino **3V3**. Este é o pino que deve ser usado se você estiver testando seu LED. Agora você precisa conectar seu LED a um pino que você possa controlar com o Scratch. Mova o fio do pino **3V3** para um novo pino, por exemplo **GPIO 17**. \--- /task \---
 
-![Move Pin](images/movepin.png)
+![Mover Pino](images/movepin.png)
 
-\--- task \--- Now test that the LED can be controlled using the following simple script
+\--- task \--- Agora teste se o LED pode ser controlado usando o seguinte código simples
 
 ```blocks3
 when flag clicked
@@ -27,4 +27,4 @@ turn LED (17 v) [off v] ::extension
 
 \--- /task \---
 
-\--- task \--- Click the green flag to run your script. The LED should turn on for 1 second. \--- /task \---
+\--- task \--- Clique na bandeira verde para testar seu código. O LED deve acender por 1 segundo. \--- /task \---
