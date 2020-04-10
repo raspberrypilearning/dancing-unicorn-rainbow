@@ -1,21 +1,21 @@
 ## Light your rainbow
 
-To make sure your rainbow is working, you will first test it by lighting the whole rainbow at once. You will then create code to make the rainbow blink through all its colours one after the other, and then in a pattern of your choice.
+Per assicurarti che il tuo arcobaleno stia funzionando, lo proverai prima illuminando l'intero arcobaleno in una sola volta. Creerai quindi del codice per far lampeggiare tutti i colori del tuo arcobaleno uno dopo l'altro e poi con uno schema a tua scelta.
 
-\--- task \--- Add more code to control the other LEDs. Make sure you include the right GPIO pins. \--- /task \---
+\--- task \--- Aggiungi più codice per controllare gli altri LED. Assicurati di includere i pin GPIO corretti. \--- /task \---
 
-Your rainbow should light up like this:
+Il tuo arcobaleno dovrebbe illuminarsi in questo modo:
 
 ![Rainbow Lit](images/rainbowlit.png)
 
-\--- hints \--- \--- hint \--- Add more `turn LED (0 v) [on v]`{:class="block3extensions"} blocks in this chunk of code:
+\--- hints \--- \--- hint \--- Aggiungi altri blocchi `turn LED (0 v) [on v]`{:class="block3extensions"} in questo frammento di codice:
 
 ```blocks3
 when flag clicked
 turn LED (17 v) [on v] ::extension
 ```
 
-\--- /hint \--- \--- hint \--- Keep adding blocks at the bottom of your code until all your LEDs are set to `on`{:class="block3extensions"}.
+\--- /hint \--- \--- hint \--- Continua ad aggiungere blocchi sotto al tuo codice fino a quando tutti i LED non saranno impostati su `on`{:class="block3extensions"}.
 
 ```blocks3
 when flag clicked
