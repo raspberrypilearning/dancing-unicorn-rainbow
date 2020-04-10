@@ -1,22 +1,22 @@
-## Add a button
+## Aggiungi un pulsante
 
-You will now make your rainbow flash and your unicorn dance in time by pressing a button!
+Ora farai lampeggiare il tuo arcobaleno e il tuo unicorno ballare a tempo premendo un pulsante!
 
-### Connect the button
+### Collega il pulsante
 
-\--- task \--- Connect your button to the breadboard and a GPIO pin.
+\--- task \--- Collega il tuo pulsante alla breadboard e a un pin GPIO.
 
-Click below for instructions on how to connect a button to the Raspberry Pi. Note that, instead of **GPIO 17** like the instructions say, we've used **GPIO 5** for the button — **GPIO 17** is already taken by an LED.
+Clicca qui sotto per le istruzioni su come collegare un pulsante al Raspberry Pi. Nota che, invece di **GPIO 17** come dicono le istruzioni abbiamo usato **GPIO 5** per il pulsante — **GPIO 17** è già stato utilizzato per uno dei LED.
 
 [[[rpi-gpio-wiring-a-button]]]
 
-Your rainbow should now look something like this:
+Il tuo arcobaleno ora dovrebbe assomigliare a questo:
 
-![Rainbow with Button](images/rainbowbutton.png) \--- /task \---
+![Arcobaleno con pulsante](images/rainbowbutton.png) \--- /task \---
 
-### Code the button
+### Programma il pulsante
 
-\--- task \--- Use the block shown below so that your button can make the unicorn dance.
+\--- task \--- Usa il blocco mostrato sotto in modo che il tuo pulsante possa far ballare l'unicorno.
 
 ```blocks3
 when button (5 v) is [pressed v] :: hat extension
@@ -24,19 +24,19 @@ when button (5 v) is [pressed v] :: hat extension
 
 \--- /task \---
 
-### Control the unicorn dance
+### Controlla la danza dell'unicorno
 
-At the moment, you should have three chunks of Scratch code:
+Al momento, dovresti avere tre frammenti di codice Scratch:
 
-1. Dancing unicorn code
-2. Blinking rainbow code
-3. Button code
+1. Codice unicorno danzante
+2. Codice arcobaleno lampeggiante
+3. Codice pulsante
 
-You will now connect these chunks so that your unicorn dances in time to your rainbow, and so that you can control the rainbow and unicorn by pressing the button you've added.
+Ora collegherai questi frammenti in modo che il tuo unicorno balli a tempo col tuo arcobaleno e in modo da poter controllare l'arcobaleno e l'unicorno premendo il pulsante che hai aggiunto.
 
-\--- task \--- Delete all of the `say`{:class="block3looks"} blocks in the code for the button, and then duplicate this chunk of code. \--- /task \---
+\--- task \--- Elimina tutti i blocchi `dire`{:class="block3looks"} nel codice del pulsante e poi duplica questo pezzo di codice. \--- /task \---
 
-\--- task \--- In your code for the unicorn dance, delete the `when flag clicked`{:class="block3events"} block. Take the rest of the unicorn code, and slot it into the `else`{:class="block3control"} block of your button code. Only slot it into **one copy** of the button code. \--- /task \---
+\--- task \--- Nel tuo codice per la danza dell'unicorno, elimina il blocco `quando fai clic sulla bandiera verde`{:class="block3events"}. Prendi il resto del codice di unicorno e mettilo nel blocco `altrimenti`{:class="block3control"} del codice del pulsante. Only slot it into **one copy** of the button code. \--- /task \---
 
 \--- task \--- In the rainbow code, delete the `when flag clicked`{:class="block3events"} block and slot the rest of the rainbow code into the `else`{:class="block3control"} block of the **other copy** of the button code. \--- /task \---
 
