@@ -1,74 +1,76 @@
-## Control your rainbow circuit
+## Controla tu circuito arcoiris
 
-When your whole rainbow is set up, you can control how it is lit. For a little practice of controlling one LED, use Scratch to do the following:
+Cuando tu arcoiris esté listo, puedes controlar cómo se ilumina. Para practicar un poco el control de un LED, usa Scratch para hacer lo siguiente:
 
-\--- task \--- When you press the <kbd>P</kbd> key, make the LED turn on for two seconds and then turn off. \--- /task \---
+\--- task \--- Cuando presionas la tecla <kbd>P</kbd>, haz que el LED se encienda durante dos segundos y luego apágalo. \--- /task \---
 
-\--- hints \--- \--- hint \--- Look in the `Control`{:class="block3control"} blocks section. \--- /hint \--- \--- hint \--- Use
+\--- hints \--- \--- hint \--- Mira en la sección bloques de `Control`{:class="block3control"}. \--- /hint \--- \--- hint \--- Usar
 
 ```blocks3
-  wait (2) secs
+  esperar (2) segundos
 ```
 
 \--- /hint \--- \--- hint \---
 
 ```blocks3
-when [p v] key pressed
-turn LED (17 v) [on v] ::extension
-wait (2) secs
-turn LED (17 v) [off v] ::extension
+al presionar tecla [p v]
+turn LED (17 v) [on v] :: extension
+esperar (2) segundos
+turn LED (17 v) [off v] :: extension
 ```
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- When your Scratch program starts, make your LED light up for 2 seconds and then turn off for 2 seconds. \--- /task \---
+\--- task \--- Cuando tu programa de Scratch comience, haz que tu LED se encienda durante 2 segundos y luego se apague durante 2 segundos. \--- /task \---
 
 \--- hints \--- \--- hint \---
 
 ```blocks3
-when flag clicked
-turn LED (17 v) [on v] ::extension
-wait (2) secs
-turn LED (17 v) [off v] ::extension
-wait (2) secs
+al presionar bandera verde
+turn LED (17 v) [on v] :: extension
+esperar (2) segundos
+turn LED (17 v) [off v] :: extension
+esperar (2) segundos
 ```
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- Make your LED turn on and off as long as your program runs. \--- /task \---
+\--- task \--- Haz que tu LED se encienda y apague mientras tu programa se está ejecutando. \--- /task \---
 
-\--- hints \--- \--- hint \--- Use
+\--- hints \--- \--- hint \--- Usar
 
 ```blocks3
-forever
+por siempre
 ```
 
 \--- /hint \--- \--- hint \---
 
 ```blocks3
-when flag clicked
-forever
-turn LED (17 v) [on v] ::extension
-wait (2) secs
-turn LED (17 v) [off v] ::extension
-wait (2) secs
+al presionar bandera verde
+por siempre 
+ turn LED (17 v) [on v] :: extension
+ esperar (2) segundos
+ turn LED (17 v) [off v] :: extension
+ esperar (2) segundos
+end
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Make your LED blink faster.
++ Haz que tu LED parpadee más rápido.
 
-\--- hints \--- \--- hint \--- Use `wait x secs`{:class="block3control"} for fewer seconds. \--- /hint \--- \--- hint \---
+\--- hints \--- \--- hint \--- Usa `esperar x segundos`{:class="block3control"} con menos segundos. \--- /hint \--- \--- hint \---
 
 ```blocks3
-when flag clicked
-forever
-turn LED (17 v) [on v] ::extension
-wait (0.5) secs
-turn LED (17 v) [off v] ::extension
-wait (0.5) secs
+al presionar bandera verde
+por siempre 
+ turn LED (17 v) [on v] :: extension
+ esperar (0.5) segundos
+ turn LED (17 v) [off v] :: extension
+ esperar (0.5) segundos
+end
 ```
 
 \--- /hint \--- \--- /hints \---
 
-Well done — you are now ready to create and control an awesome rainbow!
+Bien hecho, ¡ahora estás listo para crear y controlar un arcoiris increíble!
