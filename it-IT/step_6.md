@@ -4,23 +4,23 @@ In questo passaggio, assemblerai il tuo arcobaleno e programmerai i suoi LED per
 
 \--- task \--- Trova tutti i LED che intendi utilizzare e assicurati di avere anche il giusto numero di cavi jumper e resistori (uno ciascuno per LED). \--- /task \---
 
-\--- task \--- Rearrange the circuit you already have to make room for the other colours of your rainbow. \--- /task \---
+\--- task \--- Riorganizza il circuito che hai già per fare spazio agli altri colori del tuo arcobaleno. \--- /task \---
 
 ![Circuito riorganizzato](images/oneled.png)
 
 ### Metti a terra l'arcobaleno
 
-\--- task \--- So that your rainbow shines brightly and is not covered by too many jumper wires, all LEDs should share one **Ground (GND)** pin. Puoi impostarli in questo modo riorganizzando un po' i tuoi componenti sulla breadboard.
+\--- task \--- Per far sì che il tuo arcobaleno splenda e non sia coperto da troppi cavi jumper tutti i LED dovrebbero condividere un unico pin **Terra (GND)**. Puoi impostarli in questo modo riorganizzando un po' i tuoi componenti sulla breadboard.
 
 La breadboard si presenta così all'interno:
 
 ![Sezione trasversale della breadboard](images/breadboardxsection.png)
 
-To ground the whole rainbow with one jumper wire: \--- /task \---
+Per mettere a terra l'intero arcobaleno con un solo ponticello: \--- /task \---
 
-\--- task \--- Connect the jumper wire attached to **GND** to a breadboard **rail** \--- /task \---
+\--- task \--- Collega il cavo jumper collegato a **GND** su una **rail (pista)** della breadboard \--- /task \---
 
-\--- task \--- Make sure resistors connect to the same rail as the **GND** jumper wire and to the same **bar** as the LED they belong to: \--- /task \---
+\--- task \--- Assicurati che i resistori si colleghino alla stessa pista del cavo jumper **GND** e alla stessa **barra** del LED a cui appartengono: \--- /task \---
 
 ![Aggiunta di LED](images/twoleds.png)
 
