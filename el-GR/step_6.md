@@ -1,35 +1,35 @@
-## Build your rainbow
+## Κατασκεύασε το ουράνιο τόξο σου
 
-In this step, you will assemble your rainbow and program its LEDs to blink in a rainbow pattern.
+Σε αυτό το βήμα, θα συναρμολογήσεις το ουράνιο τόξο σου και θα προγραμματίσεις τα LED του να αναβοσβήνουν σε ένα μοτίβο ουράνιου τόξου.
 
-\--- task \--- Find all the LEDs you are going to use, and make sure you also have the right number of jumper wires and resistors (one each per LED). \--- /task \---
+\--- task \--- Βρες όλες τις λυχνίες LED που πρόκειται να χρησιμοποιήσεις και βεβαιώσου ότι έχεις επίσης τον σωστό αριθμό καλωδίων και αντιστάσεων (ένα από το καθένα ανά LED). \--- /task \---
 
-\--- task \--- Rearrange the circuit you already have to make room for the other colours of your rainbow. \--- /task \---
+\--- task \--- Αναδιάταξε το κύκλωμα που έχεις ήδη για να κάνεις χώρο για τα άλλα χρώματα του ουράνιου τόξου σου. \--- /task \---
 
-![Circuit Rearranged](images/oneled.png)
+![Έγινε η αναδιάταξη του κυκλώματος](images/oneled.png)
 
-### Ground the rainbow
+### Γείωσε το ουράνιο τόξο
 
-\--- task \--- So that your rainbow shines brightly and is not covered by too many jumper wires, all LEDs should share one **Ground (GND)** pin. You can do set them up like this by rearranging your components on the breadboard a little.
+\--- task \--- Για να λάμπει το ουράνιο τόξο σου έντονα και να μην καλύπτεται από πάρα πολλά καλώδια διασύνδεσης, όλα τα LED θα πρέπει να μοιράζονται μια ακίδα **Ground (GND)**. Μπορείς να τα ρυθμίσεις έτσι, αναδιατάσσοντας λίγο τα στοιχεία σου στην πλακέτα δοκιμών.
 
-The breadboard looks like this inside:
+Η πλακέτα δοκιμών εσωτερικά μοιάζει κάπως ετσι:
 
-![Breadboard Cross-Section](images/breadboardxsection.png)
+![Διασυνδέσεις πλακέτας δοκιμών](images/breadboardxsection.png)
 
-To ground the whole rainbow with one jumper wire: \--- /task \---
+Για τη γείωση ολόκληρου του ουράνιου τόξου με ένα καλώδιο \--- /task \---
 
-\--- task \--- Connect the jumper wire attached to **GND** to a breadboard **rail** \--- /task \---
+\--- task \--- Σύνδεσε το καλώδιο που είναι συνδεδεμένο στο **GND** σε μια **ράγα** στην πλακέτα δοκιμών \--- /task \---
 
-\--- task \--- Make sure resistors connect to the same rail as the **GND** jumper wire and to the same **bar** as the LED they belong to: \--- /task \---
+\--- task \--- Βεβαιώσου ότι οι αντιστάσεις συνδέονται στην ίδια ράγα με το καλώδιο **GND** και στην ίδια **γραμμή** με το LED που ανήκουν \--- /task \---
 
-![Adding LEDs](images/twoleds.png)
+![Προσθήκη LEDs](images/twoleds.png)
 
-### Complete the rainbow
+### Ολοκλήρωσε το ουράνιο τόξο
 
-\--- task \--- Add the rest of your LEDs, jumper wires, and resistors to the breadboard in a colour arrangement of your choice. Make sure to leave room for a button at the end. \--- /task \---
+\--- task \--- Πρόσθεσε τα υπόλοιπα LED, καλώδια και αντιστάσεις στην πλακέτα δοκιμών σε μια χρωματική διάταξη της επιλογής σου. Βεβαιώσου ότι έχεις αφήσει χώρο για ένα κουμπί στο τέλος. \--- /task \---
 
-If you are using many different colours, it might help to match the colour of the jumper wires to your LEDs.
+Εάν χρησιμοποιείς πολλά διαφορετικά χρώματα, ίσως βοηθήσει το να ταιριάξεις το χρώμα των καλωδίων με αυτά των LED σου.
 
-Your rainbow should look similar to this one:
+Το ουράνιο τόξο σου θα πρέπει να μοιάζει με αυτό:
 
-![Rainbow LEDs](images/rainbowleds.png)
+![LEDs ουράνιου τόξου](images/rainbowleds.png)
