@@ -1,7 +1,7 @@
 ---
-title: Dancing unicorns and rainbows
-hero_image: images/banner.png
-description: Create a unicorn that dances in time with an LED rainbow
+title: Unicórnios dançarinos e arco-íris
+hero_image: imagens/banner.png
+description: Crie um unicórnio que dança no ritmo de um arco-íris LED
 theme: violet #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
@@ -17,25 +17,25 @@ version: 4
 last_tested: 2018-02-01
 steps:
   - 
-    title: Introduction
+    title: Introdução
   - 
-    title: "Your rainbow's atmosphere"
+    title: "A atmosfera do seu arco-íris"
   - 
-    title: "Your rainbow's first colour"
+    title: "A primeira cor do seu arco-íris"
   - 
-    title: Test your circuit in Scratch
+    title: Teste o seu circuito no Scratch
   - 
-    title: Control your rainbow circuit
+    title: Controle o seu circuito de arco-íris
   - 
-    title: Build your rainbow
+    title: Construa seu arco-íris
   - 
-    title: Light your rainbow
+    title: Ilumine o seu arco-íris
   - 
-    title: Make a dancing unicorn
+    title: Faça um unicórnio dançarino
   - 
-    title: Add a button
+    title: Adicione um botão
   - 
-    title: "Challenge: Fun with your dancing unicorn rainbow."
+    title: "Desafio: Diversão com o arco-íris do seu unicórnio dançando."
     challenge: true
   - 
-    title: What next?
+    title: E agora?
