@@ -1,22 +1,22 @@
-## Test your circuit in Scratch
+## Prueba tu circuito en Scratch
 
-You will now connect your circuit and first rainbow colour to Scratch, so that you can code a Scratch program to control the LED.
+Ahora conectarás tu circuito y el primer color del arcoíris a Scratch, de modo que puedas crear un programa Scratch para controlar el LED.
 
-\--- task \--- Open up Scratch 3 on your Raspberry Pi.
+\--- task \--- Abre Scratch 3 en tu Raspberry Pi.
 
-![open-scratch](images/open-scratch.png) \--- /task \---
+![abrir-scratch](images/open-scratch.png) \--- /task \---
 
-\--- task \--- Then add the Raspberry Pi Simple Electronics extension
+\--- task \--- Luego añade la extensión de Raspberry Pi Simple Electronics (electrónica-simple)
 
-![add-extension](images/add-extension.png)
+![añadir-extensión](images/add-extension.png)
 
-![simple-electronics](images/simple-electronics.png) \--- /task \---
+![electrónica-simple](images/simple-electronics.png) \--- /task \---
 
-\--- task \--- In the previous step, you connected your LED to pin **3V3**. This is the pin to connect to if you are testing your LED. You now need to connect your LED to a pin you can control with Scratch. Move the wire from pin **3V3** to a new pin, for example **GPIO 17**. \--- /task \---
+\--- task \--- En el paso anterior, conectaste tu LED al pin **3V3**. Este es el pin al que te tienes que conectar si estás probando tu LED. Ahora necesitas conectar tu LED a un pin que puedes controlar con Scratch. Mueve el cable del pin **3V3** a un nuevo pin, por ejemplo **GPIO 17**. \--- /task \---
 
-![Move Pin](images/movepin.png)
+![Mover el pin](images/movepin.png)
 
-\--- task \--- Now test that the LED can be controlled using the following simple script
+\--- task \--- Ahora prueba que el LED pueda ser controlado usando el siguiente script simple
 
 ```blocks3
 when flag clicked
@@ -27,4 +27,4 @@ turn LED (17 v) [off v] ::extension
 
 \--- /task \---
 
-\--- task \--- Click the green flag to run your script. The LED should turn on for 1 second. \--- /task \---
+\--- task \--- Haz clic en la bandera verde para ejecutar tu script. El LED debería encenderse durante 1 segundo. \--- /task \---
