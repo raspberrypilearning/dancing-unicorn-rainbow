@@ -12,17 +12,17 @@ Scegli una delle seguenti opzioni per creare uno sprite unicorno:
 
 Esempi:
 
-|              (1) Sprite Scratch:              |          (2) Carica il tuo:           |           (3) Disegna il tuo:           |
-|:---------------------------------------------:|:-------------------------------------:|:---------------------------------------:|
-| ![Scratch Unicorn](images/scratchunicorn.png) | ![Web Unicorn](images/webunicorn.png) | ![Draw Unicorn](images/drawunicorn.png) |
+|              (1) Sprite Scratch:               |           (2) Carica il tuo:           |             (3) Disegna il tuo:             |
+|:----------------------------------------------:|:--------------------------------------:|:-------------------------------------------:|
+| ![Unicorno Scratch](images/scratchunicorn.png) | ![Unicorno Web](images/webunicorn.png) | ![Disegna Unicorno](images/drawunicorn.png) |
 
-\--- task \--- If you picked option 1, click here: [[[generic-scratch3-sprite-from-library]]] \--- /task \---
+\--- task \--- Se hai scelto l'opzione 1, fai clic qui: [[[generic-scratch3-sprite-from-library]]] \--- /task \---
 
-\--- task \--- If you picked option 2 because you want to upload a unicorn image you found somewhere else, click below first to learn about image permissions, and then use the instructions in the second box to upload your file: [[[images-permissions-to-use]]]
+\--- task \--- Se hai scelto l'opzione 2 perché vuoi caricare un'immagine di unicorno che hai trovato da qualche altra parte, fai clic prima qui sotto per alcune informazioni riguardo ai permessi d'utilizzo delle immagini e al copyright, quindi usa le istruzioni nella seconda casella per caricare il tuo file: [[[images-permissions-to-use]]]
 
 [[[generic-scratch3-sprite-from-library]]] \--- /task \---
 
-\--- task \--- If you're going with option 3, click below for instructions on how to draw your own unicorn in Scratch: [[[generic-scratch3-draw-sprite]]] \--- /task \---
+\--- task \--- Se preferisci l'opzione 3, clicca qui sotto per istruzioni su come disegnare il tuo unicorno in Scratch: [[[generic-scratch3-draw-sprite]]] \--- /task \---
 
 ### Costumi per l'unicorno
 
@@ -65,7 +65,7 @@ switch costume to [costume 2 v]
 
 \--- hints \--- \--- hint \---
 
-Use a forever loop:
+Usa un ciclo "per sempre":
 
 ```blocks3
 forever
@@ -73,7 +73,7 @@ forever
 
 \--- /hint \--- \--- hint \---
 
-Use this block to switch to the next costume each time you go through the loop:
+Usa questo blocco per passare al costume successivo ogni volta che passi attraverso il ciclo:
 
 ```blocks3
 next costume
