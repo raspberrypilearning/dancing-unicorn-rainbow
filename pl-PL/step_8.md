@@ -4,7 +4,7 @@ In this step, you will program a unicorn in Scratch that dances to the rhythm of
 
 ### Unicorn sprite
 
-Choose one of the following options to create a unicorn sprite:
+Wybierz jedną z następujących opcji, aby stworzyć duszka jednorożca:
 
 1. Use the Scratch unicorn sprite
 2. Upload a unicorn image from somewhere else and use it as your sprite
@@ -12,7 +12,7 @@ Choose one of the following options to create a unicorn sprite:
 
 Examples:
 
-|              (1) Scratch sprite:              |         (2) Upload your own:          |           (3) Draw your own:            |
+|              (1) duszek Scratch:              |        (2) Prześlij własnego:         |          (3) Narysuj własnego:          |
 |:---------------------------------------------:|:-------------------------------------:|:---------------------------------------:|
 | ![Scratch Unicorn](images/scratchunicorn.png) | ![Web Unicorn](images/webunicorn.png) | ![Draw Unicorn](images/drawunicorn.png) |
 
@@ -26,11 +26,11 @@ Examples:
 
 ### Unicorn costumes
 
-Your unicorn needs **costumes** to be able to dance. A costume is one of a set of appearances of a sprite, which means sprites can change their look by changing costumes. Therefore, you can use costumes to make a sprite look like it's moving whenever you want to create an animation.
+Twój jednorożec potrzebuje **kostiumów** aby mógł tańczyć. A costume is one of a set of appearances of a sprite, which means sprites can change their look by changing costumes. Therefore, you can use costumes to make a sprite look like it's moving whenever you want to create an animation.
 
 Here, we will be creating a dancing unicorn animation, so each costume will represent a dance move of your unicorn.
 
-\--- task \--- Decide how many costumes you want your unicorn sprite to have for the dance, and edit your costumes accordingly.
+\--- task \--- Zdecyduj, ile kostiumów ma mieć twój duszek jednorożca do tańca, i odpowiednio dostosuj kostiumy.
 
 Click for a reminder on how to add costumes in Scratch: [[[generic-scratch3-add-costume]]]
 
