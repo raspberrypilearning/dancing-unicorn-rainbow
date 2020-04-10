@@ -1,13 +1,13 @@
-## Your rainbow's atmosphere
+## Atmosfera twojej tęczy
 
-Before making a rainbow, you need to learn how to control it. You will power and control your rainbow with the help of the Raspberry Pi's **GPIO** pins. GPIO is an acronym for **G**eneral **P**urpose **I**nput/**O**utput.
+Przed stworzeniem tęczy musisz nauczyć się kontrolować ją. Będziesz zasilał i kontrolował tęczę za pomocą pinów **GPIO** Raspberry Pi. GPIO jest akronimem **G**eneral **P**urpose **I**nput/**O**utput (uniwersalne wejścia/wyjścia).
 
-The Pi's GPIO pins allow you to send and receive on/off signals to and from electronic components — for example LEDs, motors, buttons, and buzzers.
+Umożliwiają one wysyłanie i odbieranie sygnałów włączania/wyłączania do i z elementów elektronicznych, takich jak diody LED, silniki, przyciski i brzęczyki.
 
-If you look at your Pi with the USB ports facing towards you, this is the pin layout: ![GPIO Layout](images/gpio-upright.png)
+Jeśli spojrzysz na swoje Pi z portami USB skierowanymi do siebie, to układ pinów jest następujący: ![Układ GPIO](images/gpio-upright.png)
 
-A Raspberry Pi has 26 GPIO pins. In the image above, these are the pins labelled with GP and a number.
+Raspberry Pi ma 26 pinów GPIO. Na powyższym obrazku są to piny oznaczone GP i numerem.
 
-+ To read a little more about GPIO pins, click here:
++ Aby przeczytać więcej o pinach GPIO, kliknij tutaj:
 
 [[[rpi-gpio-pins]]]
