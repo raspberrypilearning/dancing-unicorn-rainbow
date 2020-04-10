@@ -36,7 +36,7 @@ Clicca per un promemoria su come aggiungere i costumi in Scratch: [[[generic-scr
 
 Clicca per un promemoria su come duplicare i costumi in Scratch: [[[generic-scratch3-duplicate-costumes]]] \--- /task \---
 
-It is up to you how many costumes you want to add for your dancing unicorn. Per questo unicorno verde danzante abbiamo usato cinque costumi:
+Sta a te decidere quanti costumi vuoi aggiungere per il tuo unicorno danzante. Per questo unicorno verde danzante abbiamo usato cinque costumi:
 
 | ![Dancing Unicorn Gif](images/dancingunicorn.gif) | ![Five Costumes](images/fivecostumes.png) |
 
@@ -52,7 +52,7 @@ Per passare dal primo al secondo costume usa:
 switch costume to [costume 2 v]
 ```
 
-Unicorns are generally good dancers, so make sure you time your unicorn's dance to the speed of your rainbow pattern. You can use the `wait`{:class="blockcontrol"} block to match the unicorn's wait time to your rainbow's wait time.
+Gli Unicorni sono generalmente dei bravi ballerini, quindi assicurati che il ballo del tuo unicorno abbia la stessa velocità del tuo arcobaleno. Puoi usare il blocco `attendi`{:class="blockcontrol"} per sincronizzare l'attesa dell'unicorno al tempo di attesa del tuo arcobaleno.
 
 ```blocks3
 wait (0.5) secs
@@ -61,7 +61,7 @@ switch costume to [costume 2 v]
 
 \--- /task \---
 
-\--- task \--- To create your dancing unicorn, switch between all costumes continuously. What kind of loop do you need to do this? \--- /task \---
+\--- task \--- Per creare il tuo unicorno danzante, passa continuamente da un costume all'altro. Che tipo di ciclo ti serve per farlo? \--- /task \---
 
 \--- hints \--- \--- hint \---
 
@@ -81,7 +81,7 @@ next costume
 
 \--- /hint \--- \--- hint \---
 
-Your code should look like this:
+Il tuo codice dovrebbe apparire così:
 
 ```blocks3
 forever
