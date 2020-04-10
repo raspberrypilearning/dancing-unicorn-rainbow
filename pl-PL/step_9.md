@@ -1,22 +1,22 @@
-## Add a button
+## Dodaj przycisk
 
-You will now make your rainbow flash and your unicorn dance in time by pressing a button!
+Teraz sprawisz, że tęcza zabłyśnie, a jednorożec będzie tańczył podczas gdy przycisk będzie wciśnięty!
 
-### Connect the button
+### Podłącz przycisk
 
-\--- task \--- Connect your button to the breadboard and a GPIO pin.
+\--- task \--- Podłącz swój przycisk do płytki stykowej i pinu GPIO.
 
-Click below for instructions on how to connect a button to the Raspberry Pi. Note that, instead of **GPIO 17** like the instructions say, we've used **GPIO 5** for the button — **GPIO 17** is already taken by an LED.
+Kliknij poniżej, aby uzyskać instrukcje na temat podłączania przycisku do Raspberry Pi. Zauważ, że zamiast **GPIO 17** jak mówi instrukcja, użyliśmy **GPIO 5** dla przycisku - **GPIO 17** jest już zajęte przez diodę LED.
 
 [[[rpi-gpio-wiring-a-button]]]
 
-Your rainbow should now look something like this:
+Twoja tęcza powinna teraz wyglądać podobnie do tej:
 
-![Rainbow with Button](images/rainbowbutton.png) \--- /task \---
+![Tęcza z przyciskiem](images/rainbowbutton.png) \--- /task \---
 
-### Code the button
+### Zaprogramuj przycisk
 
-\--- task \--- Use the block shown below so that your button can make the unicorn dance.
+\--- task \--- Użyj poniższego bloku, aby twój przycisk sprawił, żeby jednorożec zatańczył.
 
 ```blocks3
 when button (5 v) is [pressed v] :: hat extension
@@ -24,27 +24,27 @@ when button (5 v) is [pressed v] :: hat extension
 
 \--- /task \---
 
-### Control the unicorn dance
+### Kontroluj taniec jednorożca
 
-At the moment, you should have three chunks of Scratch code:
+W tej chwili powinieneś mieć trzy kawałki kodu Scratch:
 
-1. Dancing unicorn code
-2. Blinking rainbow code
-3. Button code
+1. Kod tańczącego jednorożca
+2. Kod migającej tęczy
+3. Kod przycisku
 
-You will now connect these chunks so that your unicorn dances in time to your rainbow, and so that you can control the rainbow and unicorn by pressing the button you've added.
+Teraz połączysz te fragmenty, aby jednorożec tańczył wraz z tęczą i abyś mógł kontrolować tęczę i jednorożca, naciskając dodany przycisk.
 
-\--- task \--- Delete all of the `say`{:class="block3looks"} blocks in the code for the button, and then duplicate this chunk of code. \--- /task \---
+\--- task \--- Usuń wszystkie bloki `powiedz` w tym kodzie dla przycisku, a później skopiuj ten fragment kodu. \--- /task \---
 
-\--- task \--- In your code for the unicorn dance, delete the `when flag clicked`{:class="block3events"} block. Take the rest of the unicorn code, and slot it into the `else`{:class="block3control"} block of your button code. Only slot it into **one copy** of the button code. \--- /task \---
+\--- task \--- W kodzie dla tańca jednorożcowego usuń blok `kiedy kliknięto zieloną flagę`{:class="block3events"}. Weź resztę kodu jednorożca i umieść go w bloku `w przeciwnym razie`{:class="block3control"} w kodzie przycisku. Umieść go tylko w **jednej kopii** kodu przycisku. \--- /task \---
 
-\--- task \--- In the rainbow code, delete the `when flag clicked`{:class="block3events"} block and slot the rest of the rainbow code into the `else`{:class="block3control"} block of the **other copy** of the button code. \--- /task \---
+\--- task \--- W kodzie tęczy usuń blok `kiedy kliknięto zieloną flagę`{:class="block3events"} i umieść resztę kodu tęczy w bloku `w przeciwnym razie`{:class="block3control"} **innej kopii** kodu przycisku. \--- /task \---
 
-\--- task \--- In the `if`{:class="block3control"} slot of both copies of your button code, add an action. You could use `switch costume to first costume`{:class="block3looks"}, so your unicorn doesn't get its dance moves mixed up. \--- /task \---
+\--- task \--- W obu kopii kodu przycisku wewnątrz bloków`jeżeli`{:class="block3control"}, dodaj akcję. Możesz użyć bloku `przełącz kostium na pierwszy kostium`{:class="block3looks"}, żeby twój jednorożec nie mieszał ruchów tanecznych. \--- /task \---
 
-\--- hints \--- \--- hint \--- If pressing the button doesn't make the rainbow light up and the unicorn dance in time, try checking that:
+\--- hints \--- \--- hint \--- Jeśli naciśnięcie przycisku nie rozświetliło tęczy, a jednorożec tańczy poprawnie, spróbuj sprawdzić, czy:
 
-1. Every component is connected to the right GPIO pin
-2. You've got the inputs and outputs right in your code
-3. The timings match for your two chunks of code
-4. You've used all the right code blocks \--- /hint \--- \--- /hints \---
+1. Każdy komponent jest podłączony do odpowiedniego pinu GPIO
+2. Masz wejścia i wyjścia poprawnie w swoim kodzie
+3. Czasy pasują do twoich dwóch fragmentów kodu
+4. Użyłeś wszystkich odpowiednich bloków kodu \--- / hint \--- \--- / hints \---
