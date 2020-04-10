@@ -1,10 +1,10 @@
 ## Controlla il circuito dell'arcobaleno
 
-When your whole rainbow is set up, you can control how it is lit. Per impratichirsi nel controllo di un LED, usa Scratch per effettuare le seguenti operazioni:
+Quando l'intero arcobaleno è impostato, puoi controllare come viene acceso. Per impratichirti nel controllo di un LED, usa Scratch per effettuare le seguenti operazioni:
 
-\--- task \--- When you press the <kbd>P</kbd> key, make the LED turn on for two seconds and then turn off. \--- /task \---
+\--- task \--- Quando premi il tasto <kbd>P</kbd>, accendi il LED per due secondi e poi spegnilo. \--- /task \---
 
-\--- hints \--- \--- hint \--- Look in the `Control`{:class="block3control"} blocks section. \--- /hint \--- \--- hint \--- Use
+\--- hints \--- \--- hint \--- Cerca tra i blocchi della sezione `Controllo`{:class="block3control"}. \--- /hint \--- \--- hint \--- Usa
 
 ```blocks3
   attendi (2) secondi
@@ -21,7 +21,7 @@ turn LED (17 v) [off v] ::extension
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- When your Scratch program starts, make your LED light up for 2 seconds and then turn off for 2 seconds. \--- /task \---
+\--- task \--- Quando il programma Scratch inizia, accendi il LED per 2 secondi e poi spegnilo per 2 secondi. \--- /task \---
 
 \--- hints \--- \--- hint \---
 
@@ -37,7 +37,7 @@ wait (2) secs
 
 \--- task \--- Fai accendere e spegnere il LED finché il programma viene eseguito. \--- /task \---
 
-\--- hints \--- \--- hint \--- Use
+\--- hints \--- \--- hint \--- Usa
 
 ```blocks3
 per sempre
@@ -71,4 +71,4 @@ wait (0.5) secs
 
 \--- /hint \--- \--- /hints \---
 
-Well done — you are now ready to create and control an awesome rainbow!
+Complimenti — ora sei pronto per creare e controllare un fantastico arcobaleno!
