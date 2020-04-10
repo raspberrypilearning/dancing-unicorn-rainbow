@@ -1,22 +1,22 @@
-## Add a button
+## Ajoute un bouton
 
-You will now make your rainbow flash and your unicorn dance in time by pressing a button!
+Tu vas maintenant faire clignoter ton arc-en-ciel et ta licorne dans le temps en appuyant sur un bouton !
 
-### Connect the button
+### Connecter le bouton
 
-\--- task \--- Connect your button to the breadboard and a GPIO pin.
+Connecte ton bouton à la platine d'expérimentation et à une broche GPIO.
 
-Click below for instructions on how to connect a button to the Raspberry Pi. Note that, instead of **GPIO 17** like the instructions say, we've used **GPIO 5** for the button — **GPIO 17** is already taken by an LED.
+Clique ci-dessous pour savoir comment connecter un bouton au Raspberry Pi. Note qu'au lieu de **GPIO 17** comme le disent les instructions, nous avons utilisé **GPIO 5** pour le bouton - **GPIO 17** est déjà occupé par une LED.
 
 [[[rpi-gpio-wiring-a-button]]]
 
-Your rainbow should now look something like this:
+Ton arc-en-ciel devrait maintenant ressembler à ceci :
 
-![Rainbow with Button](images/rainbowbutton.png) \--- /task \---
+![Arc-en-ciel avec bouton](images/rainbowbutton.png) \--- /task \---
 
-### Code the button
+### Coder le bouton
 
-\--- task \--- Use the block shown below so that your button can make the unicorn dance.
+Utilise le bloc illustré ci-dessous pour que ton bouton puisse faire danser la licorne.
 
 ```blocks3
 when button (5 v) is [pressed v] :: hat extension
@@ -24,27 +24,27 @@ when button (5 v) is [pressed v] :: hat extension
 
 \--- /task \---
 
-### Control the unicorn dance
+### Contrôle la danse de la licorne
 
-At the moment, you should have three chunks of Scratch code:
+Pour le moment, tu devrais avoir trois bouts de code Scratch :
 
-1. Dancing unicorn code
-2. Blinking rainbow code
-3. Button code
+1. Code de licorne dansante
+2. Code arc-en-ciel clignotant
+3. Code du bouton
 
-You will now connect these chunks so that your unicorn dances in time to your rainbow, and so that you can control the rainbow and unicorn by pressing the button you've added.
+Tu vas maintenant connecter ces bouts pour que ta licorne danse au rythme de ton arc-en-ciel, et que tu puisses contrôler l'arc-en-ciel et la licorne en appuyant sur le bouton que tu as ajouté.
 
-\--- task \--- Delete all of the `say`{:class="block3looks"} blocks in the code for the button, and then duplicate this chunk of code. \--- /task \---
+Supprime tous les blocs `dire`{:class="block3looks"} dans le code du bouton, puis duplique ce bout de code. \--- /task \---
 
-\--- task \--- In your code for the unicorn dance, delete the `when flag clicked`{:class="block3events"} block. Take the rest of the unicorn code, and slot it into the `else`{:class="block3control"} block of your button code. Only slot it into **one copy** of the button code. \--- /task \---
+Dans ton code pour la danse de la licorne, supprime le bloc `quand le drapeau est cliqué`{:class="block3events"}. Prends le reste du code de la licorne et insère-le dans le bloc `sinon`{:class="block3control"} de ton code de bouton. Insère-le uniquement dans **une copie** du code du bouton. \--- /task \---
 
-\--- task \--- In the rainbow code, delete the `when flag clicked`{:class="block3events"} block and slot the rest of the rainbow code into the `else`{:class="block3control"} block of the **other copy** of the button code. \--- /task \---
+Dans le code arc-en-ciel, supprime le bloc `quand le drapeau est cliqué`{:class="block3events"} et insère le reste du code arc-en-ciel dans le bloc `sinon`{:class="block3control"} de **l'autre copie** du code du bouton. \--- /task \---
 
-\--- task \--- In the `if`{:class="block3control"} slot of both copies of your button code, add an action. You could use `switch costume to first costume`{:class="block3looks"}, so your unicorn doesn't get its dance moves mixed up. \--- /task \---
+Dans l'emplacement `si`{:class="block3control"} des deux copies de ton code de bouton, ajoute une action. Tu peux utiliser `basculer le costume sur le premier costume`{:class="block3looks"}, afin que ta licorne ne mélange pas ses mouvements de danse. \--- /task \---
 
-\--- hints \--- \--- hint \--- If pressing the button doesn't make the rainbow light up and the unicorn dance in time, try checking that:
+Si le fait d'appuyer sur le bouton ne fait pas s'allumer l'arc-en-ciel et la licorne danser en rythme, essaie de vérifier que :
 
-1. Every component is connected to the right GPIO pin
-2. You've got the inputs and outputs right in your code
-3. The timings match for your two chunks of code
-4. You've used all the right code blocks \--- /hint \--- \--- /hints \---
+1. Chaque composant est connecté à la bonne broche GPIO
+2. Tu as les entrées et sorties directement dans ton code
+3. Les timings correspondent à tes deux bouts de code
+4. Tu as utilisé tous les bons blocs de code
