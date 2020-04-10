@@ -1,38 +1,38 @@
-\--- no-print \--- This is the Scratch 3 version of this project. You can find the [Scratch 2 version here.](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow-scratch2) \--- /no-print \---
+\--- no-print \--- Jest to wersja projektu dla Scratch 3. Tutaj znajdziesz wersję dla [Scratch 2.](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow-scratch2) \--- /no-print \---
 
-## Introduction
+## Wprowadzenie
 
 Stwórz tęczę z diod LED i zrób do niej tańczącego jednorożca, wszystko zasilane przez Raspberry Pi.
 
-### What you will make
+### Co będziesz robił
 
-You will use Scratch to connect a rainbow of LEDs to a unicorn sprite, and then make the unicorn dance to the rhythm of the rainbow. Here is a video showing what your dancing unicorn and rainbow might look like:<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> Your browser does not support the video tag, try FireFox or Chrome </video> 
+Za pomocą Scratcha połączysz tęczę z diod LED z duszkiem jednorożca, a następnie sprawisz, żeby jednorożec zatańczył w rytm tęczy. Oto filmik pokazujący, jak może wyglądać twój tańczący jednorożec i tęcza:<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> Twoja przeglądarka nie obsługuje znacznika wideo, spróbuj FireFox lub Chrome </video> 
 
 Po wytrenowaniu jednorożca do tańca do twojej tęczy, możesz nauczyć się jak korzystać z tęczy, tak aby jednorożec robił sztuczki lub zagrać w grę.
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Czego będziesz potrzebować
 
-### Hardware
+### Sprzęt
 
-+ A Raspberry Pi
-+ A breadboard
-+ 3 or more colourful LEDs
++ Raspberry Pi
++ Płytka stykowa
++ 3 lub więcej kolorowych diod LED
 + Rezystory (co najmniej 100 omów), **1 na każdą diodę LED**
-+ 1× button
++ 1 × przycisk
 + Przewody połączeniowe męsko-żeńskie, **1 na każdą diodę LED**
-+ 2× additional male-to-female jumper wires
-+ 1× male-to-male jumper wire
++ 2 × dodatkowe przewody połączeniowe męsko-żeńskiego
++ 1× przewód męsko-żeński
 
 Dla opcjonalnego, końcowego wyzwania:
 
 + 1 × brzęczyk
-+ 2× additional male-to-female jumper wires
++ 2 × dodatkowe przewody połączeniowe męsko-żeńskiego
 
-### Software
+### Oprogramowanie
 
-You will need the latest version of Raspbian, which already includes the following software package:
+Będziesz potrzebował najnowszej wersji Raspbiana, która zawiera już następujący pakiet oprogramowania:
 
 + Scratch 3
 
@@ -45,18 +45,18 @@ sudo apt-get install scratch3
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Czego się nauczysz
 
 Ten projekt pokrywa elementy z następujących wątków z [Cyfrowego Programu Nauczania Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Combine inputs and/or outputs to create projects or solve a problem](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
++ [Łączenia danych wejściowych i wyjściowych w celu stworzenia projektu lub rozwiązania problemu](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
 
-+ [Apply basic programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"} \--- /collapse \---
++ [Używania prostych konstrukcji programistycznych w celu rozwiązania problemu](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Dodatkowe informacje dla nauczycieli
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}.
+Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}.
 
-You can find the full solution for this project at [rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get) \--- /collapse \---
+Pełne rozwiązanie tego projektu można znaleźć na stronie [rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get) \--- / collapse \---
