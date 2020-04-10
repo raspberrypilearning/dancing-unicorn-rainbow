@@ -1,13 +1,13 @@
-## Control your rainbow circuit
+## Kontroluj twój obwód tęczy
 
-When your whole rainbow is set up, you can control how it is lit. For a little practice of controlling one LED, use Scratch to do the following:
+Kiedy cała twoja tęcza jest gotowa, możesz kontrolować, jak ma się zapalać. Aby trochę poćwiczyć sterowanie jedną diodą LED, użyj Scratch, aby wykonać następujące czynności:
 
-\--- task \--- When you press the <kbd>P</kbd> key, make the LED turn on for two seconds and then turn off. \--- /task \---
+\--- task \--- Po naciśnięciu przycisku <kbd>P</kbd>, włącz diodę na dwie sekundy, a następnie wyłącz. \--- /task \---
 
-\--- hints \--- \--- hint \--- Look in the `Control`{:class="block3control"} blocks section. \--- /hint \--- \--- hint \--- Use
+\--- hints \--- \--- hint \--- Spójrz na sekcje bloków `Kontrola`{:class="block3control"}. \--- /hint \--- \--- hint \--- Użyj
 
 ```blocks3
-  wait (2) secs
+  czekaj (2) sek
 ```
 
 \--- /hint \--- \--- hint \---
@@ -21,7 +21,7 @@ turn LED (17 v) [off v] ::extension
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- When your Scratch program starts, make your LED light up for 2 seconds and then turn off for 2 seconds. \--- /task \---
+\---task\--- Po uruchomieniu programu Scratch włącz diodę LED na 2 sekundy, a następnie wyłącz na 2 sekundy. \--- /task \---
 
 \--- hints \--- \--- hint \---
 
@@ -35,12 +35,12 @@ wait (2) secs
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- Make your LED turn on and off as long as your program runs. \--- /task \---
+\---task\--- Włączaj i wyłączaj twoją diodę LED tak długo jak twój program jest włączony. \--- /task \---
 
-\--- hints \--- \--- hint \--- Use
+\--- hints \--- \--- hint \--- Użyj
 
 ```blocks3
-forever
+zawsze
 ```
 
 \--- /hint \--- \--- hint \---
@@ -56,9 +56,9 @@ wait (2) secs
 
 \--- /hint \--- \--- /hints \---
 
-+ Make your LED blink faster.
++ Spraw, aby Twoja dioda LED mrugała szybciej.
 
-\--- hints \--- \--- hint \--- Use `wait x secs`{:class="block3control"} for fewer seconds. \--- /hint \--- \--- hint \---
+\--- hints \--- \--- hint \--- Użyj `czekaj x sekund`{:class="block3control"} na mniej sekund. \--- /hint \--- \--- hint \---
 
 ```blocks3
 when flag clicked
@@ -71,4 +71,4 @@ wait (0.5) secs
 
 \--- /hint \--- \--- /hints \---
 
-Well done — you are now ready to create and control an awesome rainbow!
+Dobra robota - jesteś teraz gotowy, aby stworzyć i kontrolować niesamowitą tęczę!
