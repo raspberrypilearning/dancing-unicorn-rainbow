@@ -1,35 +1,35 @@
-## Build your rainbow
+## Baue deinen Regenbogen
 
-In this step, you will assemble your rainbow and program its LEDs to blink in a rainbow pattern.
+In diesem Schritt wirst deinen Regenbogen zusammenbauen und seine LEDs so programmieren, dass sie in einem Regenbogenmuster blinken.
 
-\--- task \--- Find all the LEDs you are going to use, and make sure you also have the right number of jumper wires and resistors (one each per LED). \--- /task \---
+\--- task \--- Nimm alle LEDs, die du verwenden wirst, und stell sicher, dass du auch die richtige Anzahl an Überbrückungskabeln und Wiederständen hast (jeweils eins pro LED). \--- /task \---
 
-\--- task \--- Rearrange the circuit you already have to make room for the other colours of your rainbow. \--- /task \---
+\--- task \--- Ordne die Schaltung neu an, um Platz für die anderen Farben deines Regenbogens zu schaffen. \--- /task \---
 
-![Circuit Rearranged](images/oneled.png)
+![Schaltung neu angeordnet](images/oneled.png)
 
-### Ground the rainbow
+### Erde den Regenbogen
 
-\--- task \--- So that your rainbow shines brightly and is not covered by too many jumper wires, all LEDs should share one **Ground (GND)** pin. You can do set them up like this by rearranging your components on the breadboard a little.
+\--- task \--- Damit dein Regenbogen hell strahlen kann und nicht von zu vielen Drähten verdeckt wird, sollten sich alle LEDs einen **Masse/Ground (GND)**-Pin teilen. Du kannst sie so einrichten, indem du die Komponenten auf dem Steckbrett ein wenig umordnest.
 
-The breadboard looks like this inside:
+Das Steckbrett sieht innen so aus:
 
-![Breadboard Cross-Section](images/breadboardxsection.png)
+![Steckbrettquerschnitt](images/breadboardxsection.png)
 
-To ground the whole rainbow with one jumper wire: \--- /task \---
+Um den gesamten Regenbogen mit einem Draht zu erden: \--- /task \---
 
-\--- task \--- Connect the jumper wire attached to **GND** to a breadboard **rail** \--- /task \---
+\--- task \--- Verbinde den Draht, der mit **GND** verbunden ist mit einer Steckbrett-**Schiene** \--- task \---
 
-\--- task \--- Make sure resistors connect to the same rail as the **GND** jumper wire and to the same **bar** as the LED they belong to: \--- /task \---
+\--- task \--- Stelle sicher dass die Widerstände mit derselben Schiene wie der **GND**-Draht und mit demselben **Balken** wie die jeweils zugehörige LED verbunden ist: \--- /task \---
 
-![Adding LEDs](images/twoleds.png)
+![LEDs hinzufügen](images/twoleds.png)
 
-### Complete the rainbow
+### Vervollständige den Regenbogen
 
-\--- task \--- Add the rest of your LEDs, jumper wires, and resistors to the breadboard in a colour arrangement of your choice. Make sure to leave room for a button at the end. \--- /task \---
+\--- task \--- Füge deine restlichen LEDs, Überbrückungskabel und Widerstände in einer Farbfolge deiner Wahl hinzu. Stelle sicher am Ende Platz für einen Taster zu lassen. \--- /task \---
 
-If you are using many different colours, it might help to match the colour of the jumper wires to your LEDs.
+Wenn du viele verschiedene Farben verwendest, hilft es vielleicht die Farben der Überbrückungskabel mit denen deiner LEDs abzustimmen.
 
-Your rainbow should look similar to this one:
+Dein Regenbogen sollte so ähnlich wie dieser aussehen:
 
-![Rainbow LEDs](images/rainbowleds.png)
+![Regenbogen-LEDs](images/rainbowleds.png)
