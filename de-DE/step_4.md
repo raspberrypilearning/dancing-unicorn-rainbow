@@ -1,30 +1,30 @@
-## Test your circuit in Scratch
+## Teste deine Schaltung in Scratch
 
-You will now connect your circuit and first rainbow colour to Scratch, so that you can code a Scratch program to control the LED.
+Du wirst jetzt deine Schaltung und deine erste Regenbogenfarbe mit Scratch verbinden, damit du ein Scratch-Programm schreiben kannst um die LED zu steuern.
 
-\--- task \--- Open up Scratch 3 on your Raspberry Pi.
+\--- task \--- Öffne Scratch 3 auf deinem Raspberry Pi.
 
-![open-scratch](images/open-scratch.png) \--- /task \---
+![öffne Scratch](images/open-scratch.png) \--- /task \---
 
-\--- task \--- Then add the Raspberry Pi Simple Electronics extension
+\--- task \--- Füge dann die Erweiterung "Raspberry Pi Simple Electronics" hinzu
 
-![add-extension](images/add-extension.png)
+![Erweiterung hinzufügen](images/add-extension.png)
 
 ![simple-electronics](images/simple-electronics.png) \--- /task \---
 
-\--- task \--- In the previous step, you connected your LED to pin **3V3**. This is the pin to connect to if you are testing your LED. You now need to connect your LED to a pin you can control with Scratch. Move the wire from pin **3V3** to a new pin, for example **GPIO 17**. \--- /task \---
+\--- task \--- Im vorherigen Schritt hast du deine LED mit dem **3V3** Pin verbunden. Das ist der Pin, den du verbindest, wenn du deine LED testest. Jetzt musst du deine LED an einen Pin anschließen, den du mit Scratch kontrollieren kannst. Verschiebe den Draht von Pin **3v3** auf einen neuen Pin, zum Beispiel **GPIO 17**. \--- /task \---
 
-![Move Pin](images/movepin.png)
+![Pin wechseln](images/movepin.png)
 
-\--- task \--- Now test that the LED can be controlled using the following simple script
+\--- task \--- Teste nun mit dem folgenden einfachen Skript, ob die LED gesteuert werden kann
 
 ```blocks3
-when flag clicked
-turn LED (17 v) [on v] ::extension
-wait (1) secs
-turn LED (17 v) [off v] ::extension
+Wenn die grüne Flagge angeklickt
+turn LED (17 v) [on v] :: extension
+warte (1) Sekunden
+turn LED (17 v) [off v] :: extension
 ```
 
 \--- /task \---
 
-\--- task \--- Click the green flag to run your script. The LED should turn on for 1 second. \--- /task \---
+\--- task \--- Klicke auf die grüne Flagge, um dein Skript auszuführen. Die LED sollte 1 Sekunde lang leuchten. \--- /task \---
