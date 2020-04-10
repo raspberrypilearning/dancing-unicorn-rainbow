@@ -1,58 +1,58 @@
-## Make a unicorn dance to your rainbow
+## Faire danser une licorne sur ton arc-en-ciel
 
-In this step, you will program a unicorn in Scratch that dances to the rhythm of your rainbow. You will use a button to program your rainbow and dancing unicorn.
+Dans cette étape, tu vas programmer une licorne dans Scratch qui danse au rythme de ton arc-en-ciel. Tu utiliseras un bouton pour programmer ton arc-en-ciel et ta licorne dansante.
 
-### Unicorn sprite
+### Sprite de licorne
 
-Choose one of the following options to create a unicorn sprite:
+Choisis l'une des options suivantes pour créer un sprite licorne :
 
-1. Use the Scratch unicorn sprite
-2. Upload a unicorn image from somewhere else and use it as your sprite
-3. Draw your own unicorn sprite in Scratch or another program (like the lovely green unicorn on the right).
+1. Utilise le sprite licorne Scratch
+2. Télécharge une image de licorne trouvée autre part et utilise-la comme sprite
+3. Dessine ton propre sprite de licorne dans Scratch ou dans un autre programme (comme la jolie licorne verte à droite).
 
-Examples:
+Exemples :
 
-|              (1) Scratch sprite:              |         (2) Upload your own:          |           (3) Draw your own:            |
-|:---------------------------------------------:|:-------------------------------------:|:---------------------------------------:|
-| ![Scratch Unicorn](images/scratchunicorn.png) | ![Web Unicorn](images/webunicorn.png) | ![Draw Unicorn](images/drawunicorn.png) |
+|             (1) Sprite Scratch :              |      (2) Télécharge la tienne :       |             (3) Dessine la tienne :             |
+|:---------------------------------------------:|:-------------------------------------:|:-----------------------------------------------:|
+| ![Licorne Scratch](images/scratchunicorn.png) | ![Licorne Web](images/webunicorn.png) | ![Dessiner une licorne](images/drawunicorn.png) |
 
-\--- task \--- If you picked option 1, click here: [[[generic-scratch3-sprite-from-library]]] \--- /task \---
+Si tu as choisi l'option 1, clique ici : [[[generic-scratch3-sprite-from-library]]]
 
-\--- task \--- If you picked option 2 because you want to upload a unicorn image you found somewhere else, click below first to learn about image permissions, and then use the instructions in the second box to upload your file: [[[images-permissions-to-use]]]
+Si tu as choisi l'option 2 parce que tu veux télécharger une image de licorne que tu as trouvée ailleurs, clique d'abord ci-dessous pour en savoir plus sur les autorisations d'image, puis utilise les instructions dans la deuxième case pour télécharger ton fichier : [[[images-permissions-to-use]]]
 
-[[[generic-scratch3-sprite-from-library]]] \--- /task \---
+[[[generic-scratch3-sprite-from-library]]]
 
-\--- task \--- If you're going with option 3, click below for instructions on how to draw your own unicorn in Scratch: [[[generic-scratch3-draw-sprite]]] \--- /task \---
+Si tu choisis l'option 3, clique ci-dessous pour savoir comment dessiner ta propre licorne dans Scratch : [[[generic-scratch3-draw-sprite]]]
 
-### Unicorn costumes
+### Costumes de licorne
 
-Your unicorn needs **costumes** to be able to dance. A costume is one of a set of appearances of a sprite, which means sprites can change their look by changing costumes. Therefore, you can use costumes to make a sprite look like it's moving whenever you want to create an animation.
+Ta licorne a besoin de **costumes** pour pouvoir danser. Un costume fait partie d'un ensemble d'apparences d'un sprite, ce qui signifie que les sprites peuvent changer d'apparence en changeant de costume. Par conséquent, tu peux utiliser des costumes pour donner l'impression que le sprite bouge à chaque fois que tu souhaites créer une animation.
 
-Here, we will be creating a dancing unicorn animation, so each costume will represent a dance move of your unicorn.
+Ici, nous allons créer une animation de licorne dansante, donc chaque costume représentera un mouvement de danse de ta licorne.
 
-\--- task \--- Decide how many costumes you want your unicorn sprite to have for the dance, and edit your costumes accordingly.
+Décide combien de costumes tu veux que ton sprite de licorne ait pour la danse, et édite tes costumes en conséquence.
 
-Click for a reminder on how to add costumes in Scratch: [[[generic-scratch3-add-costume]]]
+Clique pour un rappel sur la façon d'ajouter des costumes dans Scratch : [[[generic-scratch3-add-costume]]]
 
-Click for a reminder on how to duplicate costumes in Scratch: [[[generic-scratch3-duplicate-costumes]]] \--- /task \---
+Clique pour un rappel sur la façon de dupliquer les costumes dans Scratch : [[[generic-scratch3-duplicate-costumes]]]
 
-It is up to you how many costumes you want to add for your dancing unicorn. For this dancing green unicorn, we have used five costumes:
+C'est à toi de décider combien de costumes tu souhaites ajouter pour ta licorne dansante. Pour cette licorne verte dansante, nous avons utilisé cinq costumes :
 
 | ![Dancing Unicorn Gif](images/dancingunicorn.gif) | ![Five Costumes](images/fivecostumes.png) |
 
-### Unicorn dance
+### Danse de licorne
 
-To create your dancing animation, you need to program the unicorn to switch costumes.
+Pour créer ton animation de danse, tu dois programmer la licorne pour changer de costume.
 
-\--- task \--- Switch between the first two costumes to start the unicorn dance.
+Bascule entre les deux premiers costumes pour commencer la danse de la licorne.
 
-To switch from the first to the second costume use:
+Pour passer du premier au deuxième costume, utilise :
 
 ```blocks3
 switch costume to [costume 2 v]
 ```
 
-Unicorns are generally good dancers, so make sure you time your unicorn's dance to the speed of your rainbow pattern. You can use the `wait`{:class="blockcontrol"} block to match the unicorn's wait time to your rainbow's wait time.
+Les licornes sont généralement de bons danseuses, alors assure-toi de synchroniser la danse de ta licorne à la vitesse de ton motif arc-en-ciel. Tu peux utiliser le bloc `attendre`{:class="blockcontrol"} pour faire correspondre le temps d'attente de la licorne au temps d'attente de ton arc-en-ciel.
 
 ```blocks3
 wait (0.5) secs
@@ -61,19 +61,19 @@ switch costume to [costume 2 v]
 
 \--- /task \---
 
-\--- task \--- To create your dancing unicorn, switch between all costumes continuously. What kind of loop do you need to do this? \--- /task \---
+Pour créer ta licorne dansante, bascule entre tous les costumes en continu. De quel type de boucle as-tu besoin pour faire cela ? \--- /task \---
 
 \--- hints \--- \--- hint \---
 
-Use a forever loop:
+Utilise une boucle répéter indéfiniment :
 
 ```blocks3
-forever
+répéter indéfiniment
 ```
 
 \--- /hint \--- \--- hint \---
 
-Use this block to switch to the next costume each time you go through the loop:
+Utilise ce bloc pour passer au costume suivant à chaque fois que tu parcoures la boucle :
 
 ```blocks3
 next costume
@@ -81,7 +81,7 @@ next costume
 
 \--- /hint \--- \--- hint \---
 
-Your code should look like this:
+Ton code devrait ressembler à ceci :
 
 ```blocks3
 forever
