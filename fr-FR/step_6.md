@@ -1,35 +1,35 @@
-## Build your rainbow
+## Construis ton arc-en-ciel
 
-In this step, you will assemble your rainbow and program its LEDs to blink in a rainbow pattern.
+Dans cette étape, tu vas assembler ton arc-en-ciel et programmer ses LEDs pour qu'elles clignotent en arc-en-ciel.
 
-\--- task \--- Find all the LEDs you are going to use, and make sure you also have the right number of jumper wires and resistors (one each per LED). \--- /task \---
+Trouve toutes les LEDs que tu vas utiliser et assure-toi que tu as également le bon nombre de fils de cavalier et de résistances (une par LED). \--- /task \---
 
-\--- task \--- Rearrange the circuit you already have to make room for the other colours of your rainbow. \--- /task \---
+Réorganise le circuit que tu as déjà pour faire de la place aux autres couleurs de ton arc-en-ciel. \--- /task \---
 
-![Circuit Rearranged](images/oneled.png)
+![Circuit réarrangé](images/oneled.png)
 
-### Ground the rainbow
+### Branchement à la masse de l'arc-en-ciel
 
-\--- task \--- So that your rainbow shines brightly and is not covered by too many jumper wires, all LEDs should share one **Ground (GND)** pin. You can do set them up like this by rearranging your components on the breadboard a little.
+Pour que ton arc-en-ciel brille de mille feux et ne soit pas recouvert par trop de fils de cavalier, toutes les LED doivent partager une broche de **masse (GND)**. Tu peux les configurer comme ceci en réorganisant un peu tes composants sur la platine d'expérimentation.
 
-The breadboard looks like this inside:
+La platine d'expérimentation ressemble à ceci à l'intérieur :
 
-![Breadboard Cross-Section](images/breadboardxsection.png)
+![Section transversale du la platine d'expérimentation](images/breadboardxsection.png)
 
-To ground the whole rainbow with one jumper wire: \--- /task \---
+Pour brancher à la masse tout l'arc-en-ciel avec un fil de cavalier :
 
-\--- task \--- Connect the jumper wire attached to **GND** to a breadboard **rail** \--- /task \---
+Connecte le cavalier attaché à **GND** à un **rail** de la platine d'expérimentation
 
-\--- task \--- Make sure resistors connect to the same rail as the **GND** jumper wire and to the same **bar** as the LED they belong to: \--- /task \---
+Assure-toi que les résistances sont connectées au même rail que le fil de cavalier **GND** et à la même **barre** en tant que LED à laquelle ils appartiennent : 
 
-![Adding LEDs](images/twoleds.png)
+![Ajout de LEDs](images/twoleds.png)
 
-### Complete the rainbow
+### Terminer l'arc-en-ciel
 
-\--- task \--- Add the rest of your LEDs, jumper wires, and resistors to the breadboard in a colour arrangement of your choice. Make sure to leave room for a button at the end. \--- /task \---
+Ajoute le reste de tes LEDs, des fils de cavalier et des résistances à la platine d'expérimentation dans un arrangement de couleur de ton choix. Assure-toi de laisser de la place pour un bouton à la fin. \--- /task \---
 
-If you are using many different colours, it might help to match the colour of the jumper wires to your LEDs.
+Si tu utilises de nombreuses couleurs différentes, il peut être utile de faire correspondre la couleur des fils de cavalier à tes LEDs.
 
-Your rainbow should look similar to this one:
+Ton arc-en-ciel devrait ressembler à celui-ci :
 
-![Rainbow LEDs](images/rainbowleds.png)
+![LEDs arc-en-ciel](images/rainbowleds.png)
