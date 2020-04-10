@@ -1,13 +1,13 @@
-## Control your rainbow circuit
+## Controlla il circuito dell'arcobaleno
 
-When your whole rainbow is set up, you can control how it is lit. For a little practice of controlling one LED, use Scratch to do the following:
+When your whole rainbow is set up, you can control how it is lit. Per impratichirsi nel controllo di un LED, usa Scratch per effettuare le seguenti operazioni:
 
 \--- task \--- When you press the <kbd>P</kbd> key, make the LED turn on for two seconds and then turn off. \--- /task \---
 
 \--- hints \--- \--- hint \--- Look in the `Control`{:class="block3control"} blocks section. \--- /hint \--- \--- hint \--- Use
 
 ```blocks3
-  wait (2) secs
+  attendi (2) secondi
 ```
 
 \--- /hint \--- \--- hint \---
@@ -35,12 +35,12 @@ wait (2) secs
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- Make your LED turn on and off as long as your program runs. \--- /task \---
+\--- task \--- Fai accendere e spegnere il LED finché il programma viene eseguito. \--- /task \---
 
 \--- hints \--- \--- hint \--- Use
 
 ```blocks3
-forever
+per sempre
 ```
 
 \--- /hint \--- \--- hint \---
@@ -56,9 +56,9 @@ wait (2) secs
 
 \--- /hint \--- \--- /hints \---
 
-+ Make your LED blink faster.
++ Fai lampeggiare il tuo LED più velocemente.
 
-\--- hints \--- \--- hint \--- Use `wait x secs`{:class="block3control"} for fewer seconds. \--- /hint \--- \--- hint \---
+\--- hints \--- \--- hint \--- Usa `aspetta x secondi`{:class="block3control"} per meno secondi. \--- /hint \--- \--- hint \---
 
 ```blocks3
 when flag clicked
