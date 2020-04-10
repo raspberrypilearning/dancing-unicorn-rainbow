@@ -1,6 +1,6 @@
 ## Costruisci il tuo arcobaleno
 
-In this step, you will assemble your rainbow and program its LEDs to blink in a rainbow pattern.
+In questo passaggio, assemblerai il tuo arcobaleno e programmerai i suoi LED per lampeggiare in un motivo arcobaleno.
 
 \--- task \--- Trova tutti i LED che intendi utilizzare e assicurati di avere anche il giusto numero di cavi jumper e resistori (uno ciascuno per LED). \--- /task \---
 
