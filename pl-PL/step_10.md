@@ -1,9 +1,9 @@
-## Challenge: Fun with your dancing unicorn rainbow.
+## Wyzwanie: baw się tańczącym jednorożcem i tęczą.
 
-Ideas:
+Pomysły:
 
-1. Make the blinking of your rainbow and the dance of your unicorn faster
-2. Teach your unicorn a new dance (play around with costumes and speeds)
-3. Add more buttons and make the unicorn do a different dance for each
-4. Add more `events`{:class="block3events"} to make the unicorn do different dances
-5. Make a game with your rainbow and dancing unicorn
+1. Przyspiesz mruganie tęczy i taniec jednorożca
+2. Naucz jednorożca nowego tańca (baw się kostiumami i szybkościami)
+3. Dodaj więcej przycisków i spraw, aby jednorożec wykonał inny taniec dla każdego
+4. Dodaj więcej `zdarzeń`{:class="block3events"}, aby jednorożec tańczył różne tańce
+5. Stwórz grę z tęczą i tańczącym jednorożcem
