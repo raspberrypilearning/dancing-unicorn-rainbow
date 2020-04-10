@@ -38,7 +38,7 @@ Um das zu tun, wirst du eine LED für einige Sekunden einschalten und dann, glei
 
 \--- hints \--- \--- hint \---
 
-Make sure your `Events`{:class="blockevents"} block matches what you are doing to test the code. Im Beispiel hier müssen wir auf die grüne Flagge klicken, um unseren Regenbogen blinken zu lassen:
+Stelle sicher, dass dein `Ereignis`{:class="blockevents"}-Block mit dem übereinstimmt, was du tust um dem Code zu testen. Im Beispiel hier müssen wir auf die grüne Flagge klicken, um unseren Regenbogen blinken zu lassen:
 
 ```blocks3
 Wenn die grüne Flagge angeklickt
@@ -46,7 +46,7 @@ Wenn die grüne Flagge angeklickt
 
 \--- /hint \--- \--- hint \---
 
-If you're stuck, make sure you are using these blocks:
+Falls du nicht mehr weiter kommst, stelle sicher, dass du diese Blöcke verwendest:
 
 ```blocks3
 turn LED (0 v) [off v] :: extension
