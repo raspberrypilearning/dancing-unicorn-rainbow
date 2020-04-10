@@ -1,35 +1,35 @@
-## Build your rainbow
+## Construye tu arcoíris
 
-In this step, you will assemble your rainbow and program its LEDs to blink in a rainbow pattern.
+En este paso, ensamblarás tu arcoíris y programarás sus LEDs para parpadear en un patrón de arcoíris.
 
-\--- task \--- Find all the LEDs you are going to use, and make sure you also have the right number of jumper wires and resistors (one each per LED). \--- /task \---
+\--- task \--- Encuentra todos los LEDs que vas a usar, y asegúrate de tener el número correcto de cables de puente y resistencias (una por LED). \--- /task \---
 
-\--- task \--- Rearrange the circuit you already have to make room for the other colours of your rainbow. \--- /task \---
+\--- task \--- Reorganiza el circuito que ya tienes para hacer espacio para los otros colores de tu arcoíris. \--- /task \---
 
-![Circuit Rearranged](images/oneled.png)
+![Circuito Reordenado](images/oneled.png)
 
-### Ground the rainbow
+### Conecta el arcoíris a tierra
 
-\--- task \--- So that your rainbow shines brightly and is not covered by too many jumper wires, all LEDs should share one **Ground (GND)** pin. You can do set them up like this by rearranging your components on the breadboard a little.
+\--- task \--- Para que tu arcoíris brille intensamente y no esté cubierto por demasiados cables puente, todos los LEDs deben compartir un **Ground (GND)** pin. Puedes configurarlos así, reorganizando sus componentes en la placa de pruebas.
 
-The breadboard looks like this inside:
+La placa de pruebas se ve así por dentro:
 
-![Breadboard Cross-Section](images/breadboardxsection.png)
+![Sección transversal de la placa de pruebas](images/breadboardxsection.png)
 
-To ground the whole rainbow with one jumper wire: \--- /task \---
+Para conectar a tierra todo el arcoíris con un cable de puente: \--- / task \---
 
-\--- task \--- Connect the jumper wire attached to **GND** to a breadboard **rail** \--- /task \---
+\--- task \--- Conecta el otro extremo del cable de puente conectado a **GND** a un **riel** de la placa de pruebas \--- / task \---
 
-\--- task \--- Make sure resistors connect to the same rail as the **GND** jumper wire and to the same **bar** as the LED they belong to: \--- /task \---
+\--- task \--- Asegúrate de que las resistencias se conecten al mismo riel que el cable de puente **GND** y a la misma **barra** que el LED al que pertenecen: \--- /task \---
 
-![Adding LEDs](images/twoleds.png)
+![Agregando LEDs](images/twoleds.png)
 
-### Complete the rainbow
+### Completa el arcoíris
 
-\--- task \--- Add the rest of your LEDs, jumper wires, and resistors to the breadboard in a colour arrangement of your choice. Make sure to leave room for a button at the end. \--- /task \---
+\--- task \--- Añade el resto de tus LEDs, cables de puente y resistencias a la placa de pruebas en un arreglo de colores de tu elección. Asegúrate de dejar espacio para un botón al final. \--- /task \---
 
-If you are using many different colours, it might help to match the colour of the jumper wires to your LEDs.
+Si usas muchos colores diferentes, puede ser útil hacer coincidir el color de los cables de puente con los LED.
 
-Your rainbow should look similar to this one:
+Tu arcoíris debería ser similar a este:
 
-![Rainbow LEDs](images/rainbowleds.png)
+![LEDs del arcoíris](images/rainbowleds.png)
