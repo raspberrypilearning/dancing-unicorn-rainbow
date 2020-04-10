@@ -1,58 +1,58 @@
-## Make a unicorn dance to your rainbow
+## Lass ein Einhorn zu deinem Regenbogen tanzen
 
-In this step, you will program a unicorn in Scratch that dances to the rhythm of your rainbow. You will use a button to program your rainbow and dancing unicorn.
+In diesem Schritt wirst du ein Einhorn in Scratch so programmieren, dass es im Rythmus deines Regenbogens tanzt. Du wirst einen Taster verwenden um deinen Regenbogen und dein tanzendes Einhorn zu programmieren.
 
-### Unicorn sprite
+### Einhorn-Figur
 
-Choose one of the following options to create a unicorn sprite:
+Wähle eine der folgenden Optionen um eine Einhorn-Figur zu erstellen:
 
-1. Use the Scratch unicorn sprite
-2. Upload a unicorn image from somewhere else and use it as your sprite
-3. Draw your own unicorn sprite in Scratch or another program (like the lovely green unicorn on the right).
+1. Benutze die Scratch "Unicorn" Figur
+2. Lade ein Einhornbild von einem anderen Ort hoch und nutze dieses als deine Figur
+3. Zeichne deine eigene Einhornfigur in Scratch oder einem anderen Programm (wie das hübsche grüne Einhorn rechts).
 
-Examples:
+Beispiele:
 
-|              (1) Scratch sprite:              |         (2) Upload your own:          |           (3) Draw your own:            |
-|:---------------------------------------------:|:-------------------------------------:|:---------------------------------------:|
-| ![Scratch Unicorn](images/scratchunicorn.png) | ![Web Unicorn](images/webunicorn.png) | ![Draw Unicorn](images/drawunicorn.png) |
+|              (1) Scratch-Figur:               |      (2) Lade deine eigene hoch:      |            (3) Zeichne deine eigene:            |
+|:---------------------------------------------:|:-------------------------------------:|:-----------------------------------------------:|
+| ![Scratch Einhorn](images/scratchunicorn.png) | ![Web Einhorn](images/webunicorn.png) | ![gezeichnetes Einhorn](images/drawunicorn.png) |
 
-\--- task \--- If you picked option 1, click here: [[[generic-scratch3-sprite-from-library]]] \--- /task \---
+\--- task \--- Falls du Option 1 gewählt hast, klick hier: [[[generic-scratch3-sprite-from-library]]] \--- /task \---
 
-\--- task \--- If you picked option 2 because you want to upload a unicorn image you found somewhere else, click below first to learn about image permissions, and then use the instructions in the second box to upload your file: [[[images-permissions-to-use]]]
+\--- task \--- Falls du Option 2 gewählt hast, weil du ein Einhornbild hochladen möchtest, das du woanders gefunden hast, klicke zuerst unten um mehr über Bildrechte zu lernen und verwende dann die Anleitung in der zweiten Box um deine Datei hochzuladen: [[[images-permissions-to-use]]]
 
 [[[generic-scratch3-sprite-from-library]]] \--- /task \---
 
-\--- task \--- If you're going with option 3, click below for instructions on how to draw your own unicorn in Scratch: [[[generic-scratch3-draw-sprite]]] \--- /task \---
+\--- task \--- Falls du mit Option 3 weiter machen willst, klicke unten für eine Anleitung, wie du dein eigenes Einhorn in Scratch malen kannst: [[[generic-scratch3-draw-sprite]]] \--- /task \---
 
-### Unicorn costumes
+### Einhornkostüme
 
-Your unicorn needs **costumes** to be able to dance. A costume is one of a set of appearances of a sprite, which means sprites can change their look by changing costumes. Therefore, you can use costumes to make a sprite look like it's moving whenever you want to create an animation.
+Dein Einhorn benötigt **Kostüme** um tanzen zu können. Ein Kostüm gehört zu einer Reihe von Erscheinungen einer Figur, was bedeutet, dass Sprites ihr Aussehen ändern können, indem sie ihre Kostüme wechseln. Daher kannst du Kostüme verwenden um eine Figur so aussehen zu lassen als würde sie sich bewegen, wann immer du eine Animation erstellen möchtest.
 
-Here, we will be creating a dancing unicorn animation, so each costume will represent a dance move of your unicorn.
+Hier erstellen wir eine tanzende Einhornanimation, sodass jedes Kostüm eine Tanzbewegung deines Einhorns darstellt.
 
-\--- task \--- Decide how many costumes you want your unicorn sprite to have for the dance, and edit your costumes accordingly.
+\--- task \--- Entscheide, wie viele Kostüme deine Einhornfigur für den Tanz haben soll und bearbeite deine Kostüme entsprechend.
 
-Click for a reminder on how to add costumes in Scratch: [[[generic-scratch3-add-costume]]]
+Klicke hier für eine Erinnerung, wie man Kostüme in Scratch hinzufügt: [[[generic-scratch3-add-costume]]]
 
-Click for a reminder on how to duplicate costumes in Scratch: [[[generic-scratch3-duplicate-costumes]]] \--- /task \---
+Klicke hier für eine Erinnerung, wie man Kostüme in Scratch dupliziert: [[[generic-scratch3-duplicate-costumes]]] \--- /task \---
 
-It is up to you how many costumes you want to add for your dancing unicorn. For this dancing green unicorn, we have used five costumes:
+Es liegt ganz bei dir, wie viele Kostüme du für dein Tanzeinhorn hinzufügen möchtest. Für dieses tanzende grüne Einhorn haben wir fünf Kostüme verwendet:
 
 | ![Dancing Unicorn Gif](images/dancingunicorn.gif) | ![Five Costumes](images/fivecostumes.png) |
 
-### Unicorn dance
+### Einhorn-Tanz
 
-To create your dancing animation, you need to program the unicorn to switch costumes.
+Um deine Tanzanimation zu erstellen, musst du das Einhorn programmieren, um Kostüme zu wechseln.
 
-\--- task \--- Switch between the first two costumes to start the unicorn dance.
+\--- task \--- Wechsle zwischen den ersten beiden Kostümen um den Einhorntanz zu starten.
 
-To switch from the first to the second costume use:
+Um vom ersten zum zweiten Kostüm zu wechseln, verwende:
 
 ```blocks3
 switch costume to [costume 2 v]
 ```
 
-Unicorns are generally good dancers, so make sure you time your unicorn's dance to the speed of your rainbow pattern. You can use the `wait`{:class="blockcontrol"} block to match the unicorn's wait time to your rainbow's wait time.
+Einhörner sind im Allgemeinen gute Tänzer. Stelle daher sicher, dass du den Tanz deines Einhorns auf die Geschwindigkeit deines Regenbogenmusters einstellst. Du kannst den `warte`{:class="blockcontrol"}-Block verwenden, um die Wartezeit des Einhorns an die Wartezeit deines Regenbogens anzupassen.
 
 ```blocks3
 wait (0.5) secs
@@ -61,19 +61,20 @@ switch costume to [costume 2 v]
 
 \--- /task \---
 
-\--- task \--- To create your dancing unicorn, switch between all costumes continuously. What kind of loop do you need to do this? \--- /task \---
+\--- task \--- Wechsle kontinuierlich zwischen allen Kostümen, um dein tanzendes Einhorn zu erschaffen. Was für eine Schleife brauchst du dafür? \--- /task \---
 
 \--- hints \--- \--- hint \---
 
-Use a forever loop:
+Verwende eine fortlaufende-Schleife:
 
 ```blocks3
-forever
+wiederhole fortlaufend
+end
 ```
 
 \--- /hint \--- \--- hint \---
 
-Use this block to switch to the next costume each time you go through the loop:
+Benutze diesen Block, um jedes Mal, wenn du durch die Schleife gehst, zum nächsten Kostüm zu wechseln:
 
 ```blocks3
 next costume
@@ -81,7 +82,7 @@ next costume
 
 \--- /hint \--- \--- hint \---
 
-Your code should look like this:
+Dein Code sollte so aussehen:
 
 ```blocks3
 forever
