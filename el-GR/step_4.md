@@ -1,22 +1,22 @@
-## Test your circuit in Scratch
+## Δοκίμασε το κύκλωμά σου στο Scratch
 
-You will now connect your circuit and first rainbow colour to Scratch, so that you can code a Scratch program to control the LED.
+Τώρα θα συνδέσεις το κύκλωμά σου και το πρώτο χρώμα του ουράνιου τόξου στο Scratch, έτσι ώστε να μπορείς να προγραμματίσεις ένα πρόγραμμα Scratch για να ελέγξεις τη λυχνία LED.
 
-\--- task \--- Open up Scratch 3 on your Raspberry Pi.
+\--- task \--- Άνοιξε το Scratch 3 στο Raspberry Pi.
 
 ![open-scratch](images/open-scratch.png) \--- /task \---
 
-\--- task \--- Then add the Raspberry Pi Simple Electronics extension
+\--- task \--- Στη συνέχεια πρόσθεσε την επέκταση Raspberry Pi Simple Electronics
 
 ![add-extension](images/add-extension.png)
 
 ![simple-electronics](images/simple-electronics.png) \--- /task \---
 
-\--- task \--- In the previous step, you connected your LED to pin **3V3**. This is the pin to connect to if you are testing your LED. You now need to connect your LED to a pin you can control with Scratch. Move the wire from pin **3V3** to a new pin, for example **GPIO 17**. \--- /task \---
+\--- task \--- Στο προηγούμενο βήμα, σύνδεσες το LED σου με την ακίδα **3V3**. Αυτή είναι η ακίδα στην οποία συνδέεις αν δοκιμάζεις το LED σου. Τώρα πρέπει να συνδέσεις το LED σου με μια ακίδα που μπορείς να ελέγξεις με το Scratch. Μετακίνησε το καλώδιο από την ακίδα **3V3** σε μια νέα ακίδα, για παράδειγμα την **GPIO 17**. \--- /task \---
 
-![Move Pin](images/movepin.png)
+![Μετακίνηση της ακίδας](images/movepin.png)
 
-\--- task \--- Now test that the LED can be controlled using the following simple script
+\--- task \--- Τώρα δοκίμασε ότι η λυχνία μπορεί να ελεγχθεί χρησιμοποιώντας το παρακάτω απλό script
 
 ```blocks3
 when flag clicked
@@ -27,4 +27,4 @@ turn LED (17 v) [off v] ::extension
 
 \--- /task \---
 
-\--- task \--- Click the green flag to run your script. The LED should turn on for 1 second. \--- /task \---
+\--- task \--- Κάνε κλικ στην πράσινη σημαία για να τρέξεις το πρόγραμμά σου. Η λυχνία LED πρέπει να ανάψει για 1 δευτερόλεπτο. \--- /task \---
