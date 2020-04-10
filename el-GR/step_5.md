@@ -1,13 +1,13 @@
-## Control your rainbow circuit
+## Έλεγξε το κύκλωμα ουράνιου τόξου
 
-When your whole rainbow is set up, you can control how it is lit. For a little practice of controlling one LED, use Scratch to do the following:
+Όταν το ουράνιο τόξου σου έχει ρυθμιστεί, μπορείς να ελέγξεις πώς θα είναι αναμμένο. Για να εξοικειωθείς με τον ελέγχο ενός LED, χρησιμοποίησε το Scratch για να κάνεις τα εξής:
 
-\--- task \--- When you press the <kbd>P</kbd> key, make the LED turn on for two seconds and then turn off. \--- /task \---
+\--- task \--- Όταν πατάς το πλήκτρο <kbd>P</kbd>, ενεργοποιείται η λυχνία LED για δύο δευτερόλεπτα και στη συνέχεια απενεργοποιείται. \--- /task \---
 
-\--- hints \--- \--- hint \--- Look in the `Control`{:class="block3control"} blocks section. \--- /hint \--- \--- hint \--- Use
+\--- hints \--- \--- hint \--- Κοίταξε στο τμήμα μπλοκ `Έλεγχος`{:class="block3control"}. \--- /hint \--- \--- hint \--- Χρησιμοποίησε
 
 ```blocks3
-  wait (2) secs
+  περιμένε (2) δευτερόλεπτα
 ```
 
 \--- /hint \--- \--- hint \---
@@ -21,7 +21,7 @@ turn LED (17 v) [off v] ::extension
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- When your Scratch program starts, make your LED light up for 2 seconds and then turn off for 2 seconds. \--- /task \---
+\--- task \--- Όταν ξεκινήσει το πρόγραμμα Scratch, το LED σου ανάβει για 2 δευτερόλεπτα και μετά σβήνει για 2 δευτερόλεπτα. \--- /task \---
 
 \--- hints \--- \--- hint \---
 
@@ -35,12 +35,12 @@ wait (2) secs
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- Make your LED turn on and off as long as your program runs. \--- /task \---
+\--- task \--- Ενεργοποίησε και απενεργοποίησε τη λυχνία LED όσο εκτελείται το πρόγραμμα. \--- /task \---
 
-\--- hints \--- \--- hint \--- Use
+\--- hints \--- \--- hint \--- Χρησιμοποίησε
 
 ```blocks3
-forever
+για πάντα
 ```
 
 \--- /hint \--- \--- hint \---
@@ -56,9 +56,9 @@ wait (2) secs
 
 \--- /hint \--- \--- /hints \---
 
-+ Make your LED blink faster.
++ Κάνε το LED σου να αναβοσβήνει πιο γρήγορα.
 
-\--- hints \--- \--- hint \--- Use `wait x secs`{:class="block3control"} for fewer seconds. \--- /hint \--- \--- hint \---
+\--- hints \--- \--- hint \--- Χρησιμοποίησε `περίμενε x δευτερόλεπτα` {:class="block3control"} για λιγότερα δευτερόλεπτα. \--- /hint \--- \--- hint \---
 
 ```blocks3
 when flag clicked
@@ -71,4 +71,4 @@ wait (0.5) secs
 
 \--- /hint \--- \--- /hints \---
 
-Well done — you are now ready to create and control an awesome rainbow!
+Συγχαρητηρια - είσαι έτοιμος τώρα να δημιουργήσεις και να ελέγξεις ένα φοβερό ουράνιο τόξο!
