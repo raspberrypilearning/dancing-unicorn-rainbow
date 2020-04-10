@@ -6,7 +6,7 @@ Du wirst jetzt deinen Regenbogen blitzen und dein Einhorn synchron zu einem Tast
 
 \--- task \--- Verbinde deinen Taster mit dem Steckbrett und einem GPIO-Pin.
 
-Klicke unten für eine Anleitung wie du einen Taster mit dem Raspberry Pi verbindest. Note that, instead of **GPIO 17** like the instructions say, we've used **GPIO 5** for the button — **GPIO 17** is already taken by an LED.
+Klicke unten für eine Anleitung wie du einen Taster mit dem Raspberry Pi verbindest. Beachte, dass wir statt **GPIO 17**, wie es die Anleitung sagt, **GPIO 5** für den Taster verwendet haben — **GPIO 17** ist bereits durch eine LED belegt.
 
 [[[rpi-gpio-wiring-a-button]]]
 
