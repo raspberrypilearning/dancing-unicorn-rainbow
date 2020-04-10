@@ -1,23 +1,62 @@
-## Introduction
+\--- no-print \--- Αυτή είναι η Scratch 3 έκδοση του έργου. Μπορείς να βρεις την [έκδοση Scratch 2 εδώ.](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow-scratch2) \--- /no-print \---
 
-Create an LED rainbow and make a unicorn dance to it, all powered by the Raspberry Pi.
+## Εισαγωγή
 
-### What you will make
+Δημιούργησε ένα ουράνιο τόξο από LED και κάνε ένα μονόκερο να χορεύει σε αυτό, ενώ όλο αυτό τροφοδοτείται από το Raspberry Pi.
 
-You will use Scratch to connect a rainbow of LEDs to a unicorn sprite, and then make the unicorn dance to the rhythm of the rainbow. Here is a video showing what your dancing unicorn and rainbow might look like:<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> Your browser does not support the video tag, try FireFox or Chrome </video> 
+### Τι θα φτιάξεις
 
-Once you have trained your unicorn to dance to your rainbow, you can learn how to use the rainbow to make the unicorn do tricks or play a game.
+Θα χρησιμοποιήσεις το Scratch για να συνδέσεις ένα ουράνιο τόξο από LED σε ένα sprite μονόκερου, και στη συνέχεια θα κάνεις τον μονόκερο να χορεύει στο ρυθμό του ουράνιου τόξου. Εδώ είναι ένα βίντεο που δείχνει πως μπορεί να μοιάζει ο χορός του μονόκερου με το ουράνιο τόξο:<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> Το πρόγραμμα περιήγησής σου δεν υποστηρίζει ετικέτες video, επομένως δοκίμασε το Firefox ή το Chrome </video> 
 
-### What you will learn
+Μόλις εκπαιδεύσεις τον μονόκερό σου για να χορέψει στο ουράνιο τόξο, μπορείς να μάθεις πώς να χρησιμοποιείς το ουράνιο τόξο για να κάνεις τον μονόκερο να κάνει κόλπα ή να παίξει ένα παιχνίδι.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+## \--- collapse \---
 
-+ [Combine inputs and/or outputs to create projects or solve a problem](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
+## title: Τι θα χρειαστείς
 
-+ [Apply basic programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
+### Υλικό
 
-### Additional information for educators
++ Ένα Raspberry Pi
++ Μια πλακέτα δοκιμών
++ 3 ή περισσότερα πολύχρωμα LED
++ Αντιστάσεις (τουλάχιστον 100 ohms), **1 ανά LED**
++ 1 × κουμπί
++ Καλώδια αρσενικό-σε-θηλυκό, **1 ανά LED**
++ 2 × πρόσθετα καλώδια αρσενικό-σε-θηλυκό
++ 1 × καλώδιο αρσενικό-σε-αρσενικό
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}.
+Για την προαιρετική τελική πρόκληση:
 
-Use the link in the footer to access the GitHub repository for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
++ 1× buzzer
++ 2 × πρόσθετα καλώδια αρσενικό-σε-θηλυκό
+
+### Λογισμικό
+
+Θα χρειαστείς την τελευταία έκδοση του Raspbian, η οποία περιλαμβάνει ήδη το ακόλουθο πακέτο λογισμικού:
+
++ Scratch 3
+
+```bash
+sudo apt-get update
+sudo apt-get install scratch3
+```
+
+** Σημείωση: ** Το Scratch 3 θα λειτουργήσει **μόνο** με το Raspberry Pi 4. \--- /collapse \---
+
+## \--- collapse \---
+
+## title: Τι θα μάθεις
+
+Αυτό το έργο καλύπτει στοιχεία από τις ακόλουθες πτυχές του [Raspberry Pi Digital Curriculum Making](http://rpf.io/curriculum){:target="_blank"}:
+
++ [ Συνδύασε εισόδους ή/και εξόδους για να δημιουργήσεις έργα ή να λύσεις ένα πρόβλημα ](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
+
++ [Εφάρμοσε βασικές προγραμματιστικές έννοιες για να λύσεις ένα πρόβλημα.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"} \--- /collapse \---
+
+## \--- collapse \---
+
+## title: Πρόσθετες πληροφορίες για εκπαιδευτικούς
+
+Αν χρειαστεί να εκτυπώσεις αυτό το έργο, χρησιμοποίησε την [εκτυπώσιμη έκδοση](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print)"{:target="_blank"}.
+
+Μπορείς να βρεις την ολοκληρωμένη λύση για αυτό το έργο στο [rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get) \--- /collapse \---
