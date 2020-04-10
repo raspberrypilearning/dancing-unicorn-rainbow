@@ -2,13 +2,13 @@
 
 ## Introduction
 
-Create an LED rainbow and make a unicorn dance to it, all powered by the Raspberry Pi.
+Stwórz tęczę z diod LED i zrób do niej tańczącego jednorożca, wszystko zasilane przez Raspberry Pi.
 
 ### What you will make
 
 You will use Scratch to connect a rainbow of LEDs to a unicorn sprite, and then make the unicorn dance to the rhythm of the rainbow. Here is a video showing what your dancing unicorn and rainbow might look like:<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> Your browser does not support the video tag, try FireFox or Chrome </video> 
 
-Once you have trained your unicorn to dance to your rainbow, you can learn how to use the rainbow to make the unicorn do tricks or play a game.
+Po wytrenowaniu jednorożca do tańca do twojej tęczy, możesz nauczyć się jak korzystać z tęczy, tak aby jednorożec robił sztuczki lub zagrać w grę.
 
 ## \--- collapse \---
 
@@ -19,15 +19,15 @@ Once you have trained your unicorn to dance to your rainbow, you can learn how t
 + A Raspberry Pi
 + A breadboard
 + 3 or more colourful LEDs
-+ Resistors (at least 100 ohms), **1 per LED**
++ Rezystory (co najmniej 100 omów), **1 na każdą diodę LED**
 + 1× button
-+ Male-to-female jumper wires, **1 per LED**
++ Przewody połączeniowe męsko-żeńskie, **1 na każdą diodę LED**
 + 2× additional male-to-female jumper wires
 + 1× male-to-male jumper wire
 
-For the optional final challenge:
+Dla opcjonalnego, końcowego wyzwania:
 
-+ 1× buzzer
++ 1 × brzęczyk
 + 2× additional male-to-female jumper wires
 
 ### Software
@@ -41,13 +41,13 @@ sudo apt-get update
 sudo apt-get install scratch3
 ```
 
-**Note:** Scratch 3 will **only** work on the Raspberry Pi 4. \--- /collapse \---
+** Uwaga:** Scratch 3 będzie działać **tylko** na Raspberry Pi 4. \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: What you will learn
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Ten projekt pokrywa elementy z następujących wątków z [Cyfrowego Programu Nauczania Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
 
 + [Combine inputs and/or outputs to create projects or solve a problem](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
 
