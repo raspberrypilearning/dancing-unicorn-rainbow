@@ -32,9 +32,9 @@ If your LEDs are not lighting:
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- Now, add more code to make the rainbow blink in a rainbow pattern like this:<video width="560" height="315" controls> <source src="resources/Scratch-GPIO-Pathways-5.mp4" type="video/mp4"> Your browser does not support the video tag, so try FireFox or Chrome. </video> 
+\--- task \--- Ora, aggiungi più codice per far lampeggiare l'arcobaleno con uno schema come questo:<video width="560" height="315" controls> <source src="resources/Scratch-GPIO-Pathways-5.mp4" type="video/mp4"> Il tuo browser non supporta il tag video, prova FireFox o Chrome. </video> 
 
-To do this, you will need to make one LED turn on for a couple of seconds and then turn off at the same time as the next LED turns on. \--- /task \---
+Per fare ciò, dovrai accendere un LED per un paio di secondi e poi spegnerlo contemporaneamente all'accensione del LED successivo. \--- /task \---
 
 \--- hints \--- \--- hint \---
 
@@ -46,7 +46,7 @@ when flag clicked
 
 \--- /hint \--- \--- hint \---
 
-If you're stuck, make sure you are using these blocks:
+Se sei bloccato, assicurati di utilizzare questi blocchi:
 
 ```blocks3
 turn LED (0 v) [off v] ::extension
@@ -55,7 +55,7 @@ wait () secs
 
 \--- /hint \--- \--- hint \---
 
-Try using this approach:
+Prova a utilizzare questo approccio:
 
 ```blocks3
 when flag clicked
@@ -68,13 +68,13 @@ turn LED (18 v) [off v] ::extension
 turn LED (22 v) [on v] ::extension
 ```
 
-You will need to add blocks for all your LEDs and make sure that you're using the right GPIO pin numbers in your code.
+Dovrai aggiungere blocchi per tutti i tuoi LED e assicurarti di utilizzare i giusti numeri di pin GPIO nel tuo codice.
 
 \--- /hint \--- \--- /hints \---
 
 \--- task \--- Make the lights blink repeatedly through the rainbow in a loop.
 
-To loop through the rainbow pattern forever, use:
+Per ripetere lo schema dell'arcobaleno per sempre, usa:
 
 ```blocks3
 forever
@@ -84,15 +84,15 @@ forever
 
 \--- challenge \---
 
-+ Make the rainbow blink in a pattern of your choice.
++ Fai lampeggiare l'arcobaleno con uno schema a tua scelta.
 
 \--- collapse \---
 
 * * *
 
-## title: Rainbow challenges
+## title: Sfide arcobaleno
 
-Try out the following ideas:
+Prova le seguenti idee:
 
 1) Make the LEDs blink very fast and very slow 2) Make the whole rainbow blink 3) Make pairs of LEDs light up in alternate patterns 4) Make the rainbow blink something in Morse code 5) Make the rainbow do different things in response to different events
 
