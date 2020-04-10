@@ -1,58 +1,58 @@
-## Make a unicorn dance to your rainbow
+## Κάνε έναν μονόκερο να χορεύει με το ουράνιο τόξο σου
 
-In this step, you will program a unicorn in Scratch that dances to the rhythm of your rainbow. You will use a button to program your rainbow and dancing unicorn.
+Σε αυτό το βήμα, θα προγραμματίσεις έναν μονόκερο στο Scratch να χορεύει στο ρυθμό του ουράνιου τόξου σου. Θα χρησιμοποιήσεις ένα κουμπί για να προγραμματίσεις το ουράνιο τόξο και τον μονόκερο που χορεύει.
 
-### Unicorn sprite
+### Χαρακτήρας μονόκερου
 
-Choose one of the following options to create a unicorn sprite:
+Επίλεξε μία από τις παρακάτω επιλογές για να δημιουργήσεις έναν χαρακτήρα μονόκερου:
 
-1. Use the Scratch unicorn sprite
-2. Upload a unicorn image from somewhere else and use it as your sprite
-3. Draw your own unicorn sprite in Scratch or another program (like the lovely green unicorn on the right).
+1. Χρησιμοποίησε τον χαρακτήρα μονόκερου του Scratch
+2. Ανέβασε μία φωτογραφία μονόκερου και χρησιμοποίησε την ως χαρακτήρα σου
+3. Ζωγράφισε τον δικό σου χαρακτήρα μονόκερου στο Scratch ή σε άλλο πρόγραμμα (όπως ο πράσινος μονόκερος στα δεξιά).
 
-Examples:
+Παραδείγματα:
 
-|              (1) Scratch sprite:              |         (2) Upload your own:          |           (3) Draw your own:            |
-|:---------------------------------------------:|:-------------------------------------:|:---------------------------------------:|
-| ![Scratch Unicorn](images/scratchunicorn.png) | ![Web Unicorn](images/webunicorn.png) | ![Draw Unicorn](images/drawunicorn.png) |
+|             (1) Χαρακτήρας στο Scratch:             |             (2) Ανέβασε το δικό σου:              |            (3) Σχεδίασε το δικό σου:             |
+|:---------------------------------------------------:|:-------------------------------------------------:|:------------------------------------------------:|
+| ![Μονόκερος στο Scratch](images/scratchunicorn.png) | ![Μονόκερος στο διαδίκτυο](images/webunicorn.png) | ![Ζωγραφιστός μονόκερος](images/drawunicorn.png) |
 
-\--- task \--- If you picked option 1, click here: [[[generic-scratch3-sprite-from-library]]] \--- /task \---
+\--- task \--- Αν επέλεξες την επιλογή 1, κάνε κλικ εδώ: [[[generic-scratch3-sprite-from-library] \--- /task \---
 
-\--- task \--- If you picked option 2 because you want to upload a unicorn image you found somewhere else, click below first to learn about image permissions, and then use the instructions in the second box to upload your file: [[[images-permissions-to-use]]]
+\--- task \--- Αν επέλεξες την επιλογή 2 επειδή θέλεις να ανεβάσεις μια εικόνα μονόκερου που βρήκες κάπου αλλού, κάνε κλικ παρακάτω παρακάτω για να μάθεις περισσότερα για τα δικαιώματα εικόνας και, στη συνέχεια, χρησιμοποίησε τις οδηγίες στο δεύτερο πλαίσιο για να ανεβάσεις το αρχείο σου: [[[images-permissions-to-use]]]
 
 [[[generic-scratch3-sprite-from-library]]] \--- /task \---
 
-\--- task \--- If you're going with option 3, click below for instructions on how to draw your own unicorn in Scratch: [[[generic-scratch3-draw-sprite]]] \--- /task \---
+\--- task \--- Εάν συνεχίσεις με την επιλογή 3, κάνε κλικ παρακάτω για οδηγίες σχετικά με το πώς να σχεδιάσεις το δικό σου μονόκερο στο Scratch: [[[generic-scratch3-draw-sprite] \--- task \---
 
-### Unicorn costumes
+### Ενδυμασίες μονόκερου
 
-Your unicorn needs **costumes** to be able to dance. A costume is one of a set of appearances of a sprite, which means sprites can change their look by changing costumes. Therefore, you can use costumes to make a sprite look like it's moving whenever you want to create an animation.
+Ο μονόκερος σου χρειάζεται **ενδυμασίες** για να μπορέσει να χορέψει. Μία ενδυμασία είναι μια από τις εμφανίσεις ενός χαρακτήρα, που σημαίνει ότι οι χαρακτήρες μπορούν να αλλάξουν την εμφάνισή τους αλλάζοντας ενδυμασίες. Επομένως, μπορείς να χρησιμοποιήσεις ενδυμασίες για να κάνεις έναν χαρακτήρα να φαίνεται σαν να κινείται κάθε φορά που θέλεις να δημιουργήσεις μια κινούμενη εικόνα.
 
-Here, we will be creating a dancing unicorn animation, so each costume will represent a dance move of your unicorn.
+Εδώ, θα δημιουργήσουμε ένα κινούμενο σχέδιο μονόκερου που χορεύει, έτσι κάθε ενδυμασία θα αντιπροσωπεύει μια χορευτική κίνηση του μονόκερού σου.
 
-\--- task \--- Decide how many costumes you want your unicorn sprite to have for the dance, and edit your costumes accordingly.
+\--- task \--- Αποφάσισε πόσες ενδυμασίες θέλεις να έχει ο μονόκερος για τον χορό, και τροποποίησε τις ενδυμασίες σου ανάλογα.
 
-Click for a reminder on how to add costumes in Scratch: [[[generic-scratch3-add-costume]]]
+Κάνε κλικ για μια υπενθύμιση σχετικά με τον τρόπο προσθήκης ενδυμασιών στο Scratch: [[[generic-scratch3-add-costume]]]
 
-Click for a reminder on how to duplicate costumes in Scratch: [[[generic-scratch3-duplicate-costumes]]] \--- /task \---
+Κάνε κλικ για μια υπενθύμιση σχετικά με τον τρόπο αντιγραφής ενδυμασιών στο Scratch: [[[generic-scratch3-duplicate-costumes] \--- /task \---
 
-It is up to you how many costumes you want to add for your dancing unicorn. For this dancing green unicorn, we have used five costumes:
+Εξαρτάται από εσένα πόσες ενδυμασίες θέλεις να προσθέσεις για τον χορό του μονόκερου. Για αυτόν τον χορό του πράσινου μονόκερου, χρησιμοποιήσαμε πέντε ενδυμασίες:
 
 | ![Dancing Unicorn Gif](images/dancingunicorn.gif) | ![Five Costumes](images/fivecostumes.png) |
 
-### Unicorn dance
+### Ο χορός του μονόκερου
 
-To create your dancing animation, you need to program the unicorn to switch costumes.
+Για να δημιουργήσεις το κινούμενο χορό σου, πρέπει να προγραμματίσεις τον μονόκερο ώστε να αλλάζει ενδυμασίες.
 
-\--- task \--- Switch between the first two costumes to start the unicorn dance.
+\--- task \--- Κάνε εναλλαγή μεταξύ των δύο πρώτων ενδυμασιών για να ξεκινήσεις τον χορό του μονόκερου.
 
-To switch from the first to the second costume use:
+Για να μεταβείς από την πρώτη στη δεύτερη ενδυμασία χρησιμοποίησε:
 
 ```blocks3
 switch costume to [costume 2 v]
 ```
 
-Unicorns are generally good dancers, so make sure you time your unicorn's dance to the speed of your rainbow pattern. You can use the `wait`{:class="blockcontrol"} block to match the unicorn's wait time to your rainbow's wait time.
+Οι μονόκεροι είναι γενικά καλοί χορευτές, οπότε βεβαιώσου ότι έχεις συγχρονίσει τον χορό του μονόκερου με την ταχύτητα του μοτίβου του ουράνιου τόξου σου. Μπορείς να χρησιμοποιήσεις το μπλοκ `περιμένε`{:class="blockcontrol"} για να ταιριάξεις τον χρόνο αναμονής του μονόκερου με τον χρόνο αναμονής του ουράνιου τόξου.
 
 ```blocks3
 wait (0.5) secs
@@ -61,19 +61,19 @@ switch costume to [costume 2 v]
 
 \--- /task \---
 
-\--- task \--- To create your dancing unicorn, switch between all costumes continuously. What kind of loop do you need to do this? \--- /task \---
+\--- task \--- Για να δημιουργήσεις το χορό του μονόκερου σου, άλλαζε συνεχώς ανάμεσα σε όλες τις ενδυμασίες. Τι είδους βρόχο χρειάζεσαι για να το κάνεις αυτό; \--- /task \---
 
 \--- hints \--- \--- hint \---
 
-Use a forever loop:
+Χρησιμοποίησε ένα βρόχο "για πάντα":
 
 ```blocks3
-forever
+για πάντα
 ```
 
 \--- /hint \--- \--- hint \---
 
-Use this block to switch to the next costume each time you go through the loop:
+Χρησιμοποίησε αυτό το μπλοκ για να μεταβαίνεις στην επόμενη ενδυμασία κάθε φορά που περνάς από το βρόχο:
 
 ```blocks3
 next costume
@@ -81,7 +81,7 @@ next costume
 
 \--- /hint \--- \--- hint \---
 
-Your code should look like this:
+Ο κώδικας θα πρέπει να μοιάζει κάπως έτσι:
 
 ```blocks3
 forever
