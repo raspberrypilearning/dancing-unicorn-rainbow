@@ -1,35 +1,35 @@
-## Build your rainbow
+## Zbuduj swoją tęczę
 
-In this step, you will assemble your rainbow and program its LEDs to blink in a rainbow pattern.
+W tym kroku zbudujesz tęczę i zaprogramujesz diody LED, tak aby mrugały we wzór tęczy.
 
-\--- task \--- Find all the LEDs you are going to use, and make sure you also have the right number of jumper wires and resistors (one each per LED). \--- /task \---
+\--- task \--- Znajdź wszystkie diody LED, których zamierzasz użyć, i upewnij się, że masz odpowiednią liczbę przewodów i rezystorów (po jednym na diodę). \--- /task \---
 
-\--- task \--- Rearrange the circuit you already have to make room for the other colours of your rainbow. \--- /task \---
+\---task\--- Przeorganizuj obwód, który już masz, żeby zrobić miejsce na inne kolory twojej tęczy. \--- /task \---
 
-![Circuit Rearranged](images/oneled.png)
+![Przeorganizowanie obwodu](images/oneled.png)
 
-### Ground the rainbow
+### Uziem tęczę
 
-\--- task \--- So that your rainbow shines brightly and is not covered by too many jumper wires, all LEDs should share one **Ground (GND)** pin. You can do set them up like this by rearranging your components on the breadboard a little.
+\--- task \--- Aby twoja tęcza świeciła jasno i nie była zasłonięta zbyt wieloma przewodami, wszystkie diody LED powinny współdzielić jeden pin** uziemienia (GND)**. Możesz to zrobić zmieniając trochę ułożenie komponentów na płytce stykowej.
 
-The breadboard looks like this inside:
+Płytka stykowa wygląda w środku tak:
 
-![Breadboard Cross-Section](images/breadboardxsection.png)
+![Przekrój płytki stykowej](images/breadboardxsection.png)
 
-To ground the whole rainbow with one jumper wire: \--- /task \---
+Aby uziemić całą tęczę za pomocą jednego przewodu: \--- /task \---
 
-\--- task \--- Connect the jumper wire attached to **GND** to a breadboard **rail** \--- /task \---
+\---task\--- Podłącz przewód włożony do **GND** do **szyny** płytki stykowej \---/task\---
 
-\--- task \--- Make sure resistors connect to the same rail as the **GND** jumper wire and to the same **bar** as the LED they belong to: \--- /task \---
+\---task\--- Upewnij się, czy wszystkie rezystory są podpięte do tej samej szyny co przewód podłączony do **GND** i do tego samego **paska** co dioda LED: \---/task\---
 
-![Adding LEDs](images/twoleds.png)
+![Dodawanie diod LED](images/twoleds.png)
 
-### Complete the rainbow
+### Ukończ tęczę
 
-\--- task \--- Add the rest of your LEDs, jumper wires, and resistors to the breadboard in a colour arrangement of your choice. Make sure to leave room for a button at the end. \--- /task \---
+\---task\--- Dodaj pozostałe diody LED, przewody połączeniowe i rezystory do płytki stykowej w wybranym przez siebie układzie kolorów. Pamiętaj, aby zostawić na końcu miejsce na przycisk. \--- /task \---
 
-If you are using many different colours, it might help to match the colour of the jumper wires to your LEDs.
+Jeśli używasz wielu różnych kolorów, może pomóc dopasowanie kolorów przewodów do diod LED.
 
-Your rainbow should look similar to this one:
+Twoja tęcza powinna wyglądać podobnie do tej:
 
-![Rainbow LEDs](images/rainbowleds.png)
+![Tęczowe diody LED](images/rainbowleds.png)
