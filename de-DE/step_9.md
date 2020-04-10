@@ -1,22 +1,22 @@
-## Add a button
+## Füge einen Taster hinzu
 
-You will now make your rainbow flash and your unicorn dance in time by pressing a button!
+Du wirst jetzt deinen Regenbogen blitzen und dein Einhorn synchron zu einem Tastendruck tanzen lassen!
 
-### Connect the button
+### Einen Taster anschließen
 
-\--- task \--- Connect your button to the breadboard and a GPIO pin.
+\--- task \--- Verbinde deinen Taster mit dem Steckbrett und einem GPIO-Pin.
 
-Click below for instructions on how to connect a button to the Raspberry Pi. Note that, instead of **GPIO 17** like the instructions say, we've used **GPIO 5** for the button — **GPIO 17** is already taken by an LED.
+Klicke unten für eine Anleitung wie du einen Taster mit dem Raspberry Pi verbindest. Note that, instead of **GPIO 17** like the instructions say, we've used **GPIO 5** for the button — **GPIO 17** is already taken by an LED.
 
 [[[rpi-gpio-wiring-a-button]]]
 
-Your rainbow should now look something like this:
+Dein Regenbogen sollte nun so aussehen:
 
-![Rainbow with Button](images/rainbowbutton.png) \--- /task \---
+![Regenbogen mit Knopf](images/rainbowbutton.png) \--- /task \---
 
-### Code the button
+### Einen Taster programmieren
 
-\--- task \--- Use the block shown below so that your button can make the unicorn dance.
+\--- task \--- Verwende den unten gezeigten Block, damit dein Taster das Einhorn zum tanzen bringen kann.
 
 ```blocks3
 when button (5 v) is [pressed v] :: hat extension
@@ -24,27 +24,27 @@ when button (5 v) is [pressed v] :: hat extension
 
 \--- /task \---
 
-### Control the unicorn dance
+### Steuere den Einhorntanz
 
-At the moment, you should have three chunks of Scratch code:
+Im Moment solltest du drei Teile Scratch-Code haben:
 
-1. Dancing unicorn code
-2. Blinking rainbow code
-3. Button code
+1. Einhorn-Tanz-Code
+2. Regenbogen-Blink-Code
+3. Taster-Code
 
-You will now connect these chunks so that your unicorn dances in time to your rainbow, and so that you can control the rainbow and unicorn by pressing the button you've added.
+Du wirst diese Stücke jetzt verbinden, damit dein Einhorn gleichzeitig mit deinem Regenbogen tanzt und damit du den Regenbogen und das Einhorn steuern kannst, indem du auf den Taster drückst, den du hinzugefügt hast.
 
-\--- task \--- Delete all of the `say`{:class="block3looks"} blocks in the code for the button, and then duplicate this chunk of code. \--- /task \---
+\--- task \--- Lösche alle `sage`{:class="block3looks"}-Blöcke im Code für den Taster und dann dupliziere diesen Codeabschnitt. \--- /task \---
 
-\--- task \--- In your code for the unicorn dance, delete the `when flag clicked`{:class="block3events"} block. Take the rest of the unicorn code, and slot it into the `else`{:class="block3control"} block of your button code. Only slot it into **one copy** of the button code. \--- /task \---
+\--- task \--- Lösche den `Wenn die grüne Flagge angeklickt`{:class="block3events"}-Block in deinem Code für den Einhorntanz. Nimm den Rest des Einhorncodes und setze ihn in den `sonst`{:class="block3control"}-Block deines Taster-Codes. Setze es nur in **eine Kopie** des Taster-Codes. \--- /task \---
 
-\--- task \--- In the rainbow code, delete the `when flag clicked`{:class="block3events"} block and slot the rest of the rainbow code into the `else`{:class="block3control"} block of the **other copy** of the button code. \--- /task \---
+\--- task \--- Im Regenbogen-Code, lösche den `Wenn die grüne Flagge angeklickt`{:class="block3events"}-Block und setze den Rest den Regenbogen-Codes in den `sonst`{:class="block3control"}-Block der **anderen Kopie** des Taster-Codes. \--- /task \---
 
-\--- task \--- In the `if`{:class="block3control"} slot of both copies of your button code, add an action. You could use `switch costume to first costume`{:class="block3looks"}, so your unicorn doesn't get its dance moves mixed up. \--- /task \---
+\--- task \--- Füge eine Aktion, in den `falls`{:class="block3control"}-Teil beider Kopien deines Taster-Codes, hinzu. Du könntest `wechsle Kostüm zu Kostüm1`{:class="block3looks"} verwenden, damit dein Einhorn seine Tanzbewegungen nicht durcheinander bringt. \--- /task \---
 
-\--- hints \--- \--- hint \--- If pressing the button doesn't make the rainbow light up and the unicorn dance in time, try checking that:
+\--- hints \--- \--- hint \--- Falls das Drücken des Tasters nicht den Regenbogen leuchten und gleichzeitig das Einhorn tanzen lässt, versuche sicherzustellen, dass:
 
-1. Every component is connected to the right GPIO pin
-2. You've got the inputs and outputs right in your code
-3. The timings match for your two chunks of code
-4. You've used all the right code blocks \--- /hint \--- \--- /hints \---
+1. Jede Komponente mit dem richtigen GPIO-Pin verbunden ist
+2. Die Ein- und Ausgänge in deinem Code stimmen
+3. Das Timing deiner beiden Codeblöcke übereinstimmt
+4. Du überall die richtigen Codeblöcke verwendest \--- /hint \--- \--- /hints \---
