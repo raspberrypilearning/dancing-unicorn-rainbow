@@ -1,22 +1,22 @@
-## Add a button
+## Πρόσθεσε ένα κουμπί
 
-You will now make your rainbow flash and your unicorn dance in time by pressing a button!
+Τώρα θα κάνεις το ουράνιο τόξο να ανάβει και τον μονόκερο να χορεύει στο ρυθμό του πιέζοντας ένα κουμπί!
 
-### Connect the button
+### Σύνδεσε το κουμπί
 
-\--- task \--- Connect your button to the breadboard and a GPIO pin.
+\--- task \--- Σύνδεσε το κουμπί σου με την πλακέτα δοκιμών και μια ακίδα GPIO.
 
-Click below for instructions on how to connect a button to the Raspberry Pi. Note that, instead of **GPIO 17** like the instructions say, we've used **GPIO 5** for the button — **GPIO 17** is already taken by an LED.
+Κάνε κλικ παρακάτω για οδηγίες σχετικά με τον τρόπο σύνδεσης ενός κουμπιού στο Raspberry Pi. Σημείωσε ότι, αντί για το **GPIO 17** όπως λένε οι οδηγίες, χρησιμοποιήσαμε το **GPIO 5** για το κουμπί -- Το **GPIO 17** χρησιμοποιείται ήδη από ένα LED.
 
 [[[rpi-gpio-wiring-a-button]]]
 
-Your rainbow should now look something like this:
+Το ουράνιο τόξο σου θα πρέπει τώρα να μοιάζει με αυτό:
 
-![Rainbow with Button](images/rainbowbutton.png) \--- /task \---
+![Ουράνιο τόξο με κουμπί](images/rainbowbutton.png) \--- /task \---
 
-### Code the button
+### Προγραμμάτισε το κουμπί
 
-\--- task \--- Use the block shown below so that your button can make the unicorn dance.
+\--- task \--- Χρησιμοποίησε το μπλοκ που φαίνεται παρακάτω, ώστε το κουμπί σου να μπορεί να κάνει τον χορό μονόκερου.
 
 ```blocks3
 when button (5 v) is [pressed v] :: hat extension
@@ -24,27 +24,27 @@ when button (5 v) is [pressed v] :: hat extension
 
 \--- /task \---
 
-### Control the unicorn dance
+### Έλεγξε τον χορό του μονόκερου
 
-At the moment, you should have three chunks of Scratch code:
+Προς το παρόν, θα πρέπει να έχεις τρία κομμάτια κώδικα Scratch:
 
-1. Dancing unicorn code
-2. Blinking rainbow code
-3. Button code
+1. Κώδικας χορού μονόκερου
+2. Κώδικας ουράνιου τόξου
+3. Κώδικας κουμπιού
 
-You will now connect these chunks so that your unicorn dances in time to your rainbow, and so that you can control the rainbow and unicorn by pressing the button you've added.
+Τώρα θα συνδέσεις αυτά τα κομμάτια έτσι ώστε ο μονόκερός σου να χορεύει ταυτόχρονα με το ουράνιο τόξο και έτσι να μπορείς να ελέγξεις το ουράνιο τόξο και τον μονόκερο πατώντας το κουμπί που έχεις προσθέσει.
 
-\--- task \--- Delete all of the `say`{:class="block3looks"} blocks in the code for the button, and then duplicate this chunk of code. \--- /task \---
+\--- task \--- Σβήσε όλα τα μπλοκ `πες`{:class="block3looks"} στον κώδικα για το κουμπί και μετά διπλασίασε αυτό το κομμάτι του κώδικα. \--- /task \---
 
-\--- task \--- In your code for the unicorn dance, delete the `when flag clicked`{:class="block3events"} block. Take the rest of the unicorn code, and slot it into the `else`{:class="block3control"} block of your button code. Only slot it into **one copy** of the button code. \--- /task \---
+\--- task \--- Στον κώδικά σου για τον χορό του μονόκερου, σβήσε το μπλοκ `όταν πατηθεί η σημαία`{:class="block3events"}. Πάρε τον υπόλοιπο κώδικα του μονόκερου και τοποθέτησέ τον στο μπλοκ `αλλιώς`{:class="block3control"} του κώδικα κουμπιού. Τοποθέτησέ το μόνο σε **ένα αντίγραφο** του κώδικα κουμπιού. \--- /task \---
 
-\--- task \--- In the rainbow code, delete the `when flag clicked`{:class="block3events"} block and slot the rest of the rainbow code into the `else`{:class="block3control"} block of the **other copy** of the button code. \--- /task \---
+\--- task \--- Στον κώδικα ουράνιου τόξου, σβήσε το μπλοκ `όταν πατηθεί η σημαία`{:class="block3events"} και τοποθέτησε τον υπόλοιπο κώδικα του ουράνιου τόξου στο μπλοκ `αλλιώς`{:class="block3control"} του **άλλου αντίγραφου** του κώδικα κουμπιού. \--- /task \---
 
-\--- task \--- In the `if`{:class="block3control"} slot of both copies of your button code, add an action. You could use `switch costume to first costume`{:class="block3looks"}, so your unicorn doesn't get its dance moves mixed up. \--- /task \---
+\--- task \--- Στο σημείο `αν`{:class="block3control"} και των δύο αντιγράφων του κώδικα κουμπιού, πρόσθεσε μία ενέργεια. Θα μπορούσες να χρησιμοποιήσεις το `άλλαξε στην πρώτη ενδυμασία`{:class="block3looks"}, έτσι ώστε ο μονόκερος να μην μπερδεύει τις χορευτικές κινήσεις του. \--- /task \---
 
-\--- hints \--- \--- hint \--- If pressing the button doesn't make the rainbow light up and the unicorn dance in time, try checking that:
+\--- hints \--- \--- hint \--- Εάν πατώντας το κουμπί δεν κάνει το ουράνιο τόξο να ανάψει και τον μονόκερο να χορέψει ταυτόχρονα, δοκίμασε να ελέγξεις ότι:
 
-1. Every component is connected to the right GPIO pin
-2. You've got the inputs and outputs right in your code
-3. The timings match for your two chunks of code
-4. You've used all the right code blocks \--- /hint \--- \--- /hints \---
+1. Κάθε εξάρτημα είναι συνδεδεμένο στη σωστή ακίδα GPIO
+2. Έχεις δηλώσει σωστά τις εισόδους και τις εξόδους στον κώδικά σου
+3. Οι χρονισμοί στα δύο κομμάτια κώδικά σου ταιριάζουν
+4. Έχεις χρησιμοποιήσει όλα τα σωστά μπλοκ κώδικα \--- /hint \--- \--- /hints \---
