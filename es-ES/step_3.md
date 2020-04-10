@@ -1,9 +1,9 @@
-## Your rainbow's first colour
+## El primer color de tu arcoiris
 
-You will now light up the rainbow's first colour with an LED. Choose any colour you wish, but here we've gone with the red colour of the rainbow spectrum (red, orange, yellow, green, blue, indigo, violet).
+Ahora iluminarás el primer color del arcoiris con un LED. Elige el color que quieras, pero aquí hemos ido con el color rojo del espectro del arcoiris (rojo, naranja, amarillo, verde, azul, índigo, violeta).
 
-\--- task \--- Create a circuit to connect your LED to the Raspberry Pi. Your circuit will light up the rainbow's first colour. \--- /task \---
+\--- task \--- Crea un circuito para conectar tu LED a la Raspberry Pi. Tu circuito se iluminará con el primer color del arcoiris. \--- /task \---
 
-If you have never connected an LED before, click below for information about LED circuits, and for detailed instructions.
+Si nunca has conectado un LED antes, haz clic abajo para obtener información sobre los circuitos LED e instrucciones detalladas.
 
 \[[[rpi-led-info]]\] \[[[rpi-connect-led\]]]
