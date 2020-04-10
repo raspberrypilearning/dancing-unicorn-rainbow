@@ -36,15 +36,15 @@ Ora collegherai questi frammenti in modo che il tuo unicorno balli a tempo col t
 
 \--- task \--- Elimina tutti i blocchi `dire`{:class="block3looks"} nel codice del pulsante e poi duplica questo pezzo di codice. \--- /task \---
 
-\--- task \--- Nel tuo codice per la danza dell'unicorno, elimina il blocco `quando fai clic sulla bandiera verde`{:class="block3events"}. Prendi il resto del codice di unicorno e mettilo nel blocco `altrimenti`{:class="block3control"} del codice del pulsante. Only slot it into **one copy** of the button code. \--- /task \---
+\--- task \--- Nel tuo codice per la danza dell'unicorno, elimina il blocco `quando fai clic sulla bandiera verde`{:class="block3events"}. Prendi il resto del codice di unicorno e mettilo nel blocco `altrimenti`{:class="block3control"} del codice del pulsante. Inseriscilo in **una copia** del codice pulsante. \--- /task \---
 
-\--- task \--- In the rainbow code, delete the `when flag clicked`{:class="block3events"} block and slot the rest of the rainbow code into the `else`{:class="block3control"} block of the **other copy** of the button code. \--- /task \---
+\--- task \--- Nel codice dell'arcobaleno, elimina il blocco `quando si clicca sulla bandiera verde`{:class="block3events"} e inserisci il resto del codice dell'arcobaleno nel blocco `altrimenti`{:class="block3control"} dell'**altra copia** del codice del pulsante. \--- /task \---
 
-\--- task \--- In the `if`{:class="block3control"} slot of both copies of your button code, add an action. You could use `switch costume to first costume`{:class="block3looks"}, so your unicorn doesn't get its dance moves mixed up. \--- /task \---
+\--- task \--- Nello slot `se`{:class="block3control"} di entrambe le copie del tuo codice del pulsante, aggiungi un'azione. Puoi usare `passa al primo costume`{:class="block3looks"}, così i passi di danza del tuo unicorno non si mischieranno. \--- /task \---
 
-\--- hints \--- \--- hint \--- If pressing the button doesn't make the rainbow light up and the unicorn dance in time, try checking that:
+\--- hints \--- \--- hint \--- Se premendo il pulsante non si accende l'arcobaleno e l'unicorno non balla a tempo, prova a verificare che:
 
-1. Every component is connected to the right GPIO pin
-2. You've got the inputs and outputs right in your code
-3. The timings match for your two chunks of code
-4. You've used all the right code blocks \--- /hint \--- \--- /hints \---
+1. Ogni componente sia collegato al pin GPIO giusto
+2. Hai impostato gli input e gli output corretti nel tuo codice
+3. I tempi utilizzati nei tuoi due pezzi di codice corrispondano
+4. Hai usato tutti i blocchi di codice corretti \--- /hint \--- \--- /hints \---
