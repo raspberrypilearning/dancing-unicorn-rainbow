@@ -1,4 +1,4 @@
-## Light your rainbow
+## Accendi il tuo arcobaleno
 
 Per assicurarti che il tuo arcobaleno stia funzionando, lo proverai prima illuminando l'intero arcobaleno in una sola volta. Creerai quindi del codice per far lampeggiare tutti i colori del tuo arcobaleno uno dopo l'altro e poi con uno schema a tua scelta.
 
@@ -6,7 +6,7 @@ Per assicurarti che il tuo arcobaleno stia funzionando, lo proverai prima illumi
 
 Il tuo arcobaleno dovrebbe illuminarsi in questo modo:
 
-![Rainbow Lit](images/rainbowlit.png)
+![Arcobaleno acceso](images/rainbowlit.png)
 
 \--- hints \--- \--- hint \--- Aggiungi altri blocchi `turn LED (0 v) [on v]`{:class="block3extensions"} in questo frammento di codice:
 
@@ -26,19 +26,19 @@ turn LED (22 v) [on v] ::extension
 
 \--- /hint \--- \--- hint \---
 
-If your LEDs are not lighting:
+Se i tuoi LED non si accendono:
 
-1) Check which GPIO pins your LEDs are connected to, and make sure you have set them to `on`{:class="block3extensions"} 2) Test whether the LEDs are working — you can plug an LED's jumper wire into **GPIO 3V3** to test it 3) Make sure the circuit on the breadboard is complete
+1) Controlla a quali pin GPIO sono collegati i tuoi LED, e assicurati di averli impostati su `on`{:class="block3extensions"} 2) Verifica che i LED funzionino — puoi inserire il cavo jumper di un LED in **GPIO 3V3** per provarlo 3) Assicurati che il circuito sulla breadboard sia completo
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- Ora, aggiungi più codice per far lampeggiare l'arcobaleno con uno schema come questo:<video width="560" height="315" controls> <source src="resources/Scratch-GPIO-Pathways-5.mp4" type="video/mp4"> Il tuo browser non supporta il tag video, prova FireFox o Chrome. </video> 
+\--- task \--- Ora, aggiungi più codice per far lampeggiare l'arcobaleno con uno schema arcobaleno come questo:<video width="560" height="315" controls> <source src="resources/Scratch-GPIO-Pathways-5.mp4" type="video/mp4"> Il tuo browser non supporta il tag video, prova FireFox o Chrome. </video> 
 
 Per fare ciò, dovrai accendere un LED per un paio di secondi e poi spegnerlo contemporaneamente all'accensione del LED successivo. \--- /task \---
 
 \--- hints \--- \--- hint \---
 
-Make sure your `Events`{:class="blockevents"} block matches what you are doing to test the code. In the example here, to make our rainbow blink, we have to click the green flag:
+Assicurati che il tuo blocco `Situazioni`{:class="blockevents"} corrisponda a ciò che stai facendo per testare il codice. Nell'esempio qui, per far lampeggiare il nostro arcobaleno, dobbiamo cliccare sulla bandiera verde:
 
 ```blocks3
 when flag clicked
@@ -72,7 +72,7 @@ Dovrai aggiungere blocchi per tutti i tuoi LED e assicurarti di utilizzare i giu
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- Make the lights blink repeatedly through the rainbow in a loop.
+\--- task \--- Fai lampeggiare le luci ripetutamente attraverso l'arcobaleno in un ciclo.
 
 Per ripetere lo schema dell'arcobaleno per sempre, usa:
 
@@ -94,6 +94,6 @@ forever
 
 Prova le seguenti idee:
 
-1) Make the LEDs blink very fast and very slow 2) Make the whole rainbow blink 3) Make pairs of LEDs light up in alternate patterns 4) Make the rainbow blink something in Morse code 5) Make the rainbow do different things in response to different events
+1) Fai lampeggiare i LED molto velocemente e molto lentamente 2) Fai lampeggiare l'intero arcobaleno 3) Fai accendere coppie di LED in schemi alternati 4) Fai dire all'arcobaleno qualcosa in codice Morse 5) Fai fare all'arcobaleno cose differenti in risposta a situazioni differenti
 
 \--- /collapse \--- \--- /challenge \---
