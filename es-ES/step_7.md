@@ -1,21 +1,21 @@
-## Light your rainbow
+## Enciende tu arcoiris
 
-To make sure your rainbow is working, you will first test it by lighting the whole rainbow at once. You will then create code to make the rainbow blink through all its colours one after the other, and then in a pattern of your choice.
+Para asegurarte de que tu arcoiris funciona, primero pruebalo encendiendo todo el arcoiris a la vez. Entonces crearás código para hacer que el arcoiris parpadee a través de todos sus colores uno tras otro y luego en un patrón de tu elección.
 
-\--- task \--- Add more code to control the other LEDs. Make sure you include the right GPIO pins. \--- /task \---
+\--- task \--- Añade más código para controlar los otros LEDs. Asegúrate de incluir los pines GPIO correctos. \--- /task \---
 
-Your rainbow should light up like this:
+Tu arcoíris debería iluminarse así:
 
-![Rainbow Lit](images/rainbowlit.png)
+![Arcoiris iluminado](images/rainbowlit.png)
 
-\--- hints \--- \--- hint \--- Add more `turn LED (0 v) [on v]`{:class="block3extensions"} blocks in this chunk of code:
+\--- hints \--- \--- hint \--- Añade más bloques `turn LED (0 v) [on v]`{:class="block3extensions"} en este fragmento de código:
 
 ```blocks3
 when flag clicked
 turn LED (17 v) [on v] ::extension
 ```
 
-\--- /hint \--- \--- hint \--- Keep adding blocks at the bottom of your code until all your LEDs are set to `on`{:class="block3extensions"}.
+\--- /hint \--- \--- hint \--- Sigue añadiendo bloques en la parte inferior de tu código hasta que todos tus LEDs estén en `on`{:class="block3extensions"}.
 
 ```blocks3
 when flag clicked
@@ -26,19 +26,19 @@ turn LED (22 v) [on v] ::extension
 
 \--- /hint \--- \--- hint \---
 
-If your LEDs are not lighting:
+Si tus LED no se iluminan:
 
-1) Check which GPIO pins your LEDs are connected to, and make sure you have set them to `on`{:class="block3extensions"} 2) Test whether the LEDs are working — you can plug an LED's jumper wire into **GPIO 3V3** to test it 3) Make sure the circuit on the breadboard is complete
+1) Comprueba a qué pin GPIO están conectados tus LEDs y asegúrate de que están en `on`{:class="block3extensions"} 2) Prueba si los LEDs están funcionando, puedes conectar un cable puente de un LED a **GPIO 3V3** para probarlo 3) Asegúrate de que el circuito de la placa de pruebas esté completo
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- Now, add more code to make the rainbow blink in a rainbow pattern like this:<video width="560" height="315" controls> <source src="resources/Scratch-GPIO-Pathways-5.mp4" type="video/mp4"> Your browser does not support the video tag, so try FireFox or Chrome. </video> 
+\--- task \--- Ahora, añade más código para hacer que el arcoiris parpadee en un patrón de arcoiris como este:<video width="560" height="315" controls> <source src="resources/Scratch-GPIO-Pathways-5.mp4" type="video/mp4"> Tu navegador no soporta vídeo tag, así que prueba FireFox o Chrome. </video> 
 
-To do this, you will need to make one LED turn on for a couple of seconds and then turn off at the same time as the next LED turns on. \--- /task \---
+Para hacer esto, tendrás que hacer que un LED se encienda durante un par de segundos y luego se apague al mismo tiempo que el siguiente LED se enciende. \--- /task \---
 
 \--- hints \--- \--- hint \---
 
-Make sure your `Events`{:class="blockevents"} block matches what you are doing to test the code. In the example here, to make our rainbow blink, we have to click the green flag:
+Asegúrate de que el bloque `Eventos`{:class="blockevents"} coincide con lo que estás haciendo para probar el código. En el ejemplo aquí, para hacer que nuestro arcoiris parpadee, tenemos que hacer clic en la bandera verde:
 
 ```blocks3
 when flag clicked
@@ -46,7 +46,7 @@ when flag clicked
 
 \--- /hint \--- \--- hint \---
 
-If you're stuck, make sure you are using these blocks:
+Si estás atascado, asegúrate de estar usando estos bloques:
 
 ```blocks3
 turn LED (0 v) [off v] ::extension
@@ -55,7 +55,7 @@ wait () secs
 
 \--- /hint \--- \--- hint \---
 
-Try using this approach:
+Intenta usar este enfoque:
 
 ```blocks3
 when flag clicked
@@ -68,13 +68,13 @@ turn LED (18 v) [off v] ::extension
 turn LED (22 v) [on v] ::extension
 ```
 
-You will need to add blocks for all your LEDs and make sure that you're using the right GPIO pin numbers in your code.
+Necesitarás añadir bloques para todos tus LEDs y asegurarte de que estás usando los números de pin GPIO correctos en tu código.
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- Make the lights blink repeatedly through the rainbow in a loop.
+\--- task \--- Haz que las luces parpadeen repetidamente a través del arcoiris en un bucle.
 
-To loop through the rainbow pattern forever, use:
+Para recorrer el patrón del arcoiris para siempre, usa:
 
 ```blocks3
 forever
@@ -84,16 +84,16 @@ forever
 
 \--- challenge \---
 
-+ Make the rainbow blink in a pattern of your choice.
++ Haz que el arcoiris parpadee en un patrón de tu elección.
 
 \--- collapse \---
 
 * * *
 
-## title: Rainbow challenges
+## title: Desafíos arcoiris
 
-Try out the following ideas:
+Prueba las siguientes ideas:
 
-1) Make the LEDs blink very fast and very slow 2) Make the whole rainbow blink 3) Make pairs of LEDs light up in alternate patterns 4) Make the rainbow blink something in Morse code 5) Make the rainbow do different things in response to different events
+1) Haz que los LED parpadeen muy rápido y muy lento 2) Haz que todo el arcoiris parpadee 3) Haz que los pares de LED se enciendan en patrones alternativos 4) Haz que el arcoiris parpadee algo en código Morse 5) Haz que el arcoiris haga diferentes cosas en respuesta a diferentes eventos
 
 \--- /collapse \--- \--- /challenge \---
