@@ -10,9 +10,9 @@ Choisis l'une des options suivantes pour créer un sprite licorne:
 2. Télécharge une image de licorne trouvée autre part et utilise-la comme sprite
 3. Dessine ton propre sprite de licorne dans Scratch ou dans un autre programme (comme la jolie licorne verte à droite).
 
-Exemples :
+Exemples:
 
-|             (1) Sprite Scratch :              |      (2) Télécharge la tienne :       |             (3) Dessine la tienne :             |
+|             (1) Sprite Scratch:              |      (2) Télécharge la tienne:       |             (3) Dessine la tienne:             |
 |:---------------------------------------------:|:-------------------------------------:|:-----------------------------------------------:|
 | ![Licorne Scratch](images/scratchunicorn.png) | ![Licorne Web](images/webunicorn.png) | ![Dessiner une licorne](images/drawunicorn.png) |
 
@@ -64,7 +64,7 @@ switch costume to [costume 2 v]
 Pour créer ta licorne dansante, bascule entre tous les costumes en continu. De quel type de boucle as-tu besoin pour faire cela? --- /task ---
 
 --- hints ---
- --- hint ---
+--- hint ---
 
 Utilise une boucle répéter indéfiniment:
 
@@ -72,7 +72,8 @@ Utilise une boucle répéter indéfiniment:
 répéter indéfiniment
 ```
 
---- /hint --- --- hint ---
+--- /hint --- 
+--- hint ---
 
 Utilise ce bloc pour passer au costume suivant à chaque fois que tu parcoures la boucle:
 
@@ -90,4 +91,5 @@ wait (0.5) secs
 next costume
 ```
 
---- /hint ------ /hints ---
+--- /hint ---
+--- /hints ---
