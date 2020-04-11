@@ -1,22 +1,22 @@
-## Add a button
+## एक बटन जोड़ें
 
-You will now make your rainbow flash and your unicorn dance in time by pressing a button!
+अब आप एक बटन दबाकर समय-समय पर अपने इंद्रधनुष को रोशन और अपने काल्पनिक जानवर को नचा सकते हैं!
 
-### Connect the button
+### बटन कनेक्ट करें
 
-\--- task \--- Connect your button to the breadboard and a GPIO pin.
+\--- कार्य \--- बटन को ब्रेडबोर्ड और GPIO पिन से जोड़े।
 
-Click below for instructions on how to connect a button to the Raspberry Pi. Note that, instead of **GPIO 17** like the instructions say, we've used **GPIO 5** for the button — **GPIO 17** is already taken by an LED.
+Raspberry Pi को एक बटन कनेक्ट करने के निर्देशों के लिए नीचे क्लिक करें। ध्यान दें कि, निर्देशों के अनुसार **GPIO 17** के बजाए, हमने **GPIO 5** का उपयोग किया है क्योंकि **GPIO 17** पहले से ही एक LED द्वारा जोड़ी गई है।
 
 [[[rpi-gpio-wiring-a-button]]]
 
-Your rainbow should now look something like this:
+आपका इंद्रधनुष अब कुछ इस तरह दिखना चाहिए:
 
 ![Rainbow with Button](images/rainbowbutton.png) \--- /task \---
 
-### Code the button
+### बटन को कोड करें
 
-\--- task \--- Use the block shown below so that your button can make the unicorn dance.
+\--- task \--- नीचे दिखाए गए ब्लॉक का उपयोग करें ताकि आपका बटन आपके काल्पनिक जानवर को नचा सके।
 
 ```blocks3
 when button (5 v) is [pressed v] :: hat extension
@@ -24,27 +24,27 @@ when button (5 v) is [pressed v] :: hat extension
 
 \--- /task \---
 
-### Control the unicorn dance
+### काल्पनिक जानवर के नृत्य पर नियंत्रण रखें
 
-At the moment, you should have three chunks of Scratch code:
+फिलहाल, आपके पास Scratch कोड के तीन भाग होने चाहिए:
 
-1. Dancing unicorn code
-2. Blinking rainbow code
-3. Button code
+1. नाचने वाला काल्पनिक जानवर का कोड
+2. इंद्रधनुष के LED बंद चालू करने का कोड
+3. बटन कोड
 
-You will now connect these chunks so that your unicorn dances in time to your rainbow, and so that you can control the rainbow and unicorn by pressing the button you've added.
+अब आप इन भागों को एक साथ जोड़ेंगे ताकि आपका इंद्रधनुष के समय के साथ आपका काल्पनिक जानवर नाचें, और ताकि आप जोड़े गए बटन को दबाकर इंद्रधनुष और काल्पनिक जानवर को नियंत्रित कर सकें।
 
-\--- task \--- Delete all of the `say`{:class="block3looks"} blocks in the code for the button, and then duplicate this chunk of code. \--- /task \---
+\--- task \--- सभी `say`{:class="block3looks"} ब्लॉक्स को हटाए, और फिर इस कोड के भाग को डुप्लिकेट (duplicate) करें। \--- /task \---
 
-\--- task \--- In your code for the unicorn dance, delete the `when flag clicked`{:class="block3events"} block. Take the rest of the unicorn code, and slot it into the `else`{:class="block3control"} block of your button code. Only slot it into **one copy** of the button code. \--- /task \---
+\--- task \--- अपने नाचने वाले काल्पनिक जानवर के कोड में `when flag clicked`{:class="block3events"} ब्लॉक को हटाए। आपके काल्पनिक जानवर का बाकी का कोड लें, और इसे बटन कोड के `else`{:class="block3control"} ब्लॉक में डालें। केवल इसे बटन कोड के **एक प्रति** में जोड़े। \--- /task \---
 
-\--- task \--- In the rainbow code, delete the `when flag clicked`{:class="block3events"} block and slot the rest of the rainbow code into the `else`{:class="block3control"} block of the **other copy** of the button code. \--- /task \---
+\--- task \--- इंद्रधनुष के कोड में, `when flag clicked`{:class="block3events"} ब्लॉक को हटाएं और बाकी के कोड को बटन कोड के **other copy** के `else`{:class="block3control"} ब्लॉक में जोड़ें। \--- /task \---
 
-\--- task \--- In the `if`{:class="block3control"} slot of both copies of your button code, add an action. You could use `switch costume to first costume`{:class="block3looks"}, so your unicorn doesn't get its dance moves mixed up. \--- /task \---
+\--- task \--- आपके बटन कोड के दोनों प्रतिलीपों के `if`{:class="block3control"} ब्लॉक में एक्शन जोड़ें। आप `switch costume to first costume`{:class="block3looks"} का इस्तमाल कर सकते हैं ताकि आपके काल्पनिक जानवर के डांस में दिक्कत न हो। \--- /task \---
 
-\--- hints \--- \--- hint \--- If pressing the button doesn't make the rainbow light up and the unicorn dance in time, try checking that:
+\--- hints \--- \--- hint \--- यदि बटन दबाने से इंद्रधनुष रोशन नहीं होता है और समय पर आपका काल्पनिक जानवर नृत्य नहीं करता है, तो यह जांचें:
 
-1. Every component is connected to the right GPIO pin
-2. You've got the inputs and outputs right in your code
-3. The timings match for your two chunks of code
-4. You've used all the right code blocks \--- /hint \--- \--- /hints \---
+1. हर घटक सही GPIO पिन से जुड़ा हुआ है
+2. आपको अपने कोड में इनपुट और आउटपुट सही मिले हैं
+3. आपके दो कोडों के समय एक होते है
+4. आपने सभी सही कोड ब्लॉक का उपयोग किया है \--- /hint \--- \--- /hints \---
