@@ -1,3 +1,3 @@
-## What next?
+## आगे क्या?
 
-Why not try out some of our other [physical computing resource using Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&hardware%5B%5D=electronic-components).
+क्यूं न आप हमारे कुछ अन्य [Scratch इस्तमाल करने वाले भौतिक कंप्यूटिंग संसाधन](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&hardware%5B%5D=electronic-components) को आजमाएं।
