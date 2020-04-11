@@ -40,6 +40,7 @@ Si tes LEDs ne s'allument pas:
 --- /hint ---
 --- /hints ---
 
+--- task ---
 Maintenant, ajoute plus de code pour faire clignoter l'arc-en-ciel dans un motif arc-en-ciel comme ceci:
 
 <video width="560" height="315" controls> <source src="resources/Scratch-GPIO-Pathways-5.mp4" type="video/mp4"> Ton navigateur ne supporte pas le tag vidéo, essaie FireFox ou Chrome. </video> 
