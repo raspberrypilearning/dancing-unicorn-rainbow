@@ -34,17 +34,17 @@ Op dit moment zou je drie stukken Scratch code moeten hebben:
 
 Je zult nu deze stukjes code verbinden zodat je eenhoorn gelijktijdig met je regenboog danst en dat je de regenboog en eenhoorn kunt bedienen door op de knop die je hebt toegevoegd te drukken.
 
-\--- task \--- Delete all of the `say`{:class="block3looks"} blocks in the code for the button, and then duplicate this chunk of code. \--- /task \---
+\--- task \--- Verwijder alle `zeg`{:class="block3looks"} blokken in de code voor de knop, en kopieer dit stuk code. \--- /task \---
 
-\--- task \--- In your code for the unicorn dance, delete the `when flag clicked`{:class="block3events"} block. Take the rest of the unicorn code, and slot it into the `else`{:class="block3control"} block of your button code. Only slot it into **one copy** of the button code. \--- /task \---
+\--- task \--- Verwijder in je code voor de eenhoorn dans het `wanneer op de groene vlag wordt geklikt`{:class="block3events"} blok. Neem de rest van de eenhoorncode en plaats deze in het `anders`{:class="block3control"} blok van je knopcode. Plaats het maar in **één exemplaar** van de knopcode. \--- /task \---
 
-\--- task \--- In the rainbow code, delete the `when flag clicked`{:class="block3events"} block and slot the rest of the rainbow code into the `else`{:class="block3control"} block of the **other copy** of the button code. \--- /task \---
+\--- task \--- Verwijder in de regenboogcode het `wanneer op de groene vlag wordt geklikt`{:class="block3events"} blok en plaats de rest van de regenboogcode in het `anders`{:class="block3control"} blok van het **andere exemplaar** van de knopcode. \--- /task \---
 
-\--- task \--- In the `if`{:class="block3control"} slot of both copies of your button code, add an action. You could use `switch costume to first costume`{:class="block3looks"}, so your unicorn doesn't get its dance moves mixed up. \--- /task \---
+\--- taak \--- In het `als`{:class="block3control"}-deel van beide exemplaren van je knopcode voeg je een actie toe. Je kunt `verander uiterlijk naar het eerste uiterlijk`{:class="block3looks"} gebruiken, zodat de dansbewegingen van je eenhoorn niet in de war raken. \--- /task \---
 
-\--- hints \--- \--- hint \--- If pressing the button doesn't make the rainbow light up and the unicorn dance in time, try checking that:
+\--- hints \--- \--- hint \--- Als het indrukken van de knop de regenboog niet laat oplichten en de eenhoorn niet op tijd danst, probeer te controleren of:
 
-1. Every component is connected to the right GPIO pin
-2. You've got the inputs and outputs right in your code
-3. The timings match for your two chunks of code
-4. You've used all the right code blocks \--- /hint \--- \--- /hints \---
+1. Elke component is verbonden met de juiste GPIO-pin
+2. Je hebt de in- en uitvoeren goed in je code
+3. De timings komen overeen met je twee delen code
+4. Je hebt alle juiste codeblokken gebruikt \--- /hint \--- \--- /hints \---
