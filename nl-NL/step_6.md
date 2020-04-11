@@ -1,35 +1,35 @@
-## Build your rainbow
+## Bouw je regenboog
 
-In this step, you will assemble your rainbow and program its LEDs to blink in a rainbow pattern.
+In deze stap ga je je regenboog samenstellen en de LED's programmeren om in een regenboogpatroon te knipperen.
 
-\--- task \--- Find all the LEDs you are going to use, and make sure you also have the right number of jumper wires and resistors (one each per LED). \--- /task \---
+\--- task \--- Vind alle LED's die je gaat gebruiken en zorg ervoor dat je ook het juiste aantal verbindingsdraden en weerstanden hebt (één per LED). \--- /task \---
 
-\--- task \--- Rearrange the circuit you already have to make room for the other colours of your rainbow. \--- /task \---
+\--- taak \--- Herschik het circuit dat je al hebt om ruimte te maken voor de andere kleuren van je regenboog. \--- /task \---
 
-![Circuit Rearranged](images/oneled.png)
+![Circuit herschikt](images/oneled.png)
 
-### Ground the rainbow
+### Aard de regenboog
 
-\--- task \--- So that your rainbow shines brightly and is not covered by too many jumper wires, all LEDs should share one **Ground (GND)** pin. You can do set them up like this by rearranging your components on the breadboard a little.
+\--- task \--- Om te zorgen dat je regenboog helder schijnt en niet bedekt wordt met te veel jumper draden, laat je alle LED's een **Aard (GND)** pin delen. Je kunt ze op deze manier opstellen door je componenten op het experimenteerbord een beetje te herschikken.
 
-The breadboard looks like this inside:
+Het experimenteerbord ziet er van binnen zo uit:
 
-![Breadboard Cross-Section](images/breadboardxsection.png)
+![Experimenteerbord dwarsdoorsnede](images/breadboardxsection.png)
 
-To ground the whole rainbow with one jumper wire: \--- /task \---
+Om de hele regenboog te aarden met één verbindingsdraad: \--- /taak \---
 
-\--- task \--- Connect the jumper wire attached to **GND** to a breadboard **rail** \--- /task \---
+\--- task \--- Sluit de verbindingsdraad die aangesloten is op **GND** aan op een **rail** van het experimenteerbord \--- /task \---
 
-\--- task \--- Make sure resistors connect to the same rail as the **GND** jumper wire and to the same **bar** as the LED they belong to: \--- /task \---
+\--- task \--- Zorg ervoor dat weerstanden aangesloten zijn met dezelfde rail als de **GND** verbindingsdraad en met dezelfde **printbaan** als de LED waartoe ze behoren: \--- /task \---
 
-![Adding LEDs](images/twoleds.png)
+![LED's toevoegen](images/twoleds.png)
 
-### Complete the rainbow
+### Maak de regenboog compleet
 
-\--- task \--- Add the rest of your LEDs, jumper wires, and resistors to the breadboard in a colour arrangement of your choice. Make sure to leave room for a button at the end. \--- /task \---
+\--- task \--- Voeg de rest van je LED's, verbindingsdraden en weerstanden toe aan het experimenteerbord in een kleurenschema van jouw keuze. Zorg ervoor dat je ruimte laat voor een drukknop aan het eind. \--- /task \---
 
-If you are using many different colours, it might help to match the colour of the jumper wires to your LEDs.
+Als je veel verschillende kleuren gebruikt, kan het helpen om de kleur van de verbindingsdraden te koppelen aan de kleur van je LED's.
 
-Your rainbow should look similar to this one:
+Je regenboog zou er ongeveer zo uit moeten zien:
 
-![Rainbow LEDs](images/rainbowleds.png)
+![Regenboog LED's](images/rainbowleds.png)
