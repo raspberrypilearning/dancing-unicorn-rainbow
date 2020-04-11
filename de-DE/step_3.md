@@ -6,4 +6,4 @@ Du wirst jetzt die erste Farbe deines Regenbogens mit einer LED erleuchten. Wäh
 
 Wenn du noch nie zuvor eine LED angeschlossen hast, klicke unten für mehr Informationen über LED-Schaltungen und für eine detaillierte Anleitung.
 
-\[[[rpi-led-info]]\] \[[[rpi-connect-led\]]]
+[[[rpi-led-info]]] [[[rpi-connect-led]]]

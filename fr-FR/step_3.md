@@ -6,4 +6,4 @@ Crée un circuit pour connecter ta LED au Raspberry Pi. Ton circuit éclairera l
 
 Si tu n'as jamais connecté de LED auparavant, clique ci-dessous pour plus d'informations sur les circuits LED et pour des instructions détaillées.
 
-\[[[rpi-led-info]]\] \[[[rpi-connect-led\]]]
+[[[rpi-led-info]]] [[[rpi-connect-led]]]
