@@ -1,22 +1,22 @@
-## Test your circuit in Scratch
+## Scratch में अपने सर्किट का परीक्षण करें
 
-You will now connect your circuit and first rainbow colour to Scratch, so that you can code a Scratch program to control the LED.
+अब आप अपने सर्किट और इंद्रधनुष के पहले रंग को Scratch से जोड़ेंगे, ताकि आप LED को नियंत्रित करने के लिए Scratch प्रोग्राम को कोड कर सकें।
 
-\--- task \--- Open up Scratch 3 on your Raspberry Pi.
+\--- task \--- अपने Raspberry Pi पर Scratch 3 खोलें।
 
 ![open-scratch](images/open-scratch.png) \--- /task \---
 
-\--- task \--- Then add the Raspberry Pi Simple Electronics extension
+\--- कार्य \--- फिर Raspberry Pi Simple Electronics Extension जोड़ें
 
 ![add-extension](images/add-extension.png)
 
 ![simple-electronics](images/simple-electronics.png) \--- /task \---
 
-\--- task \--- In the previous step, you connected your LED to pin **3V3**. This is the pin to connect to if you are testing your LED. You now need to connect your LED to a pin you can control with Scratch. Move the wire from pin **3V3** to a new pin, for example **GPIO 17**. \--- /task \---
+\--- task \--- पिछले चरण में, आपने अपने LED को पिन **3V3** से जोड़ा। यदि आप अपने LED का परीक्षण कर रहे हैं तो इसी पिन से कनेक्ट करें। अब आपको अपने LED को एक पिन से कनेक्ट करना होगा जिसे आप Scratch से नियंत्रित कर सकते हैं। पिन **3V3** से वायर को निकले और दूसरे नए पिन में जोड़ें, उदाहरण के लिए **GPIO 17**। \--- /task \---
 
 ![Move Pin](images/movepin.png)
 
-\--- task \--- Now test that the LED can be controlled using the following simple script
+\--- task \--- अब परीक्षण करें कि LED को निम्न सरल स्क्रिप्ट का उपयोग करके नियंत्रित किया जा सकता है
 
 ```blocks3
 when flag clicked
@@ -27,4 +27,4 @@ turn LED (17 v) [off v] ::extension
 
 \--- /task \---
 
-\--- task \--- Click the green flag to run your script. The LED should turn on for 1 second. \--- /task \---
+\--- task \--- अपने कोड का परीक्षण करने के लिए हरे झंडे पर क्लिक करें। LED 1 सेकंड के लिए चालू होनी चाहिए। \--- /task \---
