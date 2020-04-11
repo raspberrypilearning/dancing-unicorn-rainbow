@@ -66,5 +66,5 @@ title: Zusätzliche Information für Pädagogen
 ---
 Wenn du dieses Projekt ausdrucken möchtest, verwende bitte die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}.
 
-Die vollständige Lösung für dieses Projekt findest du unter [rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get) 
+Die vollständige Lösung für dieses Projekt findest du unter [rpf.io/p/de-DE/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get) 
 --- /collapse ---

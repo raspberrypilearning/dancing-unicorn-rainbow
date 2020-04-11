@@ -35,7 +35,9 @@ turn LED (22 v) [on v] ::extension
 
 Si tes LEDs ne s'allument pas:
 
-1) Vérifie à quelles broches GPIO tes LEDs sont connectées et assure-toi de les avoir réglées sur `on`{:class="block3extensions"} 2) Teste si les LEDs fonctionnent - tu peux brancher le fil de cavalier d'une LED dans **GPIO 3V3** pour le tester 3) Assure-toi que le circuit de la platine d'expérimentation est complet
+ 1) Vérifie à quelles broches GPIO tes LEDs sont connectées et assure-toi de les avoir réglées sur `on`{:class="block3extensions"} 
+ 2) Teste si les LEDs fonctionnent - tu peux brancher le fil de cavalier d'une LED dans **GPIO 3V3** pour le tester 
+ 3) Assure-toi que le circuit de la platine d'expérimentation est complet
 
 --- /hint ---
 --- /hints ---
