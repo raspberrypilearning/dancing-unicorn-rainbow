@@ -1,10 +1,10 @@
-## Control your rainbow circuit
+## अपने इंद्रधनुष सर्किट को नियंत्रित करना
 
-When your whole rainbow is set up, you can control how it is lit. For a little practice of controlling one LED, use Scratch to do the following:
+जब आपका पूरा इंद्रधनुष सेट हो जाता है, तो आप नियंत्रित कर सकते हैं कि इंद्रधनुष कैसे प्रकाशित हो। एक LED को नियंत्रित करने का थोड़ा अभ्यास करने के लिए Scratch में निमनलिखित का उपयोग करें:
 
-\--- task \--- When you press the <kbd>P</kbd> key, make the LED turn on for two seconds and then turn off. \--- /task \---
+\--- task \--- जब आप कीबोर्ड पर <kbd>P</kbd> दबाते हैं तब दो सेकंड के लिए LED चालू करें और फिर बंद करें। \--- /task \---
 
-\--- hints \--- \--- hint \--- Look in the `Control`{:class="block3control"} blocks section. \--- /hint \--- \--- hint \--- Use
+\--- hint \--- \--- hint \--- `Control`{:class="block3control"} ब्लॉक सेक्शन में देखिए। \--- /hint \--- \--- hint \--- निम्नलखित का उपयोग करें
 
 ```blocks3
   wait (2) secs
@@ -21,7 +21,7 @@ turn LED (17 v) [off v] ::extension
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- When your Scratch program starts, make your LED light up for 2 seconds and then turn off for 2 seconds. \--- /task \---
+\--- task \--- जब आपका Scratch प्रोग्राम शुरू होता है, तो अपना LED 2 सेकंड के लिए प्रकाशित करें और फिर 2 सेकंड के लिए बंद करें। \--- /task \---
 
 \--- hints \--- \--- hint \---
 
@@ -35,9 +35,9 @@ wait (2) secs
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- Make your LED turn on and off as long as your program runs. \--- /task \---
+\--- task \--- जब तक आपका प्रोग्राम चलता है, तब तक अपना LED चालू और बंद करें। \--- /task \---
 
-\--- hints \--- \--- hint \--- Use
+\--- hints \--- \--- hint \--- निम्नलखित का उपयोग करें
 
 ```blocks3
 forever
@@ -56,9 +56,9 @@ wait (2) secs
 
 \--- /hint \--- \--- /hints \---
 
-+ Make your LED blink faster.
++ अपना LED जल्दी बंद चालू करें।
 
-\--- hints \--- \--- hint \--- Use `wait x secs`{:class="block3control"} for fewer seconds. \--- /hint \--- \--- hint \---
+\--- hints \--- \--- hint \--- कुछ सेकंड के लिए `wait x secs`{:class="block3control"} का उपयोग करें \--- /hint \--- \--- hint \---
 
 ```blocks3
 when flag clicked
@@ -71,4 +71,4 @@ wait (0.5) secs
 
 \--- /hint \--- \--- /hints \---
 
-Well done — you are now ready to create and control an awesome rainbow!
+शाबाश - अब आप एक बहुत बढ़िया इंद्रधनुष बनाने और नियंत्रित करने के लिए तैयार हैं!
