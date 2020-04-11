@@ -1,22 +1,22 @@
-## Add a button
+## Voeg een knop toe
 
-You will now make your rainbow flash and your unicorn dance in time by pressing a button!
+Je gaat nu je regenboog laten oplichten en je eenhoorn laten dansen door op een knop te drukken!
 
-### Connect the button
+### Sluit de knop aan
 
-\--- task \--- Connect your button to the breadboard and a GPIO pin.
+\--- taak \--- Sluit je knop aan op het experimenteerbord en een GPIO-pin.
 
-Click below for instructions on how to connect a button to the Raspberry Pi. Note that, instead of **GPIO 17** like the instructions say, we've used **GPIO 5** for the button — **GPIO 17** is already taken by an LED.
+Klik hieronder voor instructies over het verbinden van een knop met de Raspberry Pi. Let op, in plaats van **GPIO 17** zoals de instructies zeggen, hebben we **GPIO 5** gebruikt voor de knop — **GPIO 17** is al in gebruik door een LED.
 
 [[[rpi-gpio-wiring-a-button]]]
 
-Your rainbow should now look something like this:
+Je regenboog zou er nu ongeveer zo uit moeten zien:
 
-![Rainbow with Button](images/rainbowbutton.png) \--- /task \---
+![Regenboog met knop](images/rainbowbutton.png) \--- /task \---
 
-### Code the button
+### Programmeer de knop
 
-\--- task \--- Use the block shown below so that your button can make the unicorn dance.
+\--- task \--- Gebruik het hieronder weergegeven blok zodat je knop de eenhoorn kan laten dansen.
 
 ```blocks3
 when button (5 v) is [pressed v] :: hat extension
@@ -24,15 +24,15 @@ when button (5 v) is [pressed v] :: hat extension
 
 \--- /task \---
 
-### Control the unicorn dance
+### Bestuur de eenhoorn dans
 
-At the moment, you should have three chunks of Scratch code:
+Op dit moment zou je drie stukken Scratch code moeten hebben:
 
-1. Dancing unicorn code
-2. Blinking rainbow code
-3. Button code
+1. Dansende eenhoorn code
+2. Knipperende regenboog code
+3. Knop code
 
-You will now connect these chunks so that your unicorn dances in time to your rainbow, and so that you can control the rainbow and unicorn by pressing the button you've added.
+Je zult nu deze stukjes code verbinden zodat je eenhoorn gelijktijdig met je regenboog danst en dat je de regenboog en eenhoorn kunt bedienen door op de knop die je hebt toegevoegd te drukken.
 
 \--- task \--- Delete all of the `say`{:class="block3looks"} blocks in the code for the button, and then duplicate this chunk of code. \--- /task \---
 
