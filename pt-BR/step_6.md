@@ -1,35 +1,35 @@
-## Build your rainbow
+## Construa o seu arco-íris
 
-In this step, you will assemble your rainbow and program its LEDs to blink in a rainbow pattern.
+Neste passo, você vai montar seu arco-íris e programar seus LEDs para piscar em um padrão de arco-íris.
 
-\--- task \--- Find all the LEDs you are going to use, and make sure you also have the right number of jumper wires and resistors (one each per LED). \--- /task \---
+\--- task \--- Encontre todos os LEDs que você vai usar e verifique também se possui o número certo de fios jumper e resistores (um de cada por LED). \--- /task \---
 
-\--- task \--- Rearrange the circuit you already have to make room for the other colours of your rainbow. \--- /task \---
+\--- task \--- Reorganize o circuito que você já tem para abrir espaço para as outras cores do seu arco-íris. \--- /task \---
 
-![Circuit Rearranged](images/oneled.png)
+![Circuito Reorganizado](images/oneled.png)
 
-### Ground the rainbow
+### Aterre o arco-íris
 
-\--- task \--- So that your rainbow shines brightly and is not covered by too many jumper wires, all LEDs should share one **Ground (GND)** pin. You can do set them up like this by rearranging your components on the breadboard a little.
+\--- task \--- Para que o seu arco-íris brilhe intensamente e não seja coberto por muitos fios jumper, todos os LEDs devem compartilhar um pino **Terra (GND)**. Você pode configurá-los dessa maneira, reorganizando um pouco seus componentes na protoboard.
 
-The breadboard looks like this inside:
+A protoboard é assim por dentro:
 
-![Breadboard Cross-Section](images/breadboardxsection.png)
+![Seção transversal da protoboard](images/breadboardxsection.png)
 
-To ground the whole rainbow with one jumper wire: \--- /task \---
+Para aterrar o arco-íris inteiro com um fio jumper: \--- /task \---
 
-\--- task \--- Connect the jumper wire attached to **GND** to a breadboard **rail** \--- /task \---
+\--- task \--- Conecte o fio jumper conectado ao **GND** a um **trilho** da protoboard \--- /task \---
 
-\--- task \--- Make sure resistors connect to the same rail as the **GND** jumper wire and to the same **bar** as the LED they belong to: \--- /task \---
+\--- task \--- Verifique se os resistores estão conectados ao mesmo trilho que o fio jumper **GND** e na mesma **barra** como o LED a que pertencem: \--- /task \---
 
-![Adding LEDs](images/twoleds.png)
+![Adicionando LEDs](images/twoleds.png)
 
-### Complete the rainbow
+### Complete o arco-íris
 
-\--- task \--- Add the rest of your LEDs, jumper wires, and resistors to the breadboard in a colour arrangement of your choice. Make sure to leave room for a button at the end. \--- /task \---
+\--- task \--- Adicione o resto dos seus LEDs, fios jumper e resistores à protoboard de acordo com as cores de sua escolha. Certifique-se de deixar espaço para um botão no final. \--- /task \---
 
-If you are using many different colours, it might help to match the colour of the jumper wires to your LEDs.
+Se você está usando muitas cores diferentes, pode ajudar a combinar a cor dos fios jumper com a cor dos seus LEDs.
 
-Your rainbow should look similar to this one:
+Seu arco-íris deve se parecer com este:
 
-![Rainbow LEDs](images/rainbowleds.png)
+![LEDs do arco-íris](images/rainbowleds.png)
