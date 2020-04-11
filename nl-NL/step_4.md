@@ -1,22 +1,22 @@
-## Test your circuit in Scratch
+## Test je circuit in Scratch
 
-You will now connect your circuit and first rainbow colour to Scratch, so that you can code a Scratch program to control the LED.
+Je verbindt nu je circuit met je eerste regenboogkleur via Scratch, zodat je een Scratch-programma kunt coderen om de LED te besturen.
 
-\--- task \--- Open up Scratch 3 on your Raspberry Pi.
+\--- task \--- Open Scratch 3 op je Raspberry Pi.
 
 ![open-scratch](images/open-scratch.png) \--- /task \---
 
-\--- task \--- Then add the Raspberry Pi Simple Electronics extension
+\--- task \--- Voeg dan de Raspberry Pi Simple Electronics-extensie toe
 
-![add-extension](images/add-extension.png)
+![uitbreiding toevoegen](images/add-extension.png)
 
-![simple-electronics](images/simple-electronics.png) \--- /task \---
+![eenvoudige elektronica](images/simple-electronics.png) \--- /task \---
 
-\--- task \--- In the previous step, you connected your LED to pin **3V3**. This is the pin to connect to if you are testing your LED. You now need to connect your LED to a pin you can control with Scratch. Move the wire from pin **3V3** to a new pin, for example **GPIO 17**. \--- /task \---
+\--- task \--- In de vorige stap heb je je LED aangesloten op pin **3V3**. Dit is de pin waarmee je verbinding kunt maken als je de LED test. Je moet nu je LED verbinden met een pin die je met Scratch kunt besturen. Verplaats de draad van pin **3V3** naar een nieuwe pin, bijvoorbeeld **GPIO 17**. \--- /task \---
 
-![Move Pin](images/movepin.png)
+![Verplaats pin](images/movepin.png)
 
-\--- task \--- Now test that the LED can be controlled using the following simple script
+\--- task \--- Test nu of de LED bestuurd kan worden met het volgende eenvoudige script
 
 ```blocks3
 when flag clicked
@@ -27,4 +27,4 @@ turn LED (17 v) [off v] ::extension
 
 \--- /task \---
 
-\--- task \--- Click the green flag to run your script. The LED should turn on for 1 second. \--- /task \---
+\--- task \--- Klik op de groene vlag om de code uit te voeren. De LED zou 1 seconde aan moeten gaan. \--- /task \---
