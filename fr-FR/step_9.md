@@ -34,17 +34,26 @@ Pour le moment, tu devrais avoir trois bouts de code Scratch:
 
 Tu vas maintenant connecter ces bouts pour que ta licorne danse au rythme de ton arc-en-ciel, et que tu puisses contrôler l'arc-en-ciel et la licorne en appuyant sur le bouton que tu as ajouté.
 
+--- task ---
 Supprime tous les blocs `dire`{:class="block3looks"} dans le code du bouton, puis duplique ce bout de code. --- /task ---
 
+--- task ---
 Dans ton code pour la danse de la licorne, supprime le bloc `quand le drapeau est cliqué`{:class="block3events"}. Prends le reste du code de la licorne et insère-le dans le bloc `sinon`{:class="block3control"} de ton code de bouton. Insère-le uniquement dans **une copie** du code du bouton. --- /task ---
 
+--- task ---
 Dans le code arc-en-ciel, supprime le bloc `quand le drapeau est cliqué`{:class="block3events"} et insère le reste du code arc-en-ciel dans le bloc `sinon`{:class="block3control"} de **l'autre copie** du code du bouton. --- /task ---
 
+--- task ---
 Dans l'emplacement `si`{:class="block3control"} des deux copies de ton code de bouton, ajoute une action. Tu peux utiliser `basculer le costume sur le premier costume`{:class="block3looks"}, afin que ta licorne ne mélange pas ses mouvements de danse. --- /task ---
 
+--- hints ---
+--- hint ---
 Si le fait d'appuyer sur le bouton ne fait pas s'allumer l'arc-en-ciel et la licorne danser en rythme, essaie de vérifier que:
 
 1. Chaque composant est connecté à la bonne broche GPIO
 2. Tu as les entrées et sorties directement dans ton code
 3. Les timings correspondent à tes deux bouts de code
 4. Tu as utilisé tous les bons blocs de code
+
+--- /hint ---
+--- /hints ---
