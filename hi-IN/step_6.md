@@ -26,7 +26,7 @@ To ground the whole rainbow with one jumper wire: \--- /task \---
 
 ### Complete the rainbow
 
-\--- task \--- Add the rest of your LEDs, jumper wires, and resistors to the breadboard in a colour arrangement of your choice. Make sure to leave room for a button at the end. \--- /task \---
+\--- task \--- अपनी पसंदीदा रंग के व्यवस्था में ब्रेडबोर्ड में अपने बाकी LED, जम्पर वायर और रेसिस्टर को जोड़ें। Make sure to leave room for a button at the end. \--- /task \---
 
 If you are using many different colours, it might help to match the colour of the jumper wires to your LEDs.
 
