@@ -97,4 +97,5 @@ Probiere folgende Ideen aus:
 
 1) Lass die LEDs ganz schnell und ganz langsam blinken 2) Lass den ganzen Regenbogen blinken 3) Lass LED-Paare in abwechselnden Mustern aufleuchten 4) Lass den Regenbogen etwas im Morsecode blinken 5) Lass den Regenbogen verschiedene Dinge als Reaktion auf unterschiedliche Ereignisse machen
 
---- /collapse --- --- /challenge ---
+--- /collapse --- 
+--- /challenge ---

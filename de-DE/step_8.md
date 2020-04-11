@@ -16,13 +16,20 @@ Beispiele:
 |:---------------------------------------------:|:-------------------------------------:|:-----------------------------------------------:|
 | ![Scratch Einhorn](images/scratchunicorn.png) | ![Web Einhorn](images/webunicorn.png) | ![gezeichnetes Einhorn](images/drawunicorn.png) |
 
---- task --- Falls du Option 1 gewählt hast, klick hier: [[[generic-scratch3-sprite-from-library]]] --- /task ---
+--- task --- 
+Falls du Option 1 gewählt hast, klick hier: 
+[[[generic-scratch3-sprite-from-library]]] 
+--- /task ---
 
---- task --- Falls du Option 2 gewählt hast, weil du ein Einhornbild hochladen möchtest, das du woanders gefunden hast, klicke zuerst unten um mehr über Bildrechte zu lernen und verwende dann die Anleitung in der zweiten Box um deine Datei hochzuladen: [[[images-permissions-to-use]]]
+--- task --- 
+Falls du Option 2 gewählt hast, weil du ein Einhornbild hochladen möchtest, das du woanders gefunden hast, klicke zuerst unten um mehr über Bildrechte zu lernen und verwende dann die Anleitung in der zweiten Box um deine Datei hochzuladen: [[[images-permissions-to-use]]]
 
-[[[generic-scratch3-sprite-from-library]]] --- /task ---
+[[[generic-scratch3-sprite-from-library]]] 
+--- /task ---
 
---- task --- Falls du mit Option 3 weiter machen willst, klicke unten für eine Anleitung, wie du dein eigenes Einhorn in Scratch malen kannst: [[[generic-scratch3-draw-sprite]]] --- /task ---
+--- task --- 
+Falls du mit Option 3 weiter machen willst, klicke unten für eine Anleitung, wie du dein eigenes Einhorn in Scratch malen kannst: [[[generic-scratch3-draw-sprite]]] 
+--- /task ---
 
 ### Einhornkostüme
 
@@ -30,11 +37,15 @@ Dein Einhorn benötigt **Kostüme** um tanzen zu können. Ein Kostüm gehört zu
 
 Hier erstellen wir eine tanzende Einhornanimation, sodass jedes Kostüm eine Tanzbewegung deines Einhorns darstellt.
 
---- task --- Entscheide, wie viele Kostüme deine Einhornfigur für den Tanz haben soll und bearbeite deine Kostüme entsprechend.
+--- task --- 
+Entscheide, wie viele Kostüme deine Einhornfigur für den Tanz haben soll und bearbeite deine Kostüme entsprechend.
 
-Klicke hier für eine Erinnerung, wie man Kostüme in Scratch hinzufügt: [[[generic-scratch3-add-costume]]]
+Klicke hier für eine Erinnerung, wie man Kostüme in Scratch hinzufügt: 
+[[[generic-scratch3-add-costume]]]
 
-Klicke hier für eine Erinnerung, wie man Kostüme in Scratch dupliziert: [[[generic-scratch3-duplicate-costumes]]] --- /task ---
+Klicke hier für eine Erinnerung, wie man Kostüme in Scratch dupliziert: 
+[[[generic-scratch3-duplicate-costumes]]] 
+--- /task ---
 
 Es liegt ganz bei dir, wie viele Kostüme du für dein Tanzeinhorn hinzufügen möchtest. Für dieses tanzende grüne Einhorn haben wir fünf Kostüme verwendet:
 
@@ -44,7 +55,8 @@ Es liegt ganz bei dir, wie viele Kostüme du für dein Tanzeinhorn hinzufügen m
 
 Um deine Tanzanimation zu erstellen, musst du das Einhorn programmieren, um Kostüme zu wechseln.
 
---- task --- Wechsle zwischen den ersten beiden Kostümen um den Einhorntanz zu starten.
+--- task --- 
+Wechsle zwischen den ersten beiden Kostümen um den Einhorntanz zu starten.
 
 Um vom ersten zum zweiten Kostüm zu wechseln, verwende:
 
@@ -61,10 +73,12 @@ switch costume to [costume 2 v]
 
 --- /task ---
 
---- task --- Wechsle kontinuierlich zwischen allen Kostümen, um dein tanzendes Einhorn zu erschaffen. Was für eine Schleife brauchst du dafür? --- /task ---
+--- task --- 
+Wechsle kontinuierlich zwischen allen Kostümen, um dein tanzendes Einhorn zu erschaffen. Was für eine Schleife brauchst du dafür? 
+--- /task ---
 
 --- hints ---
- --- hint ---
+--- hint ---
 
 Verwende eine fortlaufende-Schleife:
 
@@ -73,7 +87,8 @@ wiederhole fortlaufend
 end
 ```
 
---- /hint --- --- hint ---
+--- /hint --- 
+--- hint ---
 
 Benutze diesen Block, um jedes Mal, wenn du durch die Schleife gehst, zum nächsten Kostüm zu wechseln:
 
@@ -81,7 +96,8 @@ Benutze diesen Block, um jedes Mal, wenn du durch die Schleife gehst, zum nächs
 next costume
 ```
 
---- /hint --- --- hint ---
+--- /hint --- 
+--- hint ---
 
 Dein Code sollte so aussehen:
 
@@ -91,4 +107,5 @@ wait (0.5) secs
 next costume
 ```
 
---- /hint --- --- /hints ---
+--- /hint --- 
+--- /hints ---
