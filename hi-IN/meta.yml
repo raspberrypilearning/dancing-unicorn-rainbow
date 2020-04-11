@@ -1,7 +1,7 @@
 ---
-title: Dancing unicorns and rainbows
+title: नाचते-गाते काल्पनिक जानवर और इंद्रधनुष
 hero_image: images/banner.png
-description: Create a unicorn that dances in time with an LED rainbow
+description: एक काल्पनिक जानवर बनाए जो LED इंद्रधनुष के साथ नाचें
 theme: violet #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
@@ -10,32 +10,32 @@ copyedit: true
 curriculum: 2, design-0, programming-2, phys-comp-2, manufacture-0, community-0
 interests: humour, games
 technologies: electronic-components, scratch
-site_areas: projects
+site_areas: प्रोजेक्ट
 hardware: electronic-components
 software: scratch
 version: 4
 last_tested: 2018-02-01
 steps:
   - 
-    title: Introduction
+    title: परिचय
   - 
-    title: "Your rainbow's atmosphere"
+    title: "आपके इंद्रधनुष का वातावरण"
   - 
     title: "आपके इंद्रधनुष का पहला रंग"
   - 
-    title: Test your circuit in Scratch
+    title: Scratch में अपने सर्किट का परीक्षण करें
   - 
-    title: Control your rainbow circuit
+    title: अपने इंद्रधनुष सर्किट को नियंत्रित करें
   - 
-    title: Build your rainbow
+    title: अपना इंद्रधनुष बनाएं
   - 
-    title: Light your rainbow
+    title: अपने इंद्रधनुष को प्रकाशित करें
   - 
-    title: Make a dancing unicorn
+    title: नाचने वाला काल्पनिक जानवर बनाना
   - 
-    title: Add a button
+    title: एक बटन जोड़ें
   - 
-    title: "Challenge: Fun with your dancing unicorn rainbow."
+    title: "चुनौती: अपने काल्पनिक जानवर और इंद्रधनुष के साथ मज़ा।"
     challenge: true
   - 
-    title: What next?
+    title: आगे क्या?
