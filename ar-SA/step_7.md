@@ -86,14 +86,12 @@ forever
 
 + اجعل قوس القزح يضيء في نمط من اختيارك.
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
+## title: Rainbow challenges
 
-## title: تحديات قوس قزح
+Try out the following ideas:
 
-جرب الأفكار التالية:
-
-1) اجعل مصابيح LED تومض بسرعة كبيرة وبطيئة جدا 2) اجعل قوس قزح يومض بأكمله 3) اجعل أزواج مصابيح LED تضيء في أنماط متبادلة 4) اجعل قوس قزح يومض برمز مورس (Morse code) 5) اجعل قوس قزح يفعل أشياء مختلفة استجابة لأحداث مختلفة
+1) Make the LEDs blink very fast and very slow 2) Make the whole rainbow blink 3) Make pairs of LEDs light up in alternate patterns 4) Make the rainbow blink something in Morse code 5) Make the rainbow do different things in response to different events
 
 \--- /collapse \--- \--- /challenge \---
