@@ -34,11 +34,11 @@ Als je LED's niet branden:
 
 \--- task \--- Voeg nu meer code toe om de regenboog in een regenboogpatroon te laten knipperen zoals hier:<video width="560" height="315" controls> <source src="resources/Scratch-GPIO-Pathways-5.mp4" type="video/mp4"> Je browser ondersteunt de video-tag niet, dus probeer Firefox of Chrome. </video> 
 
-To do this, you will need to make one LED turn on for a couple of seconds and then turn off at the same time as the next LED turns on. \--- /task \---
+Om dit te doen moet je een LED een paar seconden aanzetten en vervolgens uitschakelen op hetzelfde moment als de volgende LED aangaat. \--- /task \---
 
 \--- hints \--- \--- hint \---
 
-Make sure your `Events`{:class="blockevents"} block matches what you are doing to test the code. In the example here, to make our rainbow blink, we have to click the green flag:
+Zorg ervoor dat je `Gebeurtenissen`{:class="block3events"} blok overeenkomt met wat je doet om de code te testen. In het voorbeeld hier, om onze regenboog te laten knipperen, moeten we op de groene vlag klikken:
 
 ```blocks3
 when flag clicked
@@ -46,7 +46,7 @@ when flag clicked
 
 \--- /hint \--- \--- hint \---
 
-If you're stuck, make sure you are using these blocks:
+Als je vastzit, zorg er dan voor dat je deze blokken gebruikt:
 
 ```blocks3
 turn LED (0 v) [off v] ::extension
@@ -55,7 +55,7 @@ wait () secs
 
 \--- /hint \--- \--- hint \---
 
-Try using this approach:
+Probeer deze aanpak te gebruiken:
 
 ```blocks3
 when flag clicked
@@ -68,13 +68,13 @@ turn LED (18 v) [off v] ::extension
 turn LED (22 v) [on v] ::extension
 ```
 
-You will need to add blocks for all your LEDs and make sure that you're using the right GPIO pin numbers in your code.
+Je moet voor al je LED's blokken toevoegen en ervoor zorgen dat je de juiste GPIO-pinnummers in je code gebruikt.
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- Make the lights blink repeatedly through the rainbow in a loop.
+\--- task \--- Laat de lampjes de hele tijd volgens de regenboog oplichten.
 
-To loop through the rainbow pattern forever, use:
+Om eindeloos door het regenboogpatroon te lopen, gebruik je:
 
 ```blocks3
 forever
@@ -84,16 +84,16 @@ forever
 
 \--- challenge \---
 
-+ Make the rainbow blink in a pattern of your choice.
++ Laat de regenboog in een patroon naar keuze knipperen.
 
 \--- collapse \---
 
 * * *
 
-## title: Rainbow challenges
+## title: Regenboog uitdagingen
 
-Try out the following ideas:
+Probeer de volgende ideeën uit:
 
-1) Make the LEDs blink very fast and very slow 2) Make the whole rainbow blink 3) Make pairs of LEDs light up in alternate patterns 4) Make the rainbow blink something in Morse code 5) Make the rainbow do different things in response to different events
+1) Laat de LED's heel snel en erg langzaam knipperen 2) Laat de hele regenboog knipperen 3) Laat paren van LED's in alternatieve patronen knipperen 4) Laat de regenboog iets in morsecode knipperen 5) Laat de regenboog verschillende dingen doen in reactie op verschillende gebeurtenissen
 
 \--- /collapse \--- \--- /challenge \---
