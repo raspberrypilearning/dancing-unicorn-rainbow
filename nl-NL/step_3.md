@@ -1,9 +1,9 @@
-## Your rainbow's first colour
+## Jouw regenboog zijn eerste kleur
 
-You will now light up the rainbow's first colour with an LED. Choose any colour you wish, but here we've gone with the red colour of the rainbow spectrum (red, orange, yellow, green, blue, indigo, violet).
+Je gaat nu de eerste kleur van de regenboog met een LED oplichten. Kies de kleur die je wilt, maar hier hebben we de rode kleur van het regenboogspectrum (rood, oranje, geel, groen, blauw, indigo, violet) gekozen.
 
-\--- task \--- Create a circuit to connect your LED to the Raspberry Pi. Your circuit will light up the rainbow's first colour. \--- /task \---
+\--- task \--- Maak een circuit om je LED aan te sluiten op de Raspberry Pi. Jouw circuit zal de eerste kleur van de regenboog weergeven. \--- /task \---
 
-If you have never connected an LED before, click below for information about LED circuits, and for detailed instructions.
+Als je nog nooit een LED hebt aangesloten, klik dan hieronder voor informatie over LED-circuits en voor gedetailleerde instructies.
 
 \[[[rpi-led-info]]\] \[[[rpi-connect-led\]]]
