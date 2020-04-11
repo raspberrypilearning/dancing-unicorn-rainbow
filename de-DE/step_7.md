@@ -39,7 +39,9 @@ turn LED (22 v) [on v] ::extension
 
 Falls deine LEDs nicht leuchten:
 
-1) Überprüfe an welchen GPIO-Pins deine LEDs angeschlossen sind und stelle sicher, dass du sie auf `on`{:class="block3extensions"} gesetzt hast 2) Teste ob die LEDs funktionieren — du kannst das Überbrückungskabel einer LED auf den **GPIO 3V3** Pin stecken um sie zu testen 3) Stelle sicher, dass die Schaltung auf dem Steckbrett vollständig ist
+ 1) Überprüfe an welchen GPIO-Pins deine LEDs angeschlossen sind und stelle sicher, dass du sie auf `on`{:class="block3extensions"} gesetzt hast 
+ 2) Teste ob die LEDs funktionieren — du kannst das Überbrückungskabel einer LED auf den **GPIO 3V3** Pin stecken um sie zu testen 
+ 3) Stelle sicher, dass die Schaltung auf dem Steckbrett vollständig ist
 
 --- /hint --- 
 --- /hints ---
@@ -114,11 +116,11 @@ title: Regenbogen-Herausforderungen
 ---
 Probiere folgende Ideen aus:
 
-    1) Lass die LEDs ganz schnell und ganz langsam blinken 
-    2) Lass den ganzen Regenbogen blinken 
-    3) Lass LED-Paare in abwechselnden Mustern aufleuchten 
-    4) Lass den Regenbogen etwas im Morsecode blinken 
-    5) Lass den Regenbogen verschiedene Dinge als Reaktion auf unterschiedliche Ereignisse machen
+ 1) Lass die LEDs ganz schnell und ganz langsam blinken 
+ 2) Lass den ganzen Regenbogen blinken 
+ 3) Lass LED-Paare in abwechselnden Mustern aufleuchten 
+ 4) Lass den Regenbogen etwas im Morsecode blinken 
+ 5) Lass den Regenbogen verschiedene Dinge als Reaktion auf unterschiedliche Ereignisse machen
 
 --- /collapse --- 
 --- /challenge ---
