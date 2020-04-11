@@ -1,9 +1,9 @@
-## Challenge: Fun with your dancing unicorn rainbow.
+## चुनौती: अपने काल्पनिक जानवर और इंद्रधनुष के साथ मज़ा।
 
-Ideas:
+कुछ विचारें:
 
-1. Make the blinking of your rainbow and the dance of your unicorn faster
-2. Teach your unicorn a new dance (play around with costumes and speeds)
-3. Add more buttons and make the unicorn do a different dance for each
-4. Add more `events`{:class="block3events"} to make the unicorn do different dances
-5. Make a game with your rainbow and dancing unicorn
+1. अपने इंद्रधनुष को जल्दी बंद चालू करें और अपने काल्पनिक जानवर के नृत्य को तेज करें
+2. अपने काल्पनिक जानवर को एक नया नृत्य सिखाएं (कॉस्ट्यूम और गति के साथ खेलें)
+3. अधिक बटन जोड़ें और अपने काल्पनिक जानवर को उसके अनुसार अलग अलग नृत्य सिखाए
+4. अधिक `events`{:class="block3events"} को जोड़े जिससे आपका काल्पनिक जानवर अलग अलग नृत्य करें।
+5. अपने इंद्रधनुष और नाचने वाले काल्पनिक जानवर के साथ एक गेम बनाएं
