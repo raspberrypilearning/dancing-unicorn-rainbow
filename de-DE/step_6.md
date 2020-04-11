@@ -18,7 +18,7 @@ Das Steckbrett sieht innen so aus:
 
 Um den gesamten Regenbogen mit einem Draht zu erden: --- /task ---
 
---- task --- Verbinde den Draht, der mit **GND** verbunden ist mit einer Steckbrett-**Schiene** --- task ---
+--- task --- Verbinde den Draht, der mit **GND** verbunden ist mit einer Steckbrett-**Schiene** --- /task ---
 
 --- task --- Stelle sicher dass die Widerstände mit derselben Schiene wie der **GND**-Draht und mit demselben **Balken** wie die jeweils zugehörige LED verbunden ist: --- /task ---
 
