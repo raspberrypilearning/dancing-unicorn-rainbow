@@ -4,6 +4,7 @@ Tu vas maintenant faire clignoter ton arc-en-ciel et ta licorne dans le temps en
 
 ### Connecter le bouton
 
+--- task ---
 Connecte ton bouton à la platine d'expérimentation et à une broche GPIO.
 
 Clique ci-dessous pour savoir comment connecter un bouton au Raspberry Pi. Note qu'au lieu de **GPIO 17** comme le disent les instructions, nous avons utilisé **GPIO 5** pour le bouton - **GPIO 17** est déjà occupé par une LED.
@@ -16,6 +17,7 @@ Ton arc-en-ciel devrait maintenant ressembler à ceci:
 
 ### Coder le bouton
 
+--- task ---
 Utilise le bloc illustré ci-dessous pour que ton bouton puisse faire danser la licorne.
 
 ```blocks3

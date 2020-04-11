@@ -16,13 +16,23 @@ Exemples:
 |:---------------------------------------------:|:-------------------------------------:|:-----------------------------------------------:|
 | ![Licorne Scratch](images/scratchunicorn.png) | ![Licorne Web](images/webunicorn.png) | ![Dessiner une licorne](images/drawunicorn.png) |
 
-Si tu as choisi l'option 1, clique ici: [[[generic-scratch3-sprite-from-library]]]
+--- task ---
+Si tu as choisi l'option 1, clique ici: 
+[[[generic-scratch3-sprite-from-library]]]
+--- /task ---
 
-Si tu as choisi l'option 2 parce que tu veux télécharger une image de licorne que tu as trouvée ailleurs, clique d'abord ci-dessous pour en savoir plus sur les autorisations d'image, puis utilise les instructions dans la deuxième case pour télécharger ton fichier: [[[images-permissions-to-use]]]
+--- task ---
+
+Si tu as choisi l'option 2 parce que tu veux télécharger une image de licorne que tu as trouvée ailleurs, clique d'abord ci-dessous pour en savoir plus sur les autorisations d'image, puis utilise les instructions dans la deuxième case pour télécharger ton fichier: 
+[[[images-permissions-to-use]]]
 
 [[[generic-scratch3-sprite-from-library]]]
 
-Si tu choisis l'option 3, clique ci-dessous pour savoir comment dessiner ta propre licorne dans Scratch: [[[generic-scratch3-draw-sprite]]]
+--- /task ---
+--- task ---
+Si tu choisis l'option 3, clique ci-dessous pour savoir comment dessiner ta propre licorne dans Scratch: 
+[[[generic-scratch3-draw-sprite]]]
+--- /task ---
 
 ### Costumes de licorne
 
@@ -30,11 +40,15 @@ Ta licorne a besoin de **costumes** pour pouvoir danser. Un costume fait partie 
 
 Ici, nous allons créer une animation de licorne dansante, donc chaque costume représentera un mouvement de danse de ta licorne.
 
+--- task ---
 Décide combien de costumes tu veux que ton sprite de licorne ait pour la danse, et édite tes costumes en conséquence.
 
-Clique pour un rappel sur la façon d'ajouter des costumes dans Scratch: [[[generic-scratch3-add-costume]]]
+Clique pour un rappel sur la façon d'ajouter des costumes dans Scratch: 
+[[[generic-scratch3-add-costume]]]
 
-Clique pour un rappel sur la façon de dupliquer les costumes dans Scratch: [[[generic-scratch3-duplicate-costumes]]]
+Clique pour un rappel sur la façon de dupliquer les costumes dans Scratch: 
+[[[generic-scratch3-duplicate-costumes]]]
+--- /task ---
 
 C'est à toi de décider combien de costumes tu souhaites ajouter pour ta licorne dansante. Pour cette licorne verte dansante, nous avons utilisé cinq costumes:
 
@@ -44,6 +58,7 @@ C'est à toi de décider combien de costumes tu souhaites ajouter pour ta licorn
 
 Pour créer ton animation de danse, tu dois programmer la licorne pour changer de costume.
 
+--- task ---
 Bascule entre les deux premiers costumes pour commencer la danse de la licorne.
 
 Pour passer du premier au deuxième costume, utilise:
@@ -61,7 +76,9 @@ switch costume to [costume 2 v]
 
 --- /task ---
 
-Pour créer ta licorne dansante, bascule entre tous les costumes en continu. De quel type de boucle as-tu besoin pour faire cela? --- /task ---
+--- task ---
+Pour créer ta licorne dansante, bascule entre tous les costumes en continu. De quel type de boucle as-tu besoin pour faire cela? 
+--- /task ---
 
 --- hints ---
 --- hint ---
@@ -81,7 +98,8 @@ Utilise ce bloc pour passer au costume suivant à chaque fois que tu parcoures l
 next costume
 ```
 
---- /hint --- --- hint ---
+--- /hint --- 
+--- hint ---
 
 Ton code devrait ressembler à ceci:
 
