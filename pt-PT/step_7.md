@@ -86,14 +86,12 @@ forever
 
 + Faz o arco-íris piscar num padrão à tua escolha.
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
+## title: Rainbow challenges
 
-## title: Desafios do arco-íris
+Try out the following ideas:
 
-Tenta as seguintes ideias:
-
-1) Faz os LEDs piscarem muito rápido e muito lentamente 2) Faz o arco-íris inteiro piscar 3) Faz pares de LEDs acenderem em padrões alternativos 4) Faz o arco-íris piscar algo em código Morse 5) Faz o arco-íris fazer coisas diferentes em resposta a diferentes eventos
+1) Make the LEDs blink very fast and very slow 2) Make the whole rainbow blink 3) Make pairs of LEDs light up in alternate patterns 4) Make the rainbow blink something in Morse code 5) Make the rainbow do different things in response to different events
 
 \--- /collapse \--- \--- /challenge \---
