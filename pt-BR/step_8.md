@@ -12,9 +12,9 @@ Escolha uma das seguintes opções para criar um ator de unicórnio:
 
 Exemplos:
 
-|             (1) ator do Scratch:              |      (2) Carregue o seu próprio:      |       (3) Desenhe o seu próprio:        |
-|:---------------------------------------------:|:-------------------------------------:|:---------------------------------------:|
-| ![Scratch Unicorn](images/scratchunicorn.png) | ![Web Unicorn](images/webunicorn.png) | ![Draw Unicorn](images/drawunicorn.png) |
+|                (1) ator do Scratch:                |        (2) Carregue o seu próprio:         |          (3) Desenhe o seu próprio:           |
+|:--------------------------------------------------:|:------------------------------------------:|:---------------------------------------------:|
+| ![Unicórnio do Scratch](images/scratchunicorn.png) | ![Unicórnio da Web](images/webunicorn.png) | ![Desenhar Unicórnio](images/drawunicorn.png) |
 
 \--- task \--- Se você escolheu a opção 1, clique aqui: [[[generic-scratch3-sprite-from-library]]] \--- /task \---
 
@@ -52,41 +52,41 @@ Para mudar da primeira para a segunda fantasia, use:
 switch costume to [costume 2 v]
 ```
 
-Unicorns are generally good dancers, so make sure you time your unicorn's dance to the speed of your rainbow pattern. You can use the `wait`{:class="blockcontrol"} block to match the unicorn's wait time to your rainbow's wait time.
+Os unicórnios são geralmente bons dançarinos, então certifique-se de sincronizar a dança do seu unicórnio com a velocidade do seu padrão de arco-íris. Você pode usar o bloco `wait`{:class="blockcontrol"} para combinar o tempo de espera do unicórnio com o tempo de espera do seu arco-íris.
 
 ```blocks3
-wait (0.5) secs
-switch costume to [costume 2 v]
+espere (1) seg
+mude para a fantasia [udance2 v]
 ```
 
 \--- /task \---
 
-\--- task \--- To create your dancing unicorn, switch between all costumes continuously. What kind of loop do you need to do this? \--- /task \---
+\--- tarefa \--- Para criar o seu unicórnio dançarino, alterne entre todas as fantasias continuamente. Que tipo de laço você precisa para fazer isso? \--- /task \---
 
 \--- hints \--- \--- hint \---
 
-Use a forever loop:
+Use um laço sempre:
 
 ```blocks3
-forever
+sempre
 ```
 
 \--- /hint \--- \--- hint \---
 
-Use this block to switch to the next costume each time you go through the loop:
+Use este bloco para alternar para a próxima fantasia toda vez que você passar pelo loop:
 
 ```blocks3
-next costume
+próxima fantasia
 ```
 
 \--- /hint \--- \--- hint \---
 
-Your code should look like this:
+Seu código deve ficar assim:
 
 ```blocks3
-forever
-wait (0.5) secs
-next costume
+sempre
+espere (0.5) seg
+próxima fantasia
 ```
 
 \--- /hint \--- \--- /hints \---
