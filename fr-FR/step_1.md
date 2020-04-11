@@ -58,6 +58,7 @@ Ce projet couvre les éléments des sections suivantes du [Programme Raspberry P
 + [Combiner les entrées et/ou les sorties pour créer des projets ou résoudre un problème](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
 
 + [Appliquer des constructions de programmation de base pour résoudre un problème](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
+--- /collapse ---
 
 --- collapse ---
 ---
