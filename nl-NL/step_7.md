@@ -1,21 +1,21 @@
-## Light your rainbow
+## Verlicht je regenboog
 
-To make sure your rainbow is working, you will first test it by lighting the whole rainbow at once. You will then create code to make the rainbow blink through all its colours one after the other, and then in a pattern of your choice.
+Om er zeker van te zijn dat je regenboog werkt, test je deze eerst door de hele regenboog tegelijk te verlichten. Je maakt vervolgens code om de kleuren van de regenboog achter elkaar te laten knipperen. en dan in een patroon van jouw keuze.
 
-\--- task \--- Add more code to control the other LEDs. Make sure you include the right GPIO pins. \--- /task \---
+\--- task \--- Voeg meer code toe om de andere LED's te besturen. Zorg ervoor dat je de juiste GPIO-pinnen toevoegt. \--- /task \---
 
-Your rainbow should light up like this:
+Je regenboog zou als volgt moeten oplichten:
 
-![Rainbow Lit](images/rainbowlit.png)
+![Regenboog verlicht](images/rainbowlit.png)
 
-\--- hints \--- \--- hint \--- Add more `turn LED (0 v) [on v]`{:class="block3extensions"} blocks in this chunk of code:
+\--- hints \--- \--- hint \--- Voeg meer `zet LED (0 v) [aan v]`{:class="block3extensions"} blokken toe in dit stuk code:
 
 ```blocks3
 when flag clicked
 turn LED (17 v) [on v] ::extension
 ```
 
-\--- /hint \--- \--- hint \--- Keep adding blocks at the bottom of your code until all your LEDs are set to `on`{:class="block3extensions"}.
+\--- /hint \--- \--- hint \--- Blijf aan de onderkant blokken aan je code toevoegen tot al je LED's `aan`{:class="block3extensions"} staan.
 
 ```blocks3
 when flag clicked
@@ -26,13 +26,13 @@ turn LED (22 v) [on v] ::extension
 
 \--- /hint \--- \--- hint \---
 
-If your LEDs are not lighting:
+Als je LED's niet branden:
 
-1) Check which GPIO pins your LEDs are connected to, and make sure you have set them to `on`{:class="block3extensions"} 2) Test whether the LEDs are working — you can plug an LED's jumper wire into **GPIO 3V3** to test it 3) Make sure the circuit on the breadboard is complete
+1) Controleer met welke GPIO-pinnen je LED's verbonden zijn, en zorg ervoor dat je ze hebt ingesteld op `aan`{:class="block3extensions"} 2) Test of de LED's werken - je kunt een LED verbindingsdraad aansluiten op **GPIO 3V3** om het te testen 3) Zorg ervoor dat het schakelcircuit op het experimenteerbord compleet is
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- Now, add more code to make the rainbow blink in a rainbow pattern like this:<video width="560" height="315" controls> <source src="resources/Scratch-GPIO-Pathways-5.mp4" type="video/mp4"> Your browser does not support the video tag, so try FireFox or Chrome. </video> 
+\--- task \--- Voeg nu meer code toe om de regenboog in een regenboogpatroon te laten knipperen zoals hier:<video width="560" height="315" controls> <source src="resources/Scratch-GPIO-Pathways-5.mp4" type="video/mp4"> Je browser ondersteunt de video-tag niet, dus probeer Firefox of Chrome. </video> 
 
 To do this, you will need to make one LED turn on for a couple of seconds and then turn off at the same time as the next LED turns on. \--- /task \---
 
