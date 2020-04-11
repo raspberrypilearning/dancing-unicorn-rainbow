@@ -34,7 +34,7 @@ Um den gesamten Regenbogen mit einem Draht zu erden:
 
 Verbinde den Draht, der mit **GND** verbunden ist mit einer Steckbrett-**Schiene** 
 
---- task ---
+--- /task ---
 
 --- task --- 
 
