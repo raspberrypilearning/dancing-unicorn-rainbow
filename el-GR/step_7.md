@@ -88,10 +88,10 @@ forever
 
 ## \--- collapse \---
 
-## title: Rainbow challenges
+## title: Πρόκληση ουράνιου τόξου
 
-Try out the following ideas:
+Δοκίμασε τις παρακάτω ιδέες:
 
-1) Make the LEDs blink very fast and very slow 2) Make the whole rainbow blink 3) Make pairs of LEDs light up in alternate patterns 4) Make the rainbow blink something in Morse code 5) Make the rainbow do different things in response to different events
+1) Κάνε τα LED να αναβοσβήνουν πολύ γρήγορα και πολύ αργά 2) Κάνε ολόκληρο το ουράνιο τόξο να αναβοσβήνει 3) Δημιούργησε ζευγάρια LEDs που ανάβουν σε εναλλασσόμενα μοτίβα 4) Κάνε το ουράνιο τόξο να αναβοσβήνει κάτι ως κώδικα Morse 5) Κάνε το ουράνιο τόξο να συμπεριφέρεται διαφορετικά σε διάφορα γεγονότα
 
 \--- /collapse \--- \--- /challenge \---
