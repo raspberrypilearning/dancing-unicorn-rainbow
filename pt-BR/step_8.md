@@ -1,52 +1,52 @@
-## Make a unicorn dance to your rainbow
+## Faça um unicórnio dançar com o seu arco-íris
 
-In this step, you will program a unicorn in Scratch that dances to the rhythm of your rainbow. You will use a button to program your rainbow and dancing unicorn.
+Neste passo, você vai programar um unicórnio no Scratch que dança ao ritmo de seu arco-íris. Você usará um botão para programar seu arco-íris e seu unicórnio dançarino.
 
-### Unicorn sprite
+### Ator unicórnio
 
-Choose one of the following options to create a unicorn sprite:
+Escolha uma das seguintes opções para criar um ator de unicórnio:
 
-1. Use the Scratch unicorn sprite
-2. Upload a unicorn image from somewhere else and use it as your sprite
-3. Draw your own unicorn sprite in Scratch or another program (like the lovely green unicorn on the right).
+1. Use o ator do unicórnio do Scratch
+2. Carregue uma imagem de unicórnio de outro lugar e use-a como o seu ator
+3. Desenhe o seu próprio ator unicórnio no Scratch ou outro programa (como o adorável unicórnio verde à direita).
 
-Examples:
+Exemplos:
 
-|              (1) Scratch sprite:              |         (2) Upload your own:          |           (3) Draw your own:            |
+|             (1) ator do Scratch:              |      (2) Carregue o seu próprio:      |       (3) Desenhe o seu próprio:        |
 |:---------------------------------------------:|:-------------------------------------:|:---------------------------------------:|
 | ![Scratch Unicorn](images/scratchunicorn.png) | ![Web Unicorn](images/webunicorn.png) | ![Draw Unicorn](images/drawunicorn.png) |
 
-\--- task \--- If you picked option 1, click here: [[[generic-scratch3-sprite-from-library]]] \--- /task \---
+\--- task \--- Se você escolheu a opção 1, clique aqui: [[[generic-scratch3-sprite-from-library]]] \--- /task \---
 
-\--- task \--- If you picked option 2 because you want to upload a unicorn image you found somewhere else, click below first to learn about image permissions, and then use the instructions in the second box to upload your file: [[[images-permissions-to-use]]]
+\--- task \--- Se você escolheu a opção 2 porque quer carregar uma imagem unicórnio que você encontrou em outro lugar, primeiro clique abaixo para aprender sobre as permissões de imagem e, em seguida, use as instruções na segunda caixa para carregar o seu arquivo: [[[images-permissions-to-use]]]
 
 [[[generic-scratch3-sprite-from-library]]] \--- /task \---
 
-\--- task \--- If you're going with option 3, click below for instructions on how to draw your own unicorn in Scratch: [[[generic-scratch3-draw-sprite]]] \--- /task \---
+\--- task \--- Se você for pela opção 3, clique abaixo para obter instruções sobre como desenhar seu próprio unicórnio no Scratch: [[[generic-scratch3-draw-sprite]]] \--- /task \---
 
-### Unicorn costumes
+### Fantasias de unicórnio
 
-Your unicorn needs **costumes** to be able to dance. A costume is one of a set of appearances of a sprite, which means sprites can change their look by changing costumes. Therefore, you can use costumes to make a sprite look like it's moving whenever you want to create an animation.
+Seu unicórnio precisa de **fantasias** para poder dançar. Uma fantasia é uma de um conjunto de aparências de um ator, o que significa que os atores podem mudar de visual mudando de fantasia. Portanto, você pode usar fantasias para fazer com que um ator pareça estar se movendo sempre que quiser criar uma animação.
 
-Here, we will be creating a dancing unicorn animation, so each costume will represent a dance move of your unicorn.
+Aqui, criaremos uma animação de um unicórnio dançarino, então cada fantasia representará um passo de dança do seu unicórnio.
 
-\--- task \--- Decide how many costumes you want your unicorn sprite to have for the dance, and edit your costumes accordingly.
+\--- task \--- Decida quantas fantasias você deseja que o seu unicórnio tenha para a dança e edite suas fantasias de acordo.
 
-Click for a reminder on how to add costumes in Scratch: [[[generic-scratch3-add-costume]]]
+Clique para um lembrete de como adicionar fantasias no Scratch: [[[generic-scratch3-add-costume]]]
 
-Click for a reminder on how to duplicate costumes in Scratch: [[[generic-scratch3-duplicate-costumes]]] \--- /task \---
+Clique para um lembrete de como duplicar fantasias no Scratch: [[[generic-scratch3-duplicate-costumes]]] \--- /task \---
 
-It is up to you how many costumes you want to add for your dancing unicorn. For this dancing green unicorn, we have used five costumes:
+Você decide quantas fantasias quer adicionar para o seu unicórnio dançarino. Para este unicórnio dançarino verde, usamos cinco fantasias:
 
 | ![Dancing Unicorn Gif](images/dancingunicorn.gif) | ![Five Costumes](images/fivecostumes.png) |
 
-### Unicorn dance
+### Dança do unicórnio
 
-To create your dancing animation, you need to program the unicorn to switch costumes.
+Para criar a sua animação de dança, você precisa programar o unicórnio para trocar de fantasias.
 
-\--- task \--- Switch between the first two costumes to start the unicorn dance.
+\--- task \--- Alterne entre as duas primeiras fantasias para iniciar a dança do unicórnio.
 
-To switch from the first to the second costume use:
+Para mudar da primeira para a segunda fantasia, use:
 
 ```blocks3
 switch costume to [costume 2 v]
