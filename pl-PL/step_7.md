@@ -86,14 +86,12 @@ forever
 
 + Spraw, aby tęcza mrugała według wybranego przez ciebie wzoru.
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
+## title: Rainbow challenges
 
-## title: Tęczowe wyzwania
+Try out the following ideas:
 
-Wypróbuj następujące pomysły:
-
-1) Spraw, aby diody LED migały bardzo szybko i bardzo wolno 2) Spraw, aby cała tęcza migała 3) Spraw, aby pary diod LED świeciły w naprzemiennych wzorach 4) Spraw, by tęcza mrugała coś w kodzie Morse'a 5) Spraw, by tęcza robiła inaczej rzeczy w odpowiedzi na różne zdarzenia
+1) Make the LEDs blink very fast and very slow 2) Make the whole rainbow blink 3) Make pairs of LEDs light up in alternate patterns 4) Make the rainbow blink something in Morse code 5) Make the rainbow do different things in response to different events
 
 \--- /collapse \--- \--- /challenge \---
