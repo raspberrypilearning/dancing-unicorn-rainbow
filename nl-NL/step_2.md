@@ -1,12 +1,12 @@
-## Your rainbow's atmosphere
+## De sfeer van je regenboog
 
-Before making a rainbow, you need to learn how to control it. You will power and control your rainbow with the help of the Raspberry Pi's **GPIO** pins. GPIO is an acronym for **G**eneral **P**urpose **I**nput/**O**utput.
+Voordat je een regenboog maakt moet je leren hoe je die kunt besturen. Je gaat de regenboog aanzetten en bedienen met behulp van de Raspberry Pi's **GPIO** pinnen. GPIO is een acronym voor **G**eneral **P**urpose **I**nput/**O**utput.
 
-The Pi's GPIO pins allow you to send and receive on/off signals to and from electronic components — for example LEDs, motors, buttons, and buzzers.
+Met de GPIO-pinnen van de Pi kun je signalen van en naar elektronische componenten verzenden en ontvangen - bijvoorbeeld LED's, motoren, knoppen en zoemers.
 
-If you look at your Pi with the USB ports facing towards you, this is the pin layout: ![GPIO Layout](images/gpio-upright.png)
+Als je naar de Pi kijkt met de USB-poorten naar jou gericht, is dit de pin indeling: ![GPIO-indeling](images/gpio-upright.png)
 
-A Raspberry Pi has 26 GPIO pins. In the image above, these are the pins labelled with GP and a number.
+Een Raspberry Pi heeft 26 GPIO-pinnen. In the image above, these are the pins labelled with GP and a number.
 
 + To read a little more about GPIO pins, click here:
 
