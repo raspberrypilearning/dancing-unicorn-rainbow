@@ -1,35 +1,35 @@
-## Build your rainbow
+## अपना इंद्रधनुष बनाएं
 
-In this step, you will assemble your rainbow and program its LEDs to blink in a rainbow pattern.
+इस चरण में, आप अपने इंद्रधनुष के LED को एक साथ जोड़ेंगे और इंद्रधनुष के पैटर्न में LED को बंद चालू करेंगे।
 
-\--- task \--- Find all the LEDs you are going to use, and make sure you also have the right number of jumper wires and resistors (one each per LED). \--- /task \---
+\--- task \--- उन सभी LED का पता लगाएं जिनका आप उपयोग करने जा रहे हैं, और सुनिश्चित करें कि आपके पास जम्पर वायर और रेसिस्टर की सही संख्या है (एक प्रति LED)। \--- /task \---
 
-\--- task \--- Rearrange the circuit you already have to make room for the other colours of your rainbow. \--- /task \---
+\--- task \--- अपने इंद्रधनुष के अन्य रंगों के लिए जगह बनाने के लिए सर्किट को पुनर्व्यवस्थित (rearrange) करें। \--- /task \---
 
 ![Circuit Rearranged](images/oneled.png)
 
-### Ground the rainbow
+### इंद्रधनुष के LED को ग्राउंड से जोड़े
 
-\--- task \--- So that your rainbow shines brightly and is not covered by too many jumper wires, all LEDs should share one **Ground (GND)** pin. You can do set them up like this by rearranging your components on the breadboard a little.
+\--- task \--- सभी LED एक ही **ग्राउंड (GND)** पिन का इस्तमाल करना चाहिए ताकि आपका इंद्रधनुष चमकता रहे और बहुत अधिक जम्पर वायर से ढका न रहें। आप अपने उपकरणों को थोड़ा-थोड़ा करके ब्रेडबोर्ड पर दोबारा लगाकर उन्हें इस तरह सेट कर सकते हैं।
 
-The breadboard looks like this inside:
+ब्रेडबोर्ड अंदर से ऐसा दिखता है:
 
 ![Breadboard Cross-Section](images/breadboardxsection.png)
 
-To ground the whole rainbow with one jumper wire: \--- /task \---
+एक जम्पर वायर के साथ पूरे इंद्रधनुष को ग्राउंड करने के लिए: \--- /task \---
 
-\--- task \--- Connect the jumper wire attached to **GND** to a breadboard **rail** \--- /task \---
+\--- task \--- **GND** से जुड़े जम्पर वायर को ब्रेडबोर्ड के **रेल** से कनेक्ट करें \--- /task \---
 
-\--- task \--- Make sure resistors connect to the same rail as the **GND** jumper wire and to the same **bar** as the LED they belong to: \--- /task \---
+\--- task \--- सुनिश्चित करें कि रेसिस्टर को ब्रेडबोर्ड के रेल को उसी **GND** जंपर वायर और उसी LED के संबंधित **बार** से कनेक्ट करें \--- /task \---
 
 ![Adding LEDs](images/twoleds.png)
 
-### Complete the rainbow
+### इंद्रधनुष पूरा करें
 
-\--- task \--- अपनी पसंदीदा रंग के व्यवस्था में ब्रेडबोर्ड में अपने बाकी LED, जम्पर वायर और रेसिस्टर को जोड़ें। Make sure to leave room for a button at the end. \--- /task \---
+\--- task \--- अपनी पसंदीदा रंग के व्यवस्था में ब्रेडबोर्ड में अपने बाकी LED, जम्पर वायर और रेसिस्टर को जोड़ें। अंत में एक बटन के लिए जगह छोड़ना सुनिश्चित करें। \--- /task \---
 
-If you are using many different colours, it might help to match the colour of the jumper wires to your LEDs.
+यदि आप कई अलग-अलग रंगों का उपयोग कर रहे हैं, तो आप LED के जम्पर वायर उसी LED के रंग से मेल खाने वाले रख सकते हैं।
 
-Your rainbow should look similar to this one:
+आपका इंद्रधनुष कुछ इस तरह दिखना चाहिए:
 
 ![Rainbow LEDs](images/rainbowleds.png)
