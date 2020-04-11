@@ -1,9 +1,9 @@
-## Challenge: Fun with your dancing unicorn rainbow.
+## Desafio: Diversão com o arco-íris do seu unicórnio dançarino.
 
-Ideas:
+Ideias:
 
-1. Make the blinking of your rainbow and the dance of your unicorn faster
-2. Teach your unicorn a new dance (play around with costumes and speeds)
-3. Add more buttons and make the unicorn do a different dance for each
-4. Add more `events`{:class="block3events"} to make the unicorn do different dances
-5. Make a game with your rainbow and dancing unicorn
+1. Faça o piscar do seu arco-íris e a dança do seu unicórnio mais rápidos
+2. Ensine ao seu unicórnio uma nova dança (brinque com fantasias e velocidades)
+3. Adicione mais botões e faça o unicórnio fazer uma dança diferente para cada botão
+4. Adicione mais `eventoss`{:class="block3events"} para fazer o unicórnio fazer danças diferentes
+5. Faça um jogo com seu arco-íris e seu unicórnio dançarino
