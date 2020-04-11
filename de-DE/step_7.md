@@ -86,14 +86,12 @@ wiederhole fortlaufend
 
 + Lass den Regenbogen in einem Muster deiner Wahl blinken.
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
+## title: Rainbow challenges
 
-## title: Regenbogen-Herausforderungen
+Try out the following ideas:
 
-Probiere folgende Ideen aus:
-
-1) Lass die LEDs ganz schnell und ganz langsam blinken 2) Lass den ganzen Regenbogen blinken 3) Lass LED-Paare in abwechselnden Mustern aufleuchten 4) Lass den Regenbogen etwas im Morsecode blinken 5) Lass den Regenbogen verschiedene Dinge als Reaktion auf unterschiedliche Ereignisse machen
+1) Make the LEDs blink very fast and very slow 2) Make the whole rainbow blink 3) Make pairs of LEDs light up in alternate patterns 4) Make the rainbow blink something in Morse code 5) Make the rainbow do different things in response to different events
 
 \--- /collapse \--- \--- /challenge \---
