@@ -52,7 +52,7 @@ sudo apt-get install scratch3
 title: Was du lernen wirst
 ---
 
-Dieses Projekt umfasst Elemente aus den folgenden Teilen des [ Raspberry Pi Digital Making Curriculum ](http://rpf.io/curriculum) {:target="_blank"}:
+Dieses Projekt umfasst Elemente aus den folgenden Teilen des [ Raspberry Pi Digital Making Curriculum ](http://rpf.io/curriculum){:target="_blank"}:
 
 + [Kombiniere Eingaben und/oder Ausgaben um Projekte zu erstellen oder ein Problem zu lösen](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
 

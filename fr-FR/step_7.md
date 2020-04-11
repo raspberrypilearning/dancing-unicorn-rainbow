@@ -10,7 +10,7 @@ Ton arc-en-ciel devrait s'allumer comme ceci:
 ![Lumières Arc-en-Ciel](images/rainbowlit.png)
 
 --- hints ---
---- hint --
+--- hint ---
 
 Ajoute plus de blocs `turn LED (0 v) [on v]`{:class="block3extensions"} dans ce bout de code:
 
@@ -110,7 +110,11 @@ title: Défis arc-en-ciel
 
 Essaie les idées suivantes:
 
-1) Faire clignoter les LEDs très rapidement et très lentement 2) Faire clignoter tout l'arc-en-ciel 3) Faire s'allumer des paires de LEDs en alternance 4) Faire clignoter quelque chose de l'arc-en-ciel en code Morse 5) Faire en sorte que l'arc-en-ciel fasse différentes choses en réponse à différents événements
+ 1) Faire clignoter les LEDs très rapidement et très lentement 
+ 2) Faire clignoter tout l'arc-en-ciel 
+ 3) Faire s'allumer des paires de LEDs en alternance 
+ 4) Faire clignoter quelque chose de l'arc-en-ciel en code Morse 
+ 5) Faire en sorte que l'arc-en-ciel fasse différentes choses en réponse à différents événements
 
 --- /collapse --- 
 --- /challenge ---

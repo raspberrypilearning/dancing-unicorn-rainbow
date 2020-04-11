@@ -61,7 +61,7 @@ Lass deine LED an und aus gehen solange dein Programm läuft.
 
 --- /task ---
 
---- hint --- 
+--- hints --- 
 --- hint --- 
 
 Verwende
