@@ -1,12 +1,12 @@
-\--- no-print \--- This is the Scratch 3 version of this project. You can find the [Scratch 2 version here.](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow-scratch2) \--- /no-print \---
+\--- no print \--- Dit is de Scratch 3 versie van het project. Je kunt de [Scratch 2 versie hier vinden.](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow-scratch2) \--- /no-print \---
 
-## Introduction
+## Inleiding
 
-Create an LED rainbow and make a unicorn dance to it, all powered by the Raspberry Pi.
+Maak een LED-regenboog en laat een eenhoorn dansen, allemaal aangedreven door de Raspberry Pi.
 
-### What you will make
+### Wat ga je maken
 
-You will use Scratch to connect a rainbow of LEDs to a unicorn sprite, and then make the unicorn dance to the rhythm of the rainbow. Here is a video showing what your dancing unicorn and rainbow might look like:<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> Your browser does not support the video tag, try FireFox or Chrome </video> 
+Je gaat Scratch gebruiken om een regenboog van LED's te verbinden met een eenhoorn sprite, en laat de eenhoorn dansen naar het ritme van de regenboog. Hier is een video die laat zien hoe jouw dansende eenhoorn en regenboog eruit kunnen zien:<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> Je browser ondersteunt de video-tag niet, probeer Firefox of Chrome </video> 
 
 Once you have trained your unicorn to dance to your rainbow, you can learn how to use the rainbow to make the unicorn do tricks or play a game.
 
