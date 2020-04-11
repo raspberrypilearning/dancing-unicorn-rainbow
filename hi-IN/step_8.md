@@ -1,58 +1,58 @@
-## Make a unicorn dance to your rainbow
+## अपने इंद्रधनुष के लिए एक काल्पनिक जानवर को नचाए
 
-In this step, you will program a unicorn in Scratch that dances to the rhythm of your rainbow. You will use a button to program your rainbow and dancing unicorn.
+इस चरण में, आप Scratch में एक काल्पनिक जानवर को प्रोग्राम करेंगे जो आपके इंद्रधनुष के ताल पर नृत्य करता है। आप अपने इंद्रधनुष और नाचने वाले काल्पनिक जानवर को प्रोग्राम करने के लिए एक बटन का उपयोग करेंगे।
 
-### Unicorn sprite
+### काल्पनिक जानवर का sprite
 
-Choose one of the following options to create a unicorn sprite:
+काल्पनिक जानवर स्प्राइट बनाने के लिए निम्नलिखित विकल्पों में से एक चुनें:
 
-1. Use the Scratch unicorn sprite
-2. Upload a unicorn image from somewhere else and use it as your sprite
-3. Draw your own unicorn sprite in Scratch or another program (like the lovely green unicorn on the right).
+1. Scratch के काल्पनिक जानवर स्प्राइट का उपयोग करें
+2. कहीं और से एक काल्पनिक जानवर की छवि अपलोड करें और इसे अपने स्प्राइट के रूप में उपयोग करें
+3. Scratch या किसी अन्य प्रोग्राम में अपने स्वयं का काल्पनिक जानवर स्प्राइट को ड्रा (draw) करें (जैसे दाईं ओर का प्यारा सा हरा काल्पनिक जानवर)।
 
-Examples:
+उदाहरण:
 
-|              (1) Scratch sprite:              |         (2) Upload your own:          |           (3) Draw your own:            |
+|              (1) Scratch sprite:              |      (2) अपना खुद का अपलोड करें:      |       (३) अपना खुद का ड्रा करें:        |
 |:---------------------------------------------:|:-------------------------------------:|:---------------------------------------:|
 | ![Scratch Unicorn](images/scratchunicorn.png) | ![Web Unicorn](images/webunicorn.png) | ![Draw Unicorn](images/drawunicorn.png) |
 
-\--- task \--- If you picked option 1, click here: [[[generic-scratch3-sprite-from-library]]] \--- /task \---
+\--- task \--- यदि आपने विकल्प 1 को चुना, तो यहां क्लिक करें: [[[generic-scratch3-sprite-from-library]]] \--- /task \---
 
-\--- task \--- If you picked option 2 because you want to upload a unicorn image you found somewhere else, click below first to learn about image permissions, and then use the instructions in the second box to upload your file: [[[images-permissions-to-use]]]
+\--- task \--- यदि आपने विकल्प 2 को चुना है क्योंकि आप एक काल्पनिक जानवर की छवि अपलोड करना चाहते हैं जो आपको कहीं और मिली है, तो छवि को इस्तमाल करने के अनुमति के बारे में जानने के लिए पहले नीचे क्लिक करें, और फिर अपनी फ़ाइल अपलोड करने के लिए दूसरे बॉक्स में दिए गए निर्देशों का उपयोग करें: [[[images-permissions-to-use]]]
 
 [[[generic-scratch3-sprite-from-library]]] \--- /task \---
 
-\--- task \--- If you're going with option 3, click below for instructions on how to draw your own unicorn in Scratch: [[[generic-scratch3-draw-sprite]]] \--- /task \---
+\--- task \--- यदि आप विकल्प 3 के साथ जा रहे हैं, तो Scratch में अपना स्वयं का काल्पनिक जानवर कैसे ड्रॉ करना है, इस पर निर्देशों के लिए नीचे क्लिक करें: [[[generic-scratch3-draw-sprite]]] \--- /task \---
 
-### Unicorn costumes
+### काल्पनिक जानवर के कॉस्ट्यूम्स
 
-Your unicorn needs **costumes** to be able to dance. A costume is one of a set of appearances of a sprite, which means sprites can change their look by changing costumes. Therefore, you can use costumes to make a sprite look like it's moving whenever you want to create an animation.
+आपके गेंडा को नाचने के लिए **costumes** की आवश्यकता होगी। कॉस्ट्यूम स्प्राइट के एक दिखावे के सेट में से एक है, जिसका अर्थ है कि स्प्राइट अपना कॉस्ट्यूम बदलकर अपना रूप बदल सकते हैं। इसलिए जब आप एक एनीमेशन बनाना चाहते हैं, तो आप स्प्राइट के कॉस्ट्यूम का उपयोग कर सकते हैं।
 
-Here, we will be creating a dancing unicorn animation, so each costume will represent a dance move of your unicorn.
+यहां, हम एक नाचने वाला काल्पनिक जानवर का एनीमेशन बना रहे हैं, इसलिए प्रत्येक कॉस्ट्यूम आपके काल्पनिक जानवर की एक नृत्य चाल का प्रतिनिधित्व करेगी।
 
-\--- task \--- Decide how many costumes you want your unicorn sprite to have for the dance, and edit your costumes accordingly.
+\--- task \--- तय करें कि आप अपनी स्प्राइट के नृत्य लिए कितने कॉस्ट्यूम चाहते हैं, और उसी के अनुसार कॉस्ट्यूम्स को संपादित करें।
 
-Click for a reminder on how to add costumes in Scratch: [[[generic-scratch3-add-costume]]]
+Scratch में कॉस्ट्यूम जोड़ने के तरीके को फिर से देखने के लिए क्लिक करें: [[[generic-scratch3-add-costume]]]
 
-Click for a reminder on how to duplicate costumes in Scratch: [[[generic-scratch3-duplicate-costumes]]] \--- /task \---
+Scratch में कॉस्ट्यूम की प्रतिलिपि बनाने के तरीके को फिर से देखने के लिए क्लिक करें: [[[generic-scratch3-duplicate-costumes]]] \--- /task \---
 
-It is up to you how many costumes you want to add for your dancing unicorn. For this dancing green unicorn, we have used five costumes:
+यह आपके ऊपर है कि आप अपने नाचने वाले काल्पनिक जानवर के लिए कितने कॉस्ट्यूम जोड़ना चाहते हैं। इस नाचने वाले हरे काल्पनिक जानवर के लिए हमने पाँच कॉस्ट्यूम्स का उपयोग किया है:
 
 | ![Dancing Unicorn Gif](images/dancingunicorn.gif) | ![Five Costumes](images/fivecostumes.png) |
 
-### Unicorn dance
+### काल्पनिक जानवर का नृत्य
 
-To create your dancing animation, you need to program the unicorn to switch costumes.
+नाचने के एनीमेशन को बनाने के लिए, आपको कॉस्टयूम्स को बदलने के लिए अपने काल्पनिक जानवर को प्रोग्राम करना होगा।
 
-\--- task \--- Switch between the first two costumes to start the unicorn dance.
+\--- task \--- काल्पनिक जानवर का नृत्य शुरू करने के लिए पहले कॉस्ट्यूम को दूसरे से बदले।
 
-To switch from the first to the second costume use:
+पहली कॉस्ट्यूम को दूसरी कॉस्ट्यूम से बदलने के लिए इसतेमाल करें:
 
 ```blocks3
 switch costume to [costume 2 v]
 ```
 
-Unicorns are generally good dancers, so make sure you time your unicorn's dance to the speed of your rainbow pattern. You can use the `wait`{:class="blockcontrol"} block to match the unicorn's wait time to your rainbow's wait time.
+आपके काल्पनिक जानवर आम तौर पर अच्छे नर्तक होने चाहिए, इसलिए सुनिश्चित करें कि आप अपने इंद्रधनुष पैटर्न के गति से अपने काल्पनिक जानवर को समय दें। आप अपने काल्पनिक जानवर के प्रतीक्षा समय को आपके इंद्रधनुष के प्रतीक्षा समय से मिलाने के लिए `wait`{:class="blockcontrol"} ब्लॉक का उपयोग कर सकते हैं।
 
 ```blocks3
 wait (0.5) secs
@@ -61,11 +61,11 @@ switch costume to [costume 2 v]
 
 \--- /task \---
 
-\--- task \--- To create your dancing unicorn, switch between all costumes continuously. What kind of loop do you need to do this? \--- /task \---
+\--- task \--- अपना नाचने वाला काल्पनिक जानवर बनाने के लिए, सभी कॉस्ट्यूम को लगातार बदलें। आपको ऐसा करने के लिए किस तरह के लूप की आवश्यकता होगी? \--- /task \---
 
 \--- hints \--- \--- hint \---
 
-Use a forever loop:
+forever लूप का उपयोग करें:
 
 ```blocks3
 forever
@@ -73,7 +73,7 @@ forever
 
 \--- /hint \--- \--- hint \---
 
-Use this block to switch to the next costume each time you go through the loop:
+लूप के माध्यम से हर बार अगली कॉस्ट्यूम पर जाने के लिए इस ब्लॉक का उपयोग करें:
 
 ```blocks3
 next costume
@@ -81,7 +81,7 @@ next costume
 
 \--- /hint \--- \--- hint \---
 
-Your code should look like this:
+आपका कोड इस प्रकार दिखना चाहिए:
 
 ```blocks3
 forever
