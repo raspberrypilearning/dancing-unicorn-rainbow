@@ -100,7 +100,6 @@ forever
 + Make the rainbow blink in a pattern of your choice.
 
 --- collapse ---
-
 ---
 title: Rainbow challenges
 ---

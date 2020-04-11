@@ -91,4 +91,4 @@ wait (0.5) secs
 next costume
 ```
 
---- /hint ------ /hints ---
+--- /hint --- --- /hints ---

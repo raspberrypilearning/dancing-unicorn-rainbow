@@ -22,7 +22,7 @@ warte (2) Sekunden
 turn LED (17 v) [off v] :: extension
 ```
 
---- /hint ------ /hints ---
+--- /hint --- --- /hints ---
 
 --- task --- Wenn dein Scratch Programm startet, lass deine LED für 2 Sekunden aufleuchten und schalte sie dann für 2 Sekunden aus. --- /task ---
 
@@ -37,7 +37,7 @@ turn LED (17 v) [off v] :: extension
 warte (2) Sekunden
 ```
 
---- /hint ------ /hints ---
+--- /hint --- --- /hints ---
 
 --- task --- Lass deine LED an und aus gehen solange dein Programm läuft. --- /task ---
 
@@ -59,7 +59,7 @@ wiederhole fortlaufend
 end
 ```
 
---- /hint ------ /hints ---
+--- /hint --- --- /hints ---
 
 + Lass deine LED schneller blinken.
 
@@ -78,6 +78,6 @@ wiederhole fortlaufend
 end
 ```
 
---- /hint ------ /hints ---
+--- /hint --- --- /hints ---
 
 Gut gemacht – du bist jetzt bereit einen tollen Regenbogen zu bauen und zu kontrollieren!

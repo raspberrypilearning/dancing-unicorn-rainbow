@@ -31,7 +31,7 @@ Falls deine LEDs nicht leuchten:
 
 1) Überprüfe an welchen GPIO-Pins deine LEDs angeschlossen sind und stelle sicher, dass du sie auf `on`{:class="block3extensions"} gesetzt hast 2) Teste ob die LEDs funktionieren — du kannst das Überbrückungskabel einer LED auf den **GPIO 3V3** Pin stecken um sie zu testen 3) Stelle sicher, dass die Schaltung auf dem Steckbrett vollständig ist
 
---- /hint ------ /hints ---
+--- /hint --- --- /hints ---
 
 --- task --- Füge jetzt mehr Code hinzu, um den Regenbogen wie folgt in einem Regenbogenmuster blinken zu lassen:<video width="560" height="315" controls> <source src="resources/Scratch-GPIO-Pathways-5.mp4" type="video/mp4"> Dein Browser unterstützt das Video-Tag nicht, versuche es mit FireFox oder Chrome. </video> 
 
@@ -72,7 +72,7 @@ turn LED (22 v) [on v] :: extension
 
 Du musst Blöcke für alle deine LEDs hinzufügen und sicher stellen, dass du die richtigen GPIO-Pin-Nummern in deinem Code verwendest.
 
---- /hint ------ /hints ---
+--- /hint --- --- /hints ---
 
 --- task --- Lass die Lichter in einer Schleife wiederholt durch den Regenbogen blinken.
 
