@@ -1,7 +1,7 @@
 ---
-title: Dancing unicorns and rainbows
+title: Dansende eenhoorns en regenbogen
 hero_image: images/banner.png
-description: Create a unicorn that dances in time with an LED rainbow
+description: Maak een eenhoorn die synchroon danst met een LED regenboog
 theme: violet #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
@@ -11,31 +11,31 @@ curriculum: 2, design-0, programming-2, phys-comp-2, manufacture-0, community-0
 interests: humour, games
 technologies: electronic-components, scratch
 site_areas: projects
-hardware: electronic-components
+hardware: elektronische componenten
 software: scratch
 version: 4
 last_tested: 2018-02-01
 steps:
   - 
-    title: Introduction
+    title: Inleiding
   - 
-    title: "Your rainbow's atmosphere"
+    title: "De sfeer van je regenboog"
   - 
-    title: "Your rainbow's first colour"
+    title: "Jouw eerste kleur van je regenboog"
   - 
-    title: Test your circuit in Scratch
+    title: Test je circuit in Scratch
   - 
-    title: Control your rainbow circuit
+    title: Bestuur je regenboogcircuit
   - 
-    title: Build your rainbow
+    title: Bouw je regenboog
   - 
-    title: Light your rainbow
+    title: Verlicht je regenboog
   - 
-    title: Make a dancing unicorn
+    title: Maak een dansende eenhoorn
   - 
-    title: Add a button
+    title: Een knop toevoegen
   - 
-    title: "Challenge: Fun with your dancing unicorn rainbow."
+    title: "Uitdaging: plezier met je dansende eenhoorn regenboog."
     challenge: true
   - 
-    title: What next?
+    title: Wat kun je verder nog doen?
