@@ -8,31 +8,31 @@ Maak een LED-regenboog en laat een eenhoorn dansen, allemaal aangedreven door de
 
 Je gaat Scratch gebruiken om een regenboog van LED's te verbinden met een eenhoorn sprite, en laat de eenhoorn dansen naar het ritme van de regenboog. Hier is een video die laat zien hoe jouw dansende eenhoorn en regenboog eruit kunnen zien:<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> Je browser ondersteunt de video-tag niet, probeer Firefox of Chrome </video> 
 
-Once you have trained your unicorn to dance to your rainbow, you can learn how to use the rainbow to make the unicorn do tricks or play a game.
+Als je eenmaal je eenhoorn hebt getraind om op je regenboog te dansen, kun je leren hoe je de regenboog kunt gebruiken om de eenhoorn trucs te laten doen of een spel te spelen.
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Wat heb je nodig
 
 ### Hardware
 
-+ A Raspberry Pi
-+ A breadboard
-+ 3 or more colourful LEDs
-+ Resistors (at least 100 ohms), **1 per LED**
-+ 1× button
-+ Male-to-female jumper wires, **1 per LED**
-+ 2× additional male-to-female jumper wires
-+ 1× male-to-male jumper wire
++ Een Raspberry Pi
++ Een experimenteerbord
++ 3 of meer kleurrijke LED's
++ Weerstanden (minimaal 100 ohm), **1 per LED**
++ 1 × knop
++ Man-vrouw verbindingsdraden, **1 per LED**
++ 2 × extra man-vrouw verbindingsdraden
++ 1 × man-man verbindingsdraad
 
-For the optional final challenge:
+Voor de optionele slotuitdaging:
 
-+ 1× buzzer
-+ 2× additional male-to-female jumper wires
++ 1 × zoemer
++ 2 × extra man-vrouw verbindingsdraden
 
 ### Software
 
-You will need the latest version of Raspbian, which already includes the following software package:
+Je hebt de nieuwste versie van Raspbian nodig, die al de volgende software pakketten bevat:
 
 + Scratch 3
 
@@ -41,22 +41,22 @@ sudo apt-get update
 sudo apt-get install scratch3
 ```
 
-**Note:** Scratch 3 will **only** work on the Raspberry Pi 4. \--- /collapse \---
+**Opmerking:** Scratch 3 werkt **alleen ** op de Raspberry Pi 4. \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Wat ga je leren
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Combine inputs and/or outputs to create projects or solve a problem](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
++ [Combineer ingangen en/of uitgangen om projecten te maken of een probleem op te lossen](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
 
-+ [Apply basic programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"} \--- /collapse \---
++ [Gebruik programmeer constructies om om een probleem op te lossen](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank} \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Aanvullende informatie voor docenten
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}.
+Als je dit project wilt afdrukken, gebruik dan de [printervriendelijke versie](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}.
 
-You can find the full solution for this project at [rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get) \--- /collapse \---
+Je kunt de volledige oplossing voor dit project vinden op [rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get) \--- /collapse \---
