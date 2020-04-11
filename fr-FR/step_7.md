@@ -86,14 +86,12 @@ forever
 
 + Fais clignoter l'arc-en-ciel selon le motif de ton choix.
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
+## title: Rainbow challenges
 
-## title: Défis arc-en-ciel
+Try out the following ideas:
 
-Essaie les idées suivantes :
-
-1) Faire clignoter les LEDs très rapidement et très lentement 2) Faire clignoter tout l'arc-en-ciel 3) Faire s'allumer des paires de LEDs en alternance 4) Faire clignoter quelque chose de l'arc-en-ciel en code Morse 5) Faire en sorte que l'arc-en-ciel fasse différentes choses en réponse à différents événements
+1) Make the LEDs blink very fast and very slow 2) Make the whole rainbow blink 3) Make pairs of LEDs light up in alternate patterns 4) Make the rainbow blink something in Morse code 5) Make the rainbow do different things in response to different events
 
 \--- /collapse \--- \--- /challenge \---
