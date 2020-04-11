@@ -45,6 +45,7 @@ sudo apt-get install scratch3
 ```
 
 **Remarque:** Scratch 3 fonctionnera **uniquement** sur le Raspberry Pi 4. 
+
 --- /collapse ---
 
 --- collapse ---
