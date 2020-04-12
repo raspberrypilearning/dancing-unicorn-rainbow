@@ -1,62 +1,62 @@
-\--- no-print \--- This is the Scratch 3 version of this project. You can find the [Scratch 2 version here.](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow-scratch2) \--- /no-print \---
+\--- no-print \--- 이 프로젝트에 사용된 버전은 스크래치 3 입니다. [Scratch 2 버전은 여기에서 찾을 수 있습니다.](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow-scratch2) \--- / no-print \---
 
-## Introduction
+## 들어가며
 
-Create an LED rainbow and make a unicorn dance to it, all powered by the Raspberry Pi.
+Raspberry Pi로 구동되는 LED 무지개를 만들고 유니콘이 춤을 추게 해보세요.
 
-### What you will make
+### 만들 작품
 
-You will use Scratch to connect a rainbow of LEDs to a unicorn sprite, and then make the unicorn dance to the rhythm of the rainbow. Here is a video showing what your dancing unicorn and rainbow might look like:<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> Your browser does not support the video tag, try FireFox or Chrome </video> 
+스크래치를 사용하여 LED 무지개를 유니콘 스프라이트에 연결 한 다음, 유니콘이 무지개의 리듬에 맞춰 춤을 추게 할 것입니다. 다음은 춤추는 유니콘과 무지개의 모습을 보여주는 비디오입니다:<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> Your browser does not support the video tag, try FireFox or Chrome </video> 
 
-Once you have trained your unicorn to dance to your rainbow, you can learn how to use the rainbow to make the unicorn do tricks or play a game.
+유니콘을 무지개에 맞춰 춤을 추도록 한 이후에는, 무지개를 사용하여 유니콘이 재롱을 부리거나 게임을 하게 하는 방법을 배울 수 있습니다.
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: 준비물
 
-### Hardware
+### 하드웨어
 
-+ A Raspberry Pi
-+ A breadboard
-+ 3 or more colourful LEDs
-+ Resistors (at least 100 ohms), **1 per LED**
-+ 1× button
-+ Male-to-female jumper wires, **1 per LED**
-+ 2× additional male-to-female jumper wires
-+ 1× male-to-male jumper wire
++ Raspberry Pi
++ 브레드보드
++ 3개 이상의 색상이 다양한 LED
++ 저항 (100 ohm 이상), **LED 한 개당 하나씩**
++ 버튼 1개
++ M-F 점퍼 케이블, **LED 한 개당 하나씩**
++ 추가 M-F 점퍼 케이블 2개
++ F-F 점퍼 케이블 1개
 
-For the optional final challenge:
+선택적인 도전 과제를 하고 싶다면:
 
-+ 1× buzzer
-+ 2× additional male-to-female jumper wires
++ 버저 1개
++ 추가 M-F 점퍼 케이블 2개
 
-### Software
+### 소프트웨어
 
-You will need the latest version of Raspbian, which already includes the following software package:
+다음 소프트웨어 패키지가 포함 된 최신 버전의 Raspbian이 필요합니다:
 
-+ Scratch 3
++ 스크래치 3
 
 ```bash
 sudo apt-get update
 sudo apt-get install scratch3
 ```
 
-**Note:** Scratch 3 will **only** work on the Raspberry Pi 4. \--- /collapse \---
+**참고:** 스크래치 3는 **Raspberry Pi 4 에서만** 작동합니다. \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: 학습 효과
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+이 프로젝트는 [라즈베리 파이 디지털 메이킹 커리큘럼](http://rpf.io/curriculum){:target="_blank"}: 중 아래의 과정에 있는 요소들을 다룹니다.
 
-+ [Combine inputs and/or outputs to create projects or solve a problem](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
++ [프로젝트를 진행하거나 문제를 해결하기 위해 입력과 출력을 결합하기](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
 
-+ [Apply basic programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"} \--- /collapse \---
++ [문제를 해결하기 위해 간단한 프로그램 구조 적용하기](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: 교육자를 위한 추가 정보
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}.
+이 프로젝트를 인쇄한다면 [프린트용 버전](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}을 사용해 주십시오.
 
-You can find the full solution for this project at [rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get) \--- /collapse \---
+이 프로젝트의 전체 솔루션은 [rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get)에서 찾을 수 있습니다. \--- /collapse \---
