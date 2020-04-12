@@ -1,9 +1,9 @@
-## Challenge: Fun with your dancing unicorn rainbow.
+## 도전 과제: 재밌는 유니콘 무지개 춤
 
-Ideas:
+아이디어:
 
-1. Make the blinking of your rainbow and the dance of your unicorn faster
-2. Teach your unicorn a new dance (play around with costumes and speeds)
-3. Add more buttons and make the unicorn do a different dance for each
-4. Add more `events`{:class="block3events"} to make the unicorn do different dances
-5. Make a game with your rainbow and dancing unicorn
+1. 무지개의 깜빡임과 유니콘의 춤을 더 빠르게 만들어 봅시다.
+2. 유니콘에게 새로운 춤을 가르쳐 봅시다(의상이나 속도를 바꿔보세요)
+3. 버튼을 추가하고 유니콘이 버튼에 따라 각각 다른 춤을 추게 만들어 봅시다.
+4. `동작`{:class="block3events"}을 추가해서 유니콘이 다른 춤을 추도록 해봅시다.
+5. 무지개와 춤추는 유니콘으로 게임을 만들어 봅시다.
