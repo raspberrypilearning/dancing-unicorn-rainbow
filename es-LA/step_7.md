@@ -88,10 +88,10 @@ forever
 
 ## \--- collapse \---
 
-## title: Rainbow challenges
+## title: Desafíos arcoiris
 
-Try out the following ideas:
+Prueba las siguientes ideas:
 
-1) Make the LEDs blink very fast and very slow 2) Make the whole rainbow blink 3) Make pairs of LEDs light up in alternate patterns 4) Make the rainbow blink something in Morse code 5) Make the rainbow do different things in response to different events
+1) Haz que los LED parpadeen muy rápido y muy lento 2) Haz que todo el arcoiris parpadee 3) Haz que los pares de LED se enciendan en patrones alternativos 4) Haz que el arcoiris parpadee algo en código Morse 5) Haz que el arcoiris haga diferentes cosas en respuesta a diferentes eventos
 
 \--- /collapse \--- \--- /challenge \---
