@@ -8,14 +8,14 @@
 
 ![불이 켜진 무지개](images/rainbowlit.png)
 
-\--- hints \--- \--- hint \--- Add more `turn LED (0 v) [on v]`{:class="block3extensions"} blocks in this chunk of code:
+\--- hints \--- \--- hint \--- `LED (0 v) [켜기 v]`{:class="block3extensions"} 블록을 아래와 같이 추가하세요.
 
 ```blocks3
 when flag clicked
 turn LED (17 v) [on v] ::extension
 ```
 
-\--- /hint \--- \--- hint \--- Keep adding blocks at the bottom of your code until all your LEDs are set to `on`{:class="block3extensions"}.
+\--- /hint \--- \--- hint \--- 아래와 같이 LED 블록을 추가해서 모든 LED를 `켜기`{:class="block3extensions"} 상태로 만드세요.
 
 ```blocks3
 when flag clicked
@@ -88,10 +88,10 @@ forever
 
 ## \--- collapse \---
 
-## title: Rainbow challenges
+## title: 무지개 도전과제
 
-Try out the following ideas:
+아래의 아이디어를 시도해보세요:
 
-1) Make the LEDs blink very fast and very slow 2) Make the whole rainbow blink 3) Make pairs of LEDs light up in alternate patterns 4) Make the rainbow blink something in Morse code 5) Make the rainbow do different things in response to different events
+1) LED가 매우 빠르거나 매우 느리게 깜박이게 하기 2) 전체 무지개가 깜박이게 하기 3) LED가 교대로 깜박이게 하기 4) 무지개가 모스 부호로 무엇인가를 깜박이게 하기 5) 무지개가 이벤트에 따라 다르게 작동하게 하기
 
 \--- /collapse \--- \--- /challenge \---
