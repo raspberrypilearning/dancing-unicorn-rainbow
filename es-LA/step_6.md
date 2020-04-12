@@ -16,9 +16,9 @@ La placa de pruebas se ve así por dentro:
 
 ![Sección transversal de la placa de pruebas](images/breadboardxsection.png)
 
-Para conectar a tierra todo el arcoíris con un cable de puente: --- / task ---
+Para conectar a tierra todo el arcoíris con un cable de puente: --- /task ---
 
---- task --- Conecta el otro extremo del cable de puente conectado a **GND** a un **riel** de la placa de pruebas --- / task ---
+--- task --- Conecta el otro extremo del cable de puente conectado a **GND** a un **riel** de la placa de pruebas --- /task ---
 
 --- task --- Asegúrate de que las resistencias se conecten al mismo riel que el cable de puente **GND** y a la misma **barra** que el LED al que pertenecen: --- /task ---
 
