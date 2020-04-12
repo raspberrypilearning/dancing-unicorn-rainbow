@@ -4,7 +4,8 @@
 
 --- task --- जब आप कीबोर्ड पर <kbd>P</kbd> दबाते हैं तब दो सेकंड के लिए LED चालू करें और फिर बंद करें। --- /task ---
 
---- hint --- --- hint --- `Control`{:class="block3control"} ब्लॉक सेक्शन में देखिए।
+--- hints --- --- hint --- 
+`Control`{:class="block3control"} ब्लॉक सेक्शन में देखिए।
 --- /hint ---
  --- hint --- निम्नलखित का उपयोग करें
 

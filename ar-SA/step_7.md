@@ -83,7 +83,7 @@ turn LED (22 v) [on v] ::extension
 للدوران عبر نمط قوس قزح للأبد، استخدم:
 
 ```blocks3
-كرر باستمرار
+forever
 ```
 
 --- /task ---

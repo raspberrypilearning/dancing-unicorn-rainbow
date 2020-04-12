@@ -8,7 +8,7 @@
 
 ![Rainbow Lit](images/rainbowlit.png)
 
---- hint --- --- hint --- अधिक `turn LED (0 v) [on v]`{:class="block3extensions"} ब्लॉक को इस कोड में जोड़े:
+--- hints --- --- hint --- अधिक `turn LED (0 v) [on v]`{:class="block3extensions"} ब्लॉक को इस कोड में जोड़े:
 
 ```blocks3
 when flag clicked
@@ -93,7 +93,7 @@ forever
 
 --- collapse ---
 ---
-title:: इंद्रधनुष की चुनौतियां
+title: इंद्रधनुष की चुनौतियां
 ---
 
 निम्नलिखित विचारों को आज़माएं:

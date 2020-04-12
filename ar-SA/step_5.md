@@ -45,7 +45,7 @@ wait (2) secs
  --- hint --- استخدم
 
 ```blocks3
-كرر باستمرار
+forever
 ```
 
 --- /hint --- --- hint ---
