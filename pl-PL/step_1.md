@@ -57,6 +57,8 @@ Ten projekt pokrywa elementy z następujących wątków z [Cyfrowego Programu Na
 
 + [Używania prostych konstrukcji programistycznych w celu rozwiązania problemu](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
+--- /collapse ---
+
 --- collapse ---
 ---
 title: Dodatkowe informacje dla nauczycieli
