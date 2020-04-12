@@ -37,10 +37,10 @@ wait (2) secs
 
 \--- task \--- اجعل LED يعمل ويتوقف طالما أن برنامجك يعمل. \--- /task \---
 
-\--- hints \--- \--- hint \--- Use
+\--- hints \--- \--- hint \--- استخدم
 
 ```blocks3
-forever
+كرر باستمرار
 ```
 
 \--- /hint \--- \--- hint \---
@@ -56,9 +56,9 @@ wait (2) secs
 
 \--- /hint \--- \--- /hints \---
 
-+ Make your LED blink faster.
++ اجعل وميض LED الخاص بك أكثر سرعة.
 
-\--- hints \--- \--- hint \--- Use `wait x secs`{:class="block3control"} for fewer seconds. \--- /hint \--- \--- hint \---
+\--- hints \--- \--- hint \--- استخدم كتلة `انتظر x ثواني`{:class="block3control"} لمدة ثوان أقل. \--- /hint \--- \--- hint \---
 
 ```blocks3
 when flag clicked
@@ -71,4 +71,4 @@ wait (0.5) secs
 
 \--- /hint \--- \--- /hints \---
 
-Well done — you are now ready to create and control an awesome rainbow!
+أحسنت - أنت الآن على استعداد لإنشاء قوس قزح رائع والتحكم به!
