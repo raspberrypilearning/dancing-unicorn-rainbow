@@ -88,10 +88,10 @@ forever
 
 ## \--- collapse \---
 
-## title: Rainbow challenges
+## title: Sfide arcobaleno
 
-Try out the following ideas:
+Prova le seguenti idee:
 
-1) Make the LEDs blink very fast and very slow 2) Make the whole rainbow blink 3) Make pairs of LEDs light up in alternate patterns 4) Make the rainbow blink something in Morse code 5) Make the rainbow do different things in response to different events
+1) Fai lampeggiare i LED molto velocemente e molto lentamente 2) Fai lampeggiare l'intero arcobaleno 3) Fai accendere coppie di LED in schemi alternati 4) Fai dire all'arcobaleno qualcosa in codice Morse 5) Fai fare all'arcobaleno cose differenti in risposta a situazioni differenti
 
 \--- /collapse \--- \--- /challenge \---
