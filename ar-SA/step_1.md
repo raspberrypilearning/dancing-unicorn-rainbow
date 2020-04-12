@@ -12,7 +12,7 @@
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: ما الذي ستحتاجه
 
 ### الأجهزة
 
