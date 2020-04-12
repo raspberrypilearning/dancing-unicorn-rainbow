@@ -1,6 +1,6 @@
 --- no-print --- 
 이 프로젝트에 사용된 버전은 스크래치 3 입니다. [Scratch 2 버전은 여기에서 찾을 수 있습니다.](https://projects.raspberrypi.org/ko-KR/projects/dancing-unicorn-rainbow-scratch2) 
---- / no-print ---
+--- /no-print ---
 
 ## 들어가며
 
