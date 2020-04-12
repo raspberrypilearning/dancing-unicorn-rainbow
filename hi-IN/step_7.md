@@ -88,10 +88,10 @@ forever
 
 ## \--- collapse \---
 
-## title: Rainbow challenges
+## title:: इंद्रधनुष की चुनौतियां
 
-Try out the following ideas:
+निम्नलिखित विचारों को आज़माएं:
 
-1) Make the LEDs blink very fast and very slow 2) Make the whole rainbow blink 3) Make pairs of LEDs light up in alternate patterns 4) Make the rainbow blink something in Morse code 5) Make the rainbow do different things in response to different events
+1) LED को बहुत तेज और बहुत धीमी गति से बंद चालू करें 2) पूरे इंद्रधनुष को बंद चालू करें 3) वैकल्पिक पैटर्न में LED के जोड़े को रोशन करें 4) मोर्स कोड (morse code) में इंद्रधनुष को बंद चालू करें 5) इंद्रधनुष को विभिन्न घटनाओं के जवाब में विभिन्न चीज़े करें
 
 \--- /collapse \--- \--- /challenge \---
