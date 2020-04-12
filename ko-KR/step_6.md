@@ -1,35 +1,35 @@
-## Build your rainbow
+## 무지개 만들기
 
-In this step, you will assemble your rainbow and program its LEDs to blink in a rainbow pattern.
+이 단계에서는 무지개를 조립하고 무지개 패턴에 따라 깜박이도록 LED를 프로그래밍합니다.
 
-\--- task \--- Find all the LEDs you are going to use, and make sure you also have the right number of jumper wires and resistors (one each per LED). \--- /task \---
+\--- task \--- 사용할 모든 LED를 찾고 올바른 수의 점퍼 케이블 및 저항(LED 당 하나씩)이 있는지 확인하세요. \--- /task \---
 
-\--- task \--- Rearrange the circuit you already have to make room for the other colours of your rainbow. \--- /task \---
+\--- task \--- 무지개의 다른 색을 위한 공간을 마련하기 위해 회로를 정리해주세요. \--- /task \---
 
-![Circuit Rearranged](images/oneled.png)
+![재배치된 회로](images/oneled.png)
 
-### Ground the rainbow
+### 무지개를 그라운드에 연결하기
 
-\--- task \--- So that your rainbow shines brightly and is not covered by too many jumper wires, all LEDs should share one **Ground (GND)** pin. You can do set them up like this by rearranging your components on the breadboard a little.
+\--- task \--- 무지개가 밝게 빛나고 지나치게 많은 점퍼 와이어로 가려지지 않도록, 모든 LED가 하나의 **그라운드(GND)**를 공유해야 합니다. 브레드 보드의 구성 요소를 약간 재정렬하여 이와 같이 설정할 수 있습니다.
 
-The breadboard looks like this inside:
+브레드보드의 내부는 다음과 같이 생겼습니다:
 
-![Breadboard Cross-Section](images/breadboardxsection.png)
+![브레드보드 횡단면](images/breadboardxsection.png)
 
-To ground the whole rainbow with one jumper wire: \--- /task \---
+하나의 점퍼 케이블만을 이용하여 전체 무지개를 접지하려면: \--- /task \---
 
-\--- task \--- Connect the jumper wire attached to **GND** to a breadboard **rail** \--- /task \---
+\--- task \--- 브레드보드의 **레일**에 **GND**에 연결된 점퍼 와이어 연결합니다. \--- /task \---
 
-\--- task \--- Make sure resistors connect to the same rail as the **GND** jumper wire and to the same **bar** as the LED they belong to: \--- /task \---
+\--- task \--- 저항이 **GND** 점퍼 케이블과 동일한 레일에 연결되고 그 저항에 대응되는 LED와 같은 **바**에 연결되어 있는지 확인하세요: \--- /task \---
 
-![Adding LEDs](images/twoleds.png)
+![LED 추가하기](images/twoleds.png)
 
-### Complete the rainbow
+### 무지개 완성하기
 
-\--- task \--- Add the rest of your LEDs, jumper wires, and resistors to the breadboard in a colour arrangement of your choice. Make sure to leave room for a button at the end. \--- /task \---
+\--- task \--- 원하는 색상을 선택하여 브레드보드에 나머지 LED, 점퍼 케이블 및 저항을 추가합니다. 끝에 버튼을 위한 공간을 남기는 것을 잊지 마세요. \--- /task \---
 
-If you are using many different colours, it might help to match the colour of the jumper wires to your LEDs.
+다양한 색상을 사용하는 경우 점퍼 와이어의 색상을 LED에 일치시키는 것이 도움이 될 수 있습니다.
 
-Your rainbow should look similar to this one:
+당신의 무지개는 이와 비슷할 것입니다:
 
-![Rainbow LEDs](images/rainbowleds.png)
+![무지개 LED](images/rainbowleds.png)
