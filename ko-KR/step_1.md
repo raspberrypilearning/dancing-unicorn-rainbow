@@ -58,7 +58,7 @@ title: 학습 효과
 + [프로젝트를 진행하거나 문제를 해결하기 위해 입력과 출력을 결합하기](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
 
 + [문제를 해결하기 위해 간단한 프로그램 구조 적용하기](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
-
+--- /collapse ---
 --- collapse ---
 ---
 title: 교육자를 위한 추가 정보
