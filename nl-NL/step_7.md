@@ -88,10 +88,10 @@ forever
 
 ## \--- collapse \---
 
-## title: Rainbow challenges
+## title: Regenboog uitdagingen
 
-Try out the following ideas:
+Probeer de volgende ideeën uit:
 
-1) Make the LEDs blink very fast and very slow 2) Make the whole rainbow blink 3) Make pairs of LEDs light up in alternate patterns 4) Make the rainbow blink something in Morse code 5) Make the rainbow do different things in response to different events
+1) Laat de LED's heel snel en erg langzaam knipperen 2) Laat de hele regenboog knipperen 3) Laat paren van LED's in alternatieve patronen knipperen 4) Laat de regenboog iets in morsecode knipperen 5) Laat de regenboog verschillende dingen doen in reactie op verschillende gebeurtenissen
 
 \--- /collapse \--- \--- /challenge \---
