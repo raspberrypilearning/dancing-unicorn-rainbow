@@ -1,10 +1,10 @@
-## Light your rainbow
+## 무지개 밝히기
 
-To make sure your rainbow is working, you will first test it by lighting the whole rainbow at once. You will then create code to make the rainbow blink through all its colours one after the other, and then in a pattern of your choice.
+무지개가 제대로 작동하는지 확인하려면 먼저 무지개 전체를 한 번에 켠 다음 테스트하세요. 그런 다음 무지개를 모든 색상에서 차례로 깜박이도록 코드를 만들고, 그 다음에는 원하는 패턴으로 깜박이게 합니다.
 
-\--- task \--- Add more code to control the other LEDs. Make sure you include the right GPIO pins. \--- /task \---
+\--- task \--- 다른 LED를 제어하기 위해 더 많은 코드를 추가하세요. 올바른 GPIO 핀을 포함하도록 조심하세요. \--- /task \---
 
-Your rainbow should light up like this:
+무지개는 다음과 같이 켜져야 합니다:
 
 ![Rainbow Lit](images/rainbowlit.png)
 
@@ -26,15 +26,15 @@ turn LED (22 v) [on v] ::extension
 
 \--- /hint \--- \--- hint \---
 
-If your LEDs are not lighting:
+LED가 켜지지 않는 경우:
 
-1) Check which GPIO pins your LEDs are connected to, and make sure you have set them to `on`{:class="block3extensions"} 2) Test whether the LEDs are working — you can plug an LED's jumper wire into **GPIO 3V3** to test it 3) Make sure the circuit on the breadboard is complete
+1) LED가 어떤 GPIO 핀에 연결되어 있는지 확인하고 `켜짐`{:class="block3extensions"}으로 설정했는지 확인하세요 2) LED가 작동하는지 테스트하려면, LED의 점퍼 케이블을 **GPIO 3V3**에 꽂을 수 있습니다. 3) 브레드보드의 회로가 완전한지 확인하십시오.
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- Now, add more code to make the rainbow blink in a rainbow pattern like this:<video width="560" height="315" controls> <source src="resources/Scratch-GPIO-Pathways-5.mp4" type="video/mp4"> Your browser does not support the video tag, so try FireFox or Chrome. </video> 
+\--- task \--- 이제 다음과 같이 무지개 패턴으로 무지개가 깜박이게끔 코드를 추가하세요:<video width="560" height="315" controls> <source src="resources/Scratch-GPIO-Pathways-5.mp4" type="video/mp4"> Your browser does not support the video tag, so try FireFox or Chrome. </video> 
 
-To do this, you will need to make one LED turn on for a couple of seconds and then turn off at the same time as the next LED turns on. \--- /task \---
+이렇게 하기 위해서는 몇 초 동안 하나의 LED를 켜고, 다음 LED가 켜짐과 동시에 꺼줘야 합니다. \--- /task \---
 
 \--- hints \--- \--- hint \---
 
