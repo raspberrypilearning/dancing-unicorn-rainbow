@@ -1,4 +1,4 @@
-## Light your rainbow
+## أضيء قوس قزحك
 
 للتأكد من أن قوس القزح يعمل ، سوف تختبره أولاً عن طريق إضاءة قوس القزح بأكمله في وقت واحد. ستقوم بعد ذلك بإنشاء التعليمات البرمجية لجعل قوس قزح يضيء جميع ألوانه الواحد تلو الآخر، ثم في نمط من اختيارك.
 
@@ -32,7 +32,7 @@ turn LED (22 v) [on v] ::extension
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- الآن، أضف المزيد من التعليمات البرمجية لجعل قوس قزح يومض في نمط قوس قزح مثل هذا:<video width="560" height="315" controls> <source src="resources/Scratch-GPIO-Pathways-5.mp4" type="video/mp4"> Your browser does not support the video tag, so try FireFox or Chrome. </video> 
+\--- task \--- الآن، أضف المزيد من التعليمات البرمجية لجعل قوس قزح يومض في نمط قوس قزح مثل هذا:<video width="560" height="315" controls> <source src="resources / Scratch-GPIO-Pathways-5.mp4" type="video/mp4"> Your browser does not support the video tag, so try FireFox or Chrome. </video> 
 
 للقيام بذلك، سوف تحتاج إلى تشغيل ضوء واحد لبضع ثوان ثم إيقاف التشغيل في نفس الوقت الذي يشتغل فيه مصباح LED التالي. \--- /task \---
 
@@ -77,7 +77,7 @@ turn LED (22 v) [on v] ::extension
 للدوران عبر نمط قوس قزح للأبد، استخدم:
 
 ```blocks3
-forever
+كرر باستمرار
 ```
 
 \--- /task \---
@@ -88,10 +88,10 @@ forever
 
 ## \--- collapse \---
 
-## title: Rainbow challenges
+## title: تحديات قوس قزح
 
-Try out the following ideas:
+جرب الأفكار التالية:
 
-1) Make the LEDs blink very fast and very slow 2) Make the whole rainbow blink 3) Make pairs of LEDs light up in alternate patterns 4) Make the rainbow blink something in Morse code 5) Make the rainbow do different things in response to different events
+1) اجعل مصابيح LED تومض بسرعة كبيرة وبطيئة جدا 2) اجعل قوس قزح يومض بأكمله 3) اجعل أزواج مصابيح LED تضيء في أنماط متبادلة 4) اجعل قوس قزح يومض برمز مورس (Morse code) 5) اجعل قوس قزح يفعل أشياء مختلفة استجابة لأحداث مختلفة
 
 \--- /collapse \--- \--- /challenge \---
