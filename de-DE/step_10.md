@@ -1,4 +1,4 @@
-## Herausforderung: Spaß mit deinem tanzenden Einhorn-Regenbogen.
+## Herausforderung: Spaß mit deinem tanzenden Einhorn-Regenbogen
 
 Ideen:
 
