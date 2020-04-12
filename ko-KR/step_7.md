@@ -6,7 +6,7 @@
 
 무지개는 다음과 같이 켜져야 합니다:
 
-![Rainbow Lit](images/rainbowlit.png)
+![불이 켜진 무지개](images/rainbowlit.png)
 
 \--- hints \--- \--- hint \--- Add more `turn LED (0 v) [on v]`{:class="block3extensions"} blocks in this chunk of code:
 
@@ -38,7 +38,7 @@ LED가 켜지지 않는 경우:
 
 \--- hints \--- \--- hint \---
 
-Make sure your `Events`{:class="blockevents"} block matches what you are doing to test the code. In the example here, to make our rainbow blink, we have to click the green flag:
+`이벤트`{:class="blockevents"} 블록이 코드를 테스트하기 위한 것과 동일한지 확인하세요: 이 예시에서는, 무지개를 깜박이려면 녹색 깃발을 클릭해야 합니다.
 
 ```blocks3
 when flag clicked
@@ -46,7 +46,7 @@ when flag clicked
 
 \--- /hint \--- \--- hint \---
 
-If you're stuck, make sure you are using these blocks:
+중간에 막힌다면, 다음 블록을 사용하고 있는지 확인하세요:
 
 ```blocks3
 turn LED (0 v) [off v] ::extension
@@ -55,7 +55,7 @@ wait () secs
 
 \--- /hint \--- \--- hint \---
 
-Try using this approach:
+이 방법을 사용해보세요:
 
 ```blocks3
 when flag clicked
@@ -68,13 +68,13 @@ turn LED (18 v) [off v] ::extension
 turn LED (22 v) [on v] ::extension
 ```
 
-You will need to add blocks for all your LEDs and make sure that you're using the right GPIO pin numbers in your code.
+모든 LED를 위한 블록을 추가하고 코드에서 올바른 GPIO 핀 번호를 사용하고 있는지 확인하세요.
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- Make the lights blink repeatedly through the rainbow in a loop.
+\--- task \--- 불빛이 무지개를 따라 반복적으로 깜박이게끔 해보세요.
 
-To loop through the rainbow pattern forever, use:
+무지개 패턴을 영원히 반복하려면 다음을 사용하세요:
 
 ```blocks3
 forever
@@ -84,7 +84,7 @@ forever
 
 \--- challenge \---
 
-+ Make the rainbow blink in a pattern of your choice.
++ 무지개를 원하는 패턴으로 깜박이게 해보세요.
 
 ## \--- collapse \---
 
