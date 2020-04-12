@@ -1,7 +1,7 @@
 ---
-title: Dancing unicorns and rainbows
+title: 춤추는 유니콘과 무지개
 hero_image: images/banner.png
-description: Create a unicorn that dances in time with an LED rainbow
+description: LED 무지개와 함께 춤추는 유니콘 만들기
 theme: violet #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
@@ -17,21 +17,21 @@ version: 4
 last_tested: 2018-02-01
 steps:
   - 
-    title: Introduction
+    title: 소개
   - 
-    title: "Your rainbow's atmosphere"
+    title: "무지개의 분위기"
   - 
-    title: "Your rainbow's first colour"
+    title: "무지개의 첫번째 색"
   - 
-    title: Test your circuit in Scratch
+    title: 스크래치에서 회로 테스트하기
   - 
-    title: Control your rainbow circuit
+    title: 무지개 회로 제어하기
   - 
-    title: Build your rainbow
+    title: 무지개 만들기
   - 
-    title: Light your rainbow
+    title: 무지개 밝히기
   - 
-    title: Make a dancing unicorn
+    title: 춤추는 유니콘 만들기
   - 
     title: Add a button
   - 
