@@ -1,22 +1,22 @@
-## Add a button
+## 버튼 추가
 
-You will now make your rainbow flash and your unicorn dance in time by pressing a button!
+버튼을 눌러서 무지개 플래쉬와 유니콘 댄스를 만들어봅시다.
 
-### Connect the button
+### 버튼 연결하기
 
-\--- task \--- Connect your button to the breadboard and a GPIO pin.
+\--- task \--- 버튼을 브레드보드와 GPIO핀에 연결합니다.
 
-Click below for instructions on how to connect a button to the Raspberry Pi. Note that, instead of **GPIO 17** like the instructions say, we've used **GPIO 5** for the button — **GPIO 17** is already taken by an LED.
+라즈베리 파이에 버튼을 연결하는 방법은 다음을 참고하세요. 안내에는 **GPIO 17**을 사용했지만 우리는 **GPIO 5**와 버튼을 연결합니다 - **GPIO 17**은 LED가 사용합니다.
 
 [[[rpi-gpio-wiring-a-button]]]
 
-Your rainbow should now look something like this:
+여러분의 무지개는 아마 이렇게 보일 것입니다.
 
-![Rainbow with Button](images/rainbowbutton.png) \--- /task \---
+![무지개와 버튼](images/rainbowbutton.png) \--- /task \---
 
-### Code the button
+### 버튼 코딩하기
 
-\--- task \--- Use the block shown below so that your button can make the unicorn dance.
+\--- task \--- 버튼으로 유니콘이 춤을 추게 할수 있게 다음의 블럭을 사용합니다.
 
 ```blocks3
 when button (5 v) is [pressed v] :: hat extension
@@ -24,27 +24,27 @@ when button (5 v) is [pressed v] :: hat extension
 
 \--- /task \---
 
-### Control the unicorn dance
+### 유니콘 댄스 제어
 
-At the moment, you should have three chunks of Scratch code:
+이제 세 덩어리의 스크레치 코드를 작성합니다.
 
-1. Dancing unicorn code
-2. Blinking rainbow code
-3. Button code
+1. 유니콘 댄스 코드
+2. 무지깨 깜빡임 코드
+3. 버튼 코드
 
-You will now connect these chunks so that your unicorn dances in time to your rainbow, and so that you can control the rainbow and unicorn by pressing the button you've added.
+이제 유니콘이 무지개에 맞춰 춤을 추도록 코드 묶음을 연결하고 만들어둔 버튼을 눌러 유니콘과 무지개를 제어합니다.
 
-\--- task \--- Delete all of the `say`{:class="block3looks"} blocks in the code for the button, and then duplicate this chunk of code. \--- /task \---
+\--- task \--- 버튼 코드안에 있는 모든 `말하기`{:class="block3looks"} 블럭을 삭제하고 코드 묶음을 복제해 넣습니다. \--- /task \---
 
-\--- task \--- In your code for the unicorn dance, delete the `when flag clicked`{:class="block3events"} block. Take the rest of the unicorn code, and slot it into the `else`{:class="block3control"} block of your button code. Only slot it into **one copy** of the button code. \--- /task \---
+\--- task \--- 유니콘 댄스 코드에서 `깃발 클릭했을 때`{:class="block3events"} 블럭을 삭제합니다. 나머지 유니콘 코드를 가져와서 버튼 코드의 `아니면`{:class="block3control"} 블럭 안에 넣습니다. 버튼 코드는 **한번만** 끼워 넣습니다. \--- /task \---
 
-\--- task \--- In the rainbow code, delete the `when flag clicked`{:class="block3events"} block and slot the rest of the rainbow code into the `else`{:class="block3control"} block of the **other copy** of the button code. \--- /task \---
+\--- task \--- 무지개 코드에서 `깃발 클릭했을 때`{:class="block3events"} 버튼을 삭제하고 **다른** 버튼 코드의 `아니면`{:class="block3control"} 블럭에 나머지 무직개 코드를 끼워넣습니다. \--- /task \---
 
-\--- task \--- In the `if`{:class="block3control"} slot of both copies of your button code, add an action. You could use `switch costume to first costume`{:class="block3looks"}, so your unicorn doesn't get its dance moves mixed up. \--- /task \---
+\--- task \--- 모든 버튼 코드의 `만약`{:class="block3control"} 부분에 다음을 추가합니다. `모양을 [첫번째 의상 v] (으)로 바꾸기 `{:class="block3looks"} 블럭을 사용해서 유니콘의 춤동작이 섞이지 않도록 합니다. \--- /task \---
 
-\--- hints \--- \--- hint \--- If pressing the button doesn't make the rainbow light up and the unicorn dance in time, try checking that:
+\--- hints \--- \--- hint \--- 버튼을 눌러도 무지개 불빛이 켜지지 않고 유니콘이 제 시간에 춤을 추지 않으면 다음을 확인해 보세요.
 
-1. Every component is connected to the right GPIO pin
-2. You've got the inputs and outputs right in your code
-3. The timings match for your two chunks of code
-4. You've used all the right code blocks \--- /hint \--- \--- /hints \---
+1. 모든 구성 요소가 올바른 GPIO 핀에 연결되어 있는가
+2. 코드의 입력과 출력이 올바른가
+3. 두 코드 묶음의 타이밍이 일치하는가
+4. 모든 코드 블럭이 올바르게 사용 되었는가 \--- /hint \--- \--- /hints \---
