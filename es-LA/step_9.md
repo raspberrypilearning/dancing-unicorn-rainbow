@@ -40,7 +40,7 @@ Ahora conectarás estos pedazos para que tu unicornio baile al ritmo de tu arco�
 
 --- task --- En el código del arcoíris, elimina el bloque `al hacer clic en la bandera`{:class="block3events"} y pon el resto del código del arcoíris en el bloque `sino`{:class="block3control"} de la **otro copia** del código del botón. --- /task ---
 
---- task --- En el `si`{:class="block3control"} pon ambas copias de tu código del botón, añade una acción. Puedes usar `cambiar de disfraz al primer disfraz` {:class = "block3looks"}, para que tu unicornio no mezcle sus movimientos de baile. --- /task ---
+--- task --- En el `si`{:class="block3control"} pon ambas copias de tu código del botón, añade una acción. Puedes usar `cambiar de disfraz al primer disfraz`{:class="block3looks"}, para que tu unicornio no mezcle sus movimientos de baile. --- /task ---
 
 --- hints ---
  --- hint --- Si al pulsar el botón no se enciende el arcoíris y baila el unicornio al tiempo, comprueba que:

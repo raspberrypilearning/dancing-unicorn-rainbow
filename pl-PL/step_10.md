@@ -1,4 +1,4 @@
-## Wyzwanie: baw się tańczącym jednorożcem i tęczą.
+## Wyzwanie: baw się tańczącym jednorożcem i tęczą
 
 Pomysły:
 
