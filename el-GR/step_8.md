@@ -18,7 +18,7 @@
 
 --- task --- Αν επέλεξες την επιλογή 1, κάνε κλικ εδώ:
 
-[[[generic-scratch3-sprite-from-library]
+[[[generic-scratch3-sprite-from-library]]]
 
 --- /task ---
 
