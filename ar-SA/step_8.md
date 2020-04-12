@@ -78,7 +78,7 @@ switch costume to [costume 2 v]
 استخدم حلقة كرر باستمرار:
 
 ```blocks3
-كرر باستمرار
+forever
 ```
 
 --- /hint --- --- hint ---
