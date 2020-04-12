@@ -46,7 +46,7 @@ sudo apt-get update
 sudo apt-get install scratch3
 ```
 
-** Σημείωση:** Το Scratch 3 θα λειτουργήσει **μόνο** με το Raspberry Pi 4. --- /collapse ---
+**Σημείωση:** Το Scratch 3 θα λειτουργήσει **μόνο** με το Raspberry Pi 4. --- /collapse ---
 
 --- collapse ---
 ---
