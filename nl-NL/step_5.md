@@ -10,7 +10,7 @@ Wanneer je hele regenboog is opgezet, kun je bepalen hoe deze wordt verlicht. Vo
  --- hint --- Gebruik
 
 ```blocks3
-  wacht (2) sec
+  wait (2) secs
 ```
 
 --- /hint --- --- hint ---

@@ -70,7 +70,7 @@ switch costume to [costume 2 v]
 
 --- /task ---
 
---- taak --- Om je dansende eenhoorn te creëren, schakel je steeds tussen alle uiterlijken. Wat voor lus heb je hiervoor nodig? --- /task ---
+--- task --- Om je dansende eenhoorn te creëren, schakel je steeds tussen alle uiterlijken. Wat voor lus heb je hiervoor nodig? --- /task ---
 
 --- hints ---
  --- hint ---

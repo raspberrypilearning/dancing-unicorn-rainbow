@@ -1,5 +1,7 @@
---- no print --- 
-Dit is de Scratch 3 versie van het project. Je kunt de [Scratch 2 versie hier vinden.](https://projects.raspberrypi.org/nl-NL/projects/dancing-unicorn-rainbow-scratch2) 
+--- no-print ---
+
+Dit is de Scratch 3 versie van het project. Je kunt de [Scratch 2 versie hier vinden.](https://projects.raspberrypi.org/nl-NL/projects/dancing-unicorn-rainbow-scratch2)
+
 --- /no-print ---
 
 ## Inleiding
