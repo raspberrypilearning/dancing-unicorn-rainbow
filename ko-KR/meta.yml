@@ -33,9 +33,9 @@ steps:
   - 
     title: 춤추는 유니콘 만들기
   - 
-    title: Add a button
+    title: 버튼 추가
   - 
-    title: "Challenge: Fun with your dancing unicorn rainbow."
+    title: "도전 과제: 재밌는 유니콘 무지개 춤"
     challenge: true
   - 
-    title: What next?
+    title: 더 나아가기
