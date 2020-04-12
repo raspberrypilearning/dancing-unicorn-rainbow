@@ -1,0 +1,30 @@
+---
+title: Χορευτές μονόκεροι και ουράνια τόξα
+hero_image: images/banner.png
+description: Δημιούργησε ένα μονόκερο που χορεύει συγχρονισμένα με ένα LED ουράνιο τόξο
+theme: violet #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 2, design-0, programming-2, phys-comp-2, manufacture-0, community-0
+interests: humour, games
+technologies: electronic-components, scratch
+site_areas: projects
+hardware: electronic-components
+software: scratch
+version: 4
+last_tested: 2018-02-01
+steps:
+  - title: Εισαγωγή
+  - title: "Η ατμόσφαιρα του ουράνιου τόξου σου"
+  - title: "Το πρώτο χρώμα του ουράνιου τόξου σου"
+  - title: Δοκίμασε το κύκλωμά σου στο Scratch
+  - title: Έλεγξε το κύκλωμα του ουράνιου τόξου σου
+  - title: Κατασκεύασε το ουράνιο τόξο σου
+  - title: Φώτισε το ουράνιο τόξο σου
+  - title: Κάνε ένα χορευτή μονόκερο
+  - title: Πρόσθεσε ένα κουμπί
+  - title: "Πρόκληση: Διασκέδασε με το ουράνιο τόξο και το χορευτή μονόκερο"
+    challenge: true
+  - title: Τι υπάρχει στη συνέχεια;
