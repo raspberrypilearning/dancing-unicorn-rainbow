@@ -34,7 +34,7 @@ W tej chwili powinieneś mieć trzy kawałki kodu Scratch:
 
 Teraz połączysz te fragmenty, aby jednorożec tańczył wraz z tęczą i abyś mógł kontrolować tęczę i jednorożca, naciskając dodany przycisk.
 
---- task --- Usuń wszystkie bloki `powiedz` w tym kodzie dla przycisku, a później skopiuj ten fragment kodu. --- /task ---
+--- task --- Usuń wszystkie bloki `powiedz`{:class="block3looks"} w tym kodzie dla przycisku, a później skopiuj ten fragment kodu. --- /task ---
 
 --- task --- W kodzie dla tańca jednorożcowego usuń blok `kiedy kliknięto zieloną flagę`{:class="block3events"}. Weź resztę kodu jednorożca i umieść go w bloku `w przeciwnym razie`{:class="block3control"} w kodzie przycisku. Umieść go tylko w **jednej kopii** kodu przycisku. --- /task ---
 

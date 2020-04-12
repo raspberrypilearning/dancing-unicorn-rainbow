@@ -29,7 +29,8 @@ turn LED (22 v) [on v] ::extension
 
 Se seus LEDs não estiverem acendendo:
 
-1) Verifique em quais pinos GPIO seus LEDs estão conectados, e certifique-se de tê-los definido como `on`{:class="block3extensions"} 2) Teste se os LEDs estão funcionando — você pode conectar o fio jumper de um LED em **GPIO 3V3** para testá-lo 
+1) Verifique em quais pinos GPIO seus LEDs estão conectados, e certifique-se de tê-los definido como `on`{:class="block3extensions"} 
+2) Teste se os LEDs estão funcionando — você pode conectar o fio jumper de um LED em **GPIO 3V3** para testá-lo 
 3) Certifique-se de que o circuito na protoboard está completo
 
 --- /hint ------ /hints ---

@@ -10,7 +10,7 @@ Kiedy cała twoja tęcza jest gotowa, możesz kontrolować, jak ma się zapalać
  --- hint --- Użyj
 
 ```blocks3
-  czekaj (2) sek
+  wait (2) secs
 ```
 
 --- /hint --- --- hint ---

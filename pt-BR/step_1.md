@@ -1,4 +1,6 @@
---- no-print --- Esta é a versão Scratch 3 deste projeto. Você pode encontrar a versão [Scratch 2 aqui.](https://projects.raspberrypi.org/pt-BR/projects/dancing-unicorn-rainbow-scratch2) --- /no-print ---
+--- no-print --- 
+Esta é a versão Scratch 3 deste projeto. Você pode encontrar a versão [Scratch 2 aqui.](https://projects.raspberrypi.org/pt-BR/projects/dancing-unicorn-rainbow-scratch2) 
+--- /no-print ---
 
 ## Introdução
 
