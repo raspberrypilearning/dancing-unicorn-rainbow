@@ -1,58 +1,58 @@
-## Make a unicorn dance to your rainbow
+## 유니콘이 무지개를 따라 춤추게 하기
 
-In this step, you will program a unicorn in Scratch that dances to the rhythm of your rainbow. You will use a button to program your rainbow and dancing unicorn.
+이 단계에서는 스크래치를 이용하여 무지개의 리듬에 맞춰 춤을 추는 유니콘을 프로그래밍합니다. 무지개와 춤추는 유니콘을 제어하기 위해 버튼을 사용할 것입니다.
 
-### Unicorn sprite
+### 유니콘 스프라이트
 
-Choose one of the following options to create a unicorn sprite:
+유니콘 스프라이트를 만들려면 다음 옵션 중 하나를 선택하세요:
 
-1. Use the Scratch unicorn sprite
-2. Upload a unicorn image from somewhere else and use it as your sprite
-3. Draw your own unicorn sprite in Scratch or another program (like the lovely green unicorn on the right).
+1. 스크래치 유니콘 스프라이트 사용하기
+2. 다른 곳에서 유니콘 이미지를 업로드하고 스프라이트로 사용하기
+3. 스크래치 또는 다른 프로그램에서 (오른쪽의 사랑스러운 녹색 유니콘과 같은) 자신의 유니콘 스프라이트를 그리기
 
-Examples:
+예시:
 
-|              (1) Scratch sprite:              |         (2) Upload your own:          |           (3) Draw your own:            |
-|:---------------------------------------------:|:-------------------------------------:|:---------------------------------------:|
-| ![Scratch Unicorn](images/scratchunicorn.png) | ![Web Unicorn](images/webunicorn.png) | ![Draw Unicorn](images/drawunicorn.png) |
+|            (1) 스크래치 스프라이트:             |         (2) 보유한 파일 업로드:         |            (3) 직접 그리기:             |
+|:--------------------------------------:|:-------------------------------:|:----------------------------------:|
+| ![스크래치 유니콘](images/scratchunicorn.png) | ![웹 유니콘](images/webunicorn.png) | ![유니콘 그리기](images/drawunicorn.png) |
 
-\--- task \--- If you picked option 1, click here: [[[generic-scratch3-sprite-from-library]]] \--- /task \---
+\--- task \--- 옵션 1을 선택했다면, 여기를 클릭하세요: [[[generic-scratch3-sprite-from-library]]] \--- /task \---
 
-\--- task \--- If you picked option 2 because you want to upload a unicorn image you found somewhere else, click below first to learn about image permissions, and then use the instructions in the second box to upload your file: [[[images-permissions-to-use]]]
+\--- task \--- 다른 곳에서 찾은 유니콘 이미지를 업로드하기 위해 옵션 2를 선택한 경우, 먼저 아래를 클릭하여 이미지 권한에 대해 알아보고 두 번째 상자의 도움말을 사용하여 파일을 업로드하세요: [[[images-permissions-to-use]]]
 
 [[[generic-scratch3-sprite-from-library]]] \--- /task \---
 
-\--- task \--- If you're going with option 3, click below for instructions on how to draw your own unicorn in Scratch: [[[generic-scratch3-draw-sprite]]] \--- /task \---
+\--- task \--- 옵션 3을 선택했다면, 스크래치에서 여러분 만의 유니콘을 그리는 방법을 아래의 지침에서 확인하세요. [[[generic-scratch3-draw-sprite]]] \--- /task \---
 
-### Unicorn costumes
+### 유니콘의 의상
 
-Your unicorn needs **costumes** to be able to dance. A costume is one of a set of appearances of a sprite, which means sprites can change their look by changing costumes. Therefore, you can use costumes to make a sprite look like it's moving whenever you want to create an animation.
+여러분의 유니콘은 춤을 추기 위해서 **의상**이 필요합니다. 스프라이트는 의상을 갈아입음으로써 보이는 모습을 바꿀수 있습니다. 그렇기때문에 여러분은 애니메이션을 제작할 때 의상을 사용해서 스프라이트가 움직이는 것처럼 보이게 할 수 있습니다.
 
-Here, we will be creating a dancing unicorn animation, so each costume will represent a dance move of your unicorn.
+여기에서는 여러분의 유니콘의 춤 동작을 각 의상에 부여해서 춤추는 유니콘 애니메이션을 만들것입니다.
 
-\--- task \--- Decide how many costumes you want your unicorn sprite to have for the dance, and edit your costumes accordingly.
+여러분의 유니콘 스프라이트가 춤추게 하는데 필요한 의상의 숫자를 결정하고 의상을 편집합니다.
 
-Click for a reminder on how to add costumes in Scratch: [[[generic-scratch3-add-costume]]]
+스크래치에서 의상을 추가하는 방법은 다음 에서 확인할 수 있습니다: [[[generic-scratch3-add-costume]]]
 
-Click for a reminder on how to duplicate costumes in Scratch: [[[generic-scratch3-duplicate-costumes]]] \--- /task \---
+스크래치에서 의상을 복제하는 방법은 다음에서 확인할 수 있습니다: [[[generic-scratch3-duplicate-costumes]]]
 
-It is up to you how many costumes you want to add for your dancing unicorn. For this dancing green unicorn, we have used five costumes:
+유니콘이 춤추게 하는데 필요한 의상의 수는 여러분이 결정하면 됩니다. 이 춤추는 녹색 유니콘은 다섯 개의 의상을 사용했습니다.
 
 | ![Dancing Unicorn Gif](images/dancingunicorn.gif) | ![Five Costumes](images/fivecostumes.png) |
 
-### Unicorn dance
+### 춤추는 유니콘
 
-To create your dancing animation, you need to program the unicorn to switch costumes.
+춤추는 애니메이션을 만들려면 유니콘이 의상을 갈아입도록 프로그래밍 해야합니다.
 
-\--- task \--- Switch between the first two costumes to start the unicorn dance.
+\--- task \--- 유니콘이 춤을 시작하도록 첫번째 두번째 의상을 전환해봅시다.
 
-To switch from the first to the second costume use:
+첫번째 의상에서 두번째 의상으로 갈아입으려면 다음 블럭을 사용합니다.
 
 ```blocks3
 switch costume to [costume 2 v]
 ```
 
-Unicorns are generally good dancers, so make sure you time your unicorn's dance to the speed of your rainbow pattern. You can use the `wait`{:class="blockcontrol"} block to match the unicorn's wait time to your rainbow's wait time.
+유니콘은 춤을 아주 잘 춥니다. 유니콘이 무지개 패턴의 속도에 맞워서 춤을 추게 설정해 봅시다. `() 초 기다리기`{:class="blockcontrol"} 블럭을 사용해서 유니콘의 대기 시간과 뮤지개의 대기시간을 일치하게 합니다.
 
 ```blocks3
 wait (0.5) secs
@@ -61,19 +61,19 @@ switch costume to [costume 2 v]
 
 \--- /task \---
 
-\--- task \--- To create your dancing unicorn, switch between all costumes continuously. What kind of loop do you need to do this? \--- /task \---
+유니콘이 춤을 추도록 모든 의상을 계속 전환해봅시다. 어떤 종류의 반복문이 필요할까요? \--- /task \---
 
 \--- hints \--- \--- hint \---
 
-Use a forever loop:
+무한 반복하기 블럭을 사용합시다.
 
 ```blocks3
-forever
+무한 반복하기
 ```
 
 \--- /hint \--- \--- hint \---
 
-Use this block to switch to the next costume each time you go through the loop:
+이 블럭을 사용해서 반복문이 끝날때 마다 다음 의상으로 바뀌도록 합니다.
 
 ```blocks3
 next costume
@@ -81,7 +81,7 @@ next costume
 
 \--- /hint \--- \--- hint \---
 
-Your code should look like this:
+다음과 같은 코드가 될 것입니다.:
 
 ```blocks3
 forever
