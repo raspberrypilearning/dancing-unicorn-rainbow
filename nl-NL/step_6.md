@@ -4,7 +4,7 @@ In deze stap ga je je regenboog samenstellen en de LED's programmeren om in een 
 
 --- task --- Vind alle LED's die je gaat gebruiken en zorg ervoor dat je ook het juiste aantal verbindingsdraden en weerstanden hebt (één per LED). --- /task ---
 
---- taak --- Herschik het circuit dat je al hebt om ruimte te maken voor de andere kleuren van je regenboog. --- /task ---
+--- task --- Herschik het circuit dat je al hebt om ruimte te maken voor de andere kleuren van je regenboog. --- /task ---
 
 ![Circuit herschikt](images/oneled.png)
 
@@ -16,7 +16,7 @@ Het experimenteerbord ziet er van binnen zo uit:
 
 ![Experimenteerbord dwarsdoorsnede](images/breadboardxsection.png)
 
-Om de hele regenboog te aarden met één verbindingsdraad: --- /taak ---
+Om de hele regenboog te aarden met één verbindingsdraad: --- /task ---
 
 --- task --- Sluit de verbindingsdraad die aangesloten is op **GND** aan op een **rail** van het experimenteerbord --- /task ---
 
