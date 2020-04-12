@@ -1,13 +1,13 @@
-## Control your rainbow circuit
+## 무지개 회로 제어하기
 
-When your whole rainbow is set up, you can control how it is lit. For a little practice of controlling one LED, use Scratch to do the following:
+무지개 회로가 모두 구성된 다음, 어떻게 불을 밝힐 것인지를 제어할 수 있습니다. 하나의 LED를 제어하는 작은 연습을 위해, 스크래치를 사용하여 다음을 수행하세요:
 
-\--- task \--- When you press the <kbd>P</kbd> key, make the LED turn on for two seconds and then turn off. \--- /task \---
+\--- task \--- <kbd>P</kbd> 키를 누르면 LED가 2 초 동안 켜졌다가 꺼지게 해보세요. \--- /task \---
 
-\--- hints \--- \--- hint \--- Look in the `Control`{:class="block3control"} blocks section. \--- /hint \--- \--- hint \--- Use
+\--- hints \--- \--- hint \--- `제어`{:class="block3control"} 블록 섹션을 클릭하세요. \--- /hint \--- \--- hint \---
 
 ```blocks3
-  wait (2) secs
+  (2) 초 기다리기
 ```
 
 \--- /hint \--- \--- hint \---
@@ -21,7 +21,7 @@ turn LED (17 v) [off v] ::extension
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- When your Scratch program starts, make your LED light up for 2 seconds and then turn off for 2 seconds. \--- /task \---
+\--- task \--- Scratch 프로그램이 시작되면 LED를 2초 동안 켜고 2초 동안 끄게 만들어보세요. \--- /task \---
 
 \--- hints \--- \--- hint \---
 
@@ -35,7 +35,7 @@ wait (2) secs
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- Make your LED turn on and off as long as your program runs. \--- /task \---
+\--- task \--- 프로그램이 실행되는 동안 LED를 켜고 끄게 하세요. \--- /task \---
 
 \--- hints \--- \--- hint \--- Use
 
@@ -56,9 +56,9 @@ wait (2) secs
 
 \--- /hint \--- \--- /hints \---
 
-+ Make your LED blink faster.
++ LED가 더 빨리 깜박이게 하세요.
 
-\--- hints \--- \--- hint \--- Use `wait x secs`{:class="block3control"} for fewer seconds. \--- /hint \--- \--- hint \---
+\--- hints \--- \--- hint \--- 더 짧은 시간을 위해 `( ) 초 기다리기`{:class="block3control"}를 사용하세요. \--- /hint \--- \--- hint \---
 
 ```blocks3
 when flag clicked
@@ -71,4 +71,4 @@ wait (0.5) secs
 
 \--- /hint \--- \--- /hints \---
 
-Well done — you are now ready to create and control an awesome rainbow!
+잘했어요! 이제 멋진 무지개를 만들고 제어할 준비가 되었습니다!
