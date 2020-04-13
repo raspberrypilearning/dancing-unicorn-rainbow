@@ -6,9 +6,9 @@
 
 ### Що ти зробиш
 
-You will use Scratch to connect a rainbow of LEDs to a unicorn sprite, and then make the unicorn dance to the rhythm of the rainbow. Here is a video showing what your dancing unicorn and rainbow might look like:<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> Your browser does not support the video tag, try FireFox or Chrome </video> 
+Ти використовуватимеш Скретч для зв’язування світлодіодів та спрайта єдинорога і зробиш, щоб він танцював в ритм веселки. Ось відео, яке демонструє, як може виглядати твій танцюючий єдиноріг та веселка:<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> Твій браузер не підтримує тег video, спробуй використати FireFox або Chrome </video> 
 
-Once you have trained your unicorn to dance to your rainbow, you can learn how to use the rainbow to make the unicorn do tricks or play a game.
+Після того, як ти навчиш свого єдинорога танцювати в ритм веселки, ти можеш дізнатися, як використовувати веселку, щоб єдиноріг виконував трюки, або грати в гру.
 
 ## \--- collapse \---
 
