@@ -1,32 +1,32 @@
-## Build your rainbow
+## Створи свою веселку
 
-In this step, you will assemble your rainbow and program its LEDs to blink in a rainbow pattern.
+На цьому кроці ти збереш веселку і запрограмуєш її світлодіоди блимати відповідним чином.
 
-\--- task \--- Find all the LEDs you are going to use, and make sure you also have the right number of jumper wires and resistors (one each per LED). \--- /task \---
+\--- task \--- Збери всі світлодіоди, які ти плануєш використовувати, і переконайся, що в тебе є необхідна кількість перемичок та резисторів (по одному на кожен світлодіод). \--- /task \---
 
-\--- task \--- Rearrange the circuit you already have to make room for the other colours of your rainbow. \--- /task \---
+\--- task \--- Перебудуй існуюче електричне коло, щоб звільнити місце для інших кольорів веселки. \--- /task \---
 
 ![Circuit Rearranged](images/oneled.png)
 
-### Ground the rainbow
+### Заземлення веселки
 
-\--- task \--- So that your rainbow shines brightly and is not covered by too many jumper wires, all LEDs should share one **Ground (GND)** pin. You can do set them up like this by rearranging your components on the breadboard a little.
+\--- task \--- Для того, щоб твоя веселка яскраво сяяла і не була закрита великою кількістю перемичок, всі світлодіоди мають використувувати єдиний пін **Заземлення (GND)**. Ти можеш розмістити їх таким чином, трохи переставивши компоненти на макетній платі.
 
-The breadboard looks like this inside:
+Всередині плата виглядає так:
 
 ![Breadboard Cross-Section](images/breadboardxsection.png)
 
-To ground the whole rainbow with one jumper wire: \--- /task \---
+Для того, щоб заземлити всю веселку за допомогою єдиної перемички: \--- /task \---
 
-\--- task \--- Connect the jumper wire attached to **GND** to a breadboard **rail** \--- /task \---
+\--- task \--- З’єднай перемичку, прикріплену до **GND** з **шиною** на макетній платі. \--- /task \---
 
-\--- task \--- Make sure resistors connect to the same rail as the **GND** jumper wire and to the same **bar** as the LED they belong to: \--- /task \---
+\--- task \--- Переконайся, що резистори приєднуються до тієї ж шини, що й перемичка з **GND**, та до того ж **рядка**, що й світлодіоди, до яких вони відносяться: \--- /task \---
 
 ![Adding LEDs](images/twoleds.png)
 
-### Complete the rainbow
+### Заверши веселку
 
-\--- task \--- Add the rest of your LEDs, jumper wires, and resistors to the breadboard in a colour arrangement of your choice. Make sure to leave room for a button at the end. \--- /task \---
+\--- task \--- Додай решту світлодіодів, перемичок та резисторів до макетної плати з бажаним порядком кольорів. Не забудь залишити місце для кнопки внизу. \--- /task \---
 
 If you are using many different colours, it might help to match the colour of the jumper wires to your LEDs.
 
