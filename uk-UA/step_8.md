@@ -1,22 +1,22 @@
-## Make a unicorn dance to your rainbow
+## Створи єдинорога, що танцює в ритмі твоєї веселки
 
-In this step, you will program a unicorn in Scratch that dances to the rhythm of your rainbow. You will use a button to program your rainbow and dancing unicorn.
+На цьому кроці ти створиш єдинорога в Скретч, що танцює в ритмі веселки. Ти будеш використовувати кнопку, щоб запрограмувати веселку та єдинорога.
 
-### Unicorn sprite
+### Спрайт єдинорога
 
-Choose one of the following options to create a unicorn sprite:
+Вибери одну з наступних можливостей для створення спрайта єдинорога:
 
-1. Use the Scratch unicorn sprite
-2. Upload a unicorn image from somewhere else and use it as your sprite
-3. Draw your own unicorn sprite in Scratch or another program (like the lovely green unicorn on the right).
+1. Використай спрайт єдинорога зі Скретч
+2. Знайди зображення єдинорога деінде і завантаж як власний спрайт
+3. Намалюй власний спрайт єдинорога в Скретч або в іншій програмі (як-от чудовий зелений єдиноріг справа).
 
-Examples:
+Приклади:
 
-|              (1) Scratch sprite:              |         (2) Upload your own:          |           (3) Draw your own:            |
+|             (1) Спрайт зі Скретч:             |        (2) Твоє завантаження:         |          (3) Власний малюнок:           |
 |:---------------------------------------------:|:-------------------------------------:|:---------------------------------------:|
 | ![Scratch Unicorn](images/scratchunicorn.png) | ![Web Unicorn](images/webunicorn.png) | ![Draw Unicorn](images/drawunicorn.png) |
 
-\--- task \--- If you picked option 1, click here: [[[generic-scratch3-sprite-from-library]]] \--- /task \---
+\--- task \--- Якщо ти вибрав (-ла) варіант 1, клацни сюди: [[[generic-scratch3-sprite-from-library]]] \--- /task \---
 
 \--- task \--- If you picked option 2 because you want to upload a unicorn image you found somewhere else, click below first to learn about image permissions, and then use the instructions in the second box to upload your file: [[[images-permissions-to-use]]]
 
