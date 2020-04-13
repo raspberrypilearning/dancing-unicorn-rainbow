@@ -1,10 +1,10 @@
-\--- no-print \--- This is the Scratch 3 version of this project. You can find the [Scratch 2 version here.](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow-scratch2) \--- /no-print \---
+\--- no-print \--- Це — версія проєкту для Скретч 3. Ти можеш знайти [версію для Скретч 2 тут.](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow-scratch2)
 
-## Introduction
+## Вступ
 
-Create an LED rainbow and make a unicorn dance to it, all powered by the Raspberry Pi.
+Створи світлодіодну (LED) веселку і зроби, щоб єдиноріг танцював їй в ритм, за допомогою Raspberry Pi.
 
-### What you will make
+### Що ти зробиш
 
 You will use Scratch to connect a rainbow of LEDs to a unicorn sprite, and then make the unicorn dance to the rhythm of the rainbow. Here is a video showing what your dancing unicorn and rainbow might look like:<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> Your browser does not support the video tag, try FireFox or Chrome </video> 
 
