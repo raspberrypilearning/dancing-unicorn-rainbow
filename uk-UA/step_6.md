@@ -6,7 +6,7 @@
 
 \--- task \--- Перебудуй існуюче електричне коло, щоб звільнити місце для інших кольорів веселки. \--- /task \---
 
-![Circuit Rearranged](images/oneled.png)
+![Перебудована схема](images/oneled.png)
 
 ### Заземлення веселки
 
@@ -14,7 +14,7 @@
 
 Всередині плата виглядає так:
 
-![Breadboard Cross-Section](images/breadboardxsection.png)
+![Макетна плата в розрізі](images/breadboardxsection.png)
 
 Для того, щоб заземлити всю веселку за допомогою єдиної перемички: \--- /task \---
 
@@ -22,14 +22,14 @@
 
 \--- task \--- Переконайся, що резистори приєднуються до тієї ж шини, що й перемичка з **GND**, та до того ж **рядка**, що й світлодіоди, до яких вони відносяться: \--- /task \---
 
-![Adding LEDs](images/twoleds.png)
+![Додавання світлодіодів](images/twoleds.png)
 
 ### Заверши веселку
 
 \--- task \--- Додай решту світлодіодів, перемичок та резисторів до макетної плати з бажаним порядком кольорів. Не забудь залишити місце для кнопки внизу. \--- /task \---
 
-If you are using many different colours, it might help to match the colour of the jumper wires to your LEDs.
+Якщо ти використовуєш багато різних кольорів, тоді буде зручно використовувати кольори перемичок, що відповідають твоїм світлодіодам.
 
-Your rainbow should look similar to this one:
+Твоя веселка має виглядати якось так:
 
-![Rainbow LEDs](images/rainbowleds.png)
+![Світлодіоди веселки](images/rainbowleds.png)
