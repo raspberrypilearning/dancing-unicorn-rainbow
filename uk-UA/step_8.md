@@ -12,47 +12,47 @@
 
 Приклади:
 
-|             (1) Спрайт зі Скретч:             |        (2) Твоє завантаження:         |          (3) Власний малюнок:           |
-|:---------------------------------------------:|:-------------------------------------:|:---------------------------------------:|
-| ![Scratch Unicorn](images/scratchunicorn.png) | ![Web Unicorn](images/webunicorn.png) | ![Draw Unicorn](images/drawunicorn.png) |
+|              (1) Спрайт зі Скретч:               |             (2) Твоє завантаження:             |              (3) Власний малюнок:               |
+|:------------------------------------------------:|:----------------------------------------------:|:-----------------------------------------------:|
+| ![Єдиноріг зі Скретч](images/scratchunicorn.png) | ![Єдиноріг з інтернету](images/webunicorn.png) | ![Намалювати єдинорога](images/drawunicorn.png) |
 
 \--- task \--- Якщо ти вибрав (-ла) варіант 1, клацни сюди: [[[generic-scratch3-sprite-from-library]]] \--- /task \---
 
-\--- task \--- If you picked option 2 because you want to upload a unicorn image you found somewhere else, click below first to learn about image permissions, and then use the instructions in the second box to upload your file: [[[images-permissions-to-use]]]
+\--- task \--- Якщо ти вибрав (-ла) варіант 2, бо хочеш завантажити зображення єдинорога, знайдене деінде, спочатку клацни нижче, щоб дізнатися про пошук зображень, які дозволено використовувати, а далі використовуй інструкції з другого блоку для завантаження твого файлу: [[[images-permissions-to-use]]]
 
 [[[generic-scratch3-sprite-from-library]]] \--- /task \---
 
-\--- task \--- If you're going with option 3, click below for instructions on how to draw your own unicorn in Scratch: [[[generic-scratch3-draw-sprite]]] \--- /task \---
+\--- task \--- Якщо ти вибираєш варіант 3, клацни нижче, щоб знайти інструкції про те, як намалювати власного єдинорога в Скретч: [[[generic-scratch3-draw-sprite]]] \--- /task \---
 
-### Unicorn costumes
+### Образи єдинорога
 
-Your unicorn needs **costumes** to be able to dance. A costume is one of a set of appearances of a sprite, which means sprites can change their look by changing costumes. Therefore, you can use costumes to make a sprite look like it's moving whenever you want to create an animation.
+Щоб твій єдиноріг міг танцювати, йому потрібні **образи**. Образ — це одне із багатьох візуальних представлень спрайта, тобто спрайти можуть змінювати свій вигляд, змінюючи образи. Таким чином, коли ти хочеш створити анімацію, ти можеш використовувати образи, щоб виглядало так, ніби спрайт рухається.
 
-Here, we will be creating a dancing unicorn animation, so each costume will represent a dance move of your unicorn.
+В даному випадку ми створюватимемо анімацію танцюючого єдинорога, тому кожен образ буде показувати якийсь його танцювальний рух.
 
-\--- task \--- Decide how many costumes you want your unicorn sprite to have for the dance, and edit your costumes accordingly.
+\--- task \--- Подумай скільки образів потрібно твоєму єдинорогу для танцю і відредагуй образи відповідним чином.
 
-Click for a reminder on how to add costumes in Scratch: [[[generic-scratch3-add-costume]]]
+Клацни для нагадування як додавати образи в Скретч: [[[generic-scratch3-add-costume]]]
 
-Click for a reminder on how to duplicate costumes in Scratch: [[[generic-scratch3-duplicate-costumes]]] \--- /task \---
+Клацни для нагадування як дублювати образи в Скретч: [[[generic-scratch3-duplicate-costumes]]] \--- /task \---
 
-It is up to you how many costumes you want to add for your dancing unicorn. For this dancing green unicorn, we have used five costumes:
+Скільки образів додавати залежить тільки від тебе. Для цього танцюючого зеленого єдинорога у нас є п’ять образів:
 
 | ![Dancing Unicorn Gif](images/dancingunicorn.gif) | ![Five Costumes](images/fivecostumes.png) |
 
-### Unicorn dance
+### Танець єдинорога
 
-To create your dancing animation, you need to program the unicorn to switch costumes.
+Для створення анімації танцю тобі треба запрограмувати зміну образів єдинорога.
 
-\--- task \--- Switch between the first two costumes to start the unicorn dance.
+\--- task \--- Перемкнися між першими двома образами для початку танця єдинорога.
 
-To switch from the first to the second costume use:
+Для перемикання з першого на другий образ використай:
 
 ```blocks3
 switch costume to [costume 2 v]
 ```
 
-Unicorns are generally good dancers, so make sure you time your unicorn's dance to the speed of your rainbow pattern. You can use the `wait`{:class="blockcontrol"} block to match the unicorn's wait time to your rainbow's wait time.
+Взагалі єдинороги є хорошими танцюристами, тому переконайся, що танець твого єдинорога відповідає ритму веселки. Ти можеш використовувати блок `чекати`{:class="blockcontrol"}, щоб привести до відовідності паузи веселки та єдинорога.
 
 ```blocks3
 wait (0.5) secs
@@ -61,11 +61,11 @@ switch costume to [costume 2 v]
 
 \--- /task \---
 
-\--- task \--- To create your dancing unicorn, switch between all costumes continuously. What kind of loop do you need to do this? \--- /task \---
+\--- task \--- Для створення танцюючого єдинорога перемикайся між усіма костюмами без зупинки. Який тип циклу тобі для цього потрібен? \--- /task \---
 
 \--- hints \--- \--- hint \---
 
-Use a forever loop:
+Використай цикл "завжди":
 
 ```blocks3
 forever
@@ -73,7 +73,7 @@ forever
 
 \--- /hint \--- \--- hint \---
 
-Use this block to switch to the next costume each time you go through the loop:
+Використай наступний блок для перемикання на наступний образ на кожному кроці циклу:
 
 ```blocks3
 next costume
@@ -81,7 +81,7 @@ next costume
 
 \--- /hint \--- \--- hint \---
 
-Your code should look like this:
+Твій код має виглядати якось так:
 
 ```blocks3
 forever
