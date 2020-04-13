@@ -1,9 +1,9 @@
-## Your rainbow's first colour
+## Перший колір твоєї веселки
 
-You will now light up the rainbow's first colour with an LED. Choose any colour you wish, but here we've gone with the red colour of the rainbow spectrum (red, orange, yellow, green, blue, indigo, violet).
+Зараз ти засвітиш перший колір своєї веселки за допомогою світлодіода. Вибирай колір за бажанням, але ми вирішили вибрати червоний колір спектру веселки (червоний, оранжевий, жовтий, зелений, голубий, синій, фіолетовий).
 
-\--- task \--- Create a circuit to connect your LED to the Raspberry Pi. Your circuit will light up the rainbow's first colour. \--- /task \---
+\--- task \--- Створи електричне коло, щоб з’єднати твій світлодіод із Raspberry Pi. Твоє коло засвітить перший колір веселки. \--- /task \---
 
-If you have never connected an LED before, click below for information about LED circuits, and for detailed instructions.
+Якщо ти ще ніколи не з’єднував світлодіоди, клацни нижче, щоб отримати інформацію про електричні кола із світлодіодами та детальні інструкції.
 
 \[[[rpi-led-info]]\] \[[[rpi-connect-led\]]]
