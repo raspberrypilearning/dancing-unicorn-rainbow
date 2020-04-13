@@ -8,31 +8,31 @@
 
 Ти використовуватимеш Скретч для зв’язування світлодіодів та спрайта єдинорога і зробиш, щоб він танцював в ритм веселки. Ось відео, яке демонструє, як може виглядати твій танцюючий єдиноріг та веселка:<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> Твій браузер не підтримує тег video, спробуй використати FireFox або Chrome </video> 
 
-Після того, як ти навчиш свого єдинорога танцювати в ритм веселки, ти можеш дізнатися, як використовувати веселку, щоб єдиноріг виконував трюки, або грати в гру.
+Після того, як ти навчиш свого єдинорога танцювати в ритм веселки, ти можеш дізнатися, як використовувати веселку, щоб єдиноріг виконував трюки або грав у гру.
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Що тобі знадобиться
 
-### Hardware
+### Обладнання
 
-+ A Raspberry Pi
-+ A breadboard
-+ 3 or more colourful LEDs
-+ Resistors (at least 100 ohms), **1 per LED**
-+ 1× button
-+ Male-to-female jumper wires, **1 per LED**
-+ 2× additional male-to-female jumper wires
-+ 1× male-to-male jumper wire
++ Raspberry Pi
++ Макетна плата (бредборд)
++ 3 або більше кольорові світлодіоди
++ Резистори (щонайменше на 100 Ом), **1 на кожен світлодіод**
++ 1 кнопка
++ Перемички тато-мама, **1 на кожен світлодіод**
++ 2 додаткові перемички тато-мама
++ 1 перемичка тато-тато
 
-For the optional final challenge:
+Для необов’язкового завдання:
 
-+ 1× buzzer
-+ 2× additional male-to-female jumper wires
++ 1 зумер
++ 2 додаткові перемички тато-мама
 
-### Software
+### Програмне забезпечення
 
-You will need the latest version of Raspbian, which already includes the following software package:
+Тобі знадобиться остання версія Raspbian, яка вже включає наступну програму:
 
 + Scratch 3
 
@@ -41,22 +41,22 @@ sudo apt-get update
 sudo apt-get install scratch3
 ```
 
-**Note:** Scratch 3 will **only** work on the Raspberry Pi 4. \--- /collapse \---
+**Примітка:** Скретч 3 працюватиме **лише** на Raspberry Pi 4. \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Що ти вивчиш
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Цей проєкт охоплює елементи з наступних напрямків [Електронного навчального плану Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Combine inputs and/or outputs to create projects or solve a problem](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
++ [Комбінування вводів та/або виводів для створення проєктів або вирішення проблем](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
 
-+ [Apply basic programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"} \--- /collapse \---
++ [Застосування простих програмних конструкцій для вирішення проблем](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"} \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Додаткова інформація для викладачів
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}.
+Якщо вам потрібно роздрукувати цей проєкт, будь ласка, скористайтеся [версією для друку](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}.
 
 You can find the full solution for this project at [rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get) \--- /collapse \---
