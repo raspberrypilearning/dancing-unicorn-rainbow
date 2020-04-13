@@ -1,7 +1,7 @@
 ---
-title: Dancing unicorns and rainbows
+title: Танцюючі єдинороги та веселки
 hero_image: images/banner.png
-description: Create a unicorn that dances in time with an LED rainbow
+description: Створи єдинорога, що танцює в ритм світлодіодної веселки
 theme: violet #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
@@ -17,25 +17,25 @@ version: 4
 last_tested: 2018-02-01
 steps:
   - 
-    title: Introduction
+    title: Вступ
   - 
-    title: "Your rainbow's atmosphere"
+    title: "Атмосфера твоєї веселки"
   - 
-    title: "Your rainbow's first colour"
+    title: "Перший колір твоєї веселки"
   - 
-    title: Test your circuit in Scratch
+    title: Перевір своє електричне коло в Скретч
   - 
-    title: Control your rainbow circuit
+    title: Керуй своїм електричним колом для веселки
   - 
-    title: Build your rainbow
+    title: Створи свою веселку
   - 
-    title: Light your rainbow
+    title: Засвіти свою веселку
   - 
-    title: Make a dancing unicorn
+    title: Створи танцюючого єдинорога
   - 
-    title: Add a button
+    title: Додай кнопку
   - 
-    title: "Challenge: Fun with your dancing unicorn rainbow."
+    title: "Завдання: забави із танцюючим єдинорогом та веселкою."
     challenge: true
   - 
-    title: What next?
+    title: Що далі?
