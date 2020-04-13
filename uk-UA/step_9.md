@@ -1,20 +1,20 @@
-## Add a button
+## Додай кнопку
 
-You will now make your rainbow flash and your unicorn dance in time by pressing a button!
+А зараз ти зробиш, щоб веселка блимала, а єдиноріг танцював в ритм, за натисканням кнопки!
 
-### Connect the button
+### Приєднай кнопку
 
-\--- task \--- Connect your button to the breadboard and a GPIO pin.
+\--- task \--- Приєднай кнопку до макетної плати та GPIO-піна.
 
-Click below for instructions on how to connect a button to the Raspberry Pi. Note that, instead of **GPIO 17** like the instructions say, we've used **GPIO 5** for the button — **GPIO 17** is already taken by an LED.
+Клацни нижче, щоб переглянути інструкції про те, як приєднати кнопку до Raspberry Pi. Зверни увагу, що замість **GPIO 17** як сказано в інструкції, ми будемо використовувати для кнопки **GPIO 5**, бо **GPIO 17** вже зайнятий світлодіодом.
 
 [[[rpi-gpio-wiring-a-button]]]
 
-Your rainbow should now look something like this:
+Тепер твоя веселка має виглядати приблизно так:
 
 ![Rainbow with Button](images/rainbowbutton.png) \--- /task \---
 
-### Code the button
+### Код для кнопки
 
 \--- task \--- Use the block shown below so that your button can make the unicorn dance.
 
@@ -24,13 +24,13 @@ when button (5 v) is [pressed v] :: hat extension
 
 \--- /task \---
 
-### Control the unicorn dance
+### Керуй танцем єдинорога
 
-At the moment, you should have three chunks of Scratch code:
+Наразі в тебе має бути три фрагменти коду на Скретч:
 
-1. Dancing unicorn code
-2. Blinking rainbow code
-3. Button code
+1. Код для танцюючого єдинорога
+2. Код для блимаючої веселки
+3. Код для кнопки
 
 You will now connect these chunks so that your unicorn dances in time to your rainbow, and so that you can control the rainbow and unicorn by pressing the button you've added.
 
