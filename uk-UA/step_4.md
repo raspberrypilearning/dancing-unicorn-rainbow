@@ -1,22 +1,22 @@
-## Test your circuit in Scratch
+## Перевір своє електричне коло в Скретч
 
-You will now connect your circuit and first rainbow colour to Scratch, so that you can code a Scratch program to control the LED.
+Тепер, щоб створити програму для керування світлодіодом, ти поєднаєш електричне коло та перший колір веселки із Скретч.
 
-\--- task \--- Open up Scratch 3 on your Raspberry Pi.
+\--- task \--- Відкрий Скретч 3 на Raspberry Pi.
 
-![open-scratch](images/open-scratch.png) \--- /task \---
+![відкрити скретч](images/open-scratch.png) \--- /task \---
 
-\--- task \--- Then add the Raspberry Pi Simple Electronics extension
+\--- task \--- Далі додай розширення Raspberry Pi Simple Electronics
 
-![add-extension](images/add-extension.png)
+![додати розширення](images/add-extension.png)
 
 ![simple-electronics](images/simple-electronics.png) \--- /task \---
 
-\--- task \--- In the previous step, you connected your LED to pin **3V3**. This is the pin to connect to if you are testing your LED. You now need to connect your LED to a pin you can control with Scratch. Move the wire from pin **3V3** to a new pin, for example **GPIO 17**. \--- /task \---
+\--- task \--- На попередньому кроці ти під’єднав (-ла) свій світлодіод до піна **3V3**. Це саме той пін, який треба використовувати для тестування світлодіодів. Зараз тобі треба приєднати свій світлодіод до піна, яким можна керувати в Скретч. Перестав перемичку з піна **3V3** на новий пін, скажімо **GPIO 17**. \--- /task \---
 
-![Move Pin](images/movepin.png)
+![Переставити пін](images/movepin.png)
 
-\--- task \--- Now test that the LED can be controlled using the following simple script
+\--- task \--- Тепер перевір, що світлодіодом можна керувати за допомогою наступного простого скрипта
 
 ```blocks3
 when flag clicked
@@ -27,4 +27,4 @@ turn LED (17 v) [off v] ::extension
 
 \--- /task \---
 
-\--- task \--- Click the green flag to run your script. The LED should turn on for 1 second. \--- /task \---
+\--- task \--- Клацни на зелений прапор, щоб запустити свій скрипт. Світлодіод повинен загорітися на 1 секунду. \--- /task \---
