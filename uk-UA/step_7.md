@@ -1,21 +1,21 @@
-## Light your rainbow
+## Засвіти свою веселку
 
-To make sure your rainbow is working, you will first test it by lighting the whole rainbow at once. You will then create code to make the rainbow blink through all its colours one after the other, and then in a pattern of your choice.
+Щоб переконатися, що твоя веселка працює, спочатку ти засвітиш її повністю. Потім ти створиш код, щоб її кольори блимали по черзі, а далі — так, як забажаєш.
 
-\--- task \--- Add more code to control the other LEDs. Make sure you include the right GPIO pins. \--- /task \---
+\--- task \--- Додай код, щоб керувати іншими світлодіодами. Переконайся, що використовуєш правильні GPIO-піни. \--- /task \---
 
-Your rainbow should light up like this:
+Твоя веселка має загорітися ось так:
 
 ![Rainbow Lit](images/rainbowlit.png)
 
-\--- hints \--- \--- hint \--- Add more `turn LED (0 v) [on v]`{:class="block3extensions"} blocks in this chunk of code:
+\--- hints \--- \--- hint \--- Додай ще блоків `turn LED (0 v) [on v]`{:class="block3extensions"} до цього фрагменту коду:
 
 ```blocks3
 when flag clicked
 turn LED (17 v) [on v] ::extension
 ```
 
-\--- /hint \--- \--- hint \--- Keep adding blocks at the bottom of your code until all your LEDs are set to `on`{:class="block3extensions"}.
+\--- /hint \--- \--- hint \--- Продовжуй додавати блоки в кінці свого коду, поки всі твої світлодіоди на стануть увімкненими (`on`{:class="block3extensions"}).
 
 ```blocks3
 when flag clicked
@@ -26,7 +26,7 @@ turn LED (22 v) [on v] ::extension
 
 \--- /hint \--- \--- hint \---
 
-If your LEDs are not lighting:
+Якщо твої світлодіоди не загораються:
 
 1) Check which GPIO pins your LEDs are connected to, and make sure you have set them to `on`{:class="block3extensions"} 2) Test whether the LEDs are working — you can plug an LED's jumper wire into **GPIO 3V3** to test it 3) Make sure the circuit on the breadboard is complete
 
