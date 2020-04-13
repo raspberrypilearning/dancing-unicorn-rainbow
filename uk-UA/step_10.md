@@ -2,8 +2,8 @@
 
 Ідеї:
 
-1. Make the blinking of your rainbow and the dance of your unicorn faster
-2. Teach your unicorn a new dance (play around with costumes and speeds)
-3. Add more buttons and make the unicorn do a different dance for each
-4. Add more `events`{:class="block3events"} to make the unicorn do different dances
-5. Make a game with your rainbow and dancing unicorn
+1. Пришвидши блимання веселки і танець єдинорога
+2. Навчи свого єдинорога новому танцю (поекспериментуй із образами та швидкостями)
+3. Додай більше кнопок, щоб кожного разу єдиноріг виконував різні танці
+4. Додай більше `подій`{:class="block3events"}, щоб єдиноріг виконував різні танці
+5. Стоври гру із веселкою та танцюючим єдинорогом
