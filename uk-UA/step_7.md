@@ -6,7 +6,7 @@
 
 Твоя веселка має загорітися ось так:
 
-![Rainbow Lit](images/rainbowlit.png)
+![Веселка, що світиться](images/rainbowlit.png)
 
 \--- hints \--- \--- hint \--- Додай ще блоків `turn LED (0 v) [on v]`{:class="block3extensions"} до цього фрагменту коду:
 
@@ -28,17 +28,17 @@ turn LED (22 v) [on v] ::extension
 
 Якщо твої світлодіоди не загораються:
 
-1) Check which GPIO pins your LEDs are connected to, and make sure you have set them to `on`{:class="block3extensions"} 2) Test whether the LEDs are working — you can plug an LED's jumper wire into **GPIO 3V3** to test it 3) Make sure the circuit on the breadboard is complete
+1) Перевір до яких GPIO-пінів приєднані твої світлодіоди і переконайся, що вони увімкнені (`on`{:class="block3extensions"}) 2) Перевір, чи світлодіоди є робочими, вставивши перемичку світлодіода в **GPIO 3V3** 3) Перевір, чи твоє електричне коло на макетній платі замкнене
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- Now, add more code to make the rainbow blink in a rainbow pattern like this:<video width="560" height="315" controls> <source src="resources/Scratch-GPIO-Pathways-5.mp4" type="video/mp4"> Your browser does not support the video tag, so try FireFox or Chrome. </video> 
+\--- task \--- А зараз додай код, щоб веселка блимала таким чином:<video width="560" height="315" controls> <source src="resources/Scratch-GPIO-Pathways-5.mp4" type="video/mp4"> Твій браузер не підтримує тег video, спробуй FireFox або Chrome. </video> 
 
-To do this, you will need to make one LED turn on for a couple of seconds and then turn off at the same time as the next LED turns on. \--- /task \---
+Для цього ти маєш вмикати один світлодіод на декілька секунд, а далі — вимикати, одночасно з увімкненням наступного світлодіода. \--- /task \---
 
 \--- hints \--- \--- hint \---
 
-Make sure your `Events`{:class="blockevents"} block matches what you are doing to test the code. In the example here, to make our rainbow blink, we have to click the green flag:
+Переконайся, що твій блок `Події`{:class="blockevents"} відповідає тому, що ти хочеш зробити. В даному випадку нам треба натиснути на зелений прапор, щоб веселка заблимала:
 
 ```blocks3
 when flag clicked
@@ -46,7 +46,7 @@ when flag clicked
 
 \--- /hint \--- \--- hint \---
 
-If you're stuck, make sure you are using these blocks:
+Якщо ти застряг, переконайся, що використовуєш наступні блоки:
 
 ```blocks3
 turn LED (0 v) [off v] ::extension
@@ -55,7 +55,7 @@ wait () secs
 
 \--- /hint \--- \--- hint \---
 
-Try using this approach:
+Спробуй використати такий підхід:
 
 ```blocks3
 when flag clicked
@@ -68,13 +68,13 @@ turn LED (18 v) [off v] ::extension
 turn LED (22 v) [on v] ::extension
 ```
 
-You will need to add blocks for all your LEDs and make sure that you're using the right GPIO pin numbers in your code.
+Тобі треба буде додати блоки для всіх своїх світлодіодів і переконатися, що ти використовуєш в коді правильні номери GPIO-пінів.
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- Make the lights blink repeatedly through the rainbow in a loop.
+\--- task \--- Зроби так, щоб вогники постійно блимали відповідно до кольорів веселки.
 
-To loop through the rainbow pattern forever, use:
+Для того, щоб нескінченно проходити по кольорам веселки, використовуй:
 
 ```blocks3
 forever
@@ -84,14 +84,14 @@ forever
 
 \--- challenge \---
 
-+ Make the rainbow blink in a pattern of your choice.
++ Зроби так, щоб веселка блимала так, як забажаєш.
 
 ## \--- collapse \---
 
-## title: Rainbow challenges
+## title: Додаткові завдання для веселки
 
-Try out the following ideas:
+Випробуй наступні ідеї:
 
-1) Make the LEDs blink very fast and very slow 2) Make the whole rainbow blink 3) Make pairs of LEDs light up in alternate patterns 4) Make the rainbow blink something in Morse code 5) Make the rainbow do different things in response to different events
+1) Зроби, щоб світлодіоди блимали дуже швидко або дуже повільно 2) Зроби, щоб вся веселка блимала 3) Зроби, щоб пари світлодіодів загоралися одна за одною 4) Зроби, щоб блимання веселки кодувало щось азбукою Морзе 5) Зроби, щоб веселка робила різні речі у відповідь на різні події
 
 \--- /collapse \--- \--- /challenge \---
