@@ -4,10 +4,10 @@
 
 GPIO-піни дозволяють надсилати та приймати сигнали вмикання/вимикання до та від електронних компонентів, таких як світлодіоди, двигуни, кнопки та зумери.
 
-Якщо подивитися на Pi з USB-портами, повернутими до тебе, розташування GPIO-пінів буде таке: ![GPIO Layout](images/gpio-upright.png)
+Якщо подивитися на Pi з USB-портами, повернутими до тебе, розташування GPIO-пінів буде таке: ![Схема розміщення GPIO](images/gpio-upright.png)
 
-A Raspberry Pi has 26 GPIO pins. In the image above, these are the pins labelled with GP and a number.
+Raspberry Pi має 26 GPIO-пінів. На картинці вище ці піни позначені як GP з номером.
 
-+ To read a little more about GPIO pins, click here:
++ Щоб дізнатися більше про GPIO-піни, клацни сюди:
 
 [[[rpi-gpio-pins]]]
