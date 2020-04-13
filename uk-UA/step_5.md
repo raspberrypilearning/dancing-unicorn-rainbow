@@ -1,10 +1,10 @@
-## Control your rainbow circuit
+## Керуй своїм електричним колом для веселки
 
-When your whole rainbow is set up, you can control how it is lit. For a little practice of controlling one LED, use Scratch to do the following:
+Коли твоя веселка буде повністю зібрана, ти зможеш керувати тим, як вона світиться. Щоб трохи попрактикуватися керувати одним світлодіодом за допомогою Скретч, зроби наступне:
 
-\--- task \--- When you press the <kbd>P</kbd> key, make the LED turn on for two seconds and then turn off. \--- /task \---
+\--- task \--- Коли натиснуто клавішу <kbd>P</kbd> (латинську), нехай світлодіод загориться на 2 секунди, а потім згасне. \--- /task \---
 
-\--- hints \--- \--- hint \--- Look in the `Control`{:class="block3control"} blocks section. \--- /hint \--- \--- hint \--- Use
+\--- hints \--- \--- hint \--- Заглянь в секцію блоків `Керування`{:class="block3control"}. \--- /hint \--- \--- hint \--- Використай
 
 ```blocks3
   wait (2) secs
@@ -21,7 +21,7 @@ turn LED (17 v) [off v] ::extension
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- When your Scratch program starts, make your LED light up for 2 seconds and then turn off for 2 seconds. \--- /task \---
+\--- task \--- Коли твоя програма на Скретч запускається, зроби так, щоб світлодіод загорівся на 2 секунди, а потім згас на 2 секунди. \--- /task \---
 
 \--- hints \--- \--- hint \---
 
@@ -35,9 +35,9 @@ wait (2) secs
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- Make your LED turn on and off as long as your program runs. \--- /task \---
+\--- task \--- Зроби так, щоб під час роботи твоєї програми світлодіод постійно загорався і згасав. \--- /task \---
 
-\--- hints \--- \--- hint \--- Use
+\--- hints \--- \--- hint \--- Використай
 
 ```blocks3
 forever
@@ -56,9 +56,9 @@ wait (2) secs
 
 \--- /hint \--- \--- /hints \---
 
-+ Make your LED blink faster.
++ Зроби так, щоб твій світлодіод блимав швидше.
 
-\--- hints \--- \--- hint \--- Use `wait x secs`{:class="block3control"} for fewer seconds. \--- /hint \--- \--- hint \---
+\--- hints \--- \--- hint \--- Використай `чекати x секунд`{:class="block3control"} для меншої кількості секунд. \--- /hint \--- \--- hint \---
 
 ```blocks3
 when flag clicked
@@ -71,4 +71,4 @@ wait (0.5) secs
 
 \--- /hint \--- \--- /hints \---
 
-Well done — you are now ready to create and control an awesome rainbow!
+Чудово, тепер ти можеш створити та керувати прекрасною веселкою!
