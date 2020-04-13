@@ -12,11 +12,11 @@
 
 Тепер твоя веселка має виглядати приблизно так:
 
-![Rainbow with Button](images/rainbowbutton.png) \--- /task \---
+![Веселка із кнопкою](images/rainbowbutton.png) \--- /task \---
 
 ### Код для кнопки
 
-\--- task \--- Use the block shown below so that your button can make the unicorn dance.
+\--- task \--- Використовуй блок, наведений нижче, щоб кнопка запускала танець єдинорога.
 
 ```blocks3
 when button (5 v) is [pressed v] :: hat extension
@@ -32,19 +32,19 @@ when button (5 v) is [pressed v] :: hat extension
 2. Код для блимаючої веселки
 3. Код для кнопки
 
-You will now connect these chunks so that your unicorn dances in time to your rainbow, and so that you can control the rainbow and unicorn by pressing the button you've added.
+Зараз ти їх поєднаєш, щоб твій єдинорог танцював в ритмі веселки, і щоб ти міг керувати веселкою та єдинорогом шляхом натискання кнопки, яку ти додав (-ла).
 
-\--- task \--- Delete all of the `say`{:class="block3looks"} blocks in the code for the button, and then duplicate this chunk of code. \--- /task \---
+\--- task \--- Видали всі блоки `говорити`{:class="block3looks"} в коді кнопки і продублюй цей фрагмент коду. \--- /task \---
 
-\--- task \--- In your code for the unicorn dance, delete the `when flag clicked`{:class="block3events"} block. Take the rest of the unicorn code, and slot it into the `else`{:class="block3control"} block of your button code. Only slot it into **one copy** of the button code. \--- /task \---
+\--- task \--- В коді для танцю єдинорога видали блок `коли ⚑ натиснуто`{:class="block3events"}. Візьми решту коду єдинорога і встав його в блок `інакше`{:class="block3control"} коду кнопки. Встав його тільки в **одну копію** коду кнопки. \--- /task \---
 
-\--- task \--- In the rainbow code, delete the `when flag clicked`{:class="block3events"} block and slot the rest of the rainbow code into the `else`{:class="block3control"} block of the **other copy** of the button code. \--- /task \---
+\--- task \--- В коді для веселки видали блок `коли ⚑ натиснуто`{:class="block3events"} і встав решту коду веселки в блок `інакше`{:class="block3control"} **іншої копії** коду кнопки. \--- /task \---
 
-\--- task \--- In the `if`{:class="block3control"} slot of both copies of your button code, add an action. You could use `switch costume to first costume`{:class="block3looks"}, so your unicorn doesn't get its dance moves mixed up. \--- /task \---
+\--- task \--- Додай якусь дію в блок `якщо`{:class="block3control"} обох копію коду кнопки. Ти можеш використовувати `змінити образ на перший`{:class="block3looks"} щоб єдиноріг не переплутав танцювальні рухи. \--- /task \---
 
-\--- hints \--- \--- hint \--- If pressing the button doesn't make the rainbow light up and the unicorn dance in time, try checking that:
+\--- hints \--- \--- hint \--- Якщо натискання кнопки не засвітило веселку і єдиноріг не почав танцювати в її ритм, перевір що:
 
-1. Every component is connected to the right GPIO pin
-2. You've got the inputs and outputs right in your code
-3. The timings match for your two chunks of code
-4. You've used all the right code blocks \--- /hint \--- \--- /hints \---
+1. Кожен компонент приєднано до правильного GPIO-pinа
+2. В коді ти правильно використовуєш вводи та виводи
+3. Затримки для обох фрагментів коду відповідають одна одній
+4. Ти використав (-ла) всі правильні блоки коду
