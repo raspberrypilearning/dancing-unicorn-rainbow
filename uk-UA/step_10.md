@@ -1,6 +1,6 @@
-## Challenge: Fun with your dancing unicorn rainbow.
+## Завдання: забави із танцюючим єдинорогом та веселкою.
 
-Ideas:
+Ідеї:
 
 1. Make the blinking of your rainbow and the dance of your unicorn faster
 2. Teach your unicorn a new dance (play around with costumes and speeds)
