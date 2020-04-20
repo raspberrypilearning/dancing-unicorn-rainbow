@@ -12,7 +12,7 @@ Une fois que tu as appris à ta licorne à danser sur ton arc-en-ciel, tu peux a
 
 ## \--- collapse \---
 
-## title: Ce que tu auras besoin
+## title: Ce dont tu auras besoin
 
 ### Matériel informatique
 
