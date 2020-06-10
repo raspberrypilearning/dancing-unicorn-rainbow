@@ -10,7 +10,10 @@
 
 سوف تستخدم Scratch لربط قوس قزح من مصابيح LED بكائن وحيد القرن، ومن ثم تجعل وحيد القرن يرقص إلى إيقاع قوس قزح. إليك فيديو يظهر ما قد يبدو عليه وحيد قرن راقص مع قوس القزح:
 
-<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> Your browser does not support the video tag, try FireFox or Chrome </video> 
+<video width="560" height="315" controls>
+<source src="resources/Screencast.mp4" type="video/mp4">
+Your browser does not support the video tag, try FireFox or Chrome
+</video>
 
 بمجرد أن تقوم بتدريب وحيد القرن الخاص بك على الرقص على قوس القزح، بإمكانك أن تتعلم كيفية استخدام قوس قزح لجعل وحيد القرن يفعل الحيل أو لعب اللعبة.
 
