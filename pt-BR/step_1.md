@@ -10,7 +10,10 @@ Crie um arco-íris de LED e faça um unicórnio dançar com ele, tudo com o Rasp
 
 Você usará o Scratch para conectar um arco-íris de LEDs a um ator unicórnio, e então faça o unicórnio dançar ao ritmo do arco-íris. Aqui está um vídeo mostrando como seu unicórnio dançarino e arco-íris podem parecer:
 
-<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> O teu navegador não suporta a tag de vídeo, tente o FireFox ou o Chrome </video> 
+<video width="560" height="315" controls>
+<source src="resources/Screencast.mp4" type="video/mp4">
+O teu navegador não suporta a tag de vídeo, tente o FireFox ou o Chrome
+</video>
 
 Depois de treinar seu unicórnio para dançar com seu arco-íris, você pode aprender a usar o arco-íris para fazer o unicórnio fazer truques ou jogar um jogo.
 
