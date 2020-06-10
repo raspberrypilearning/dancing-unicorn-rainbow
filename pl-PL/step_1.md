@@ -10,7 +10,10 @@ Stwórz tęczę z diod LED i zrób do niej tańczącego jednorożca, wszystko za
 
 Za pomocą Scratcha połączysz tęczę z diod LED z duszkiem jednorożca, a następnie sprawisz, żeby jednorożec zatańczył w rytm tęczy. Oto filmik pokazujący, jak może wyglądać twój tańczący jednorożec i tęcza:
 
-<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> Twoja przeglądarka nie obsługuje znacznika wideo, spróbuj FireFox lub Chrome </video> 
+<video width="560" height="315" controls>
+<source src="resources/Screencast.mp4" type="video/mp4">
+Twoja przeglądarka nie obsługuje znacznika wideo, spróbuj FireFox lub Chrome
+</video>
 
 Po wytrenowaniu jednorożca do tańca do twojej tęczy, możesz nauczyć się jak korzystać z tęczy, tak aby jednorożec robił sztuczki lub zagrać w grę.
 
