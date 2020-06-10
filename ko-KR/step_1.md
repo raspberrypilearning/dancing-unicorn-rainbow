@@ -10,7 +10,10 @@ Raspberry Pi로 구동되는 LED 무지개를 만들고 유니콘이 춤을 추�
 
 스크래치를 사용하여 LED 무지개를 유니콘 스프라이트에 연결 한 다음, 유니콘이 무지개의 리듬에 맞춰 춤을 추게 할 것입니다. 다음은 춤추는 유니콘과 무지개의 모습을 보여주는 비디오입니다:
 
-<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> 브라우저가 비디오 태그를 지원하지 않습니다. FireFox 또는 Chrome을 사용해보십시오. </video> 
+<video width="560" height="315" controls>
+<source src="resources/Screencast.mp4" type="video/mp4">
+브라우저가 비디오 태그를 지원하지 않습니다. FireFox 또는 Chrome을 사용해보십시오. 
+</video>
 
 유니콘을 무지개에 맞춰 춤을 추도록 한 이후에는, 무지개를 사용하여 유니콘이 재롱을 부리거나 게임을 하게 하는 방법을 배울 수 있습니다.
 
