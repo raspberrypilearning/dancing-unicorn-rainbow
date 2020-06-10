@@ -8,7 +8,12 @@ Crée un arc-en-ciel LED et fais danser la licorne dessus, le tout alimenté par
 
 ### Ce que tu feras
 
-Tu utiliseras Scratch pour connecter un arc-en-ciel de LED à un sprite licorne, puis faire danser la licorne au rythme de l'arc-en-ciel. Voici une vidéo montrant à quoi pourrait ressembler ta licorne dansante et arc-en-ciel:<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> Ton navigateur ne supporte pas le tag vidéo, essaie FireFox ou Chrome </video> 
+Tu utiliseras Scratch pour connecter un arc-en-ciel de LED à un sprite licorne, puis faire danser la licorne au rythme de l'arc-en-ciel. Voici une vidéo montrant à quoi pourrait ressembler ta licorne dansante et arc-en-ciel:
+
+<video width="560" height="315" controls>
+<source src="resources/Screencast.mp4" type="video/mp4">
+Ton navigateur ne supporte pas le tag vidéo, essaie FireFox ou Chrome
+</video>
 
 Une fois que tu as appris à ta licorne à danser sur ton arc-en-ciel, tu peux apprendre à utiliser l'arc-en-ciel pour inciter la licorne à faire des tours ou à jouer à un jeu.
 
