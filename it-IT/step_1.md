@@ -10,7 +10,10 @@ Crea un arcobaleno LED e fai danzare l'unicorno al suo ritmo, il tutto gestito d
 
 Userai Scratch per collegare un arcobaleno di LED a uno sprite unicorno e poi farai ballare l'unicorno al ritmo dell'arcobaleno. Ecco un video che mostra come potrebbe apparire l'unicorno danzante e l'arcobaleno:
 
-<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> Il tuo browser non supporta il tag video, prova FireFox o Chrome </video> 
+<video width="560" height="315" controls>
+<source src="resources/Screencast.mp4" type="video/mp4">
+Il tuo browser non supporta il tag video, prova FireFox o Chrome
+</video>
 
 Una volta che avrai addestrato l'unicorno a ballare al ritmo del tuo arcobaleno, potrai imparare a usare l'arcobaleno per far fare trucchi all'unicorno o giocare a un gioco.
 

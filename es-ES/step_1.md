@@ -10,7 +10,10 @@ Crea un arcoíris LED y haz que un unicornio baile con él, todo impulsado por l
 
 Usarás Scratch para conectar un arcoiris LED a un objeto de unicornio y luego harás que el unicornio baile al ritmo del arcoiris. Aquí hay un video que muestra cómo se verían tu unicornio y arcoiris que bailan:
 
-<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> Tu navegador no soporta vídeo tag, prueba FireFox o Chrome </video> 
+<video width="560" height="315" controls>
+<source src="resources/Screencast.mp4" type="video/mp4">
+Tu navegador no soporta vídeo tag, prueba FireFox o Chrome
+</video>
 
 Una vez que hayas entrenado a tu unicornio para que baile con tu arcoiris, puedes aprender a usar el arcoiris para hacer que el unicornio haga trucos o juegue.
 

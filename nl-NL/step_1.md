@@ -12,7 +12,10 @@ Maak een LED-regenboog en laat een eenhoorn dansen, allemaal aangedreven door de
 
 Je gaat Scratch gebruiken om een regenboog van LED's te verbinden met een eenhoorn sprite, en laat de eenhoorn dansen naar het ritme van de regenboog. Hier is een video die laat zien hoe jouw dansende eenhoorn en regenboog eruit kunnen zien:
 
-<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> Je browser ondersteunt de video-tag niet, probeer Firefox of Chrome </video> 
+<video width="560" height="315" controls>
+<source src="resources/Screencast.mp4" type="video/mp4">
+Je browser ondersteunt de video-tag niet, probeer Firefox of Chrome 
+</video>
 
 Als je eenmaal je eenhoorn hebt getraind om op je regenboog te dansen, kun je leren hoe je de regenboog kunt gebruiken om de eenhoorn trucs te laten doen of een spel te spelen.
 
