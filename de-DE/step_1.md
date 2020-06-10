@@ -10,7 +10,12 @@ Baue einen LED-Regenbogen und lasse ein Einhorn dazu tanzen, alles angetrieben d
 
 ### Was du machen wirst
 
-Du wirst Scratch verwenden, um einen Regenbogen aus LEDs mit einer Einhornfigur zu verbinden und dann das Einhorn zum Rhythmus des Regenbogens tanzen lassen. Hier ist ein Video, das zeigt wie dein tanzendes Einhorn und der Regenbogen aussehen könnte:<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> Dein Browser unterstützt das Video-Tag nicht, versuche es mit FireFox oder Chrome </video> 
+Du wirst Scratch verwenden, um einen Regenbogen aus LEDs mit einer Einhornfigur zu verbinden und dann das Einhorn zum Rhythmus des Regenbogens tanzen lassen. Hier ist ein Video, das zeigt wie dein tanzendes Einhorn und der Regenbogen aussehen könnte:
+
+<video width="560" height="315" controls>
+<source src="resources/Screencast.mp4" type="video/mp4">
+Your browser does not support the video tag, try FireFox or Chrome
+</video>
 
 Sobald du deinem Einhorn beigebracht hast zum Regenbogen zu tanzen, kannst du lernen wie du den Regenbogen verwenden kannst, um das Einhorn Kunststücke machen zu lassen oder ein Spiel zu spielen.
 
