@@ -1,18 +1,18 @@
-## Haz que un unicornio baile con tu arcoíris
+## Make a unicorn dance to your rainbow
 
-En este paso, programarás un unicornio en Scratch que baila al ritmo de tu arcoíris. Utilizarás un botón para programar tu arcoíris y tu unicornio danzante.
+In this step, you will program a unicorn in Scratch that dances to the rhythm of your rainbow. You will use a button to program your rainbow and dancing unicorn.
 
-### Objeto unicornio
+### Unicorn sprite
 
-Elije una de las siguientes opciones para crear un objeto de unicornio:
+Choose one of the following options to create a unicorn sprite:
 
-1. Usa el objeto unicornio de Scratch
-2. Sube una imagen de un unicornio desde otro lugar y úsala como tu objeto
-3. Dibuja tu propio objeto unicornio en Scratch u otro programa (como el hermoso unicornio verde a la derecha).
+1. Use the Scratch unicorn sprite
+2. Upload a unicorn image from somewhere else and use it as your sprite
+3. Draw your own unicorn sprite in Scratch or another program (like the lovely green unicorn on the right).
 
-Ejemplos:
+Examples:
 
-|              (1) Objeto Scratch:               |          (2) Sube uno propio:           |             (3) Dibuja el tuyo:              |
+|              (1) Scratch sprite:               |          (2) Upload your own:           |              (3) Draw your own:              |
 |:----------------------------------------------:|:---------------------------------------:|:--------------------------------------------:|
 | ![Objeto Unicornio](images/scratchunicorn.png) | ![Unicornio Web](images/webunicorn.png) | ![Dibujar Unicornio](images/drawunicorn.png) |
 
@@ -22,37 +22,37 @@ Ejemplos:
 
 [[[generic-scratch3-sprite-from-library]]] \--- /task \---
 
-\--- task \--- Si has elegido la opción 3, haz clic abajo para obtener instrucciones sobre cómo dibujar tu propio unicornio en Scratch: [[[generic-scratch3-draw-sprite]]] \--- /task \---
+\--- task \--- If you're going with option 3, click below for instructions on how to draw your own unicorn in Scratch: [[[generic-scratch3-draw-sprite]]] \--- /task \---
 
-### Disfraces de unicornio
+### Unicorn costumes
 
-Tu unicornio necesita **disfraces** para poder bailar. Un disfraz es uno de los conjuntos de apariencias de un pbjeto, lo que significa que los objetos pueden cambiar su aspecto cambiando de disfraces. Por lo tanto, puedes usar disfraces para hacer que un objeto parezca que se está moviendo cuando quieras crear una animación.
+Your unicorn needs **costumes** to be able to dance. Un disfraz es uno de los conjuntos de apariencias de un objeto, lo que significa que los objetos pueden cambiar su aspecto cambiando de disfraces. Therefore, you can use costumes to make a sprite look like it's moving whenever you want to create an animation.
 
-Aquí crearemos una animación de unicornio bailando, por lo que cada traje representará un movimiento de baile de tu unicornio.
+Aquí crearemos una animación de unicornio bailando, por lo que cada disfraz representará un movimiento de baile de tu unicornio.
 
 \--- task \--- Decide cuántos disfraces quieres que tu objeto de unicornio tenga para el baile, y edita tus disfraces pensando en esto.
 
-Haz clic para un recordatorio sobre cómo añadir disfraces en Scratch: [[[generic-scratch3-add-costume]]]
+Click for a reminder on how to add costumes in Scratch: [[[generic-scratch3-add-costume]]]
 
-Haz clic para un recordatorio sobre cómo duplicar disfraces en Scratch: [[[generic-scratch3-duplicate-costumes]]] \--- /task \---
+Click for a reminder on how to duplicate costumes in Scratch: [[[generic-scratch3-duplicate-costumes]]] \--- /task \---
 
-Depende de ti cuántos disfraces quieres añadir para tu unicornio danzante. Para este unicornio verde danzante, hemos usado cinco disfraces:
+It is up to you how many costumes you want to add for your dancing unicorn. For this dancing green unicorn, we have used five costumes:
 
 | ![Dancing Unicorn Gif](images/dancingunicorn.gif) | ![Five Costumes](images/fivecostumes.png) |
 
-### Baile de Unicornio
+### Unicorn dance
 
 Para crear tu animación de baile, necesitas programar el unicornio para cambiar de disfraz.
 
-\--- task \--- Cambia entre los dos primeros disfraces para iniciar el baile de unicornio.
+\--- task \--- Switch between the first two costumes to start the unicorn dance.
 
-Para cambiar del primero al segundo disfraz usa:
+To switch from the first to the second costume use:
 
 ```blocks3
 switch costume to [costume 2 v]
 ```
 
-Los unicornios son generalmente buenos bailarines, así que asegúrate de que tu unicornio se acerca a la velocidad del patrón de tu arcoíris. Puedes usar el bloque `esperar`{:class="blockcontrol"} para hacer coincidir el tiempo de espera del unicornio con el tiempo de espera de tu arcoíris.
+Unicorns are generally good dancers, so make sure you time your unicorn's dance to the speed of your rainbow pattern. You can use the `wait`{:class="blockcontrol"} block to match the unicorn's wait time to your rainbow's wait time.
 
 ```blocks3
 wait (0.5) secs
@@ -61,11 +61,11 @@ switch costume to [costume 2 v]
 
 \--- /task \---
 
-\--- task \--- Para crear tu unicornio danzante, cambia entre todos los disfraces continuamente. ¿Qué tipo de bucle necesitas para hacer esto? \--- /task \---
+\--- task \--- To create your dancing unicorn, switch between all costumes continuously. What kind of loop do you need to do this? \--- /task \---
 
 \--- hints \--- \--- hint \---
 
-Usa un bucle por siempre:
+Usa un bucle para siempre:
 
 ```blocks3
 por siempre
@@ -73,7 +73,7 @@ por siempre
 
 \--- /hint \--- \--- hint \---
 
-Usa este bloque para cambiar al siguiente disfraz cada vez que pases por el bucle:
+Use this block to switch to the next costume each time you go through the loop:
 
 ```blocks3
 next costume
@@ -81,7 +81,7 @@ next costume
 
 \--- /hint \--- \--- hint \---
 
-Tu código debería verse así:
+Your code should look like this:
 
 ```blocks3
 forever
