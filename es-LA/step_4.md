@@ -12,11 +12,11 @@ Ahora conectarás tu circuito y el primer color del arcoíris a Scratch, de modo
 
 ![electrónica-simple](images/simple-electronics.png) \--- /task \---
 
-\--- task \--- En el paso anterior, conectaste tu LED al pin **3V3**. Este es el pin al que te tienes que conectar si estás probando tu LED. Ahora necesitas conectar tu LED a un pin que puedes controlar con Scratch. Mueve el cable del pin **3V3** a un nuevo pin, por ejemplo **GPIO 17**. \--- /task \---
+\--- task \--- In the previous step, you connected your LED to pin **3V3**. This is the pin to connect to if you are testing your LED. You now need to connect your LED to a pin you can control with Scratch. Move the wire from pin **3V3** to a new pin, for example **GPIO 17**. \--- /task \---
 
 ![Mover el pin](images/movepin.png)
 
-\--- task \--- Ahora prueba que el LED pueda ser controlado usando el siguiente script simple
+\--- task \--- Now test that the LED can be controlled using the following simple script
 
 ```blocks3
 when flag clicked
@@ -27,4 +27,4 @@ turn LED (17 v) [off v] ::extension
 
 \--- /task \---
 
-\--- task \--- Haz clic en la bandera verde para ejecutar tu script. El LED debería encenderse durante 1 segundo. \--- /task \---
+\--- task \--- Click the green flag to run your script. El LED debería encenderse durante 1 segundo. \--- /task \---
