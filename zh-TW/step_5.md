@@ -1,13 +1,13 @@
-## Control your rainbow circuit
+## 控制你的彩虹電路
 
-When your whole rainbow is set up, you can control how it is lit. For a little practice of controlling one LED, use Scratch to do the following:
+當你把彩虹架好了，你可以接著控制它該如何發亮。 來練習如何控制一個LED燈，你可以用Scratch操作以下步驟操作:
 
-\--- task \--- When you press the <kbd>P</kbd> key, make the LED turn on for two seconds and then turn off. \--- /task \---
+\--- task \--- 當你按 <kbd>P</kbd> 鍵時, 讓 LED燈亮兩秒鐘然後熄滅。 \--- /task \---
 
-\--- hints \--- \--- hint \--- Look in the `Control`{:class="block3control"} blocks section. \--- /hint \--- \--- hint \--- Use
+\--- hints \--- \--- hint \--- 看看 `控制`{:class="block3control"} 的方塊部分。 \--- /hint \--- \--- hint \--- 使用
 
 ```blocks3
-  wait (2) secs
+  等待（2）秒
 ```
 
 \--- /hint \--- \--- hint \---
@@ -21,7 +21,7 @@ turn LED (17 v) [off v] ::extension
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- When your Scratch program starts, make your LED light up for 2 seconds and then turn off for 2 seconds. \--- /task \---
+\---task\--- 當Scratch程序啟動時，讓你的LED點亮2秒鐘，然後熄滅2秒鐘。 \--- /task \---
 
 \--- hints \--- \--- hint \---
 
@@ -35,12 +35,12 @@ wait (2) secs
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- Make your LED turn on and off as long as your program runs. \--- /task \---
+\---task\--- 只要程序運行，就點亮或熄滅LED。 \--- /task \---
 
-\--- hints \--- \--- hint \--- Use
+\--- hints \--- \--- hint \--- 使用
 
 ```blocks3
-forever
+重複無限次
 ```
 
 \--- /hint \--- \--- hint \---
@@ -56,9 +56,9 @@ wait (2) secs
 
 \--- /hint \--- \--- /hints \---
 
-+ Make your LED blink faster.
++ 使你的LED閃爍得更快。
 
-\--- hints \--- \--- hint \--- Use `wait x secs`{:class="block3control"} for fewer seconds. \--- /hint \--- \--- hint \---
+\--- hints \--- \--- hint \--- 使用`等待x 秒`{:class="block3control"} 來減少時間。 \--- /hint \--- \--- hint \---
 
 ```blocks3
 when flag clicked
@@ -71,4 +71,4 @@ wait (0.5) secs
 
 \--- /hint \--- \--- /hints \---
 
-Well done — you are now ready to create and control an awesome rainbow!
+做得好! 你現在就可以創造和控制令人羨慕的彩虹了！
