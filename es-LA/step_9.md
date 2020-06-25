@@ -1,22 +1,22 @@
-## Añade un botón
+## Add a button
 
-¡Ahora harás que tu arcoíris parpadee y tu unicornio bailen al mismo tiempo pulsando un botón!
+¡Ahora harás que tu arcoíris parpadee y tu unicornio baile al mismo tiempo pulsando un botón!
 
-### Conecta el botón
+### Connect the button
 
-\--- task \--- Conecta tu botón a la placa de pruebas y a un pin GPIO.
+\--- task \--- Connect your button to the breadboard and a GPIO pin.
 
-Haz clic a continuación para obtener instrucciones sobre cómo conectar un botón a tu Raspberry Pi. Ten en cuenta que, en lugar de **GPIO 17** como dicen las instrucciones, hemos usado **GPIO 5** para el botón — **GPIO 17** ya está tomado por un LED.
+Click below for instructions on how to connect a button to the Raspberry Pi. Note that, instead of **GPIO 17** like the instructions say, we've used **GPIO 5** for the button — **GPIO 17** is already taken by an LED.
 
 [[[rpi-gpio-wiring-a-button]]]
 
 Tu arcoíris ahora debería verse así:
 
-![Arcoíris con botón](images/rainbowbutton.png) \--- /task \---
+![Rainbow with Button](images/rainbowbutton.png) \--- /task \---
 
-### Codifica el botón
+### Code the button
 
-\--- task \--- Usa el bloque que se muestra a continuación para que tu botón pueda hacer bailar al unicornio.
+\--- task \--- Use the block shown below so that your button can make the unicorn dance.
 
 ```blocks3
 when button (5 v) is [pressed v] :: hat extension
@@ -24,15 +24,15 @@ when button (5 v) is [pressed v] :: hat extension
 
 \--- /task \---
 
-### Controla el baile del unicornio
+### Control the unicorn dance
 
-En este momento, deberías tener tres fragmentos de código Scratch:
+At the moment, you should have three chunks of Scratch code:
 
-1. Código de unicornio bailando
-2. Código de arcoríris parpadeante
-3. Código del botón
+1. Dancing unicorn code
+2. Blinking rainbow code
+3. Button code
 
-Ahora conectarás estos pedazos para que tu unicornio baile al ritmo de tu arcoíris, y para que puedas controlar el arcoíris y el unicornio pulsando el botón que has añadido.
+You will now connect these chunks so that your unicorn dances in time to your rainbow, and so that you can control the rainbow and unicorn by pressing the button you've added.
 
 \--- task \--- Elimina todos los bloques `decir`{:class="block3looks"} en el código del botón y luego duplica este fragmento de código. \--- /task \---
 
@@ -40,11 +40,11 @@ Ahora conectarás estos pedazos para que tu unicornio baile al ritmo de tu arco�
 
 \--- task \--- En el código del arcoíris, elimina el bloque `al hacer clic en la bandera`{:class="block3events"} y pon el resto del código del arcoíris en el bloque `sino`{:class="block3control"} de la **otro copia** del código del botón. \--- /task \---
 
-\--- task \--- En el `si`{:class="block3control"} pon ambas copias de tu código del botón, añade una acción. Puedes usar `cambiar de disfraz al primer disfraz` {:class = "block3looks"}, para que tu unicornio no mezcle sus movimientos de baile. \--- /task \---
+\--- task \--- In the `if`{:class="block3control"} slot of both copies of your button code, add an action. You could use `switch costume to first costume`{:class="block3looks"}, so your unicorn doesn't get its dance moves mixed up. \--- /task \---
 
-\--- hints \--- \--- hint \--- Si al pulsar el botón no se enciende el arcoíris y baila el unicornio al tiempo, comprueba que:
+\--- hints \--- \--- hint \--- Si al pulsar el botón no se enciende el arcoíris y el unicornio baila al tiempo, comprueba que:
 
-1. Cada componente está conectado al pin GPIO derecho
-2. Tienes las entradas y salidas correctas en tu código
-3. Los tiempos coinciden en tus dos fragmentos de código
-4. Has usado todos los bloques de código correctos \--- /hint \--- \--- /hints \---
+1. Every component is connected to the right GPIO pin
+2. You've got the inputs and outputs right in your code
+3. The timings match for your two chunks of code
+4. You've used all the right code blocks \--- /hint \--- \--- /hints \---
