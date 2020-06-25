@@ -1,38 +1,38 @@
-\--- no-print \--- This is the Scratch 3 version of this project. You can find the [Scratch 2 version here.](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow-scratch2) \--- /no-print \---
+— 無法列印 — 這是一個Scratch 版本 3 的專案 你可以從這裡找到[Scratch 版本2](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow-scratch2) —/無法列印—
 
-## Introduction
+## 介紹
 
-Create an LED rainbow and make a unicorn dance to it, all powered by the Raspberry Pi.
+建造一個LED彩虹，並且建造一個獨角獸對著它跳舞。由 Raspberry Pi 提供。
 
-### What you will make
+### 你會做出:
 
-You will use Scratch to connect a rainbow of LEDs to a unicorn sprite, and then make the unicorn dance to the rhythm of the rainbow. Here is a video showing what your dancing unicorn and rainbow might look like:<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> Your browser does not support the video tag, try FireFox or Chrome </video> 
+你將使用Scratch將LED彩虹連接到獨角獸角色，然後讓獨角獸跟著彩虹的節奏跳舞。 這裡是一個呈現你的跳舞獨角獸和彩虹的影片<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> 你的瀏覽器不支援這個影片格式，請嘗試使用Firefox或是Chrome </video> 
 
-Once you have trained your unicorn to dance to your rainbow, you can learn how to use the rainbow to make the unicorn do tricks or play a game.
+當你訓練了你的獨角獸對彩虹跳舞, 你可以學習如何使用彩虹讓獨角獸耍把戲或玩遊戲
 
-## \--- collapse \---
+## \--- 自動隱藏選單 \---
 
-## title: What you will need
+## title: 你會用到
 
-### Hardware
+### 硬體
 
-+ A Raspberry Pi
-+ A breadboard
-+ 3 or more colourful LEDs
-+ Resistors (at least 100 ohms), **1 per LED**
-+ 1× button
-+ Male-to-female jumper wires, **1 per LED**
-+ 2× additional male-to-female jumper wires
-+ 1× male-to-male jumper wire
++ 1個Raspberry Pi
++ 1塊電路板
++ 3個或3個以上的彩色LED
++ 電阻（至少100歐姆），**每個LED 1個**
++ 1個按鈕
++ 公對母跳線，**每個LED 1條**
++ 2條額外的公對母跳線
++ 1條公對公跳線
 
-For the optional final challenge:
+選擇性的最後挑戰: 
 
-+ 1× buzzer
-+ 2× additional male-to-female jumper wires
++ 1個蜂鳴器
++ 2條額外的公對母跳線
 
-### Software
+### 軟體
 
-You will need the latest version of Raspbian, which already includes the following software package:
+你需要最新版本的 Raspbian , 其中包含了以下的軟體套件: 
 
 + Scratch 3
 
@@ -41,22 +41,22 @@ sudo apt-get update
 sudo apt-get install scratch3
 ```
 
-**Note:** Scratch 3 will **only** work on the Raspberry Pi 4. \--- /collapse \---
+**注意:**Scratch 3 **只能**在 Raspberry Pi 4 上工作 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## 標題：學習重點 
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+此專案包括了以下的[Raspberry Pi數位製作課程](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Combine inputs and/or outputs to create projects or solve a problem](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
++ [連結輸入和/或輸出來建立專案或解決問題](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
 
-+ [Apply basic programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"} \--- /collapse \---
++ [使用基本的程式結構來解決問題](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"} \--- /collapse \---
 
-## \--- collapse \---
+## \---- 自動隱藏選單 \---
 
-## title: Additional information for educators
+## title: 給教師的其它資訊
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}.
+如果你需要列印這個專案，請使用[列印友好模式](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}。
 
-You can find the full solution for this project at [rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get) \--- /collapse \---
+你可以在[ rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get)中找到這個專案的完整解決方案 \--- /collapse \---
