@@ -1,58 +1,58 @@
-## Make a unicorn dance to your rainbow
+## 做一個向彩虹跳舞的獨角獸
 
-In this step, you will program a unicorn in Scratch that dances to the rhythm of your rainbow. You will use a button to program your rainbow and dancing unicorn.
+在此步驟中，您將在Scratch中編寫一個與彩虹的節奏共舞的獨角獸。 您將使用一個按鈕來編程你的彩虹和跳舞的獨角獸。
 
-### Unicorn sprite
+### 獨角獸精靈
 
-Choose one of the following options to create a unicorn sprite:
+選擇以下選項之一以創建獨角獸精靈：
 
-1. Use the Scratch unicorn sprite
-2. Upload a unicorn image from somewhere else and use it as your sprite
-3. Draw your own unicorn sprite in Scratch or another program (like the lovely green unicorn on the right).
+1. 使用Scratch中的獨角獸精靈
+2. 從其他地方上傳獨角獸圖片並將其使用為您的精靈
+3. 在Scratch或其他程序中繪製自己的獨角獸精靈（如右邊的可愛的綠色獨角獸）。
 
-Examples:
+範例：
 
-|              (1) Scratch sprite:              |         (2) Upload your own:          |           (3) Draw your own:            |
-|:---------------------------------------------:|:-------------------------------------:|:---------------------------------------:|
-| ![Scratch Unicorn](images/scratchunicorn.png) | ![Web Unicorn](images/webunicorn.png) | ![Draw Unicorn](images/drawunicorn.png) |
+|              （1）Scratch獨角獸：              |          （2）上傳自己的獨角獸：           |           （3）畫自己的獨角獸：           |
+|:----------------------------------------:|:-------------------------------:|:-------------------------------:|
+| ![Scratch獨角獸](images/scratchunicorn.png) | ![網路獨角獸](images/webunicorn.png) | ![畫獨角獸](images/drawunicorn.png) |
 
-\--- task \--- If you picked option 1, click here: [[[generic-scratch3-sprite-from-library]]] \--- /task \---
+\---task\--- 如果你選擇了選項1，請單擊此處： [[[generic-scratch3-sprite-from-library]]] \--- /task\---
 
-\--- task \--- If you picked option 2 because you want to upload a unicorn image you found somewhere else, click below first to learn about image permissions, and then use the instructions in the second box to upload your file: [[[images-permissions-to-use]]]
+\---task\--- 如果你選擇選項2，因為你要上載在其他地方找到的獨角獸圖像，請先單擊下面的內容以了解圖像權限，然後使用第二個框中的說明上載文件： [[[images-permissions-to-use]]]
 
 [[[generic-scratch3-sprite-from-library]]] \--- /task \---
 
-\--- task \--- If you're going with option 3, click below for instructions on how to draw your own unicorn in Scratch: [[[generic-scratch3-draw-sprite]]] \--- /task \---
+\---task\--- 如果你選擇使用選項3，請單擊下面的說明，以了解如何在Scratch中繪製自己的獨角獸： [[[generic-scratch3-draw-sprite]]] \--- / task-
 
-### Unicorn costumes
+### 獨角獸造型
 
-Your unicorn needs **costumes** to be able to dance. A costume is one of a set of appearances of a sprite, which means sprites can change their look by changing costumes. Therefore, you can use costumes to make a sprite look like it's moving whenever you want to create an animation.
+您的獨角獸需要**造型**才能夠跳舞。 造型是精靈的一組外觀之一，這意味著精靈可以通過更改造型來改變外觀。 因此，無論何時要創建動畫，都可以使用造型使精靈看起來像在移動。
 
-Here, we will be creating a dancing unicorn animation, so each costume will represent a dance move of your unicorn.
+在這裡，我們將創造一個獨角獸跳舞動畫，因此每個造型都將代表您獨角獸的跳舞動作。
 
-\--- task \--- Decide how many costumes you want your unicorn sprite to have for the dance, and edit your costumes accordingly.
+\---task\--- 決定要讓獨角獸精靈跳舞的造型數量，並相應地編輯造型。
 
-Click for a reminder on how to add costumes in Scratch: [[[generic-scratch3-add-costume]]]
+單擊以提醒如何在Scratch中添加造型： [[[generic-scratch3-add-costume]]]
 
-Click for a reminder on how to duplicate costumes in Scratch: [[[generic-scratch3-duplicate-costumes]]] \--- /task \---
+點擊以提醒如何在Scratch中複製造型： [[[generic-scratch3-duplicate-costumes] \---/task\---
 
-It is up to you how many costumes you want to add for your dancing unicorn. For this dancing green unicorn, we have used five costumes:
+您可以根據自己的喜好為獨角獸添加多少造型。 對這個跳舞的綠色獨角獸來說，我們使用了五個造型：
 
-| ![Dancing Unicorn Gif](images/dancingunicorn.gif) | ![Five Costumes](images/fivecostumes.png) |
+| <0 /> | <1 /> |
 
-### Unicorn dance
+### 獨角獸舞蹈
 
-To create your dancing animation, you need to program the unicorn to switch costumes.
+要創作你的跳舞動畫，你需要對獨角獸進行編程以切換造型。
 
-\--- task \--- Switch between the first two costumes to start the unicorn dance.
+\---task\--- 在前兩個造型之間切換以啟動獨角獸舞蹈。
 
-To switch from the first to the second costume use:
+要從第一個造型切換到第二個造型，請使用：
 
 ```blocks3
 switch costume to [costume 2 v]
 ```
 
-Unicorns are generally good dancers, so make sure you time your unicorn's dance to the speed of your rainbow pattern. You can use the `wait`{:class="blockcontrol"} block to match the unicorn's wait time to your rainbow's wait time.
+獨角獸通常是出色的舞者，因此請確保您將獨角獸的舞蹈的時間定為彩虹閃爍的速度。 您可以使用`等待`{:class="blockcontrol"}方塊，將獨角獸的等待時間與彩虹的等待時間同步。
 
 ```blocks3
 wait (0.5) secs
@@ -61,19 +61,19 @@ switch costume to [costume 2 v]
 
 \--- /task \---
 
-\--- task \--- To create your dancing unicorn, switch between all costumes continuously. What kind of loop do you need to do this? \--- /task \---
+\---task\--- 要創建您的跳舞獨角獸，請在所有造型之間連續切換。 您需要哪種循環來做出這樣的效果？ \--- /task \---
 
 \--- hints \--- \--- hint \---
 
-Use a forever loop:
+使用永久循環：
 
 ```blocks3
-forever
+重複無限次
 ```
 
 \--- /hint \--- \--- hint \---
 
-Use this block to switch to the next costume each time you go through the loop:
+每次循環時，使用此方塊切換到下一個造型：
 
 ```blocks3
 next costume
@@ -81,7 +81,7 @@ next costume
 
 \--- /hint \--- \--- hint \---
 
-Your code should look like this:
+你的程式應該會像這樣：
 
 ```blocks3
 forever
