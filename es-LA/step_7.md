@@ -1,4 +1,4 @@
-## Ilumina tu arcoíris
+## Light your rainbow
 
 Para asegurarte de que tu arcoíris esté funcionando, primero lo probarás encendiendo todo el arcoíris a la vez. Luego crearás el código para hacer que el arcoíris parpadee en todos sus colores, uno tras otro, y luego en un patrón de tu elección.
 
@@ -6,16 +6,16 @@ Para asegurarte de que tu arcoíris esté funcionando, primero lo probarás ence
 
 Tu arcoíris debería iluminarse así:
 
-![Arcoíris iluminado](images/rainbowlit.png)
+![Rainbow Lit](images/rainbowlit.png)
 
-\--- hints \--- \--- hint \--- Añade más bloques `turn LED (0 v) [on v]`{:class="block3extensions"} en este fragmento de código:
+\--- hints \--- \--- hint \--- Add more `turn LED (0 v) [on v]`{:class="block3extensions"} blocks in this chunk of code:
 
 ```blocks3
 when flag clicked
 turn LED (17 v) [on v] ::extension
 ```
 
-\--- /hint \--- \--- hint \--- Sigue agregando bloques en la parte inferior de tu código hasta que todos sus LEDs se establezcan en `on`{:class="block3extensions"}.
+\--- /hint \--- \--- hint \--- Keep adding blocks at the bottom of your code until all your LEDs are set to `on`{:class="block3extensions"}.
 
 ```blocks3
 when flag clicked
@@ -32,13 +32,13 @@ Si tus LEDs no se iluminan:
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- Ahora, añade más código para hacer que el arcoíris parpadee en un patrón de arcoíris como este:<video width="560" height="315" controls> <source src="resources/Scratch-GPIO-Pathways-5.mp4" type="video/mp4"> Tu navegador no soporta la etiqueta de vídeo, prueba FireFox o Chrome. </video> 
+\--- task \--- Now, add more code to make the rainbow blink in a rainbow pattern like this:<video width="560" height="315" controls> <source src="resources/Scratch-GPIO-Pathways-5.mp4" type="video/mp4"> Your browser does not support the video tag, so try FireFox or Chrome. </video> 
 
-Para hacer esto, tendrás que hacer que un LED se encienda durante un par de segundos y luego apagarlo al mismo tiempo que el siguiente LED se enciende. \--- /task \---
+To do this, you will need to make one LED turn on for a couple of seconds and then turn off at the same time as the next LED turns on. \--- /task \---
 
 \--- hints \--- \--- hint \---
 
-Asegúrate de que el bloque `Eventos`{:class="blockevents"} coincide con lo que estás haciendo para probar el código. En el ejemplo aquí, para hacer que nuestro arcoíris parpadee, tenemos que hacer clic en la bandera verde:
+Make sure your `Events`{:class="blockevents"} block matches what you are doing to test the code. En el ejemplo aquí, para hacer que nuestro arcoíris parpadee, tenemos que hacer clic en la bandera verde:
 
 ```blocks3
 when flag clicked
@@ -84,7 +84,7 @@ forever
 
 \--- challenge \---
 
-+ Haz que el arcoíris parpadee en el patrón que elijas.
++ Make the rainbow blink in a pattern of your choice.
 
 ## \--- collapse \---
 
@@ -92,6 +92,6 @@ forever
 
 Prueba las siguientes ideas:
 
-1) Haz que los LED parpadeen muy rápido y muy lento 2) Haz que todo el arcoiris parpadee 3) Haz que los pares de LED se enciendan en patrones alternativos 4) Haz que el arcoiris parpadee algo en código Morse 5) Haz que el arcoiris haga diferentes cosas en respuesta a diferentes eventos
+1) Make the LEDs blink very fast and very slow 2) Make the whole rainbow blink 3) Make pairs of LEDs light up in alternate patterns 4) Make the rainbow blink something in Morse code 5) Make the rainbow do different things in response to different events
 
 \--- /collapse \--- \--- /challenge \---
