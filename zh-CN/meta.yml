@@ -1,8 +1,8 @@
 ---
-title: Dancing unicorns and rainbows
+title: 跳舞的独角兽和彩虹
 hero_image: images/banner.png
-description: Create a unicorn that dances in time with an LED rainbow
-theme: violet #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+description: 制作一个与LED彩虹一起跳舞的独角兽
+theme: 紫色 #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
 ingredient: false
@@ -10,32 +10,32 @@ copyedit: true
 curriculum: 2, design-0, programming-2, phys-comp-2, manufacture-0, community-0
 interests: humour, games
 technologies: electronic-components, scratch
-site_areas: projects
+site_areas: codeclub, webdev
 hardware: electronic-components
 software: scratch
 version: 4
 last_tested: 2018-02-01
 steps:
   - 
-    title: Introduction
+    title: 介绍
   - 
-    title: "Your rainbow's atmosphere"
+    title: "彩虹的氛围"
   - 
-    title: "Your rainbow's first colour"
+    title: "彩虹的第一道颜色"
   - 
-    title: Test your circuit in Scratch
+    title: 在Scratch中测试电路
   - 
-    title: Control your rainbow circuit
+    title: 控制你的彩虹电路
   - 
-    title: Build your rainbow
+    title: 建你的彩虹
   - 
-    title: Light your rainbow
+    title: 点亮你的彩虹
   - 
-    title: Make a dancing unicorn
+    title: 做一个跳舞的独角兽
   - 
-    title: Add a button
+    title: 添加按钮
   - 
-    title: "Challenge: Fun with your dancing unicorn rainbow."
+    title: "挑战：与跳舞的独角兽和彩虹一起玩吧。"
     challenge: true
   - 
-    title: What next?
+    title: 接下来呢？
