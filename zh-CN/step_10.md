@@ -1,9 +1,9 @@
-## Challenge: Fun with your dancing unicorn rainbow.
+## 挑战：与独角兽和彩虹一起玩吧。
 
-Ideas:
+一些建议
 
-1. Make the blinking of your rainbow and the dance of your unicorn faster
-2. Teach your unicorn a new dance (play around with costumes and speeds)
-3. Add more buttons and make the unicorn do a different dance for each
-4. Add more `events`{:class="block3events"} to make the unicorn do different dances
-5. Make a game with your rainbow and dancing unicorn
+1. 让彩虹闪烁和独角兽跳舞的速度再快些
+2. 教独角兽跳新的舞蹈 (多尝试调整速度和变换造型)
+3. 添加更多按钮，控制独角兽跳不同的舞蹈。
+4. 添加更多事件让独角兽跳不同的舞蹈
+5. 用彩虹和跳舞的独角兽做个小游戏
