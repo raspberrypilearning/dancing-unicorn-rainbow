@@ -1,22 +1,22 @@
-## Add a button
+## 添加按钮
 
-You will now make your rainbow flash and your unicorn dance in time by pressing a button!
+现在，你只需按一下按钮，就可以让霓虹灯闪烁，并让独角兽随着灯光的变换起舞！
 
-### Connect the button
+### 连接按钮
 
-\--- task \--- Connect your button to the breadboard and a GPIO pin.
+\--- task \--- 将按钮连接到面板和GPIO引脚。
 
-Click below for instructions on how to connect a button to the Raspberry Pi. Note that, instead of **GPIO 17** like the instructions say, we've used **GPIO 5** for the button — **GPIO 17** is already taken by an LED.
+单击下面的说明，了解如何将按钮连接到Raspberry Pi。 注意，我们用**GPIO 5**来连接按钮，而不是像简介里边使用**GPIO 17**—— **GPIO 17**已经连接到某个LED灯了。
 
 [[[rpi-gpio-wiring-a-button]]]
 
-Your rainbow should now look something like this:
+你的彩虹应该看起来像这样：
 
-![Rainbow with Button](images/rainbowbutton.png) \--- /task \---
+![彩虹按钮](images/rainbowbutton.png) \--- /task \---
 
-### Code the button
+### 编译按钮
 
-\--- task \--- Use the block shown below so that your button can make the unicorn dance.
+\--- task \--- 用下面显示的指令块，就可以用按钮使独角兽跳舞。
 
 ```blocks3
 when button (5 v) is [pressed v] :: hat extension
@@ -24,27 +24,27 @@ when button (5 v) is [pressed v] :: hat extension
 
 \--- /task \---
 
-### Control the unicorn dance
+### 控制独角兽舞蹈
 
-At the moment, you should have three chunks of Scratch code:
+目前应该有三大块Scratch指令：
 
-1. Dancing unicorn code
-2. Blinking rainbow code
-3. Button code
+1. 跳舞独角兽代码
+2. 闪烁彩虹代码
+3. 按钮代码
 
-You will now connect these chunks so that your unicorn dances in time to your rainbow, and so that you can control the rainbow and unicorn by pressing the button you've added.
+现在，我们将这些指令块连接起来，这样独角兽就可以随着彩虹变换起舞了，并且我们也可以通过按我们添加的按钮来控制彩虹和独角兽了。
 
-\--- task \--- Delete all of the `say`{:class="block3looks"} blocks in the code for the button, and then duplicate this chunk of code. \--- /task \---
+\--- task \--- 删除按钮指令中所有`say`{:class="block3looks"}指令块，然后复制这组代码。 \--- /task \---
 
-\--- task \--- In your code for the unicorn dance, delete the `when flag clicked`{:class="block3events"} block. Take the rest of the unicorn code, and slot it into the `else`{:class="block3control"} block of your button code. Only slot it into **one copy** of the button code. \--- /task \---
+\--- task \--- 在跳舞独角兽指令中，删除`when flag clicked`{:class="block3events"}指令块。 将剩余的独角兽指令放入按钮指令的`else`{:class="block3control"}指令块中。 仅将它放入按钮指令的**one copy**。 \--- /task \---
 
-\--- task \--- In the rainbow code, delete the `when flag clicked`{:class="block3events"} block and slot the rest of the rainbow code into the `else`{:class="block3control"} block of the **other copy** of the button code. \--- /task \---
+\--- task \--- 在彩虹指令中，删除`when flag clicked`{:class="block3events"}指令块，并将其余的彩虹指令插入按钮指令中**other copy** 指令块中的`else`{:class="block3control"}指令块。 \--- /task \---
 
-\--- task \--- In the `if`{:class="block3control"} slot of both copies of your button code, add an action. You could use `switch costume to first costume`{:class="block3looks"}, so your unicorn doesn't get its dance moves mixed up. \--- /task \---
+\--- task \--- 在按钮指令两个副本的`if`{:class="block3control"}插槽中添加一个操作。 可以使用`switch costume to first costume`{:class="block3looks"}，这样独角兽的舞蹈动作就不会乱了。 \--- /task \---
 
-\--- hints \--- \--- hint \--- If pressing the button doesn't make the rainbow light up and the unicorn dance in time, try checking that:
+\--- hints \--- \--- hint \--- 如果按下按钮霓虹灯没有亮起并且独角兽没有随着跳动，请尝试检查一下：
 
-1. Every component is connected to the right GPIO pin
-2. You've got the inputs and outputs right in your code
-3. The timings match for your two chunks of code
-4. You've used all the right code blocks \--- /hint \--- \--- /hints \---
+1. 每个组件是否都连接到正确的GPIO引脚
+2. 指令中的输入和输出内容是否都正确
+3. 两个指令块的时间是否匹配
+4. 指令块是否全部使用正确 \--- /hint \--- \--- /hints \---
