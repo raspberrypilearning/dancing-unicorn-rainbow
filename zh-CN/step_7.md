@@ -43,7 +43,7 @@ turn LED (22 v) [on v] ::extension
 --- hints ---
  --- hint ---
 
-我们要确认`事件`{:class="blockevents"}代码块与要测试的指令的内容匹配。 在此处的示例中，我们须单击绿旗使彩虹闪烁：
+我们要确认`事件`{:class="block3events"}代码块与要测试的指令的内容匹配。 在此处的示例中，我们须单击绿旗使彩虹闪烁：
 
 ```blocks3
 when flag clicked
@@ -76,6 +76,8 @@ turn LED (22 v) [on v] ::extension
 继续为所有LED灯添加指令块， 并确保在编辑过程 输入了正确的GPIO引脚编号。
 
 --- /hint ------ /hints ---
+
+--- task ---
 
 让所有灯依次循环反复闪烁。
 

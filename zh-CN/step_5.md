@@ -11,7 +11,7 @@
 --- hints ---
 --- hint ---
 
-查看`控制`部分 
+查看`控制`{:class="block3control"}部分 
 
 --- /hint ---
 --- hint ---

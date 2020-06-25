@@ -2,7 +2,7 @@
 这是此项目的 Scratch 3 版本。 可以在这里找到[Scratch 2 版本](https://projects.raspberrypi.org/zh-CN/projects/dancing-unicorn-rainbow-scratch2)。 
 ---/no-print---
 
-## 简介
+## 介绍
 
 由Raspberry Pi驱动，组装一道LED彩虹和一只与彩虹共舞的独角兽。
 
