@@ -4,7 +4,7 @@ Antes de crear un arcoíris, necesitas aprender a controlarlo. Potenciarás y co
 
 Los pines GPIO de la Raspberry Pi te permiten enviar y recibir señales de encendido/apagado desde y hacia componentes electrónicos como LEDs, motores, botones y zumbadores.
 
-Si observas tu Pi con los puertos USB hacia ti, este es el diseño de los pines: ![Diseño GPIO](images/gpio-upright.png)
+Si observas tu Pi con los puertos USB hacia ti, este es el diseño del pin: ![Diseño GPIO](images/gpio-upright.png)
 
 Una Raspberry Pi tiene 26 pines GPIO. En la imagen de arriba, estos son los pines etiquetados con GP y un número.
 
