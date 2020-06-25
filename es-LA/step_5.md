@@ -1,8 +1,8 @@
-## Controla tu circuito arcoíris
+## Control your rainbow circuit
 
-Cuando tu arcoíris esté listo, puedes controlar cómo se ilumina. Para practicar un poco el control de un LED, usa Scratch para hacer lo siguiente:
+When your whole rainbow is set up, you can control how it is lit. For a little practice of controlling one LED, use Scratch to do the following:
 
-\--- task \--- Cuando presionas la tecla <kbd>P</kbd>, haz que el LED se encienda durante dos segundos y luego apágalo. \--- /task \---
+\--- task \--- When you press the <kbd>P</kbd> key, make the LED turn on for two seconds and then turn off. \--- /task \---
 
 \--- hints \--- \--- hint \--- Mira en la sección bloques de `Control`{:class="block3control"}. \--- /hint \--- \--- hint \--- Usa
 
