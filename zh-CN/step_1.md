@@ -58,6 +58,8 @@ title: 你将学到什么
 
 + [利用基本编程结构解决问题](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
+--- /collapse ---
+
 --- collapse ---
 ---
 title: 为教育者提供的额外信息
@@ -66,3 +68,5 @@ title: 为教育者提供的额外信息
 如果您需要打印本项目文件，请使用[适合打印版本](https://projects.raspberrypi.org/zh-CN/projects/dancing-unicorn-rainbow/print){:target="_blank"}。
 
 此项目的完整解决方案在[rpf.io/p/zh-CN/dancing-unicorn-rainbow-get](https://rpf.io/p/zh-CN/dancing-unicorn-rainbow-get)
+
+--- /collapse ---
