@@ -1,4 +1,4 @@
-这是此项目的 Scratch 3 版本。 可以在这里找到[Scratch 2 版本](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow-scratch2)。 \---/no-print\---
+\--- no-print \--- 这是此项目的 Scratch 3 版本。 可以在这里找到[Scratch 2 版本](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow-scratch2)。 \---/no-print\---
 
 ## 简介
 
