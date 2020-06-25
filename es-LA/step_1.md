@@ -1,14 +1,14 @@
-\--- no-print \--- Esta es la versión de Scratch 3 de este proyecto. Puedes encontrar la versión de [Scratch 2 aquí.](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow-scratch2) \--- /no-print \---
+\--- no-print \--- This is the Scratch 3 version of this project. You can find the [Scratch 2 version here.](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow-scratch2) \--- /no-print \---
 
-## Introducción
+## Introduction
 
 Crea un arcoíris LED y haz que un unicornio baile con él, todo impulsado por la Raspberry Pi.
 
-### Lo que harás
+### What you will make
 
-Usarás Scratch para conectar un arcoíris LED a un objeto de unicornio y luego harás que el unicornio baile al ritmo del arcoíris. Aquí hay un video que muestra cómo se verían tu unicornio y arcoíris que bailan:<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> Tu navegador no soporta la etiqueta de vídeo, prueba FireFox o Chrome </video> 
+You will use Scratch to connect a rainbow of LEDs to a unicorn sprite, and then make the unicorn dance to the rhythm of the rainbow. Here is a video showing what your dancing unicorn and rainbow might look like:<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> Your browser does not support the video tag, try FireFox or Chrome </video> 
 
-Una vez que hayas entrenado a tu unicornio para que baile con tu arcoíris, puedes aprender a usar el arcoíris para hacer que el unicornio haga trucos o juegue.
+Once you have trained your unicorn to dance to your rainbow, you can learn how to use the rainbow to make the unicorn do tricks or play a game.
 
 ## \--- collapse \---
 
@@ -16,23 +16,23 @@ Una vez que hayas entrenado a tu unicornio para que baile con tu arcoíris, pued
 
 ### Equipo
 
-+ Una Raspberry Pi
-+ Una placa de pruebas
-+ 3 o más LEDs de colores
-+ Resistencias (al menos 100 ohmios), **1 por LED**
-+ 1× botón
-+ Cables puente macho a hembra, **1 por LED**
-+ 2× cables puente macho a hembra adicionales
-+ 1× cable puente macho a macho
++ A Raspberry Pi
++ A breadboard
++ 3 or more colourful LEDs
++ Resistors (at least 100 ohms), **1 per LED**
++ 1× button
++ Male-to-female jumper wires, **1 per LED**
++ 2× additional male-to-female jumper wires
++ 1× male-to-male jumper wire
 
-Para el desafío final opcional:
+For the optional final challenge:
 
-+ 1× zumbador
-+ 2× cables puente macho a hembra adicionales
++ 1× buzzer
++ 2× additional male-to-female jumper wires
 
-### Programas
+### Software
 
-Necesitarás la última versión de Raspbian, que ya incluye el siguiente programa:
+You will need the latest version of Raspbian, which already includes the following software package:
 
 + Scratch 3
 
@@ -41,21 +41,21 @@ sudo apt-get update
 sudo apt-get install scratch3
 ```
 
-**Nota:** Scratch 3 **solo** funciona en la Raspberry Pi 4. \--- /collapse \---
+**Note:** Scratch 3 will **only** work on the Raspberry Pi 4. \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Lo que aprenderás
+## title: What you will learn
 
-Este proyecto incluye elementos de los siguientes aspectos del [currículo de creación digital de Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Combina entradas y/o salidas para crear proyectos o resolver un problema](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
++ [Combine inputs and/or outputs to create projects or solve a problem](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
 
-+ [Aplica estructuras básicas de programación para resolver un problema](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"} \--- /collapse \---
++ [Apply basic programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"} \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Información adicional para educadores
+## title: Additional information for educators
 
 Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}.
 
