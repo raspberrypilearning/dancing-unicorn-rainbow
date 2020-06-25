@@ -1,21 +1,21 @@
-## Light your rainbow
+## 點亮你的彩虹
 
-To make sure your rainbow is working, you will first test it by lighting the whole rainbow at once. You will then create code to make the rainbow blink through all its colours one after the other, and then in a pattern of your choice.
+為確保你的彩虹正常運作，首先你得通過一次點亮整個彩虹來對其進行測試。 然後，您將編寫程式來使彩虹發出所有顏色，一個接一個地，接著再以您選擇的模式閃爍所有顏色。
 
-\--- task \--- Add more code to control the other LEDs. Make sure you include the right GPIO pins. \--- /task \---
+\---task\--- 編寫更多代碼來控制其他LED。 確認你包括正確的GPIO針腳。 \--- /task \---
 
-Your rainbow should light up like this:
+你的彩虹應該像這樣點亮：
 
-![Rainbow Lit](images/rainbowlit.png)
+![彩虹燈](images/rainbowlit.png)
 
-\--- hints \--- \--- hint \--- Add more `turn LED (0 v) [on v]`{:class="block3extensions"} blocks in this chunk of code:
+\--- hints \--- \--- hint \--- 添加更多`打開LED（0 v）[on v] ` {:class="block3extensions"}方塊在以下的代碼塊中：
 
 ```blocks3
 when flag clicked
 turn LED (17 v) [on v] ::extension
 ```
 
-\--- /hint \--- \--- hint \--- Keep adding blocks at the bottom of your code until all your LEDs are set to `on`{:class="block3extensions"}.
+\--- /hint\--- \---hint\--- 繼續在代碼底部添加方塊，直到所有LED均設置為`開啟 ` {:class="block3extensions"}狀態。
 
 ```blocks3
 when flag clicked
@@ -26,19 +26,19 @@ turn LED (22 v) [on v] ::extension
 
 \--- /hint \--- \--- hint \---
 
-If your LEDs are not lighting:
+如果你的LED點不亮：
 
-1) Check which GPIO pins your LEDs are connected to, and make sure you have set them to `on`{:class="block3extensions"} 2) Test whether the LEDs are working — you can plug an LED's jumper wire into **GPIO 3V3** to test it 3) Make sure the circuit on the breadboard is complete
+1）檢查你的LED連接到哪個GPIO引腳，並確保已將它們設置為`開啟 ` {:class="block3extensions"}。 2）測試LED是否運作，您可以將LED的跳線插入** GPIO 3V3 **測試。 3）確認麵包板上的電路完整。
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- Now, add more code to make the rainbow blink in a rainbow pattern like this:<video width="560" height="315" controls> <source src="resources/Scratch-GPIO-Pathways-5.mp4" type="video/mp4"> Your browser does not support the video tag, so try FireFox or Chrome. </video> 
+\---task\--- 現在，添加更多代碼來使彩虹以彩虹圖案閃爍，如下所示：<video width="560" height="315" controls> <source src="resources/Scratch-GPIO-Pathways-5.mp4" type="video/mp4"> 您的瀏覽器不支持此視頻，請嘗試使用FireFox或Chrome。 </video> 
 
-To do this, you will need to make one LED turn on for a couple of seconds and then turn off at the same time as the next LED turns on. \--- /task \---
+為此，您需要使一個LED點亮幾秒鐘，然後在下一個LED點亮時同時熄滅。 \--- /task \---
 
 \--- hints \--- \--- hint \---
 
-Make sure your `Events`{:class="blockevents"} block matches what you are doing to test the code. In the example here, to make our rainbow blink, we have to click the green flag:
+確認您的`事件` {:class="blockevents"} 區塊與您要測試程式碼的內容一樣。 在此處的範例中，要使彩虹閃爍，我們必須單擊綠色旗幟：
 
 ```blocks3
 when flag clicked
@@ -46,7 +46,7 @@ when flag clicked
 
 \--- /hint \--- \--- hint \---
 
-If you're stuck, make sure you are using these blocks:
+如果你卡住了，請確認你正在使用以下積木：
 
 ```blocks3
 turn LED (0 v) [off v] ::extension
@@ -55,7 +55,7 @@ wait () secs
 
 \--- /hint \--- \--- hint \---
 
-Try using this approach:
+嘗試使用這種方法：
 
 ```blocks3
 when flag clicked
@@ -68,13 +68,13 @@ turn LED (18 v) [off v] ::extension
 turn LED (22 v) [on v] ::extension
 ```
 
-You will need to add blocks for all your LEDs and make sure that you're using the right GPIO pin numbers in your code.
+您將需要為所有LED添加積木，並確保在代碼中使用正確的GPIO針腳號碼。
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- Make the lights blink repeatedly through the rainbow in a loop.
+\---task\--- 使燈光反覆閃爍透過在迴圈的彩虹。
 
-To loop through the rainbow pattern forever, use:
+要永久循環彩虹模式，請使用：
 
 ```blocks3
 forever
@@ -84,14 +84,14 @@ forever
 
 \--- challenge \---
 
-+ Make the rainbow blink in a pattern of your choice.
++ 使彩虹按您選擇的方式閃爍。
 
 ## \--- collapse \---
 
-## title: Rainbow challenges
+## 標題：彩虹挑戰
 
-Try out the following ideas:
+嘗試以下的點子：
 
-1) Make the LEDs blink very fast and very slow 2) Make the whole rainbow blink 3) Make pairs of LEDs light up in alternate patterns 4) Make the rainbow blink something in Morse code 5) Make the rainbow do different things in response to different events
+1）使LED閃爍非常快和非常慢 2）使整個彩虹閃爍 3）使成對的LED以交替的模式點亮 4）使彩虹閃爍摩斯密碼 5）使彩虹對不同事件做不同的事情
 
 \--- /collapse \--- \--- /challenge \---
