@@ -2,9 +2,9 @@
 
 设置好整个彩虹后，你可以控制它的闪烁方式。 先试试用Scratch进行如下操作来控制一盏LED灯
 
-按下<kbd> P</kbd>键，让LED点亮两秒钟后熄灭。 \--- /task \---
+\--- task \--- 按下<kbd>P</kbd>键，让LED点亮两秒钟后熄灭。 \--- /task \---
 
--- 提示 -- 查看`Control`部分 使用
+\--- hints \--- \--- hint \--- 查看`Control`部分 使用
 
 ```blocks3
   wait (2) secs
@@ -21,7 +21,7 @@ turn LED (17 v) [off v] ::extension
 
 \--- /hint \--- \--- /hints \---
 
-当Scratch程序启动后，让你的LED灯亮2秒，然后熄灭2秒。 \--- /task \---
+\--- task \--- 当Scratch程序启动后，让你的LED灯亮2秒，然后熄灭2秒。 \--- /task \---
 
 \--- hints \--- \--- hint \---
 
@@ -35,7 +35,7 @@ wait (2) secs
 
 \--- /hint \--- \--- /hints \---
 
-只要程序在运行LED就会持续闪烁。 \--- /task \---
+\--- task \--- 只要程序在运行LED就会持续闪烁。 \--- /task \---
 
 使用
 
