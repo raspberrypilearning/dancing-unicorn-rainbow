@@ -1,22 +1,22 @@
-## Test your circuit in Scratch
+## 在Scratch中测试电路
 
-You will now connect your circuit and first rainbow colour to Scratch, so that you can code a Scratch program to control the LED.
+现在将把电路和第一个颜色连接到Scratch，这样您就可以编辑一个 Scratch 程序来控制LED。
 
-\--- task \--- Open up Scratch 3 on your Raspberry Pi.
+在Raspberry Pi上打开Scratch 3。
 
-![open-scratch](images/open-scratch.png) \--- /task \---
+![开启scratch](images/open-scratch.png) \--- /task \---
 
-\--- task \--- Then add the Raspberry Pi Simple Electronics extension
+然后添加Raspberry Pi Simple Electronics扩展模块
 
-![add-extension](images/add-extension.png)
+![添加扩展组件](images/add-extension.png)
 
-![simple-electronics](images/simple-electronics.png) \--- /task \---
+![基础电子产品](images/simple-electronics.png) \--- /task \---
 
-\--- task \--- In the previous step, you connected your LED to pin **3V3**. This is the pin to connect to if you are testing your LED. You now need to connect your LED to a pin you can control with Scratch. Move the wire from pin **3V3** to a new pin, for example **GPIO 17**. \--- /task \---
+在上一步中，将LED连接到了引脚** 3V3 ** ， 3V3是用来测试的引脚。 现在，您需要将LED连接到可以通过Scratch控制的引脚。 将导线从引脚** 3V3**换到一个新引脚，例如** GPIO 17 ** 。 \--- /task \---
 
-![Move Pin](images/movepin.png)
+![移动引脚](images/movepin.png)
 
-\--- task \--- Now test that the LED can be controlled using the following simple script
+测试您可否使用以下简单指令控制LED
 
 ```blocks3
 when flag clicked
@@ -27,4 +27,4 @@ turn LED (17 v) [off v] ::extension
 
 \--- /task \---
 
-\--- task \--- Click the green flag to run your script. The LED should turn on for 1 second. \--- /task \---
+单击绿旗测试你的指令。 LED应该会亮1秒钟。 \--- /task \---
