@@ -1,9 +1,9 @@
-## Your rainbow's first colour
+## 你的彩虹的第一個顏色
 
-You will now light up the rainbow's first colour with an LED. Choose any colour you wish, but here we've gone with the red colour of the rainbow spectrum (red, orange, yellow, green, blue, indigo, violet).
+現在你可以用LED來點亮彩虹的第一道顏色。 選擇任何你想要的顏色，在這裡我們選擇彩虹光譜中的紅色(紅, 澄, 黃, 綠, 藍, 靛, 紫) 。
 
-\--- task \--- Create a circuit to connect your LED to the Raspberry Pi. Your circuit will light up the rainbow's first colour. \--- /task \---
+--任務-- 創造一個線路,連接LED和Raspberry Pi。 你的電路將會點亮彩虹的第一道顏色。 \--- /task \---
 
-If you have never connected an LED before, click below for information about LED circuits, and for detailed instructions.
+如果你從沒接過LED，你可以參考以下LED電路的教學來獲取更多資訊與細節。
 
 \[[[rpi-led-info]]\] \[[[rpi-connect-led\]]]
