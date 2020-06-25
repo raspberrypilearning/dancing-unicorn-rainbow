@@ -1,8 +1,8 @@
-## Construye tu arcoíris
+## Build your rainbow
 
-En este paso, ensamblarás tu arcoíris y programarás sus LEDs para parpadear en un patrón de arcoíris.
+In this step, you will assemble your rainbow and program its LEDs to blink in a rainbow pattern.
 
-\--- task \--- Encuentra todos los LEDs que vas a usar, y asegúrate de tener el número correcto de cables de puente y resistencias (una por LED). \--- /task \---
+\--- task \--- Find all the LEDs you are going to use, and make sure you also have the right number of jumper wires and resistors (one each per LED). \--- /task \---
 
 \--- task \--- Reorganiza el circuito que ya tienes para hacer espacio para los otros colores de tu arcoíris. \--- /task \---
 
