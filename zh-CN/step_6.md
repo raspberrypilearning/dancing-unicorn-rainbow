@@ -1,35 +1,35 @@
-## Build your rainbow
+## 构建彩虹
 
-In this step, you will assemble your rainbow and program its LEDs to blink in a rainbow pattern.
+在此步骤中，组装你自己的彩虹并对构成彩虹的LED灯进行编程，让它们可以像彩虹一样闪烁。
 
-\--- task \--- Find all the LEDs you are going to use, and make sure you also have the right number of jumper wires and resistors (one each per LED). \--- /task \---
+准备LED灯以及相应数量的跳线和电阻器 (每个LED 一条跳线和ㄧ个电阻器)。 \--- /task \---
 
-\--- task \--- Rearrange the circuit you already have to make room for the other colours of your rainbow. \--- /task \---
+\--- task \--- 重新布置已有的电路，为彩虹的其他颜色腾出空间。 \--- /task \---
 
-![Circuit Rearranged](images/oneled.png)
+![重排电路](images/oneled.png)
 
-### Ground the rainbow
+### 连接地线
 
-\--- task \--- So that your rainbow shines brightly and is not covered by too many jumper wires, all LEDs should share one **Ground (GND)** pin. You can do set them up like this by rearranging your components on the breadboard a little.
+\--- task \--- 想让彩虹正常闪烁并且不被太多的跳线覆盖，所有LED应该共享一个** Ground (GND) **引脚。 你可以重新排列在面板上的电子元件将它们设置成这样。
 
-The breadboard looks like this inside:
+面板的内部是这个样子的：
 
-![Breadboard Cross-Section](images/breadboardxsection.png)
+![面板横截面](images/breadboardxsection.png)
 
-To ground the whole rainbow with one jumper wire: \--- /task \---
+用一根跳线将整个彩虹接地： \--- /task \---
 
-\--- task \--- Connect the jumper wire attached to **GND** to a breadboard **rail** \--- /task \---
+\--- task \--- 将连接到**GND**的跳线链接到面板的**rail** \--- /task \---
 
-\--- task \--- Make sure resistors connect to the same rail as the **GND** jumper wire and to the same **bar** as the LED they belong to: \--- /task \---
+\--- task \--- 同时要保证电阻与** GND**跳线连接到同一轨，并且与对应的LED连接到同一栏**bar**： \---/task \---
 
-![Adding LEDs](images/twoleds.png)
+![增加LED](images/twoleds.png)
 
-### Complete the rainbow
+### 完成彩虹组装
 
-\--- task \--- Add the rest of your LEDs, jumper wires, and resistors to the breadboard in a colour arrangement of your choice. Make sure to leave room for a button at the end. \--- /task \---
+\--- task \--- 将剩余的LED灯、跳线和电阻按照你的设想连接到面板上。 别忘了在最后给按钮留个位置。 \--- /task \---
 
-If you are using many different colours, it might help to match the colour of the jumper wires to your LEDs.
+如果你用的颜色比较多，那么将LED灯和跳线的颜色搭配一致操作起来会更加方便。
 
-Your rainbow should look similar to this one:
+你的彩虹看起来应该差不多是这个样子：
 
-![Rainbow LEDs](images/rainbowleds.png)
+![LED霓虹灯](images/rainbowleds.png)
