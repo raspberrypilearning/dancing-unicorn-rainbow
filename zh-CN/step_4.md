@@ -2,7 +2,7 @@
 
 现在将把电路和第一个颜色连接到Scratch，这样您就可以编辑一个 Scratch 程序来控制LED。
 
-在Raspberry Pi上打开Scratch 3。
+\--- task \--- 在Raspberry Pi上打开Scratch 3。
 
 ![开启scratch](images/open-scratch.png) \--- /task \---
 
@@ -12,11 +12,11 @@
 
 ![基础电子产品](images/simple-electronics.png) \--- /task \---
 
-在上一步中，将LED连接到了引脚** 3V3 ** ， 3V3是用来测试的引脚。 现在，您需要将LED连接到可以通过Scratch控制的引脚。 将导线从引脚** 3V3**换到一个新引脚，例如** GPIO 17 ** 。 \--- /task \---
+\--- task \--- 在上一步中，将LED连接到了引脚**3V3**， 3V3是用来测试的引脚。 现在，您需要将LED连接到可以通过Scratch控制的引脚。 将导线从引脚** 3V3**换到一个新引脚，例如** GPIO 17 ** 。 \--- /task \---
 
 ![移动引脚](images/movepin.png)
 
-测试您可否使用以下简单指令控制LED
+\--- task \--- 测试您可否使用以下简单指令控制LED
 
 ```blocks3
 when flag clicked
