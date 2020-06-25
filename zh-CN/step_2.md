@@ -1,13 +1,13 @@
-## Your rainbow's atmosphere
+## 你彩虹的氛围
 
-Before making a rainbow, you need to learn how to control it. You will power and control your rainbow with the help of the Raspberry Pi's **GPIO** pins. GPIO is an acronym for **G**eneral **P**urpose **I**nput/**O**utput.
+在开始制作彩虹之前，你要先学会如何控制它。 想要点亮并操控彩虹需要用到Raspberry Pi的**GPIO**引脚。 GPIO是 General Purpose Input/Output (通用输入/输出) 的首字母缩写。
 
-The Pi's GPIO pins allow you to send and receive on/off signals to and from electronic components — for example LEDs, motors, buttons, and buzzers.
+Pi的 GPIO 引脚允许您发送和接收与电子组件相关的 开/关 信号——例如LED、发动机、按钮和蜂鸣器。
 
-If you look at your Pi with the USB ports facing towards you, this is the pin layout: ![GPIO Layout](images/gpio-upright.png)
+如果您把Pi开发板带USB插口的一面朝上放置，引脚是这样排布的： ![GPIO布局](images/gpio-upright.png)
 
-A Raspberry Pi has 26 GPIO pins. In the image above, these are the pins labelled with GP and a number.
+Raspberry Pi有26个GPIO引脚。 在上图中标有GP和数字的即为引脚。
 
-+ To read a little more about GPIO pins, click here:
++ 了解更多有关GPIO引脚的信息，请单击此处：
 
 [[[rpi-gpio-pins]]]
