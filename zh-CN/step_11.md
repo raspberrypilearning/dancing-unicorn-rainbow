@@ -6,7 +6,7 @@
 ***
 该项目由以下志愿者翻译：
 
-Weixiao Ma
+马维潇
 
 Wendy Tseng
 
