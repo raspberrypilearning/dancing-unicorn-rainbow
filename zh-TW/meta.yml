@@ -1,0 +1,30 @@
+---
+title: 跳舞的獨角獸和彩虹
+hero_image: images/banner.png
+description: 建立一個和LED彩虹共舞的獨角獸
+theme: 紫色 #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 2, design-0, programming-2, phys-comp-2, manufacture-0, community-0
+interests: humour, games
+technologies: electronic-components, scratch
+site_areas: projects
+hardware: electronic-components
+software: scratch
+version: 4
+last_tested: 2018-02-01
+steps:
+  - title: 介紹
+  - title: "你的彩虹的氛圍"
+  - title: "你的彩虹的第一個顏色"
+  - title: 在Scratch中測試你的電路
+  - title: 控制你的彩虹的電路
+  - title: 建造你的彩虹
+  - title: 點亮你的彩虹
+  - title: 創造一個跳舞的獨角獸
+  - title: 新增按鈕
+  - title: "挑戰: 和你的跳舞獨角獸彩虹一起玩樂"
+    challenge: true
+  - title: 接下來呢?
