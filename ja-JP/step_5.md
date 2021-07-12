@@ -1,13 +1,13 @@
-## Control your rainbow circuit
+## 虹色発光回路を操作する
 
-When your whole rainbow is set up, you can control how it is lit. For a little practice of controlling one LED, use Scratch to do the following:
+虹色全てが準備できたら、虹をどのように点灯するかを制御できます。 1個のLEDを制御する簡単な練習として、Scratchを使って以下のことをやってみましょう:
 
-\--- task \--- When you press the <kbd>P</kbd> key, make the LED turn on for two seconds and then turn off. \--- /task \---
+\--- task \--- <kbd>P</kbd>キーを押すと、LEDをオンにして2秒たったらオフにします。 \--- /task \---
 
-\--- hints \--- \--- hint \--- Look in the `Control`{:class="block3control"} blocks section. \--- /hint \--- \--- hint \--- Use
+\--- hints \--- \--- hint \--- `制御`{:class="block3control"}ブロックのセクションを見てください。 \--- /hint \--- \--- hint \--- これを使います
 
 ```blocks3
-  wait (2) secs
+  (2) 秒待つ
 ```
 
 \--- /hint \--- \--- hint \---
@@ -21,7 +21,7 @@ turn LED (17 v) [off v] ::extension
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- When your Scratch program starts, make your LED light up for 2 seconds and then turn off for 2 seconds. \--- /task \---
+\--- task \--- Scratchプログラムを起動すると、LEDを2秒間点灯させ、2秒間消灯します。 \--- /task \---
 
 \--- hints \--- \--- hint \---
 
@@ -35,12 +35,12 @@ wait (2) secs
 
 \--- /hint \--- \--- /hints \---
 
-\--- task \--- Make your LED turn on and off as long as your program runs. \--- /task \---
+\--- task \--- プログラムが実行されている間、LEDのオンとオフを繰り返します。 \--- /task \---
 
-\--- hints \--- \--- hint \--- Use
+\--- hints \--- \--- hint \--- これを使います
 
 ```blocks3
-forever
+ずっと
 ```
 
 \--- /hint \--- \--- hint \---
@@ -56,9 +56,9 @@ wait (2) secs
 
 \--- /hint \--- \--- /hints \---
 
-+ Make your LED blink faster.
++ LEDの点滅を速くします。
 
-\--- hints \--- \--- hint \--- Use `wait x secs`{:class="block3control"} for fewer seconds. \--- /hint \--- \--- hint \---
+\--- hints \--- \--- hint \--- 秒を短くするには`x 秒待つ`{:class="block3control"}を使います。 \--- /hint \--- \--- hint \---
 
 ```blocks3
 when flag clicked
@@ -71,4 +71,4 @@ wait (0.5) secs
 
 \--- /hint \--- \--- /hints \---
 
-Well done — you are now ready to create and control an awesome rainbow!
+よくできました—これで素晴らしい虹を作成して制御する準備ができました！
