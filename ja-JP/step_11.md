@@ -1,3 +1,3 @@
-## What next?
+## 次は何をしますか？
 
-Why not try out some of our other [physical computing resource using Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&hardware%5B%5D=electronic-components).
+これ以外の[Scratchを使用ったフィジカル・コンピューティングのリソース](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&hardware%5B%5D=electronic-components)を試してみませんか。
