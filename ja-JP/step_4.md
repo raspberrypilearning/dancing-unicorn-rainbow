@@ -1,22 +1,22 @@
-## Test your circuit in Scratch
+## Scratchで回路をテストする
 
-You will now connect your circuit and first rainbow colour to Scratch, so that you can code a Scratch program to control the LED.
+次に、回路と虹色の1つ目のLEDをScratchに接続し、ScratchプログラムをコーディングしてLEDを制御できるようにします。
 
-\--- task \--- Open up Scratch 3 on your Raspberry Pi.
+\--- task \--- Raspberry PiでScratch 3を開きます。
 
-![open-scratch](images/open-scratch.png) \--- /task \---
+![Scratchを開く](images/open-scratch.png) \--- /task \---
 
-\--- task \--- Then add the Raspberry Pi Simple Electronics extension
+\--- task \--- 次にRaspberry Pi Simple エレクトロニクス拡張機能を追加します
 
-![add-extension](images/add-extension.png)
+![拡張機能を追加](images/add-extension.png)
 
-![simple-electronics](images/simple-electronics.png) \--- /task \---
+![簡単な電子回路](images/simple-electronics.png) \--- /task \---
 
-\--- task \--- In the previous step, you connected your LED to pin **3V3**. This is the pin to connect to if you are testing your LED. You now need to connect your LED to a pin you can control with Scratch. Move the wire from pin **3V3** to a new pin, for example **GPIO 17**. \--- /task \---
+\--- task \--- 前のステップで、LEDを**3V3**ピンに接続しました 。 これは、LEDをテストする場合に接続するピンです。 今度は、Scratchで制御できるピンにLEDを接続する必要があります。 ジャンパー線を**3V3**ピンから**GPIO 17**などの 新しいピンに移動します。 \--- /task \---
 
-![Move Pin](images/movepin.png)
+![ピンを移動](images/movepin.png)
 
-\--- task \--- Now test that the LED can be controlled using the following simple script
+\--- task \--- 次の簡単なスクリプトを使用してLEDを制御できることをテストします
 
 ```blocks3
 when flag clicked
@@ -27,4 +27,4 @@ turn LED (17 v) [off v] ::extension
 
 \--- /task \---
 
-\--- task \--- Click the green flag to run your script. The LED should turn on for 1 second. \--- /task \---
+\--- task \--- 緑いろの旗をクリックしてスクリプトを実行します。 LEDが1秒間点灯します。 \--- /task \---
