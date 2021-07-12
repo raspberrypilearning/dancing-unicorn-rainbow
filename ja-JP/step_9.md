@@ -1,22 +1,22 @@
-## Add a button
+## 押しボタンスイッチを追加する
 
-You will now make your rainbow flash and your unicorn dance in time by pressing a button!
+ボタンを押すと、虹が点滅し、ユニコーンがそれに合わせて踊るようにしましょう！
 
-### Connect the button
+### 押しボタンスイッチを接続する
 
-\--- task \--- Connect your button to the breadboard and a GPIO pin.
+\--- task \--- 押しボタンスイッチをブレッドボードとGPIOピンに接続します。
 
-Click below for instructions on how to connect a button to the Raspberry Pi. Note that, instead of **GPIO 17** like the instructions say, we've used **GPIO 5** for the button — **GPIO 17** is already taken by an LED.
+押しボタンスイッチをRaspberry Piに接続する方法については、以下をクリックしてください。 説明では**GPIO 17**を使っていますが 、**GPIO 17**はすでにLED用に使っていますので、ボタン用には**GPIO 5**を使うことに注意してください。
 
 [[[rpi-gpio-wiring-a-button]]]
 
-Your rainbow should now look something like this:
+虹は次のようになります。
 
-![Rainbow with Button](images/rainbowbutton.png) \--- /task \---
+![押しボタンスイッチと虹](images/rainbowbutton.png) \--- /task \---
 
-### Code the button
+### 押しボタンスイッチをコーディングする
 
-\--- task \--- Use the block shown below so that your button can make the unicorn dance.
+\--- task \--- 以下のブロックを使用して、押しボタンスイッチでユニコーンを踊らせるようにします。
 
 ```blocks3
 when button (5 v) is [pressed v] :: hat extension
@@ -24,27 +24,27 @@ when button (5 v) is [pressed v] :: hat extension
 
 \--- /task \---
 
-### Control the unicorn dance
+### ユニコーンのダンスを操作する
 
-At the moment, you should have three chunks of Scratch code:
+現時点で、3つのスクラッチのコードがあります。
 
-1. Dancing unicorn code
-2. Blinking rainbow code
-3. Button code
+1. ユニコーンを踊らせるコード
+2. 虹を点滅させるコード
+3. 押しボタンスイッチのコード
 
-You will now connect these chunks so that your unicorn dances in time to your rainbow, and so that you can control the rainbow and unicorn by pressing the button you've added.
+次に、これらのコードを連結して、ユニコーンが虹に合わせて踊るようにし、追加した押しボタンスイッチを押して虹とユニコーンを制御できるようにします。
 
-\--- task \--- Delete all of the `say`{:class="block3looks"} blocks in the code for the button, and then duplicate this chunk of code. \--- /task \---
+\--- task \--- 押しボタンスイッチのコードから`と言う`{:class="block3looks"}ブロックをすべて削除してからコードを複製します。 \--- /task \---
 
-\--- task \--- In your code for the unicorn dance, delete the `when flag clicked`{:class="block3events"} block. Take the rest of the unicorn code, and slot it into the `else`{:class="block3control"} block of your button code. Only slot it into **one copy** of the button code. \--- /task \---
+\--- task \--- ユニコーンのコードで、`フラグをクリックしたとき` {:class="block3events"}ブロックを削除します。 ユニコーンのコードの残りの部分を、押しボタンスイッチのコードの`でなければ`{:class="block3control"}ブロックに挿入します。 押しボタンスイッチのコードの** 1つのコピーのみ**に挿入します。 \--- /task \---
 
-\--- task \--- In the rainbow code, delete the `when flag clicked`{:class="block3events"} block and slot the rest of the rainbow code into the `else`{:class="block3control"} block of the **other copy** of the button code. \--- /task \---
+\--- task \--- 虹のコードで、`フラグをクリックしたとき`{:class="block3events"}ブロックを削除して、コードの残りを押しボタンスイッチのコードの**他のコピー**の`でなければ`{:class="block3control"}ブロックに挿入します。 \--- /task \---
 
-\--- task \--- In the `if`{:class="block3control"} slot of both copies of your button code, add an action. You could use `switch costume to first costume`{:class="block3looks"}, so your unicorn doesn't get its dance moves mixed up. \--- /task \---
+\--- task \--- 押しボタンスイッチのコードの両方のコピーの`もし・・・なら`{:class="block3control"}スロットに、アクションを追加します。 `コスチュームを最初のものに切り替える`{:class="block3looks"}を使えば、ユニコーンはダンスの動きが混じりあうことはありません。 \--- /task \---
 
-\--- hints \--- \--- hint \--- If pressing the button doesn't make the rainbow light up and the unicorn dance in time, try checking that:
+\--- hints \--- \--- hint \--- ボタンを押しても虹が点灯せず、ユニコーンも合わせて踊らない場合は、次の点を確認してください。
 
-1. Every component is connected to the right GPIO pin
-2. You've got the inputs and outputs right in your code
-3. The timings match for your two chunks of code
-4. You've used all the right code blocks \--- /hint \--- \--- /hints \---
+1. すべての部品が適切なGPIOピンに接続されている
+2. 入力と出力がコードで適切に使われている
+3. 2つのコードのタイミングが一致している
+4. 適切なコードブロックをすべて使用している \--- /hint \--- \--- /hints \---
