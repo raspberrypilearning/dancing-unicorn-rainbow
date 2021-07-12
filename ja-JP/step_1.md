@@ -1,38 +1,38 @@
-\--- no-print \--- This is the Scratch 3 version of this project. You can find the [Scratch 2 version here.](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow-scratch2) \--- /no-print \---
+\--- no-print \--- これは、このプロジェクトのスクラッチ3バージョンです。 [ Scratch 2バージョンはここにあります。 ](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow-scratch2) \--- / no-print \---
 
-## Introduction
+## はじめに
 
-Create an LED rainbow and make a unicorn dance to it, all powered by the Raspberry Pi.
+LEDで虹を作り、それに合わせてユニコーンを踊らせます。すべてRaspberry Piで動かします。
 
-### What you will make
+### 作るもの
 
-You will use Scratch to connect a rainbow of LEDs to a unicorn sprite, and then make the unicorn dance to the rhythm of the rainbow. Here is a video showing what your dancing unicorn and rainbow might look like:<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> Your browser does not support the video tag, try FireFox or Chrome </video> 
+Scratchを使用して、LEDの虹とユニコーンスプライトを連動させ、ユニコーンを虹のリズムに合わせてダンスさせます。 これは、踊っているユニコーンと虹がどのように見えるかを示すビデオです。<video width="560" height="315" controls> <source src="resources/Screencast.mp4" type="video/mp4"> お使いのブラウザはビデオタグをサポートしていません。FireFoxまたはChromeをお試しください </video> 
 
-Once you have trained your unicorn to dance to your rainbow, you can learn how to use the rainbow to make the unicorn do tricks or play a game.
+ユニコーンを虹に合わせて踊るように訓練したら、レインボーを使用してユニコーンにトリックをさせたりゲームをプレイしたりする方法がわかるようになります。
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: 必要なもの
 
-### Hardware
+### ハードウェア
 
-+ A Raspberry Pi
-+ A breadboard
-+ 3 or more colourful LEDs
-+ Resistors (at least 100 ohms), **1 per LED**
-+ 1× button
-+ Male-to-female jumper wires, **1 per LED**
-+ 2× additional male-to-female jumper wires
-+ 1× male-to-male jumper wire
++ Raspberry Pi　1台
++ ブレッドボード　1台
++ 様々な色のLED　3個以上
++ 抵抗（100オーム以上）、** LED1個に1本 **
++ 押しボタンスイッチ　1個
++ オス－メス ジャンパー線、**LED1個に1本**
++ オスーメス ジャンパー線　それ以外に2本
++ オスーオス ジャンパー線　1本
 
-For the optional final challenge:
+オプションの最終チャレンジ用に：
 
-+ 1× buzzer
-+ 2× additional male-to-female jumper wires
++ ブザー　1個
++ オスーメス ジャンパー線　それ以外にもう2本
 
-### Software
+### ソフトウェア
 
-You will need the latest version of Raspbian, which already includes the following software package:
+Raspbianの最新バージョンが必要です。これには、すでに次のソフトウェアが含まれています。
 
 + Scratch 3
 
@@ -41,22 +41,22 @@ sudo apt-get update
 sudo apt-get install scratch3
 ```
 
-**Note:** Scratch 3 will **only** work on the Raspberry Pi 4. \--- /collapse \---
+**注意： **Scratch 3はRaspberry Pi 4で**だけ**動きます。 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: 学ぶこと
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+このプロジェクトでは[Raspberry Pi デジタル・メイキング・カリキュラム](http://rpf.io/curriculum){:target="_blank"}（英語）の柱である、以下の要素を学びます。
 
-+ [Combine inputs and/or outputs to create projects or solve a problem](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
++ [入力と出力を組み合わせてプロジェクトを作成、または問題を解決する](https://curriculum.raspberrypi.org/physical-computing/builder/) {:target="_ blank"}
 
-+ [Apply basic programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"} \--- /collapse \---
++ [基本的なプログラミング構造を使って問題を解決する](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank} \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: 教育者向けの追加情報
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}.
+このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_ blank"}を使用してください。
 
-You can find the full solution for this project at [rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get) \--- /collapse \---
+このプロジェクトの完全なソリューションは、[rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get)にあります \--- /collapse \---
