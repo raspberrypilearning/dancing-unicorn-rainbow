@@ -1,4 +1,6 @@
---- no-print --- これは、このプロジェクトのスクラッチ3バージョンです。 [Scratch 2バージョンはここにあります。](https://projects.raspberrypi.org/ja-JP/projects/dancing-unicorn-rainbow-scratch2) --- / no-print ---
+--- no-print --- 
+これは、このプロジェクトのスクラッチ3バージョンです。 [Scratch 2バージョンはここにあります。](https://projects.raspberrypi.org/ja-JP/projects/dancing-unicorn-rainbow-scratch2) 
+--- /no-print ---
 
 ## はじめに
 
