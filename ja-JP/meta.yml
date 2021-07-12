@@ -1,0 +1,30 @@
+---
+title: ユニコーンと虹が踊る
+hero_image: images/banner.png
+description: LEDの虹に合わせて踊るユニコーンを作る
+theme: violet #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 2, design-0, programming-2, phys-comp-2, manufacture-0, community-0
+interests: humour, games
+technologies: electronic-components, scratch
+site_areas: projects
+hardware: electronic-components
+software: scratch
+version: 4
+last_tested: 2018-02-01
+steps:
+  - title: はじめに
+  - title: "虹の周辺"
+  - title: "虹の1つ目の色"
+  - title: Scratchで回路をテストする
+  - title: 虹色発光回路を操作する
+  - title: 虹を作る
+  - title: 虹を光らせる
+  - title: 踊るユニコーンを作る
+  - title: 押しボタンスイッチを追加する
+  - title: "チャレンジ：踊るユニコーンと虹で楽しむ"
+    challenge: true
+  - title: 次は何をしますか？
