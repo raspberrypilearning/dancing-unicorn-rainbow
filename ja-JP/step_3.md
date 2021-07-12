@@ -1,9 +1,9 @@
-## Your rainbow's first colour
+## 虹の1つ目の色
 
-You will now light up the rainbow's first colour with an LED. Choose any colour you wish, but here we've gone with the red colour of the rainbow spectrum (red, orange, yellow, green, blue, indigo, violet).
+虹の1つ目の色をLEDで光らせます。 好きな色を選んでいいですが、ここでは虹の7色（赤、オレンジ、黄色、緑、青、藍、紫）から赤にしました。
 
-\--- task \--- Create a circuit to connect your LED to the Raspberry Pi. Your circuit will light up the rainbow's first colour. \--- /task \---
+\--- task \--- LEDをRaspberry Piに接続する回路を作ります。 その回路は虹の1つ目の色で光ります。 \--- /task \---
 
-If you have never connected an LED before, click below for information about LED circuits, and for detailed instructions.
+これまでにLEDを使ったことがない場合は、以下をクリックしてLED回路の情報と詳細な手順を確認してください。
 
 \[[[rpi-led-info]]\] \[[[rpi-connect-led\]]]
