@@ -1,7 +1,7 @@
 ---
-title: Dancing unicorns and rainbows
+title: ユニコーンと虹が踊る
 hero_image: images/banner.png
-description: Create a unicorn that dances in time with an LED rainbow
+description: LEDの虹に合わせて踊るユニコーンを作る
 theme: violet #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
@@ -17,25 +17,25 @@ version: 4
 last_tested: 2018-02-01
 steps:
   - 
-    title: Introduction
+    title: はじめに
   - 
-    title: "Your rainbow's atmosphere"
+    title: "虹の周辺"
   - 
-    title: "Your rainbow's first colour"
+    title: "虹の1つ目の色"
   - 
-    title: Test your circuit in Scratch
+    title: Scratchで回路をテストする
   - 
-    title: Control your rainbow circuit
+    title: 虹色発光回路を操作する
   - 
-    title: Build your rainbow
+    title: 虹を作る
   - 
-    title: Light your rainbow
+    title: 虹を光らせる
   - 
-    title: Make a dancing unicorn
+    title: 踊るユニコーンを作る
   - 
-    title: Add a button
+    title: 押しボタンスイッチを追加する
   - 
-    title: "Challenge: Fun with your dancing unicorn rainbow."
+    title: "チャレンジ：踊るユニコーンと虹で楽しむ"
     challenge: true
   - 
-    title: What next?
+    title: 次は何をしますか？
