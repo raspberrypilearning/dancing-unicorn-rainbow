@@ -1,35 +1,35 @@
-## Build your rainbow
+## 虹を作る
 
-In this step, you will assemble your rainbow and program its LEDs to blink in a rainbow pattern.
+このステップでは、LEDで虹を作り、そのLEDが虹色に点滅するようにプログラムします。
 
-\--- task \--- Find all the LEDs you are going to use, and make sure you also have the right number of jumper wires and resistors (one each per LED). \--- /task \---
+\--- task \--- 使用するLEDをすべて取り出し、ジャンパー線と抵抗が必要数（LED1個につき各1本）あることを確認します。 \--- /task \---
 
-\--- task \--- Rearrange the circuit you already have to make room for the other colours of your rainbow. \--- /task \---
+\--- task \--- 虹の他の色のためのスペースを確保するために、すでにある回路を配置しなおします。 \--- /task \---
 
-![Circuit Rearranged](images/oneled.png)
+![再配置された回路](images/oneled.png)
 
-### Ground the rainbow
+### 虹をグラウンドに
 
-\--- task \--- So that your rainbow shines brightly and is not covered by too many jumper wires, all LEDs should share one **Ground (GND)** pin. You can do set them up like this by rearranging your components on the breadboard a little.
+\--- task \--- 虹が明るく輝き、ジャンパー線で覆い隠されないようにするために、すべてのLEDで1つの**グラウンド（GND）**ピンを共有します。 ブレッドボード上の部品を少し並べ替えることで、このように組み上げることができます。
 
-The breadboard looks like this inside:
+ブレッドボードはこのような構造です。
 
-![Breadboard Cross-Section](images/breadboardxsection.png)
+![ブレッドボードの断面](images/breadboardxsection.png)
 
-To ground the whole rainbow with one jumper wire: \--- /task \---
+1本のジャンパー線で虹の全てをグラウンドに接続するには： \--- / task \---
 
-\--- task \--- Connect the jumper wire attached to **GND** to a breadboard **rail** \--- /task \---
+\--- task \--- **GND**に接続されたジャンパー線をブレッドボードの**レール**に差し込みます。 \--- /task \---
 
-\--- task \--- Make sure resistors connect to the same rail as the **GND** jumper wire and to the same **bar** as the LED they belong to: \--- /task \---
+\--- task \--- 抵抗が**GND**ジャンパー線と同じレールに接続されていることと、同じ回路のLEDの**バー**に接続されていることを確認します： \--- / task \---
 
-![Adding LEDs](images/twoleds.png)
+![LEDの追加](images/twoleds.png)
 
-### Complete the rainbow
+### 虹を完成させる
 
-\--- task \--- Add the rest of your LEDs, jumper wires, and resistors to the breadboard in a colour arrangement of your choice. Make sure to leave room for a button at the end. \--- /task \---
+\---タスク\--- 残りのLED、ジャンパー線、抵抗を、お好みの色の並べ方でブレッドボードに配置します。 最後の方は押しボタンスイッチのスペースを空けておいてください。 \--- /task \---
 
-If you are using many different colours, it might help to match the colour of the jumper wires to your LEDs.
+多くの異なる色を使用している場合は、ジャンパー線の色をLEDに合わせるとわかりやすいです。
 
-Your rainbow should look similar to this one:
+虹はこのようになります。
 
-![Rainbow LEDs](images/rainbowleds.png)
+![虹色のLED](images/rainbowleds.png)
