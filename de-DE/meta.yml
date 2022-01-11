@@ -1,7 +1,8 @@
+---
 title: Tanzende Einhörner und Regenbogen
 hero_image: images/banner.png
 description: Erstelle ein Einhorn, das synchron mit einem LED-Regenbogen tanzt
-theme: violet #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: violet
 duration: 2
 listed: true
 ingredient: false
@@ -15,15 +16,17 @@ software: scratch
 version: 4
 last_tested: 2018-02-01
 steps:
-  - title: Einleitung
-  - title: "Deine Regenbogenatmosphäre"
-  - title: "Die erste Farbe deines Regenbogens"
-  - title: Teste deine Schaltung in Scratch
-  - title: Steuere deine Regenbogen-Schaltung
-  - title: Baue deinen Regenbogen
-  - title: Erleuchte deinen Regenbogen
-  - title: Erstelle ein tanzendes Einhorn
-  - title: Füge einen Taster hinzu
-  - title: "Herausforderung: Spaß mit deinem tanzenden Einhorn-Regenbogen"
-    challenge: true
-  - title: Was kommt als nächstes?
+- title: Einleitung
+  completion: engaged
+- title: Deine Regenbogenatmosphäre
+- title: Die erste Farbe deines Regenbogens
+- title: Teste deine Schaltung in Scratch
+- title: Steuere deine Regenbogen-Schaltung
+- title: Baue deinen Regenbogen
+- title: Erleuchte deinen Regenbogen
+- title: Erstelle ein tanzendes Einhorn
+  completion: internal
+- title: Füge einen Taster hinzu
+- title: 'Herausforderung: Spaß mit deinem tanzenden Einhorn-Regenbogen'
+  challenge: true
+- title: Was kommt als nächstes?

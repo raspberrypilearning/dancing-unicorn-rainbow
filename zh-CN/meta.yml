@@ -2,7 +2,7 @@
 title: 跳舞的独角兽和彩虹
 hero_image: images/banner.png
 description: 制作一个与LED彩虹一起跳舞的独角兽
-theme: violet #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: violet
 duration: 2
 listed: true
 ingredient: false
@@ -16,15 +16,17 @@ software: scratch
 version: 4
 last_tested: 2018-02-01
 steps:
-  - title: 介绍
-  - title: "你彩虹的氛围"
-  - title: "彩虹的第一道颜色"
-  - title: 在Scratch中测试电路
-  - title: 控制你的彩虹电路
-  - title: 构建彩虹
-  - title: 点亮彩虹
-  - title: 做一个跳舞的独角兽
-  - title: 添加按钮
-  - title: "挑战：与跳舞的独角兽和彩虹一起玩吧。"
-    challenge: true
-  - title: 接下来呢？
+- title: 介绍
+  completion: engaged
+- title: 你彩虹的氛围
+- title: 彩虹的第一道颜色
+- title: 在Scratch中测试电路
+- title: 控制你的彩虹电路
+- title: 构建彩虹
+- title: 点亮彩虹
+- title: 做一个跳舞的独角兽
+  completion: internal
+- title: 添加按钮
+- title: 挑战：与跳舞的独角兽和彩虹一起玩吧。
+  challenge: true
+- title: 接下来呢？
