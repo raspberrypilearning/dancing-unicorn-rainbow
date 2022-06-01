@@ -2,7 +2,7 @@
 title: Танцюючі єдинороги та веселки
 hero_image: images/banner.png
 description: Створи єдинорога, що танцює в ритм світлодіодної веселки
-theme: violet #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: violet
 duration: 2
 listed: true
 ingredient: false
@@ -16,15 +16,19 @@ software: scratch
 version: 4
 last_tested: 2018-02-01
 steps:
-  - title: Вступ
-  - title: "Атмосфера твоєї веселки"
-  - title: "Перший колір твоєї веселки"
-  - title: Перевір своє електричне коло в Скретч
-  - title: Керуй своїм електричним колом для веселки
-  - title: Створи свою веселку
-  - title: Засвіти свою веселку
-  - title: Створи танцюючого єдинорога
-  - title: Додай кнопку
-  - title: "Завдання: забави із танцюючим єдинорогом та веселкою"
-    challenge: true
-  - title: Що далі?
+- title: Вступ
+- title: Атмосфера твоєї веселки
+- title: Перший колір твоєї веселки
+  completion:
+  - engaged
+- title: Перевір своє електричне коло в Скретч
+- title: Керуй своїм електричним колом для веселки
+- title: Створи свою веселку
+- title: Засвіти свою веселку
+- title: Створи танцюючого єдинорога
+- title: Додай кнопку
+  completion:
+  - internal
+- title: 'Завдання: забави із танцюючим єдинорогом та веселкою'
+  challenge: true
+- title: Що далі?

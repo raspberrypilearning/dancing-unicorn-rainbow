@@ -2,7 +2,7 @@
 title: Unicorni danzanti e arcobaleni
 hero_image: images/banner.png
 description: Crea un unicorno che danza a tempo con un arcobaleno LED
-theme: violet #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: violet
 duration: 2
 listed: true
 ingredient: false
@@ -16,15 +16,19 @@ software: scratch
 version: 4
 last_tested: 2018-02-01
 steps:
-  - title: Introduzione
-  - title: "L'atmosfera del tuo arcobaleno"
-  - title: "Il primo colore del tuo arcobaleno"
-  - title: Prova il tuo circuito in Scratch
-  - title: Controlla il circuito dell'arcobaleno
-  - title: Costruisci il tuo arcobaleno
-  - title: Accendi il tuo arcobaleno
-  - title: Crea un unicorno danzante
-  - title: Aggiungi un pulsante
-  - title: "Sfida: divertiti con il tuo arcobaleno degli unicorni danzanti"
-    challenge: true
-  - title: E poi?
+- title: Introduzione
+- title: L'atmosfera del tuo arcobaleno
+- title: Il primo colore del tuo arcobaleno
+  completion:
+  - engaged
+- title: Prova il tuo circuito in Scratch
+- title: Controlla il circuito dell'arcobaleno
+- title: Costruisci il tuo arcobaleno
+- title: Accendi il tuo arcobaleno
+- title: Crea un unicorno danzante
+- title: Aggiungi un pulsante
+  completion:
+  - internal
+- title: 'Sfida: divertiti con il tuo arcobaleno degli unicorni danzanti'
+  challenge: true
+- title: E poi?
