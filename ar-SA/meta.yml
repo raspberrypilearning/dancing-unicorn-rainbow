@@ -17,16 +17,18 @@ version: 4
 last_tested: 2018-02-01
 steps:
 - title: المقدمة
-  completion: engaged
 - title: الجو الخاص بقوس قزحك
 - title: اللون الاول لقوس قزح الخاص بك
+  completion:
+  - engaged
 - title: اختبار الدائرة الخاصة بك في برنامج Scratch
 - title: التحكم في دائرة قوس قزح
 - title: بناء قوس قزحك
 - title: أضيء قوس قزحك
 - title: اصنع وحيد قرن راقص
-  completion: internal
 - title: إضافة زر
+  completion:
+  - internal
 - title: 'التحدي: المرح مع قوس قزح وحيد القرن الراقص.'
   challenge: true
 - title: ما التالي؟

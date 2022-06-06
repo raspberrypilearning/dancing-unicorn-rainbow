@@ -17,16 +17,18 @@ version: 4
 last_tested: 2018-02-01
 steps:
 - title: 介绍
-  completion: engaged
 - title: 你彩虹的氛围
 - title: 彩虹的第一道颜色
+  completion:
+  - engaged
 - title: 在Scratch中测试电路
 - title: 控制你的彩虹电路
 - title: 构建彩虹
 - title: 点亮彩虹
 - title: 做一个跳舞的独角兽
-  completion: internal
 - title: 添加按钮
+  completion:
+  - internal
 - title: 挑战：与跳舞的独角兽和彩虹一起玩吧。
   challenge: true
 - title: 接下来呢？

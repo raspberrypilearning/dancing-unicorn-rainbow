@@ -17,16 +17,18 @@ version: 4
 last_tested: 2018-02-01
 steps:
 - title: Wprowadzenie
-  completion: engaged
 - title: Atmosfera twojej tęczy
 - title: Pierwszy kolor twojej tęczy
+  completion:
+  - engaged
 - title: Przetestuj swój obwód w Scratchu
 - title: Kontroluj obwód twojej tęczy
 - title: Zbuduj swoją tęczę
 - title: Zapal swoją tęczę
 - title: Zrób tańczącego jednorożca
-  completion: internal
 - title: Dodaj przycisk
+  completion:
+  - internal
 - title: 'Wyzwanie: baw się tańczącym jednorożcem i tęczą'
   challenge: true
 - title: Co dalej?

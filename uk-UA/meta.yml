@@ -17,16 +17,18 @@ version: 4
 last_tested: 2018-02-01
 steps:
 - title: Вступ
-  completion: engaged
 - title: Атмосфера твоєї веселки
 - title: Перший колір твоєї веселки
+  completion:
+  - engaged
 - title: Перевір своє електричне коло в Скретч
 - title: Керуй своїм електричним колом для веселки
 - title: Створи свою веселку
 - title: Засвіти свою веселку
 - title: Створи танцюючого єдинорога
-  completion: internal
 - title: Додай кнопку
+  completion:
+  - internal
 - title: 'Завдання: забави із танцюючим єдинорогом та веселкою'
   challenge: true
 - title: Що далі?

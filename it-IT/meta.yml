@@ -17,16 +17,18 @@ version: 4
 last_tested: 2018-02-01
 steps:
 - title: Introduzione
-  completion: engaged
 - title: L'atmosfera del tuo arcobaleno
 - title: Il primo colore del tuo arcobaleno
+  completion:
+  - engaged
 - title: Prova il tuo circuito in Scratch
 - title: Controlla il circuito dell'arcobaleno
 - title: Costruisci il tuo arcobaleno
 - title: Accendi il tuo arcobaleno
 - title: Crea un unicorno danzante
-  completion: internal
 - title: Aggiungi un pulsante
+  completion:
+  - internal
 - title: 'Sfida: divertiti con il tuo arcobaleno degli unicorni danzanti'
   challenge: true
 - title: E poi?

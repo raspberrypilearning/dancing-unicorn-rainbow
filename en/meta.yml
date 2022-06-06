@@ -17,16 +17,18 @@ version: 4
 last_tested: 2018-02-01
 steps:
 - title: Introduction
-  completion: engaged
 - title: Your rainbow's atmosphere
 - title: Your rainbow's first colour
+  completion:
+  - engaged
 - title: Test your circuit in Scratch
 - title: Control your rainbow circuit
 - title: Build your rainbow
 - title: Light your rainbow
 - title: Make a dancing unicorn
-  completion: internal
 - title: Add a button
+  completion:
+  - internal
 - title: 'Challenge: Fun with your dancing unicorn rainbow.'
   challenge: true
 - title: What next?

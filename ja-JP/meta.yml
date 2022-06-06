@@ -17,16 +17,18 @@ version: 4
 last_tested: 2018-02-01
 steps:
 - title: はじめに
-  completion: engaged
 - title: 虹の周辺
 - title: 虹の1つ目の色
+  completion:
+  - engaged
 - title: Scratchで回路をテストする
 - title: 虹色発光回路を操作する
 - title: 虹を作る
 - title: 虹を光らせる
 - title: 踊るユニコーンを作る
-  completion: internal
 - title: 押しボタンスイッチを追加する
+  completion:
+  - internal
 - title: チャレンジ：踊るユニコーンと虹で楽しむ
   challenge: true
 - title: 次は何をしますか？

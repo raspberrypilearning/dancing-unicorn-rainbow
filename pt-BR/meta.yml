@@ -17,16 +17,18 @@ version: 4
 last_tested: 2018-02-01
 steps:
 - title: Introdução
-  completion: engaged
 - title: A atmosfera do seu arco-íris
 - title: A primeira cor do seu arco-íris
+  completion:
+  - engaged
 - title: Teste o seu circuito no Scratch
 - title: Controle o seu circuito de arco-íris
 - title: Construa seu arco-íris
 - title: Ilumine o seu arco-íris
 - title: Faça um unicórnio dançarino
-  completion: internal
 - title: Adicione um botão
+  completion:
+  - internal
 - title: 'Desafio: Diversão com o arco-íris do seu unicórnio dançarino'
   challenge: true
 - title: E agora?

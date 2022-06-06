@@ -17,16 +17,18 @@ version: 4
 last_tested: 2018-02-01
 steps:
 - title: Einleitung
-  completion: engaged
 - title: Deine Regenbogenatmosphäre
 - title: Die erste Farbe deines Regenbogens
+  completion:
+  - engaged
 - title: Teste deine Schaltung in Scratch
 - title: Steuere deine Regenbogen-Schaltung
 - title: Baue deinen Regenbogen
 - title: Erleuchte deinen Regenbogen
 - title: Erstelle ein tanzendes Einhorn
-  completion: internal
 - title: Füge einen Taster hinzu
+  completion:
+  - internal
 - title: 'Herausforderung: Spaß mit deinem tanzenden Einhorn-Regenbogen'
   challenge: true
 - title: Was kommt als nächstes?
