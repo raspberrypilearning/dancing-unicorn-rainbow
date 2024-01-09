@@ -21,42 +21,42 @@ Als je eenmaal je eenhoorn hebt getraind om op je regenboog te dansen, kun je le
 + 3 of meer kleurrijke LED's
 + Weerstanden (minimaal 100 ohm), **1 per LED**
 + 1 × knop
-+ Man-vrouw verbindingsdraden, **1 per LED**
-+ 2 × extra man-vrouw verbindingsdraden
-+ 1 × man-man verbindingsdraad
++ Pin-to-socket jumper wires, **1 per LED**
++ 2× additional pin-to-socket jumper wires
++ 1× pin-to-pin jumper wire
 
 Voor de optionele slotuitdaging:
 
 + 1 × zoemer
-+ 2 × extra man-vrouw verbindingsdraden
++ 2× additional pin-to-socket jumper wires
 
 ### Software
 
-Je hebt de nieuwste versie van Raspbian nodig, die al de volgende software pakketten bevat:
+You will need the latest version of Raspbian, and you will need to install Scratch 3 Desktop.
 
-+ Scratch 3
+Open a terminal and type the following:
 
 ```bash
 sudo apt-get update
 sudo apt-get install scratch3
 ```
 
-**Opmerking:** Scratch 3 werkt **alleen ** op de Raspberry Pi 4. \--- /collapse \---
+**Note:** Scratch 3 will **only** work on the Raspberry Pi 4. \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Wat ga je leren
 
-Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Combineer ingangen en/of uitgangen om projecten te maken of een probleem op te lossen](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
++ [Combine inputs and/or outputs to create projects or solve a problem](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
 
-+ [Gebruik programmeer constructies om om een probleem op te lossen](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank} \--- /collapse \---
++ [Apply basic programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"} \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Aanvullende informatie voor docenten
 
-Als je dit project wilt afdrukken, gebruik dan de [printervriendelijke versie](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}.
 
-Je kunt de volledige oplossing voor dit project vinden op [rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get) \--- /collapse \---
+You can find the full solution for this project at [rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get) \--- /collapse \---
