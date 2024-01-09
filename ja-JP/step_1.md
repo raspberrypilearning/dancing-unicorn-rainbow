@@ -21,42 +21,42 @@ Scratchを使用して、LEDの虹とユニコーンスプライトを連動さ�
 + 様々な色のLED　3個以上
 + 抵抗（100オーム以上）、** LED1個に1本 **
 + 押しボタンスイッチ　1個
-+ オス－メス ジャンパー線、**LED1個に1本**
-+ オスーメス ジャンパー線　それ以外に2本
-+ オスーオス ジャンパー線　1本
++ Pin-to-socket jumper wires, **1 per LED**
++ 2× additional pin-to-socket jumper wires
++ 1× pin-to-pin jumper wire
 
 オプションの最終チャレンジ用に：
 
 + ブザー　1個
-+ オスーメス ジャンパー線　それ以外にもう2本
++ 2× additional pin-to-socket jumper wires
 
 ### ソフトウェア
 
-Raspbianの最新バージョンが必要です。これには、すでに次のソフトウェアが含まれています。
+You will need the latest version of Raspbian, and you will need to install Scratch 3 Desktop.
 
-+ Scratch 3
+Open a terminal and type the following:
 
 ```bash
 sudo apt-get update
 sudo apt-get install scratch3
 ```
 
-**注意： **Scratch 3はRaspberry Pi 4で**だけ**動きます。 \--- /collapse \---
+**Note:** Scratch 3 will **only** work on the Raspberry Pi 4. \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: 学ぶこと
 
-このプロジェクトでは[Raspberry Pi デジタル・メイキング・カリキュラム](http://rpf.io/curriculum){:target="_blank"}（英語）の柱である、以下の要素を学びます。
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [入力と出力を組み合わせてプロジェクトを作成、または問題を解決する](https://curriculum.raspberrypi.org/physical-computing/builder/) {:target="_ blank"}
++ [Combine inputs and/or outputs to create projects or solve a problem](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
 
-+ [基本的なプログラミング構造を使って問題を解決する](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank} \--- /collapse \---
++ [Apply basic programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"} \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: 教育者向けの追加情報
 
-このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_ blank"}を使用してください。
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}.
 
-このプロジェクトの完全なソリューションは、[rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get)にあります \--- /collapse \---
+You can find the full solution for this project at [rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get) \--- /collapse \---
