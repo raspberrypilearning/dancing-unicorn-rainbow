@@ -21,42 +21,42 @@ Une fois que tu as appris à ta licorne à danser sur ton arc-en-ciel, tu peux a
 + 3 LED colorées ou plus
 + Résistances (au moins 100 ohms), **1 par LED**
 + 1 × bouton
-+ Fils de cavalier mâle à femelle, **1 par LED**
-+ 2 x fils supplémentaires de cavalier mâle à femelle
-+ 1 x fil de cavalier mâle à mâle
++ Pin-to-socket jumper wires, **1 per LED**
++ 2× additional pin-to-socket jumper wires
++ 1× pin-to-pin jumper wire
 
 Pour le défi final facultatif :
 
 + 1 × buzzer
-+ 2 x fils supplémentaires de cavalier mâle à femelle
++ 2× additional pin-to-socket jumper wires
 
 ### Logiciel
 
-Tu auras besoin de la dernière version de Raspbian, qui inclut déjà le paquet logiciel suivant :
+You will need the latest version of Raspbian, and you will need to install Scratch 3 Desktop.
 
-+ Scratch 3
+Open a terminal and type the following:
 
 ```bash
 sudo apt-get update
 sudo apt-get install scratch3
 ```
 
-** Remarque : ** Scratch 3 fonctionnera **uniquement** sur le Raspberry Pi 4. \--- /collapse \---
+**Note:** Scratch 3 will **only** work on the Raspberry Pi 4. \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Ce que tu vas apprendre
 
-Ce projet couvre les éléments des sections suivantes du [Programme Raspberry Pi de création numérique](http://rpf.io/curriculum){:target="_blank"} :
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Combiner les entrées et/ou les sorties pour créer des projets ou résoudre un problème](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
++ [Combine inputs and/or outputs to create projects or solve a problem](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
 
-+ [Appliquer des constructions de programmation de base pour résoudre un problème](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
++ [Apply basic programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"} \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Informations supplémentaires pour les éducateurs
 
-Si vous besoin d'imprimer ce projet, utilisez la [version imprimable](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}.
 
-Vous pouvez trouver la solution complète pour ce projet à [rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get)
+You can find the full solution for this project at [rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get) \--- /collapse \---
