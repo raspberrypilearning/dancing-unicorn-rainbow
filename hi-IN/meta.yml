@@ -2,7 +2,7 @@
 title: नाचते-गाते काल्पनिक जानवर और इंद्रधनुष
 hero_image: images/banner.png
 description: एक काल्पनिक जानवर बनाए जो LED इंद्रधनुष के साथ नाचें
-theme: violet #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: violet
 duration: 2
 listed: true
 ingredient: false
@@ -19,9 +19,11 @@ steps:
   - 
     title: परिचय
   - 
-    title: "आपके इंद्रधनुष का वातावरण"
+    title: आपके इंद्रधनुष का वातावरण
   - 
-    title: "आपके इंद्रधनुष का पहला रंग"
+    title: आपके इंद्रधनुष का पहला रंग
+    completion:
+      - engaged
   - 
     title: Scratch में अपने सर्किट का परीक्षण करें
   - 
@@ -34,8 +36,10 @@ steps:
     title: नाचने वाला काल्पनिक जानवर बनाना
   - 
     title: एक बटन जोड़ें
+    completion:
+      - internal
   - 
-    title: "चुनौती: अपने काल्पनिक जानवर और इंद्रधनुष के साथ मज़ा।"
+    title: 'चुनौती: अपने काल्पनिक जानवर और इंद्रधनुष के साथ मज़ा।'
     challenge: true
   - 
     title: आगे क्या?
