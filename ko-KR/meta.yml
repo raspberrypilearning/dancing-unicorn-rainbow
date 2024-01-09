@@ -2,7 +2,7 @@
 title: 춤추는 유니콘과 무지개
 hero_image: images/banner.png
 description: LED 무지개와 함께 춤추는 유니콘 만들기
-theme: violet #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: violet
 duration: 2
 listed: true
 ingredient: false
@@ -19,9 +19,11 @@ steps:
   - 
     title: 소개
   - 
-    title: "무지개의 분위기"
+    title: 무지개의 분위기
   - 
-    title: "무지개의 첫번째 색"
+    title: 무지개의 첫번째 색
+    completion:
+      - engaged
   - 
     title: 스크래치에서 회로 테스트하기
   - 
@@ -34,8 +36,10 @@ steps:
     title: 춤추는 유니콘 만들기
   - 
     title: 버튼 추가
+    completion:
+      - internal
   - 
-    title: "도전 과제: 재밌는 유니콘 무지개 춤"
+    title: '도전 과제: 재밌는 유니콘 무지개 춤'
     challenge: true
   - 
     title: 더 나아가기
