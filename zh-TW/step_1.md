@@ -21,42 +21,42 @@
 + 3個或3個以上的彩色LED
 + 電阻（至少100歐姆），**每個LED 1個**
 + 1個按鈕
-+ 公對母跳線，**每個LED 1條**
-+ 2條額外的公對母跳線
-+ 1條公對公跳線
++ Pin-to-socket jumper wires, **1 per LED**
++ 2× additional pin-to-socket jumper wires
++ 1× pin-to-pin jumper wire
 
 選擇性的最後挑戰: 
 
 + 1個蜂鳴器
-+ 2條額外的公對母跳線
++ 2× additional pin-to-socket jumper wires
 
 ### 軟體
 
-你需要最新版本的 Raspbian , 其中包含了以下的軟體套件: 
+You will need the latest version of Raspbian, and you will need to install Scratch 3 Desktop.
 
-+ Scratch 3
+Open a terminal and type the following:
 
 ```bash
 sudo apt-get update
 sudo apt-get install scratch3
 ```
 
-**注意:**Scratch 3 **只能**在 Raspberry Pi 4 上工作 \--- /collapse \---
+**Note:** Scratch 3 will **only** work on the Raspberry Pi 4. \--- /collapse \---
 
 ## \--- collapse \---
 
 ## 標題：學習重點 
 
-此專案包括了以下的[Raspberry Pi數位製作課程](http://rpf.io/curriculum){:target="_blank"}:
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [連結輸入和/或輸出來建立專案或解決問題](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
++ [Combine inputs and/or outputs to create projects or solve a problem](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
 
-+ [使用基本的程式結構來解決問題](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"} \--- /collapse \---
++ [Apply basic programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"} \--- /collapse \---
 
 ## \---- 自動隱藏選單 \---
 
 ## title: 給教師的其它資訊
 
-如果你需要列印這個專案，請使用[列印友好模式](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}。
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}.
 
-你可以在[ rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get)中找到這個專案的完整解決方案 \--- /collapse \---
+You can find the full solution for this project at [rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get) \--- /collapse \---
