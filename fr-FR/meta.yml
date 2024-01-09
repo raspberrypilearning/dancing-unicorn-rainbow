@@ -2,7 +2,7 @@
 title: Licornes dansantes et arcs-en-ciel
 hero_image: images/banner.png
 description: Crée une licorne qui danse dans le temps avec un arc-en-ciel à LED
-theme: violet #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: violet
 duration: 2
 listed: true
 ingredient: false
@@ -19,9 +19,11 @@ steps:
   - 
     title: Introduction
   - 
-    title: "L'atmosphère de ton arc-en-ciel"
+    title: L'atmosphère de ton arc-en-ciel
   - 
-    title: "La première couleur de ton arc-en-ciel"
+    title: La première couleur de ton arc-en-ciel
+    completion:
+      - engaged
   - 
     title: Teste ton circuit dans Scratch
   - 
@@ -34,8 +36,10 @@ steps:
     title: Faire une licorne dansante
   - 
     title: Ajoute un bouton
+    completion:
+      - internal
   - 
-    title: "Défi: amuse-toi avec ton arc-en-ciel licorne dansant."
+    title: 'Défi: amuse-toi avec ton arc-en-ciel licorne dansant.'
     challenge: true
   - 
     title: Et ensuite ?
