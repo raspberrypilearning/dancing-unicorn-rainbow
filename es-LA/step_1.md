@@ -21,20 +21,20 @@ Once you have trained your unicorn to dance to your rainbow, you can learn how t
 + 3 or more colourful LEDs
 + Resistors (at least 100 ohms), **1 per LED**
 + 1× button
-+ Male-to-female jumper wires, **1 per LED**
-+ 2× additional male-to-female jumper wires
-+ 1× male-to-male jumper wire
++ Pin-to-socket jumper wires, **1 per LED**
++ 2× additional pin-to-socket jumper wires
++ 1× pin-to-pin jumper wire
 
 For the optional final challenge:
 
 + 1× buzzer
-+ 2× additional male-to-female jumper wires
++ 2× additional pin-to-socket jumper wires
 
 ### Software
 
-You will need the latest version of Raspbian, which already includes the following software package:
+You will need the latest version of Raspbian, and you will need to install Scratch 3 Desktop.
 
-+ Scratch 3
+Open a terminal and type the following:
 
 ```bash
 sudo apt-get update
@@ -57,6 +57,6 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 ## title: Additional information for educators
 
-Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}.
 
-Puedes encontrar la solución completa para este proyecto en [rpf.io/p/es/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get) \--- /collapse \---
+You can find the full solution for this project at [rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get) \--- /collapse \---
