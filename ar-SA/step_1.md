@@ -21,42 +21,42 @@
 + 3 أو أكثر من مصابيح LED الملونة
 + مقاومات (100 اوم على الاقل)، **1 لكل مصباح LED**
 + 1× زر
-+ أسلاك التوصيل من ذكر إلى أنثى، ** 1 لكل LED **
-+ 2× أسلاك توصيل إضافية من ذكر إلى انثى
-+ 1× سلك موصل من ذكر إلى ذكر
++ Pin-to-socket jumper wires, **1 per LED**
++ 2× additional pin-to-socket jumper wires
++ 1× pin-to-pin jumper wire
 
 فيما يتعلق بالتحدي النهائي الاختياري:
 
 + 1× buzzer جرس
-+ 2× أسلاك توصيل إضافية من ذكر إلى انثى
++ 2× additional pin-to-socket jumper wires
 
 ### البرامج
 
-ستحتاج إلى أحدث إصدار من نظام التشغيل Raspbian، والذي يتضمن بالفعل حزمة البرامج التالية:
+You will need the latest version of Raspbian, and you will need to install Scratch 3 Desktop.
 
-+ سكراتش Scratch3.0
+Open a terminal and type the following:
 
 ```bash
 sudo apt-get update
 sudo apt-get install scratch3
 ```
 
-**ملاحظة:** سيعمل برنامج Scratch 3** فقط ** على Raspberry Pi 4. \--- /collapse \---
+**Note:** Scratch 3 will **only** work on the Raspberry Pi 4. \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: ما الذي ستتعلمه
 
-يتناول هذا المشروع عناصر من [معايير المناهج الرقمية الخاصة بـ Raspberry Pi](http://rpf.io/curriculum) {:target="_blank"}:
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [دمج المدخلات و/أو المخرجات لإنشاء مشاريع أو حل مشكلة](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
++ [Combine inputs and/or outputs to create projects or solve a problem](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
 
-+ [استخدام تراكيب البرمجة الأساسية لإنشاء برامج بسيطة](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"} \--- /collapse \---
++ [Apply basic programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"} \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: معلومات إضافية للمعلمين
 
-إذا كنت بحاجة إلى طباعة هذا المشروع، فالرجاء استخدام [نسخة متوافقة مع الطابعة](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}.
 
-يمكنك العثور على الحل الكامل لهذا المشروع في [rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get) \--- /collapse \---
+You can find the full solution for this project at [rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get) \--- /collapse \---
