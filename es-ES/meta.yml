@@ -2,7 +2,7 @@
 title: Unicornios y arcoiris que bailan
 hero_image: images/banner.png
 description: Crea un unicornio que baile al compás de un arcoiris LED
-theme: violeta #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: violeta
 duration: 2
 listed: true
 ingredient: false
@@ -19,9 +19,11 @@ steps:
   - 
     title: Introducción
   - 
-    title: "La atmósfera de tu arcoiris"
+    title: La atmósfera de tu arcoiris
   - 
-    title: "El primer color de tu arcoiris"
+    title: El primer color de tu arcoiris
+    completion:
+      - engaged
   - 
     title: Prueba tu circuito en Scratch
   - 
@@ -34,8 +36,10 @@ steps:
     title: Haz un unicornio que baila
   - 
     title: Añade un botón
+    completion:
+      - internal
   - 
-    title: "Desafío: Diversión con tu unicornio arcoiris que baila."
+    title: 'Desafío: Diversión con tu unicornio arcoiris que baila.'
     challenge: true
   - 
     title: '¿Qué sigue?'
