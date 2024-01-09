@@ -2,7 +2,7 @@
 title: وحيدي القرن وأقواس قزح راقصة
 hero_image: images/banner.png
 description: إنشاء وحيد قرن يرقص بنفس الوقت مع ضوء (LED) قوس قزح
-theme: violet #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: violet
 duration: 2
 listed: true
 ingredient: false
@@ -19,9 +19,11 @@ steps:
   - 
     title: المقدمة
   - 
-    title: "الجو الخاص بقوس قزحك"
+    title: الجو الخاص بقوس قزحك
   - 
-    title: "اللون الاول لقوس قزح الخاص بك"
+    title: اللون الاول لقوس قزح الخاص بك
+    completion:
+      - engaged
   - 
     title: اختبار الدائرة الخاصة بك في برنامج Scratch
   - 
@@ -34,8 +36,10 @@ steps:
     title: اصنع وحيد قرن راقص
   - 
     title: إضافة زر
+    completion:
+      - internal
   - 
-    title: "التحدي: المرح مع قوس قزح وحيد القرن الراقص."
+    title: 'التحدي: المرح مع قوس قزح وحيد القرن الراقص.'
     challenge: true
   - 
     title: ما التالي؟
