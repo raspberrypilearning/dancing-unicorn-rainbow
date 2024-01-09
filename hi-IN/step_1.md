@@ -21,42 +21,42 @@
 + 3 या अधिक रंगीन LED
 + रेसिस्टर (कम से कम 100 ohms), **1 प्रति LED**
 + 1× बटन
-+ मेल-टू-फीमेल जम्पर वायर, **1 प्रति LED**
-+ 2× अतिरिक्त मेल-टू-फीमेल जम्पर वायर
-+ 1x मेल-टू-मेल जंपर वायर
++ Pin-to-socket jumper wires, **1 per LED**
++ 2× additional pin-to-socket jumper wires
++ 1× pin-to-pin jumper wire
 
 वैकल्पिक अंतिम चुनौती के लिए:
 
 + 1× बज़र
-+ 2× अतिरिक्त मेल-टू-फीमेल जम्पर वायर
++ 2× additional pin-to-socket jumper wires
 
 ### सॉफ्टवेयर
 
-आपको रास्पियन (Raspbian) के नवीनतम संस्करण (latest version) की आवश्यकता होगी, जिसमें पहले से ही निम्नलिखित सॉफ्टवेयर पैकेज शामिल हैं:
+You will need the latest version of Raspbian, and you will need to install Scratch 3 Desktop.
 
-+ Scratch 3
+Open a terminal and type the following:
 
 ```bash
 sudo apt-get update
 sudo apt-get install scratch3
 ```
 
-**ध्यान दें:** Scratch 3 **केवल** Raspberry Pi 4 पर काम करता हैं। \--- /collapse \---
+**Note:** Scratch 3 will **only** work on the Raspberry Pi 4. \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: आप क्या सीखेंगे
 
-इस प्रोजेक्ट में [Raspberry Pi डिजिटल निर्माण पाठ्यक्रम](http://rpf.io/curriculum){:target="_blank"} के निम्नलिखित पहलुओं के तत्वों को शामिल किया गया है:
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [प्रोजेक्ट बनाने के लिए इनपुट और/या आउटपुट को मिलाएं या किसी समस्या को हल करें](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
++ [Combine inputs and/or outputs to create projects or solve a problem](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
 
-+ [किसी समस्या को हल करने के लिए प्रोग्रामिंग संरचनाओं को संयोजित करें।](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"} \--- /collapse \---
++ [Apply basic programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"} \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: शिक्षकों के लिए अतिरिक्त जानकारी
 
-अगर आपको इस प्रोजेक्ट को प्रिंट करने की आवश्यकता है, तो कृप्या [प्रिंटर-अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){: target = "_ blank"} का उपयोग करें।
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}.
 
-आप इस परियोजना का पूरा हल [rpf.io/p/en/dancing-unicorn-albow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get) पर पा सकते हैं \--- /collapse \---
+You can find the full solution for this project at [rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get) \--- /collapse \---
