@@ -2,7 +2,7 @@
 title: Dansende eenhoorns en regenbogen
 hero_image: images/banner.png
 description: Maak een eenhoorn die synchroon danst met een LED regenboog
-theme: violet #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: violet
 duration: 2
 listed: true
 ingredient: false
@@ -19,9 +19,11 @@ steps:
   - 
     title: Inleiding
   - 
-    title: "De sfeer van je regenboog"
+    title: De sfeer van je regenboog
   - 
-    title: "Jouw eerste kleur van je regenboog"
+    title: Jouw eerste kleur van je regenboog
+    completion:
+      - engaged
   - 
     title: Test je circuit in Scratch
   - 
@@ -34,8 +36,10 @@ steps:
     title: Maak een dansende eenhoorn
   - 
     title: Een knop toevoegen
+    completion:
+      - internal
   - 
-    title: "Uitdaging: plezier met je dansende eenhoorn regenboog."
+    title: 'Uitdaging: plezier met je dansende eenhoorn regenboog.'
     challenge: true
   - 
     title: Wat kun je verder nog doen?
