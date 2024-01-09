@@ -21,42 +21,42 @@
 + 3 ή περισσότερα πολύχρωμα LED
 + Αντιστάσεις (τουλάχιστον 100 ohms), **1 ανά LED**
 + 1 × κουμπί
-+ Καλώδια αρσενικό-σε-θηλυκό, **1 ανά LED**
-+ 2 × πρόσθετα καλώδια αρσενικό-σε-θηλυκό
-+ 1 × καλώδιο αρσενικό-σε-αρσενικό
++ Pin-to-socket jumper wires, **1 per LED**
++ 2× additional pin-to-socket jumper wires
++ 1× pin-to-pin jumper wire
 
 Για την προαιρετική τελική πρόκληση:
 
 + 1× buzzer
-+ 2 × πρόσθετα καλώδια αρσενικό-σε-θηλυκό
++ 2× additional pin-to-socket jumper wires
 
 ### Λογισμικό
 
-Θα χρειαστείς την τελευταία έκδοση του Raspbian, η οποία περιλαμβάνει ήδη το ακόλουθο πακέτο λογισμικού:
+You will need the latest version of Raspbian, and you will need to install Scratch 3 Desktop.
 
-+ Scratch 3
+Open a terminal and type the following:
 
 ```bash
 sudo apt-get update
 sudo apt-get install scratch3
 ```
 
-** Σημείωση: ** Το Scratch 3 θα λειτουργήσει **μόνο** με το Raspberry Pi 4. \--- /collapse \---
+**Note:** Scratch 3 will **only** work on the Raspberry Pi 4. \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Τι θα μάθεις
 
-Αυτό το έργο καλύπτει στοιχεία από τις ακόλουθες πτυχές του [Raspberry Pi Digital Curriculum Making](http://rpf.io/curriculum){:target="_blank"}:
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [ Συνδύασε εισόδους ή/και εξόδους για να δημιουργήσεις έργα ή να λύσεις ένα πρόβλημα ](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
++ [Combine inputs and/or outputs to create projects or solve a problem](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
 
-+ [Εφάρμοσε βασικές προγραμματιστικές έννοιες για να λύσεις ένα πρόβλημα.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"} \--- /collapse \---
++ [Apply basic programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"} \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Πρόσθετες πληροφορίες για εκπαιδευτικούς
 
-Αν χρειαστεί να εκτυπώσεις αυτό το έργο, χρησιμοποίησε την [εκτυπώσιμη έκδοση](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print)"{:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}.
 
-Μπορείς να βρεις την ολοκληρωμένη λύση για αυτό το έργο στο [rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get) \--- /collapse \---
+You can find the full solution for this project at [rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get) \--- /collapse \---
