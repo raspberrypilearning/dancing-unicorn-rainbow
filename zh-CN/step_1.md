@@ -21,42 +21,42 @@
 + 3种以上颜色的发光二极管（LED）
 + 电阻 (至少100欧姆)，每个LED灯**1个**电阻
 + 1×开关按钮
-+ 公对母跳线（杜邦线），每个LED ** 1 根**
-+ 2×额外的公对母跳线
-+ 1×公对公跳线
++ Pin-to-socket jumper wires, **1 per LED**
++ 2× additional pin-to-socket jumper wires
++ 1× pin-to-pin jumper wire
 
 额外最后挑战：
 
 + 1×蜂鸣器
-+ 2×额外的公对母跳线
++ 2× additional pin-to-socket jumper wires
 
 ### 软件
 
-最新版本的Raspbian ，其中已经包括以下软件：
+You will need the latest version of Raspbian, and you will need to install Scratch 3 Desktop.
 
-+ Scratch 3
+Open a terminal and type the following:
 
 ```bash
 sudo apt-get update
 sudo apt-get install scratch3
 ```
 
-**注意**： Scratch 3**仅**可在Raspberry Pi 4上工作。 \--- /collapse \---
+**Note:** Scratch 3 will **only** work on the Raspberry Pi 4. \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: 你将学到什么
 
-本项目涵盖[Raspberry Pi数位制作课程](http://rpf.io/curriculum){:target="_blank"} 如下几方面内容:
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [合并输入和/或输出以创建项目或解决问题](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
++ [Combine inputs and/or outputs to create projects or solve a problem](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
 
-+ [利用基本编程结构解决问题](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
++ [Apply basic programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"} \--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: 为教育者提供的额外信息
 
-如果您需要打印本项目文件，请使用[适合打印版本](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}。
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dancing-unicorn-rainbow/print){:target="_blank"}.
 
-此项目的完整解决方案在[ rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get)
+You can find the full solution for this project at [rpf.io/p/en/dancing-unicorn-rainbow-get](https://rpf.io/p/en/dancing-unicorn-rainbow-get) \--- /collapse \---
