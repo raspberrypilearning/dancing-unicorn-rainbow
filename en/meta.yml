@@ -4,7 +4,7 @@ hero_image: images/banner.png
 description: Create a unicorn that dances in time with an LED rainbow
 theme: violet
 duration: 2
-listed: true
+listed: false
 ingredient: false
 copyedit: true
 curriculum: 2, design-0, programming-2, phys-comp-2, manufacture-0, community-0
